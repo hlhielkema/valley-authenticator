@@ -5,6 +5,7 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Copy to clipboard" Order="Primary" Clicked="OnClickedCopyToClipboard"/>
         <ToolbarItem Text="Delete" Order="Secondary" Clicked="OnClickedDelete"/>
+        <ToolbarItem Text="Export" Order="Secondary" Clicked="OnClickedExport"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>

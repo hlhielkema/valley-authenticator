@@ -86,5 +86,11 @@ namespace ValleyAuthenticator.Pages
         {
             // TODO
         }
+
+        private async void OnClickedExport(object sender, EventArgs e)
+        {
+            // TODO
+            await Navigation.PushAsync(new ExportEntryPage(_entryInfo));
+        }
     }
 }
