@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ValleyAuthenticator.Pages.EntryDetailPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Copy to clipboard" Order="Primary" Clicked="OnClickedCopyToClipboard"/>
+        <ToolbarItem Text="Delete" Order="Secondary" Clicked="OnClickedDelete"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Entry info"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label 
+                Text="[NAME]"                
+                FontSize="18"
+                FontAttributes="Bold"
+                x:Name="NameLabel"
+                HorizontalOptions="Center" />
+
+            <Label 
+                Text="[CODE]"                
+                FontSize="18"
+                FontAttributes="Bold"
+                x:Name="CodeLabel"
+                HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
