@@ -1,4 +1,5 @@
 ﻿using Microsoft.Maui.Controls;
+using OtpNet;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +17,8 @@ namespace ValleyAuthenticator.Pages
         private Guid _entryId;
         private AuthEntryInfo _entryInfo;
         private System.Timers.Timer _timer;
-        
+        private Totp _totp;
+
         public EntryDetailPage(AuthenticatorStorage storage, Guid entryId)
         {
             InitializeComponent();
@@ -26,18 +28,31 @@ namespace ValleyAuthenticator.Pages
             _entryInfo = _storage.GetEntry(_entryId);
 
             NameLabel.Text = _entryInfo.Name;
-            //CodeLabel.Text = _entryInfo.Secret;
-            UpdateCode();
 
-            _timer = new System.Timers.Timer(1000);
-            _timer.AutoReset = true;
-            _timer.Elapsed += _timer_Elapsed;
-            _timer.Enabled = true;
+            try
+            {
+                byte[] base32Bytes = Base32Encoding.ToBytes(_entryInfo.Secret);
+                _totp = new Totp(base32Bytes);
+            }
+            catch {
+                CodeLabel.Text = "Invalid secret";
+            }
+
+            if (_totp != null)
+            {                
+                UpdateCode();
+
+                _timer = new System.Timers.Timer(1000);
+                _timer.AutoReset = true;
+                _timer.Elapsed += _timer_Elapsed;
+                _timer.Enabled = true;
+            }
         }
 
         private void UpdateCode()
-        {
-            CodeLabel.Text = string.Format("{0} ({1})", _entryInfo.Secret, 60 - DateTime.Now.Second);
+        {    
+            string code = _totp.ComputeTotp();
+            CodeLabel.Text = string.Format("{0} ({1})", code, 60 - DateTime.Now.Second);
         }
 
         private void _timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
@@ -49,13 +64,15 @@ namespace ValleyAuthenticator.Pages
 
         protected override void OnAppearing()
         {
-            _timer.Enabled = true;
+            if (_timer != null)
+                _timer.Enabled = true;
             base.OnAppearing();
         }
 
         protected override void OnDisappearing()
         {
-            _timer.Enabled = false;
+            if (_timer != null)
+                _timer.Enabled = false;
             base.OnDisappearing();
         }
 

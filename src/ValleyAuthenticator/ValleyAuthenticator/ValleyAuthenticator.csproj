@@ -54,6 +54,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <PackageReference Include="Otp.NET" Version="1.2.2" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="Pages\AddDirectoryPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

@@ -147,10 +147,10 @@ namespace ValleyAuthenticator.Storage
             AddDirectory(null, "Work");            
             AddDirectory(null, "Private");
             AddDirectory(null, "Side projects");
-
-            AddEntry(null, "Google", "123456");
-            AddEntry(null, "Microsoft", "123456");
-            AddEntry(favoriteId, "Ydentic", "123456");
+            AddEntry(null, "Google", "345h7");
+            AddEntry(null, "Microsoft", "345h7");
+            AddEntry(null, "Gmail (invalid)", "123456789");
+            AddEntry(favoriteId, "Ydentic", "345h7");            
         }
     }
 }
