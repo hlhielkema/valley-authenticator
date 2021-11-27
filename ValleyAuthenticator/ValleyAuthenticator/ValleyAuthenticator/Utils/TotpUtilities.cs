@@ -1,5 +1,8 @@
 ﻿using OtpNet;
 using System;
+using System.Collections.Specialized;
+using System.Web;
+using ValleyAuthenticator.Storage.Models;
 
 namespace ValleyAuthenticator.Utils
 {
@@ -47,6 +50,34 @@ namespace ValleyAuthenticator.Utils
 
             // Format the URI
             return string.Format("otpauth://totp/{0}?secret={1}&issuer={2}", encodedLabel, encodedSecret, encodedIssuer);
+        }
+
+        public static bool TryParseAppUri(string uriString, out OtpData data)
+        {
+            data = null;
+            if (Uri.TryCreate(uriString, UriKind.Absolute, out Uri uri))
+            {
+                if (uri.Host != "totp")
+                    return false;
+
+                string label = Uri.UnescapeDataString(uri.LocalPath.TrimStart('/'));
+                NameValueCollection query = HttpUtility.ParseQueryString(uri.Query);
+                string secret = query["secret"];
+                string issuer = query["issuer"];
+
+                data = new OtpData()
+                {
+                    Issuer = issuer,
+                    Secret = secret,
+                    Label = label,
+                };
+
+                // TODO: Move input validation
+
+                return true;
+            }
+
+            return false;
         }
     }
 }

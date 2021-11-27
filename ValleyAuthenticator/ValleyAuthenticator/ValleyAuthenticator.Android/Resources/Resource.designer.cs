@@ -10790,6 +10790,4325 @@ namespace ValleyAuthenticator.Droid
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_bottom_start = global::ValleyAuthenticator.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_top_start = global::ValleyAuthenticator.Droid.Resource.Xml.standalone_badge_gravity_top_start;
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_offset = global::ValleyAuthenticator.Droid.Resource.Xml.standalone_badge_offset;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.abc_fade_in = global::ValleyAuthenticator.Droid.Resource.Animation.abc_fade_in;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.abc_fade_out = global::ValleyAuthenticator.Droid.Resource.Animation.abc_fade_out;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.abc_grow_fade_in_from_bottom = global::ValleyAuthenticator.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.abc_popup_enter = global::ValleyAuthenticator.Droid.Resource.Animation.abc_popup_enter;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.abc_popup_exit = global::ValleyAuthenticator.Droid.Resource.Animation.abc_popup_exit;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.abc_shrink_fade_out_from_bottom = global::ValleyAuthenticator.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.abc_slide_in_bottom = global::ValleyAuthenticator.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.abc_slide_in_top = global::ValleyAuthenticator.Droid.Resource.Animation.abc_slide_in_top;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.abc_slide_out_bottom = global::ValleyAuthenticator.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.abc_slide_out_top = global::ValleyAuthenticator.Droid.Resource.Animation.abc_slide_out_top;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.abc_tooltip_enter = global::ValleyAuthenticator.Droid.Resource.Animation.abc_tooltip_enter;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.abc_tooltip_exit = global::ValleyAuthenticator.Droid.Resource.Animation.abc_tooltip_exit;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.design_bottom_sheet_slide_in = global::ValleyAuthenticator.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.design_bottom_sheet_slide_out = global::ValleyAuthenticator.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.design_snackbar_in = global::ValleyAuthenticator.Droid.Resource.Animation.design_snackbar_in;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.design_snackbar_out = global::ValleyAuthenticator.Droid.Resource.Animation.design_snackbar_out;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.EnterFromLeft = global::ValleyAuthenticator.Droid.Resource.Animation.EnterFromLeft;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.EnterFromRight = global::ValleyAuthenticator.Droid.Resource.Animation.EnterFromRight;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.ExitToLeft = global::ValleyAuthenticator.Droid.Resource.Animation.ExitToLeft;
+			global::ZXing.Net.Mobile.Forms.Resource.Animation.ExitToRight = global::ValleyAuthenticator.Droid.Resource.Animation.ExitToRight;
+			global::ZXing.Net.Mobile.Forms.Resource.Animator.design_appbar_state_list_animator = global::ValleyAuthenticator.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::ZXing.Net.Mobile.Forms.Resource.Animator.design_fab_hide_motion_spec = global::ValleyAuthenticator.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::ZXing.Net.Mobile.Forms.Resource.Animator.design_fab_show_motion_spec = global::ValleyAuthenticator.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::ZXing.Net.Mobile.Forms.Resource.Animator.mtrl_btn_state_list_anim = global::ValleyAuthenticator.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::ZXing.Net.Mobile.Forms.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::ValleyAuthenticator.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::ZXing.Net.Mobile.Forms.Resource.Animator.mtrl_chip_state_list_anim = global::ValleyAuthenticator.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::ZXing.Net.Mobile.Forms.Resource.Animator.mtrl_fab_hide_motion_spec = global::ValleyAuthenticator.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::ZXing.Net.Mobile.Forms.Resource.Animator.mtrl_fab_show_motion_spec = global::ValleyAuthenticator.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::ZXing.Net.Mobile.Forms.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::ValleyAuthenticator.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::ZXing.Net.Mobile.Forms.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::ValleyAuthenticator.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionBarDivider = global::ValleyAuthenticator.Droid.Resource.Attribute.actionBarDivider;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionBarItemBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.actionBarItemBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionBarPopupTheme = global::ValleyAuthenticator.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionBarSize = global::ValleyAuthenticator.Droid.Resource.Attribute.actionBarSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionBarSplitStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionBarStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionBarStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionBarTabBarStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionBarTabStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionBarTabStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionBarTabTextStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionBarTheme = global::ValleyAuthenticator.Droid.Resource.Attribute.actionBarTheme;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionBarWidgetTheme = global::ValleyAuthenticator.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionDropDownStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionDropDownStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionLayout = global::ValleyAuthenticator.Droid.Resource.Attribute.actionLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionMenuTextAppearance = global::ValleyAuthenticator.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionMenuTextColor = global::ValleyAuthenticator.Droid.Resource.Attribute.actionMenuTextColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionModeBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModeBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionModeCloseButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionModeCloseDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionModeCopyDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionModeCutDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionModeFindDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionModePasteDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionModePopupWindowStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionModeSelectAllDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionModeShareDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionModeSplitBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionModeStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModeStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionModeWebSearchDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionOverflowButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionOverflowMenuStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionProviderClass = global::ValleyAuthenticator.Droid.Resource.Attribute.actionProviderClass;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.actionViewClass = global::ValleyAuthenticator.Droid.Resource.Attribute.actionViewClass;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.activityChooserViewStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.alertDialogButtonGroupStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.alertDialogCenterButtons = global::ValleyAuthenticator.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.alertDialogStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.alertDialogStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.alertDialogTheme = global::ValleyAuthenticator.Droid.Resource.Attribute.alertDialogTheme;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.allowStacking = global::ValleyAuthenticator.Droid.Resource.Attribute.allowStacking;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.alpha = global::ValleyAuthenticator.Droid.Resource.Attribute.alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.alphabeticModifiers = global::ValleyAuthenticator.Droid.Resource.Attribute.alphabeticModifiers;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.arrowHeadLength = global::ValleyAuthenticator.Droid.Resource.Attribute.arrowHeadLength;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.arrowShaftLength = global::ValleyAuthenticator.Droid.Resource.Attribute.arrowShaftLength;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.autoCompleteTextViewStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.autoSizeMaxTextSize = global::ValleyAuthenticator.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.autoSizeMinTextSize = global::ValleyAuthenticator.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.autoSizePresetSizes = global::ValleyAuthenticator.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.autoSizeStepGranularity = global::ValleyAuthenticator.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.autoSizeTextType = global::ValleyAuthenticator.Droid.Resource.Attribute.autoSizeTextType;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.background = global::ValleyAuthenticator.Droid.Resource.Attribute.background;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.backgroundSplit = global::ValleyAuthenticator.Droid.Resource.Attribute.backgroundSplit;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.backgroundStacked = global::ValleyAuthenticator.Droid.Resource.Attribute.backgroundStacked;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.backgroundTint = global::ValleyAuthenticator.Droid.Resource.Attribute.backgroundTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.backgroundTintMode = global::ValleyAuthenticator.Droid.Resource.Attribute.backgroundTintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.barLength = global::ValleyAuthenticator.Droid.Resource.Attribute.barLength;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.behavior_autoHide = global::ValleyAuthenticator.Droid.Resource.Attribute.behavior_autoHide;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.behavior_fitToContents = global::ValleyAuthenticator.Droid.Resource.Attribute.behavior_fitToContents;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.behavior_hideable = global::ValleyAuthenticator.Droid.Resource.Attribute.behavior_hideable;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.behavior_overlapTop = global::ValleyAuthenticator.Droid.Resource.Attribute.behavior_overlapTop;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.behavior_peekHeight = global::ValleyAuthenticator.Droid.Resource.Attribute.behavior_peekHeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.behavior_skipCollapsed = global::ValleyAuthenticator.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.borderlessButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.borderWidth = global::ValleyAuthenticator.Droid.Resource.Attribute.borderWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.bottomAppBarStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.bottomNavigationStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.bottomSheetDialogTheme = global::ValleyAuthenticator.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.bottomSheetStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.bottomSheetStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.boxBackgroundColor = global::ValleyAuthenticator.Droid.Resource.Attribute.boxBackgroundColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.boxBackgroundMode = global::ValleyAuthenticator.Droid.Resource.Attribute.boxBackgroundMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.boxCollapsedPaddingTop = global::ValleyAuthenticator.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.boxCornerRadiusBottomEnd = global::ValleyAuthenticator.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.boxCornerRadiusBottomStart = global::ValleyAuthenticator.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.boxCornerRadiusTopEnd = global::ValleyAuthenticator.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.boxCornerRadiusTopStart = global::ValleyAuthenticator.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.boxStrokeColor = global::ValleyAuthenticator.Droid.Resource.Attribute.boxStrokeColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.boxStrokeWidth = global::ValleyAuthenticator.Droid.Resource.Attribute.boxStrokeWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.buttonBarButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.buttonBarNegativeButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.buttonBarNeutralButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.buttonBarPositiveButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.buttonBarStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonBarStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.buttonCompat = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.buttonGravity = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonGravity;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.buttonIconDimen = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonIconDimen;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.buttonPanelSideLayout = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.buttonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.buttonStyleSmall = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonStyleSmall;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.buttonTint = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.buttonTintMode = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonTintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.cardBackgroundColor = global::ValleyAuthenticator.Droid.Resource.Attribute.cardBackgroundColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.cardCornerRadius = global::ValleyAuthenticator.Droid.Resource.Attribute.cardCornerRadius;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.cardElevation = global::ValleyAuthenticator.Droid.Resource.Attribute.cardElevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.cardMaxElevation = global::ValleyAuthenticator.Droid.Resource.Attribute.cardMaxElevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.cardPreventCornerOverlap = global::ValleyAuthenticator.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.cardUseCompatPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.cardViewStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.cardViewStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.checkboxStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.checkboxStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.checkedChip = global::ValleyAuthenticator.Droid.Resource.Attribute.checkedChip;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.checkedIcon = global::ValleyAuthenticator.Droid.Resource.Attribute.checkedIcon;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.checkedIconEnabled = global::ValleyAuthenticator.Droid.Resource.Attribute.checkedIconEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.checkedIconVisible = global::ValleyAuthenticator.Droid.Resource.Attribute.checkedIconVisible;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.checkedTextViewStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.chipBackgroundColor = global::ValleyAuthenticator.Droid.Resource.Attribute.chipBackgroundColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.chipCornerRadius = global::ValleyAuthenticator.Droid.Resource.Attribute.chipCornerRadius;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.chipEndPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.chipEndPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.chipGroupStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.chipGroupStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.chipIcon = global::ValleyAuthenticator.Droid.Resource.Attribute.chipIcon;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.chipIconEnabled = global::ValleyAuthenticator.Droid.Resource.Attribute.chipIconEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.chipIconSize = global::ValleyAuthenticator.Droid.Resource.Attribute.chipIconSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.chipIconTint = global::ValleyAuthenticator.Droid.Resource.Attribute.chipIconTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.chipIconVisible = global::ValleyAuthenticator.Droid.Resource.Attribute.chipIconVisible;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.chipMinHeight = global::ValleyAuthenticator.Droid.Resource.Attribute.chipMinHeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.chipSpacing = global::ValleyAuthenticator.Droid.Resource.Attribute.chipSpacing;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.chipSpacingHorizontal = global::ValleyAuthenticator.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.chipSpacingVertical = global::ValleyAuthenticator.Droid.Resource.Attribute.chipSpacingVertical;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.chipStandaloneStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.chipStartPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.chipStartPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.chipStrokeColor = global::ValleyAuthenticator.Droid.Resource.Attribute.chipStrokeColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.chipStrokeWidth = global::ValleyAuthenticator.Droid.Resource.Attribute.chipStrokeWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.chipStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.chipStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.closeIcon = global::ValleyAuthenticator.Droid.Resource.Attribute.closeIcon;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.closeIconEnabled = global::ValleyAuthenticator.Droid.Resource.Attribute.closeIconEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.closeIconEndPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.closeIconEndPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.closeIconSize = global::ValleyAuthenticator.Droid.Resource.Attribute.closeIconSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.closeIconStartPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.closeIconStartPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.closeIconTint = global::ValleyAuthenticator.Droid.Resource.Attribute.closeIconTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.closeIconVisible = global::ValleyAuthenticator.Droid.Resource.Attribute.closeIconVisible;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.closeItemLayout = global::ValleyAuthenticator.Droid.Resource.Attribute.closeItemLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.collapseContentDescription = global::ValleyAuthenticator.Droid.Resource.Attribute.collapseContentDescription;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.collapsedTitleGravity = global::ValleyAuthenticator.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.collapsedTitleTextAppearance = global::ValleyAuthenticator.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.collapseIcon = global::ValleyAuthenticator.Droid.Resource.Attribute.collapseIcon;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.color = global::ValleyAuthenticator.Droid.Resource.Attribute.color;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.colorAccent = global::ValleyAuthenticator.Droid.Resource.Attribute.colorAccent;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.colorBackgroundFloating = global::ValleyAuthenticator.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.colorButtonNormal = global::ValleyAuthenticator.Droid.Resource.Attribute.colorButtonNormal;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.colorControlActivated = global::ValleyAuthenticator.Droid.Resource.Attribute.colorControlActivated;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.colorControlHighlight = global::ValleyAuthenticator.Droid.Resource.Attribute.colorControlHighlight;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.colorControlNormal = global::ValleyAuthenticator.Droid.Resource.Attribute.colorControlNormal;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.colorError = global::ValleyAuthenticator.Droid.Resource.Attribute.colorError;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.colorPrimary = global::ValleyAuthenticator.Droid.Resource.Attribute.colorPrimary;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.colorPrimaryDark = global::ValleyAuthenticator.Droid.Resource.Attribute.colorPrimaryDark;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.colorSecondary = global::ValleyAuthenticator.Droid.Resource.Attribute.colorSecondary;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.colorSwitchThumbNormal = global::ValleyAuthenticator.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.commitIcon = global::ValleyAuthenticator.Droid.Resource.Attribute.commitIcon;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.contentDescription = global::ValleyAuthenticator.Droid.Resource.Attribute.contentDescription;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.contentInsetEnd = global::ValleyAuthenticator.Droid.Resource.Attribute.contentInsetEnd;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.contentInsetEndWithActions = global::ValleyAuthenticator.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.contentInsetLeft = global::ValleyAuthenticator.Droid.Resource.Attribute.contentInsetLeft;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.contentInsetRight = global::ValleyAuthenticator.Droid.Resource.Attribute.contentInsetRight;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.contentInsetStart = global::ValleyAuthenticator.Droid.Resource.Attribute.contentInsetStart;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.contentInsetStartWithNavigation = global::ValleyAuthenticator.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.contentPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.contentPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.contentPaddingBottom = global::ValleyAuthenticator.Droid.Resource.Attribute.contentPaddingBottom;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.contentPaddingLeft = global::ValleyAuthenticator.Droid.Resource.Attribute.contentPaddingLeft;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.contentPaddingRight = global::ValleyAuthenticator.Droid.Resource.Attribute.contentPaddingRight;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.contentPaddingTop = global::ValleyAuthenticator.Droid.Resource.Attribute.contentPaddingTop;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.contentScrim = global::ValleyAuthenticator.Droid.Resource.Attribute.contentScrim;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.controlBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.controlBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.coordinatorLayoutStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.cornerRadius = global::ValleyAuthenticator.Droid.Resource.Attribute.cornerRadius;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.counterEnabled = global::ValleyAuthenticator.Droid.Resource.Attribute.counterEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.counterMaxLength = global::ValleyAuthenticator.Droid.Resource.Attribute.counterMaxLength;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.counterOverflowTextAppearance = global::ValleyAuthenticator.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.counterTextAppearance = global::ValleyAuthenticator.Droid.Resource.Attribute.counterTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.customNavigationLayout = global::ValleyAuthenticator.Droid.Resource.Attribute.customNavigationLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.defaultQueryHint = global::ValleyAuthenticator.Droid.Resource.Attribute.defaultQueryHint;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.dialogCornerRadius = global::ValleyAuthenticator.Droid.Resource.Attribute.dialogCornerRadius;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.dialogPreferredPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.dialogTheme = global::ValleyAuthenticator.Droid.Resource.Attribute.dialogTheme;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.displayOptions = global::ValleyAuthenticator.Droid.Resource.Attribute.displayOptions;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.divider = global::ValleyAuthenticator.Droid.Resource.Attribute.divider;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.dividerHorizontal = global::ValleyAuthenticator.Droid.Resource.Attribute.dividerHorizontal;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.dividerPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.dividerPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.dividerVertical = global::ValleyAuthenticator.Droid.Resource.Attribute.dividerVertical;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.drawableBottomCompat = global::ValleyAuthenticator.Droid.Resource.Attribute.drawableBottomCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.drawableEndCompat = global::ValleyAuthenticator.Droid.Resource.Attribute.drawableEndCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.drawableLeftCompat = global::ValleyAuthenticator.Droid.Resource.Attribute.drawableLeftCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.drawableRightCompat = global::ValleyAuthenticator.Droid.Resource.Attribute.drawableRightCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.drawableSize = global::ValleyAuthenticator.Droid.Resource.Attribute.drawableSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.drawableStartCompat = global::ValleyAuthenticator.Droid.Resource.Attribute.drawableStartCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.drawableTint = global::ValleyAuthenticator.Droid.Resource.Attribute.drawableTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.drawableTintMode = global::ValleyAuthenticator.Droid.Resource.Attribute.drawableTintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.drawableTopCompat = global::ValleyAuthenticator.Droid.Resource.Attribute.drawableTopCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.drawerArrowStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.drawerArrowStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.dropdownListPreferredItemHeight = global::ValleyAuthenticator.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.dropDownListViewStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.editTextBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.editTextBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.editTextColor = global::ValleyAuthenticator.Droid.Resource.Attribute.editTextColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.editTextStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.editTextStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.elevation = global::ValleyAuthenticator.Droid.Resource.Attribute.elevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.enforceMaterialTheme = global::ValleyAuthenticator.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.enforceTextAppearance = global::ValleyAuthenticator.Droid.Resource.Attribute.enforceTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.errorEnabled = global::ValleyAuthenticator.Droid.Resource.Attribute.errorEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.errorTextAppearance = global::ValleyAuthenticator.Droid.Resource.Attribute.errorTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.expandActivityOverflowButtonDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.expanded = global::ValleyAuthenticator.Droid.Resource.Attribute.expanded;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.expandedTitleGravity = global::ValleyAuthenticator.Droid.Resource.Attribute.expandedTitleGravity;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.expandedTitleMargin = global::ValleyAuthenticator.Droid.Resource.Attribute.expandedTitleMargin;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.expandedTitleMarginBottom = global::ValleyAuthenticator.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.expandedTitleMarginEnd = global::ValleyAuthenticator.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.expandedTitleMarginStart = global::ValleyAuthenticator.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.expandedTitleMarginTop = global::ValleyAuthenticator.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.expandedTitleTextAppearance = global::ValleyAuthenticator.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.fabAlignmentMode = global::ValleyAuthenticator.Droid.Resource.Attribute.fabAlignmentMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.fabCradleMargin = global::ValleyAuthenticator.Droid.Resource.Attribute.fabCradleMargin;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.fabCradleRoundedCornerRadius = global::ValleyAuthenticator.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.fabCradleVerticalOffset = global::ValleyAuthenticator.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.fabCustomSize = global::ValleyAuthenticator.Droid.Resource.Attribute.fabCustomSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.fabSize = global::ValleyAuthenticator.Droid.Resource.Attribute.fabSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.fastScrollEnabled = global::ValleyAuthenticator.Droid.Resource.Attribute.fastScrollEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.fastScrollVerticalThumbDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.fastScrollVerticalTrackDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.firstBaselineToTopHeight = global::ValleyAuthenticator.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.floatingActionButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.font = global::ValleyAuthenticator.Droid.Resource.Attribute.font;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.fontFamily = global::ValleyAuthenticator.Droid.Resource.Attribute.fontFamily;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.fontProviderAuthority = global::ValleyAuthenticator.Droid.Resource.Attribute.fontProviderAuthority;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.fontProviderCerts = global::ValleyAuthenticator.Droid.Resource.Attribute.fontProviderCerts;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.fontProviderFetchStrategy = global::ValleyAuthenticator.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.fontProviderFetchTimeout = global::ValleyAuthenticator.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.fontProviderPackage = global::ValleyAuthenticator.Droid.Resource.Attribute.fontProviderPackage;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.fontProviderQuery = global::ValleyAuthenticator.Droid.Resource.Attribute.fontProviderQuery;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.fontStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.fontStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.fontVariationSettings = global::ValleyAuthenticator.Droid.Resource.Attribute.fontVariationSettings;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.fontWeight = global::ValleyAuthenticator.Droid.Resource.Attribute.fontWeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.foregroundInsidePadding = global::ValleyAuthenticator.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.gapBetweenBars = global::ValleyAuthenticator.Droid.Resource.Attribute.gapBetweenBars;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.goIcon = global::ValleyAuthenticator.Droid.Resource.Attribute.goIcon;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.headerLayout = global::ValleyAuthenticator.Droid.Resource.Attribute.headerLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.height = global::ValleyAuthenticator.Droid.Resource.Attribute.height;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.helperText = global::ValleyAuthenticator.Droid.Resource.Attribute.helperText;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.helperTextEnabled = global::ValleyAuthenticator.Droid.Resource.Attribute.helperTextEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.helperTextTextAppearance = global::ValleyAuthenticator.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.hideMotionSpec = global::ValleyAuthenticator.Droid.Resource.Attribute.hideMotionSpec;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.hideOnContentScroll = global::ValleyAuthenticator.Droid.Resource.Attribute.hideOnContentScroll;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.hideOnScroll = global::ValleyAuthenticator.Droid.Resource.Attribute.hideOnScroll;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.hintAnimationEnabled = global::ValleyAuthenticator.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.hintEnabled = global::ValleyAuthenticator.Droid.Resource.Attribute.hintEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.hintTextAppearance = global::ValleyAuthenticator.Droid.Resource.Attribute.hintTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.homeAsUpIndicator = global::ValleyAuthenticator.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.homeLayout = global::ValleyAuthenticator.Droid.Resource.Attribute.homeLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.hoveredFocusedTranslationZ = global::ValleyAuthenticator.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.icon = global::ValleyAuthenticator.Droid.Resource.Attribute.icon;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.iconEndPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.iconEndPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.iconGravity = global::ValleyAuthenticator.Droid.Resource.Attribute.iconGravity;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.iconifiedByDefault = global::ValleyAuthenticator.Droid.Resource.Attribute.iconifiedByDefault;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.iconPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.iconPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.iconSize = global::ValleyAuthenticator.Droid.Resource.Attribute.iconSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.iconStartPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.iconStartPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.iconTint = global::ValleyAuthenticator.Droid.Resource.Attribute.iconTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.iconTintMode = global::ValleyAuthenticator.Droid.Resource.Attribute.iconTintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.imageButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.imageButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.indeterminateProgressStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.initialActivityCount = global::ValleyAuthenticator.Droid.Resource.Attribute.initialActivityCount;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.insetForeground = global::ValleyAuthenticator.Droid.Resource.Attribute.insetForeground;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.isLightTheme = global::ValleyAuthenticator.Droid.Resource.Attribute.isLightTheme;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.itemBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.itemBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.itemHorizontalPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.itemHorizontalTranslationEnabled = global::ValleyAuthenticator.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.itemIconPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.itemIconPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.itemIconSize = global::ValleyAuthenticator.Droid.Resource.Attribute.itemIconSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.itemIconTint = global::ValleyAuthenticator.Droid.Resource.Attribute.itemIconTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.itemPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.itemPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.itemSpacing = global::ValleyAuthenticator.Droid.Resource.Attribute.itemSpacing;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.itemTextAppearance = global::ValleyAuthenticator.Droid.Resource.Attribute.itemTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.itemTextAppearanceActive = global::ValleyAuthenticator.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.itemTextAppearanceInactive = global::ValleyAuthenticator.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.itemTextColor = global::ValleyAuthenticator.Droid.Resource.Attribute.itemTextColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.keylines = global::ValleyAuthenticator.Droid.Resource.Attribute.keylines;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.labelVisibilityMode = global::ValleyAuthenticator.Droid.Resource.Attribute.labelVisibilityMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.lastBaselineToBottomHeight = global::ValleyAuthenticator.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.layout = global::ValleyAuthenticator.Droid.Resource.Attribute.layout;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.layoutManager = global::ValleyAuthenticator.Droid.Resource.Attribute.layoutManager;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.layout_anchor = global::ValleyAuthenticator.Droid.Resource.Attribute.layout_anchor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.layout_anchorGravity = global::ValleyAuthenticator.Droid.Resource.Attribute.layout_anchorGravity;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.layout_behavior = global::ValleyAuthenticator.Droid.Resource.Attribute.layout_behavior;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.layout_collapseMode = global::ValleyAuthenticator.Droid.Resource.Attribute.layout_collapseMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.layout_collapseParallaxMultiplier = global::ValleyAuthenticator.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.layout_dodgeInsetEdges = global::ValleyAuthenticator.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.layout_insetEdge = global::ValleyAuthenticator.Droid.Resource.Attribute.layout_insetEdge;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.layout_keyline = global::ValleyAuthenticator.Droid.Resource.Attribute.layout_keyline;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.layout_scrollFlags = global::ValleyAuthenticator.Droid.Resource.Attribute.layout_scrollFlags;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.layout_scrollInterpolator = global::ValleyAuthenticator.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.liftOnScroll = global::ValleyAuthenticator.Droid.Resource.Attribute.liftOnScroll;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.lineHeight = global::ValleyAuthenticator.Droid.Resource.Attribute.lineHeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.lineSpacing = global::ValleyAuthenticator.Droid.Resource.Attribute.lineSpacing;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.listChoiceBackgroundIndicator = global::ValleyAuthenticator.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::ValleyAuthenticator.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::ValleyAuthenticator.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.listDividerAlertDialog = global::ValleyAuthenticator.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.listItemLayout = global::ValleyAuthenticator.Droid.Resource.Attribute.listItemLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.listLayout = global::ValleyAuthenticator.Droid.Resource.Attribute.listLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.listMenuViewStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.listMenuViewStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.listPopupWindowStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.listPreferredItemHeight = global::ValleyAuthenticator.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.listPreferredItemHeightLarge = global::ValleyAuthenticator.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.listPreferredItemHeightSmall = global::ValleyAuthenticator.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.listPreferredItemPaddingEnd = global::ValleyAuthenticator.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.listPreferredItemPaddingLeft = global::ValleyAuthenticator.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.listPreferredItemPaddingRight = global::ValleyAuthenticator.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.listPreferredItemPaddingStart = global::ValleyAuthenticator.Droid.Resource.Attribute.listPreferredItemPaddingStart;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.logo = global::ValleyAuthenticator.Droid.Resource.Attribute.logo;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.logoDescription = global::ValleyAuthenticator.Droid.Resource.Attribute.logoDescription;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.materialButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.materialButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.materialCardViewStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.materialCardViewStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.maxActionInlineWidth = global::ValleyAuthenticator.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.maxButtonHeight = global::ValleyAuthenticator.Droid.Resource.Attribute.maxButtonHeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.maxImageSize = global::ValleyAuthenticator.Droid.Resource.Attribute.maxImageSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.measureWithLargestChild = global::ValleyAuthenticator.Droid.Resource.Attribute.measureWithLargestChild;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.menu = global::ValleyAuthenticator.Droid.Resource.Attribute.menu;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.multiChoiceItemLayout = global::ValleyAuthenticator.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.navigationContentDescription = global::ValleyAuthenticator.Droid.Resource.Attribute.navigationContentDescription;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.navigationIcon = global::ValleyAuthenticator.Droid.Resource.Attribute.navigationIcon;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.navigationMode = global::ValleyAuthenticator.Droid.Resource.Attribute.navigationMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.navigationViewStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.navigationViewStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.numericModifiers = global::ValleyAuthenticator.Droid.Resource.Attribute.numericModifiers;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.overlapAnchor = global::ValleyAuthenticator.Droid.Resource.Attribute.overlapAnchor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.paddingBottomNoButtons = global::ValleyAuthenticator.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.paddingEnd = global::ValleyAuthenticator.Droid.Resource.Attribute.paddingEnd;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.paddingStart = global::ValleyAuthenticator.Droid.Resource.Attribute.paddingStart;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.paddingTopNoTitle = global::ValleyAuthenticator.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.panelBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.panelBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.panelMenuListTheme = global::ValleyAuthenticator.Droid.Resource.Attribute.panelMenuListTheme;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.panelMenuListWidth = global::ValleyAuthenticator.Droid.Resource.Attribute.panelMenuListWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.passwordToggleContentDescription = global::ValleyAuthenticator.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.passwordToggleDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.passwordToggleEnabled = global::ValleyAuthenticator.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.passwordToggleTint = global::ValleyAuthenticator.Droid.Resource.Attribute.passwordToggleTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.passwordToggleTintMode = global::ValleyAuthenticator.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.popupMenuStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.popupMenuStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.popupTheme = global::ValleyAuthenticator.Droid.Resource.Attribute.popupTheme;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.popupWindowStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.popupWindowStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.preserveIconSpacing = global::ValleyAuthenticator.Droid.Resource.Attribute.preserveIconSpacing;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.pressedTranslationZ = global::ValleyAuthenticator.Droid.Resource.Attribute.pressedTranslationZ;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.progressBarPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.progressBarPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.progressBarStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.progressBarStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.queryBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.queryBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.queryHint = global::ValleyAuthenticator.Droid.Resource.Attribute.queryHint;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.radioButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.radioButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.ratingBarStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.ratingBarStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.ratingBarStyleIndicator = global::ValleyAuthenticator.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.ratingBarStyleSmall = global::ValleyAuthenticator.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.recyclerViewStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.recyclerViewStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.reverseLayout = global::ValleyAuthenticator.Droid.Resource.Attribute.reverseLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.rippleColor = global::ValleyAuthenticator.Droid.Resource.Attribute.rippleColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.scrimAnimationDuration = global::ValleyAuthenticator.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.scrimBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.scrimBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.scrimVisibleHeightTrigger = global::ValleyAuthenticator.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.searchHintIcon = global::ValleyAuthenticator.Droid.Resource.Attribute.searchHintIcon;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.searchIcon = global::ValleyAuthenticator.Droid.Resource.Attribute.searchIcon;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.searchViewStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.searchViewStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.seekBarStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.seekBarStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.selectableItemBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.selectableItemBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.selectableItemBackgroundBorderless = global::ValleyAuthenticator.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.showAsAction = global::ValleyAuthenticator.Droid.Resource.Attribute.showAsAction;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.showDividers = global::ValleyAuthenticator.Droid.Resource.Attribute.showDividers;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.showMotionSpec = global::ValleyAuthenticator.Droid.Resource.Attribute.showMotionSpec;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.showText = global::ValleyAuthenticator.Droid.Resource.Attribute.showText;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.showTitle = global::ValleyAuthenticator.Droid.Resource.Attribute.showTitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.singleChoiceItemLayout = global::ValleyAuthenticator.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.singleLine = global::ValleyAuthenticator.Droid.Resource.Attribute.singleLine;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.singleSelection = global::ValleyAuthenticator.Droid.Resource.Attribute.singleSelection;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.snackbarButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.snackbarStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.snackbarStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.spanCount = global::ValleyAuthenticator.Droid.Resource.Attribute.spanCount;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.spinBars = global::ValleyAuthenticator.Droid.Resource.Attribute.spinBars;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.spinnerDropDownItemStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.spinnerStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.spinnerStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.splitTrack = global::ValleyAuthenticator.Droid.Resource.Attribute.splitTrack;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.srcCompat = global::ValleyAuthenticator.Droid.Resource.Attribute.srcCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.stackFromEnd = global::ValleyAuthenticator.Droid.Resource.Attribute.stackFromEnd;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.state_above_anchor = global::ValleyAuthenticator.Droid.Resource.Attribute.state_above_anchor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.state_collapsed = global::ValleyAuthenticator.Droid.Resource.Attribute.state_collapsed;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.state_collapsible = global::ValleyAuthenticator.Droid.Resource.Attribute.state_collapsible;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.state_liftable = global::ValleyAuthenticator.Droid.Resource.Attribute.state_liftable;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.state_lifted = global::ValleyAuthenticator.Droid.Resource.Attribute.state_lifted;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.statusBarBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.statusBarBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.statusBarScrim = global::ValleyAuthenticator.Droid.Resource.Attribute.statusBarScrim;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.strokeColor = global::ValleyAuthenticator.Droid.Resource.Attribute.strokeColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.strokeWidth = global::ValleyAuthenticator.Droid.Resource.Attribute.strokeWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.subMenuArrow = global::ValleyAuthenticator.Droid.Resource.Attribute.subMenuArrow;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.submitBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.submitBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.subtitle = global::ValleyAuthenticator.Droid.Resource.Attribute.subtitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.subtitleTextAppearance = global::ValleyAuthenticator.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.subtitleTextColor = global::ValleyAuthenticator.Droid.Resource.Attribute.subtitleTextColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.subtitleTextStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.subtitleTextStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.suggestionRowLayout = global::ValleyAuthenticator.Droid.Resource.Attribute.suggestionRowLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.switchMinWidth = global::ValleyAuthenticator.Droid.Resource.Attribute.switchMinWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.switchPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.switchPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.switchStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.switchStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.switchTextAppearance = global::ValleyAuthenticator.Droid.Resource.Attribute.switchTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.tabBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabContentStart = global::ValleyAuthenticator.Droid.Resource.Attribute.tabContentStart;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabGravity = global::ValleyAuthenticator.Droid.Resource.Attribute.tabGravity;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabIconTint = global::ValleyAuthenticator.Droid.Resource.Attribute.tabIconTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabIconTintMode = global::ValleyAuthenticator.Droid.Resource.Attribute.tabIconTintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabIndicator = global::ValleyAuthenticator.Droid.Resource.Attribute.tabIndicator;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabIndicatorAnimationDuration = global::ValleyAuthenticator.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabIndicatorColor = global::ValleyAuthenticator.Droid.Resource.Attribute.tabIndicatorColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabIndicatorFullWidth = global::ValleyAuthenticator.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabIndicatorGravity = global::ValleyAuthenticator.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabIndicatorHeight = global::ValleyAuthenticator.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabInlineLabel = global::ValleyAuthenticator.Droid.Resource.Attribute.tabInlineLabel;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabMaxWidth = global::ValleyAuthenticator.Droid.Resource.Attribute.tabMaxWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabMinWidth = global::ValleyAuthenticator.Droid.Resource.Attribute.tabMinWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabMode = global::ValleyAuthenticator.Droid.Resource.Attribute.tabMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.tabPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabPaddingBottom = global::ValleyAuthenticator.Droid.Resource.Attribute.tabPaddingBottom;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabPaddingEnd = global::ValleyAuthenticator.Droid.Resource.Attribute.tabPaddingEnd;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabPaddingStart = global::ValleyAuthenticator.Droid.Resource.Attribute.tabPaddingStart;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabPaddingTop = global::ValleyAuthenticator.Droid.Resource.Attribute.tabPaddingTop;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabRippleColor = global::ValleyAuthenticator.Droid.Resource.Attribute.tabRippleColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabSelectedTextColor = global::ValleyAuthenticator.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.tabStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabTextAppearance = global::ValleyAuthenticator.Droid.Resource.Attribute.tabTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabTextColor = global::ValleyAuthenticator.Droid.Resource.Attribute.tabTextColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tabUnboundedRipple = global::ValleyAuthenticator.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textAllCaps = global::ValleyAuthenticator.Droid.Resource.Attribute.textAllCaps;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textAppearanceBody1 = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceBody1;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textAppearanceBody2 = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceBody2;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textAppearanceButton = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceButton;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textAppearanceCaption = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceCaption;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textAppearanceHeadline1 = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textAppearanceHeadline2 = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textAppearanceHeadline3 = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textAppearanceHeadline4 = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textAppearanceHeadline5 = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textAppearanceHeadline6 = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textAppearanceLargePopupMenu = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textAppearanceListItem = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceListItem;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textAppearanceListItemSecondary = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textAppearanceListItemSmall = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textAppearanceOverline = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceOverline;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textAppearancePopupMenuHeader = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textAppearanceSearchResultSubtitle = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textAppearanceSearchResultTitle = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textAppearanceSmallPopupMenu = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textAppearanceSubtitle1 = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textAppearanceSubtitle2 = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textColorAlertDialogListItem = global::ValleyAuthenticator.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textColorSearchUrl = global::ValleyAuthenticator.Droid.Resource.Attribute.textColorSearchUrl;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textEndPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.textEndPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textInputStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.textInputStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textLocale = global::ValleyAuthenticator.Droid.Resource.Attribute.textLocale;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.textStartPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.textStartPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.theme = global::ValleyAuthenticator.Droid.Resource.Attribute.theme;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.thickness = global::ValleyAuthenticator.Droid.Resource.Attribute.thickness;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.thumbTextPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.thumbTextPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.thumbTint = global::ValleyAuthenticator.Droid.Resource.Attribute.thumbTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.thumbTintMode = global::ValleyAuthenticator.Droid.Resource.Attribute.thumbTintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tickMark = global::ValleyAuthenticator.Droid.Resource.Attribute.tickMark;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tickMarkTint = global::ValleyAuthenticator.Droid.Resource.Attribute.tickMarkTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tickMarkTintMode = global::ValleyAuthenticator.Droid.Resource.Attribute.tickMarkTintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tint = global::ValleyAuthenticator.Droid.Resource.Attribute.tint;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tintMode = global::ValleyAuthenticator.Droid.Resource.Attribute.tintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.title = global::ValleyAuthenticator.Droid.Resource.Attribute.title;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.titleEnabled = global::ValleyAuthenticator.Droid.Resource.Attribute.titleEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.titleMargin = global::ValleyAuthenticator.Droid.Resource.Attribute.titleMargin;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.titleMarginBottom = global::ValleyAuthenticator.Droid.Resource.Attribute.titleMarginBottom;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.titleMarginEnd = global::ValleyAuthenticator.Droid.Resource.Attribute.titleMarginEnd;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.titleMargins = global::ValleyAuthenticator.Droid.Resource.Attribute.titleMargins;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.titleMarginStart = global::ValleyAuthenticator.Droid.Resource.Attribute.titleMarginStart;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.titleMarginTop = global::ValleyAuthenticator.Droid.Resource.Attribute.titleMarginTop;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.titleTextAppearance = global::ValleyAuthenticator.Droid.Resource.Attribute.titleTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.titleTextColor = global::ValleyAuthenticator.Droid.Resource.Attribute.titleTextColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.titleTextStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.titleTextStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.toolbarId = global::ValleyAuthenticator.Droid.Resource.Attribute.toolbarId;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.toolbarNavigationButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.toolbarStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.toolbarStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tooltipForegroundColor = global::ValleyAuthenticator.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tooltipFrameBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.tooltipText = global::ValleyAuthenticator.Droid.Resource.Attribute.tooltipText;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.track = global::ValleyAuthenticator.Droid.Resource.Attribute.track;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.trackTint = global::ValleyAuthenticator.Droid.Resource.Attribute.trackTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.trackTintMode = global::ValleyAuthenticator.Droid.Resource.Attribute.trackTintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.ttcIndex = global::ValleyAuthenticator.Droid.Resource.Attribute.ttcIndex;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.useCompatPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.useCompatPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.viewInflaterClass = global::ValleyAuthenticator.Droid.Resource.Attribute.viewInflaterClass;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.voiceIcon = global::ValleyAuthenticator.Droid.Resource.Attribute.voiceIcon;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.windowActionBar = global::ValleyAuthenticator.Droid.Resource.Attribute.windowActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.windowActionBarOverlay = global::ValleyAuthenticator.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.windowActionModeOverlay = global::ValleyAuthenticator.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.windowFixedHeightMajor = global::ValleyAuthenticator.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.windowFixedHeightMinor = global::ValleyAuthenticator.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.windowFixedWidthMajor = global::ValleyAuthenticator.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.windowFixedWidthMinor = global::ValleyAuthenticator.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.windowMinWidthMajor = global::ValleyAuthenticator.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.windowMinWidthMinor = global::ValleyAuthenticator.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::ZXing.Net.Mobile.Forms.Resource.Attribute.windowNoTitle = global::ValleyAuthenticator.Droid.Resource.Attribute.windowNoTitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Boolean.abc_action_bar_embed_tabs = global::ValleyAuthenticator.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::ZXing.Net.Mobile.Forms.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::ValleyAuthenticator.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::ZXing.Net.Mobile.Forms.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::ValleyAuthenticator.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_background_cache_hint_selector_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_background_cache_hint_selector_material_light = global::ValleyAuthenticator.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_btn_colored_borderless_text_material = global::ValleyAuthenticator.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_btn_colored_text_material = global::ValleyAuthenticator.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_color_highlight_material = global::ValleyAuthenticator.Droid.Resource.Color.abc_color_highlight_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_hint_foreground_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_hint_foreground_material_light = global::ValleyAuthenticator.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_primary_text_disable_only_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_primary_text_disable_only_material_light = global::ValleyAuthenticator.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_primary_text_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_primary_text_material_light = global::ValleyAuthenticator.Droid.Resource.Color.abc_primary_text_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_search_url_text = global::ValleyAuthenticator.Droid.Resource.Color.abc_search_url_text;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_search_url_text_normal = global::ValleyAuthenticator.Droid.Resource.Color.abc_search_url_text_normal;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_search_url_text_pressed = global::ValleyAuthenticator.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_search_url_text_selected = global::ValleyAuthenticator.Droid.Resource.Color.abc_search_url_text_selected;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_secondary_text_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_secondary_text_material_light = global::ValleyAuthenticator.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_tint_btn_checkable = global::ValleyAuthenticator.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_tint_default = global::ValleyAuthenticator.Droid.Resource.Color.abc_tint_default;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_tint_edittext = global::ValleyAuthenticator.Droid.Resource.Color.abc_tint_edittext;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_tint_seek_thumb = global::ValleyAuthenticator.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_tint_spinner = global::ValleyAuthenticator.Droid.Resource.Color.abc_tint_spinner;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.abc_tint_switch_track = global::ValleyAuthenticator.Droid.Resource.Color.abc_tint_switch_track;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.accent_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.accent_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.accent_material_light = global::ValleyAuthenticator.Droid.Resource.Color.accent_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.background_floating_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.background_floating_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.background_floating_material_light = global::ValleyAuthenticator.Droid.Resource.Color.background_floating_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.background_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.background_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.background_material_light = global::ValleyAuthenticator.Droid.Resource.Color.background_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.bright_foreground_disabled_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.bright_foreground_disabled_material_light = global::ValleyAuthenticator.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.bright_foreground_inverse_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.bright_foreground_inverse_material_light = global::ValleyAuthenticator.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.bright_foreground_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.bright_foreground_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.bright_foreground_material_light = global::ValleyAuthenticator.Droid.Resource.Color.bright_foreground_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.browser_actions_bg_grey = global::ValleyAuthenticator.Droid.Resource.Color.browser_actions_bg_grey;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.browser_actions_divider_color = global::ValleyAuthenticator.Droid.Resource.Color.browser_actions_divider_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.browser_actions_text_color = global::ValleyAuthenticator.Droid.Resource.Color.browser_actions_text_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.browser_actions_title_color = global::ValleyAuthenticator.Droid.Resource.Color.browser_actions_title_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.button_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.button_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.button_material_light = global::ValleyAuthenticator.Droid.Resource.Color.button_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.cardview_dark_background = global::ValleyAuthenticator.Droid.Resource.Color.cardview_dark_background;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.cardview_light_background = global::ValleyAuthenticator.Droid.Resource.Color.cardview_light_background;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.cardview_shadow_end_color = global::ValleyAuthenticator.Droid.Resource.Color.cardview_shadow_end_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.cardview_shadow_start_color = global::ValleyAuthenticator.Droid.Resource.Color.cardview_shadow_start_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.design_bottom_navigation_shadow_color = global::ValleyAuthenticator.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.design_default_color_primary = global::ValleyAuthenticator.Droid.Resource.Color.design_default_color_primary;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.design_default_color_primary_dark = global::ValleyAuthenticator.Droid.Resource.Color.design_default_color_primary_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.design_error = global::ValleyAuthenticator.Droid.Resource.Color.design_error;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.design_fab_shadow_end_color = global::ValleyAuthenticator.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.design_fab_shadow_mid_color = global::ValleyAuthenticator.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.design_fab_shadow_start_color = global::ValleyAuthenticator.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.design_fab_stroke_end_inner_color = global::ValleyAuthenticator.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.design_fab_stroke_end_outer_color = global::ValleyAuthenticator.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.design_fab_stroke_top_inner_color = global::ValleyAuthenticator.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.design_fab_stroke_top_outer_color = global::ValleyAuthenticator.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.design_snackbar_background_color = global::ValleyAuthenticator.Droid.Resource.Color.design_snackbar_background_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.dim_foreground_disabled_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.dim_foreground_disabled_material_light = global::ValleyAuthenticator.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.dim_foreground_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.dim_foreground_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.dim_foreground_material_light = global::ValleyAuthenticator.Droid.Resource.Color.dim_foreground_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.error_color_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.error_color_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.error_color_material_light = global::ValleyAuthenticator.Droid.Resource.Color.error_color_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.foreground_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.foreground_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.foreground_material_light = global::ValleyAuthenticator.Droid.Resource.Color.foreground_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.highlighted_text_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.highlighted_text_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.highlighted_text_material_light = global::ValleyAuthenticator.Droid.Resource.Color.highlighted_text_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.material_blue_grey_800 = global::ValleyAuthenticator.Droid.Resource.Color.material_blue_grey_800;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.material_blue_grey_900 = global::ValleyAuthenticator.Droid.Resource.Color.material_blue_grey_900;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.material_blue_grey_950 = global::ValleyAuthenticator.Droid.Resource.Color.material_blue_grey_950;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.material_deep_teal_200 = global::ValleyAuthenticator.Droid.Resource.Color.material_deep_teal_200;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.material_deep_teal_500 = global::ValleyAuthenticator.Droid.Resource.Color.material_deep_teal_500;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.material_grey_100 = global::ValleyAuthenticator.Droid.Resource.Color.material_grey_100;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.material_grey_300 = global::ValleyAuthenticator.Droid.Resource.Color.material_grey_300;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.material_grey_50 = global::ValleyAuthenticator.Droid.Resource.Color.material_grey_50;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.material_grey_600 = global::ValleyAuthenticator.Droid.Resource.Color.material_grey_600;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.material_grey_800 = global::ValleyAuthenticator.Droid.Resource.Color.material_grey_800;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.material_grey_850 = global::ValleyAuthenticator.Droid.Resource.Color.material_grey_850;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.material_grey_900 = global::ValleyAuthenticator.Droid.Resource.Color.material_grey_900;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.mtrl_btn_bg_color_selector = global::ValleyAuthenticator.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.mtrl_btn_ripple_color = global::ValleyAuthenticator.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.mtrl_btn_stroke_color_selector = global::ValleyAuthenticator.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.mtrl_btn_text_btn_ripple_color = global::ValleyAuthenticator.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.mtrl_btn_text_color_disabled = global::ValleyAuthenticator.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.mtrl_btn_text_color_selector = global::ValleyAuthenticator.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.mtrl_btn_transparent_bg_color = global::ValleyAuthenticator.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.mtrl_chip_background_color = global::ValleyAuthenticator.Droid.Resource.Color.mtrl_chip_background_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.mtrl_chip_close_icon_tint = global::ValleyAuthenticator.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.mtrl_chip_text_color = global::ValleyAuthenticator.Droid.Resource.Color.mtrl_chip_text_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.mtrl_fab_ripple_color = global::ValleyAuthenticator.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.mtrl_scrim_color = global::ValleyAuthenticator.Droid.Resource.Color.mtrl_scrim_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.mtrl_tabs_colored_ripple_color = global::ValleyAuthenticator.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.mtrl_tabs_icon_color_selector = global::ValleyAuthenticator.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::ValleyAuthenticator.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::ValleyAuthenticator.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.mtrl_tabs_ripple_color = global::ValleyAuthenticator.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.mtrl_textinput_default_box_stroke_color = global::ValleyAuthenticator.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.mtrl_textinput_disabled_color = global::ValleyAuthenticator.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::ValleyAuthenticator.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::ValleyAuthenticator.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.mtrl_text_btn_text_color_selector = global::ValleyAuthenticator.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.notification_action_color_filter = global::ValleyAuthenticator.Droid.Resource.Color.notification_action_color_filter;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.notification_icon_bg_color = global::ValleyAuthenticator.Droid.Resource.Color.notification_icon_bg_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.notification_material_background_media_default_color = global::ValleyAuthenticator.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.primary_dark_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.primary_dark_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.primary_dark_material_light = global::ValleyAuthenticator.Droid.Resource.Color.primary_dark_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.primary_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.primary_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.primary_material_light = global::ValleyAuthenticator.Droid.Resource.Color.primary_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.primary_text_default_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.primary_text_default_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.primary_text_default_material_light = global::ValleyAuthenticator.Droid.Resource.Color.primary_text_default_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.primary_text_disabled_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.primary_text_disabled_material_light = global::ValleyAuthenticator.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.ripple_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.ripple_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.ripple_material_light = global::ValleyAuthenticator.Droid.Resource.Color.ripple_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.secondary_text_default_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.secondary_text_default_material_light = global::ValleyAuthenticator.Droid.Resource.Color.secondary_text_default_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.secondary_text_disabled_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.secondary_text_disabled_material_light = global::ValleyAuthenticator.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.switch_thumb_disabled_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.switch_thumb_disabled_material_light = global::ValleyAuthenticator.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.switch_thumb_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.switch_thumb_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.switch_thumb_material_light = global::ValleyAuthenticator.Droid.Resource.Color.switch_thumb_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.switch_thumb_normal_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.switch_thumb_normal_material_light = global::ValleyAuthenticator.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.tooltip_background_dark = global::ValleyAuthenticator.Droid.Resource.Color.tooltip_background_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Color.tooltip_background_light = global::ValleyAuthenticator.Droid.Resource.Color.tooltip_background_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_action_bar_content_inset_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_action_bar_default_height_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_action_bar_default_padding_end_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_action_bar_default_padding_start_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_action_bar_elevation_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_action_bar_stacked_max_height = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_action_button_min_height_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_action_button_min_width_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_action_button_min_width_overflow_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_alert_dialog_button_bar_height = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_alert_dialog_button_dimen = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_button_inset_horizontal_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_button_inset_vertical_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_button_padding_horizontal_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_button_padding_vertical_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_config_prefDialogWidth = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_control_corner_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_control_corner_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_control_inset_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_control_inset_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_control_padding_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_control_padding_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_dialog_corner_radius_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_dialog_fixed_height_major = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_dialog_fixed_height_minor = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_dialog_fixed_width_major = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_dialog_fixed_width_minor = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_dialog_min_width_major = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_dialog_min_width_minor = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_dialog_padding_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_dialog_padding_top_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_dialog_title_divider_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_disabled_alpha_material_dark = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_disabled_alpha_material_light = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_dropdownitem_icon_width = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_dropdownitem_text_padding_left = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_dropdownitem_text_padding_right = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_edit_text_inset_bottom_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_edit_text_inset_top_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_floating_window_z = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_floating_window_z;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_list_item_height_large_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_list_item_height_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_list_item_height_small_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_list_item_height_small_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_list_item_padding_horizontal_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_panel_menu_list_width = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_progress_bar_height_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_search_view_preferred_height = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_search_view_preferred_width = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_seekbar_track_background_height_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_seekbar_track_progress_height_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_select_dialog_padding_start_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_switch_padding = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_switch_padding;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_text_size_body_1_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_text_size_body_2_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_text_size_button_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_text_size_caption_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_text_size_display_1_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_text_size_display_2_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_text_size_display_3_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_text_size_display_4_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_text_size_headline_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_text_size_large_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_text_size_medium_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_text_size_menu_header_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_text_size_menu_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_text_size_small_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_text_size_subhead_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_text_size_title_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.abc_text_size_title_material_toolbar = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.browser_actions_context_menu_max_width = global::ValleyAuthenticator.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.browser_actions_context_menu_min_padding = global::ValleyAuthenticator.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.cardview_compat_inset_shadow = global::ValleyAuthenticator.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.cardview_default_elevation = global::ValleyAuthenticator.Droid.Resource.Dimension.cardview_default_elevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.cardview_default_radius = global::ValleyAuthenticator.Droid.Resource.Dimension.cardview_default_radius;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.compat_button_inset_horizontal_material = global::ValleyAuthenticator.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.compat_button_inset_vertical_material = global::ValleyAuthenticator.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.compat_button_padding_horizontal_material = global::ValleyAuthenticator.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.compat_button_padding_vertical_material = global::ValleyAuthenticator.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.compat_control_corner_material = global::ValleyAuthenticator.Droid.Resource.Dimension.compat_control_corner_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.compat_notification_large_icon_max_height = global::ValleyAuthenticator.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.compat_notification_large_icon_max_width = global::ValleyAuthenticator.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_appbar_elevation = global::ValleyAuthenticator.Droid.Resource.Dimension.design_appbar_elevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::ValleyAuthenticator.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::ValleyAuthenticator.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_bottom_navigation_active_text_size = global::ValleyAuthenticator.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_bottom_navigation_elevation = global::ValleyAuthenticator.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_bottom_navigation_height = global::ValleyAuthenticator.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_bottom_navigation_icon_size = global::ValleyAuthenticator.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_bottom_navigation_item_max_width = global::ValleyAuthenticator.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_bottom_navigation_item_min_width = global::ValleyAuthenticator.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_bottom_navigation_margin = global::ValleyAuthenticator.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_bottom_navigation_shadow_height = global::ValleyAuthenticator.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_bottom_navigation_text_size = global::ValleyAuthenticator.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_bottom_sheet_modal_elevation = global::ValleyAuthenticator.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_bottom_sheet_peek_height_min = global::ValleyAuthenticator.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_fab_border_width = global::ValleyAuthenticator.Droid.Resource.Dimension.design_fab_border_width;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_fab_elevation = global::ValleyAuthenticator.Droid.Resource.Dimension.design_fab_elevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_fab_image_size = global::ValleyAuthenticator.Droid.Resource.Dimension.design_fab_image_size;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_fab_size_mini = global::ValleyAuthenticator.Droid.Resource.Dimension.design_fab_size_mini;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_fab_size_normal = global::ValleyAuthenticator.Droid.Resource.Dimension.design_fab_size_normal;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_fab_translation_z_hovered_focused = global::ValleyAuthenticator.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_fab_translation_z_pressed = global::ValleyAuthenticator.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_navigation_elevation = global::ValleyAuthenticator.Droid.Resource.Dimension.design_navigation_elevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_navigation_icon_padding = global::ValleyAuthenticator.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_navigation_icon_size = global::ValleyAuthenticator.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_navigation_item_horizontal_padding = global::ValleyAuthenticator.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_navigation_item_icon_padding = global::ValleyAuthenticator.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_navigation_max_width = global::ValleyAuthenticator.Droid.Resource.Dimension.design_navigation_max_width;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_navigation_padding_bottom = global::ValleyAuthenticator.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_navigation_separator_vertical_padding = global::ValleyAuthenticator.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_snackbar_action_inline_max_width = global::ValleyAuthenticator.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_snackbar_background_corner_radius = global::ValleyAuthenticator.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_snackbar_elevation = global::ValleyAuthenticator.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::ValleyAuthenticator.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_snackbar_max_width = global::ValleyAuthenticator.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_snackbar_min_width = global::ValleyAuthenticator.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_snackbar_padding_horizontal = global::ValleyAuthenticator.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_snackbar_padding_vertical = global::ValleyAuthenticator.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::ValleyAuthenticator.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_snackbar_text_size = global::ValleyAuthenticator.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_tab_max_width = global::ValleyAuthenticator.Droid.Resource.Dimension.design_tab_max_width;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_tab_scrollable_min_width = global::ValleyAuthenticator.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_tab_text_size = global::ValleyAuthenticator.Droid.Resource.Dimension.design_tab_text_size;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_tab_text_size_2line = global::ValleyAuthenticator.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.design_textinput_caption_translate_y = global::ValleyAuthenticator.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.disabled_alpha_material_dark = global::ValleyAuthenticator.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.disabled_alpha_material_light = global::ValleyAuthenticator.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.fastscroll_default_thickness = global::ValleyAuthenticator.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.fastscroll_margin = global::ValleyAuthenticator.Droid.Resource.Dimension.fastscroll_margin;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.fastscroll_minimum_range = global::ValleyAuthenticator.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.highlight_alpha_material_colored = global::ValleyAuthenticator.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.highlight_alpha_material_dark = global::ValleyAuthenticator.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.highlight_alpha_material_light = global::ValleyAuthenticator.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.hint_alpha_material_dark = global::ValleyAuthenticator.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.hint_alpha_material_light = global::ValleyAuthenticator.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.hint_pressed_alpha_material_dark = global::ValleyAuthenticator.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.hint_pressed_alpha_material_light = global::ValleyAuthenticator.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::ValleyAuthenticator.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::ValleyAuthenticator.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::ValleyAuthenticator.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_bottomappbar_height = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_btn_corner_radius = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_btn_disabled_elevation = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_btn_disabled_z = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_btn_elevation = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_btn_focused_z = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_btn_hovered_z = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_btn_icon_padding = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_btn_inset = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_btn_letter_spacing = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_btn_padding_bottom = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_btn_padding_left = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_btn_padding_right = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_btn_padding_top = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_btn_pressed_z = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_btn_stroke_size = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_btn_text_size = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_btn_z = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_btn_z;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_card_elevation = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_card_spacing = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_chip_pressed_translation_z = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_chip_text_size = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_fab_elevation = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_fab_translation_z_pressed = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_navigation_elevation = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_navigation_item_icon_padding = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_snackbar_margin = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.mtrl_toolbar_default_height = global::ValleyAuthenticator.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.notification_action_icon_size = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_action_icon_size;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.notification_action_text_size = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_action_text_size;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.notification_big_circle_margin = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.notification_content_margin_start = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_content_margin_start;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.notification_large_icon_height = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_large_icon_height;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.notification_large_icon_width = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_large_icon_width;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.notification_main_column_padding_top = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.notification_media_narrow_margin = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.notification_right_icon_size = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_right_icon_size;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.notification_right_side_padding_top = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.notification_small_icon_background_padding = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.notification_small_icon_size_as_large = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.notification_subtext_size = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_subtext_size;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.notification_top_pad = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_top_pad;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.notification_top_pad_large_text = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.tooltip_corner_radius = global::ValleyAuthenticator.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.tooltip_horizontal_padding = global::ValleyAuthenticator.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.tooltip_margin = global::ValleyAuthenticator.Droid.Resource.Dimension.tooltip_margin;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::ValleyAuthenticator.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.tooltip_precise_anchor_threshold = global::ValleyAuthenticator.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.tooltip_vertical_padding = global::ValleyAuthenticator.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.tooltip_y_offset_non_touch = global::ValleyAuthenticator.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::ZXing.Net.Mobile.Forms.Resource.Dimension.tooltip_y_offset_touch = global::ValleyAuthenticator.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_action_bar_item_background_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_btn_borderless_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_btn_check_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_check_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_btn_check_material_anim = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_check_material_anim;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_btn_colored_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_btn_default_mtrl_shape = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_btn_radio_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_btn_radio_material_anim = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_radio_material_anim;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_cab_background_internal_bg = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_cab_background_top_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_control_background_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_control_background_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_dialog_material_background = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_edit_text_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_edit_text_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_ic_ab_back_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_ic_clear_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_ic_go_search_api_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_ic_menu_overflow_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_ic_search_api_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_ic_voice_search_api_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_item_background_holo_dark = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_item_background_holo_light = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_list_divider_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_divider_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_list_divider_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_list_focused_holo = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_list_longpressed_holo = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_list_pressed_holo_dark = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_list_pressed_holo_light = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_list_selector_disabled_holo_light = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_list_selector_holo_dark = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_list_selector_holo_light = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_popup_background_mtrl_mult = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_ratingbar_indicator_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_ratingbar_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_ratingbar_small_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_seekbar_thumb_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_seekbar_tick_mark_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_seekbar_track_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_spinner_textfield_background_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_switch_thumb_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_switch_track_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_tab_indicator_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_textfield_search_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_text_cursor_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.abc_vector_test = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_vector_test;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.avd_hide_password = global::ValleyAuthenticator.Droid.Resource.Drawable.avd_hide_password;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.avd_show_password = global::ValleyAuthenticator.Droid.Resource.Drawable.avd_show_password;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.btn_checkbox_checked_mtrl = global::ValleyAuthenticator.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::ValleyAuthenticator.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::ValleyAuthenticator.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::ValleyAuthenticator.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.btn_radio_off_mtrl = global::ValleyAuthenticator.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::ValleyAuthenticator.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.btn_radio_on_mtrl = global::ValleyAuthenticator.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::ValleyAuthenticator.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.design_fab_background = global::ValleyAuthenticator.Droid.Resource.Drawable.design_fab_background;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.design_ic_visibility = global::ValleyAuthenticator.Droid.Resource.Drawable.design_ic_visibility;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.design_ic_visibility_off = global::ValleyAuthenticator.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.design_password_eye = global::ValleyAuthenticator.Droid.Resource.Drawable.design_password_eye;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.design_snackbar_background = global::ValleyAuthenticator.Droid.Resource.Drawable.design_snackbar_background;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.ic_mtrl_chip_checked_black = global::ValleyAuthenticator.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.ic_mtrl_chip_checked_circle = global::ValleyAuthenticator.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.ic_mtrl_chip_close_circle = global::ValleyAuthenticator.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.mtrl_tabs_default_indicator = global::ValleyAuthenticator.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.navigation_empty_icon = global::ValleyAuthenticator.Droid.Resource.Drawable.navigation_empty_icon;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.notification_action_background = global::ValleyAuthenticator.Droid.Resource.Drawable.notification_action_background;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.notification_bg = global::ValleyAuthenticator.Droid.Resource.Drawable.notification_bg;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.notification_bg_low = global::ValleyAuthenticator.Droid.Resource.Drawable.notification_bg_low;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.notification_bg_low_normal = global::ValleyAuthenticator.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.notification_bg_low_pressed = global::ValleyAuthenticator.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.notification_bg_normal = global::ValleyAuthenticator.Droid.Resource.Drawable.notification_bg_normal;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.notification_bg_normal_pressed = global::ValleyAuthenticator.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.notification_icon_background = global::ValleyAuthenticator.Droid.Resource.Drawable.notification_icon_background;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.notification_template_icon_bg = global::ValleyAuthenticator.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.notification_template_icon_low_bg = global::ValleyAuthenticator.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.notification_tile_bg = global::ValleyAuthenticator.Droid.Resource.Drawable.notification_tile_bg;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.notify_panel_notification_icon_bg = global::ValleyAuthenticator.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.tooltip_frame_dark = global::ValleyAuthenticator.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Drawable.tooltip_frame_light = global::ValleyAuthenticator.Droid.Resource.Drawable.tooltip_frame_light;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_action_clickable_span = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_0 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_0;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_1 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_1;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_10 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_10;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_11 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_11;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_12 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_12;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_13 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_13;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_14 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_14;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_15 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_15;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_16 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_16;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_17 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_17;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_18 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_18;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_19 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_19;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_2 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_2;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_20 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_20;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_21 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_21;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_22 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_22;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_23 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_23;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_24 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_24;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_25 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_25;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_26 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_26;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_27 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_27;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_28 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_28;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_29 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_29;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_3 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_3;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_30 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_30;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_31 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_31;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_4 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_4;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_5 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_5;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_6 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_6;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_7 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_7;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_8 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_8;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.accessibility_custom_action_9 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_9;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.action0 = global::ValleyAuthenticator.Droid.Resource.Id.action0;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.actions = global::ValleyAuthenticator.Droid.Resource.Id.actions;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.action_bar = global::ValleyAuthenticator.Droid.Resource.Id.action_bar;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.action_bar_activity_content = global::ValleyAuthenticator.Droid.Resource.Id.action_bar_activity_content;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.action_bar_container = global::ValleyAuthenticator.Droid.Resource.Id.action_bar_container;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.action_bar_root = global::ValleyAuthenticator.Droid.Resource.Id.action_bar_root;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.action_bar_spinner = global::ValleyAuthenticator.Droid.Resource.Id.action_bar_spinner;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.action_bar_subtitle = global::ValleyAuthenticator.Droid.Resource.Id.action_bar_subtitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.action_bar_title = global::ValleyAuthenticator.Droid.Resource.Id.action_bar_title;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.action_container = global::ValleyAuthenticator.Droid.Resource.Id.action_container;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.action_context_bar = global::ValleyAuthenticator.Droid.Resource.Id.action_context_bar;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.action_divider = global::ValleyAuthenticator.Droid.Resource.Id.action_divider;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.action_image = global::ValleyAuthenticator.Droid.Resource.Id.action_image;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.action_menu_divider = global::ValleyAuthenticator.Droid.Resource.Id.action_menu_divider;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.action_menu_presenter = global::ValleyAuthenticator.Droid.Resource.Id.action_menu_presenter;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.action_mode_bar = global::ValleyAuthenticator.Droid.Resource.Id.action_mode_bar;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.action_mode_bar_stub = global::ValleyAuthenticator.Droid.Resource.Id.action_mode_bar_stub;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.action_mode_close_button = global::ValleyAuthenticator.Droid.Resource.Id.action_mode_close_button;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.action_text = global::ValleyAuthenticator.Droid.Resource.Id.action_text;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.activity_chooser_view_content = global::ValleyAuthenticator.Droid.Resource.Id.activity_chooser_view_content;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.add = global::ValleyAuthenticator.Droid.Resource.Id.add;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.alertTitle = global::ValleyAuthenticator.Droid.Resource.Id.alertTitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.all = global::ValleyAuthenticator.Droid.Resource.Id.all;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.ALT = global::ValleyAuthenticator.Droid.Resource.Id.ALT;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.always = global::ValleyAuthenticator.Droid.Resource.Id.always;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.async = global::ValleyAuthenticator.Droid.Resource.Id.async;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.auto = global::ValleyAuthenticator.Droid.Resource.Id.auto;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.beginning = global::ValleyAuthenticator.Droid.Resource.Id.beginning;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.blocking = global::ValleyAuthenticator.Droid.Resource.Id.blocking;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.bottom = global::ValleyAuthenticator.Droid.Resource.Id.bottom;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.bottomtab_navarea = global::ValleyAuthenticator.Droid.Resource.Id.bottomtab_navarea;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.bottomtab_tabbar = global::ValleyAuthenticator.Droid.Resource.Id.bottomtab_tabbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.browser_actions_header_text = global::ValleyAuthenticator.Droid.Resource.Id.browser_actions_header_text;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.browser_actions_menu_items = global::ValleyAuthenticator.Droid.Resource.Id.browser_actions_menu_items;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.browser_actions_menu_item_icon = global::ValleyAuthenticator.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.browser_actions_menu_item_text = global::ValleyAuthenticator.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.browser_actions_menu_view = global::ValleyAuthenticator.Droid.Resource.Id.browser_actions_menu_view;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.buttonPanel = global::ValleyAuthenticator.Droid.Resource.Id.buttonPanel;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.cancel_action = global::ValleyAuthenticator.Droid.Resource.Id.cancel_action;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.center = global::ValleyAuthenticator.Droid.Resource.Id.center;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.center_horizontal = global::ValleyAuthenticator.Droid.Resource.Id.center_horizontal;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.center_vertical = global::ValleyAuthenticator.Droid.Resource.Id.center_vertical;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.checkbox = global::ValleyAuthenticator.Droid.Resource.Id.checkbox;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.@checked = global::ValleyAuthenticator.Droid.Resource.Id.@checked;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.chronometer = global::ValleyAuthenticator.Droid.Resource.Id.chronometer;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.clip_horizontal = global::ValleyAuthenticator.Droid.Resource.Id.clip_horizontal;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.clip_vertical = global::ValleyAuthenticator.Droid.Resource.Id.clip_vertical;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.collapseActionView = global::ValleyAuthenticator.Droid.Resource.Id.collapseActionView;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.container = global::ValleyAuthenticator.Droid.Resource.Id.container;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.content = global::ValleyAuthenticator.Droid.Resource.Id.content;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.contentFrame = global::ValleyAuthenticator.Droid.Resource.Id.contentFrame;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.contentPanel = global::ValleyAuthenticator.Droid.Resource.Id.contentPanel;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.coordinator = global::ValleyAuthenticator.Droid.Resource.Id.coordinator;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.CTRL = global::ValleyAuthenticator.Droid.Resource.Id.CTRL;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.custom = global::ValleyAuthenticator.Droid.Resource.Id.custom;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.customPanel = global::ValleyAuthenticator.Droid.Resource.Id.customPanel;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.decor_content_parent = global::ValleyAuthenticator.Droid.Resource.Id.decor_content_parent;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.default_activity_button = global::ValleyAuthenticator.Droid.Resource.Id.default_activity_button;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.design_bottom_sheet = global::ValleyAuthenticator.Droid.Resource.Id.design_bottom_sheet;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.design_menu_item_action_area = global::ValleyAuthenticator.Droid.Resource.Id.design_menu_item_action_area;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.design_menu_item_action_area_stub = global::ValleyAuthenticator.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.design_menu_item_text = global::ValleyAuthenticator.Droid.Resource.Id.design_menu_item_text;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.design_navigation_view = global::ValleyAuthenticator.Droid.Resource.Id.design_navigation_view;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.dialog_button = global::ValleyAuthenticator.Droid.Resource.Id.dialog_button;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.disableHome = global::ValleyAuthenticator.Droid.Resource.Id.disableHome;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.edit_query = global::ValleyAuthenticator.Droid.Resource.Id.edit_query;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.end = global::ValleyAuthenticator.Droid.Resource.Id.end;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.end_padder = global::ValleyAuthenticator.Droid.Resource.Id.end_padder;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.enterAlways = global::ValleyAuthenticator.Droid.Resource.Id.enterAlways;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.enterAlwaysCollapsed = global::ValleyAuthenticator.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.exitUntilCollapsed = global::ValleyAuthenticator.Droid.Resource.Id.exitUntilCollapsed;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.expanded_menu = global::ValleyAuthenticator.Droid.Resource.Id.expanded_menu;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.expand_activities_button = global::ValleyAuthenticator.Droid.Resource.Id.expand_activities_button;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.fill = global::ValleyAuthenticator.Droid.Resource.Id.fill;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.filled = global::ValleyAuthenticator.Droid.Resource.Id.filled;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.fill_horizontal = global::ValleyAuthenticator.Droid.Resource.Id.fill_horizontal;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.fill_vertical = global::ValleyAuthenticator.Droid.Resource.Id.fill_vertical;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.@fixed = global::ValleyAuthenticator.Droid.Resource.Id.@fixed;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.flyoutcontent_appbar = global::ValleyAuthenticator.Droid.Resource.Id.flyoutcontent_appbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.forever = global::ValleyAuthenticator.Droid.Resource.Id.forever;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.FUNCTION = global::ValleyAuthenticator.Droid.Resource.Id.FUNCTION;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.ghost_view = global::ValleyAuthenticator.Droid.Resource.Id.ghost_view;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.ghost_view_holder = global::ValleyAuthenticator.Droid.Resource.Id.ghost_view_holder;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.group_divider = global::ValleyAuthenticator.Droid.Resource.Id.group_divider;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.home = global::ValleyAuthenticator.Droid.Resource.Id.home;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.homeAsUp = global::ValleyAuthenticator.Droid.Resource.Id.homeAsUp;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.icon = global::ValleyAuthenticator.Droid.Resource.Id.icon;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.icon_group = global::ValleyAuthenticator.Droid.Resource.Id.icon_group;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.ifRoom = global::ValleyAuthenticator.Droid.Resource.Id.ifRoom;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.image = global::ValleyAuthenticator.Droid.Resource.Id.image;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.info = global::ValleyAuthenticator.Droid.Resource.Id.info;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.italic = global::ValleyAuthenticator.Droid.Resource.Id.italic;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.item_touch_helper_previous_elevation = global::ValleyAuthenticator.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.labeled = global::ValleyAuthenticator.Droid.Resource.Id.labeled;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.left = global::ValleyAuthenticator.Droid.Resource.Id.left;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.line1 = global::ValleyAuthenticator.Droid.Resource.Id.line1;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.line3 = global::ValleyAuthenticator.Droid.Resource.Id.line3;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.listMode = global::ValleyAuthenticator.Droid.Resource.Id.listMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.list_item = global::ValleyAuthenticator.Droid.Resource.Id.list_item;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.main_appbar = global::ValleyAuthenticator.Droid.Resource.Id.main_appbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.main_tablayout = global::ValleyAuthenticator.Droid.Resource.Id.main_tablayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.main_toolbar = global::ValleyAuthenticator.Droid.Resource.Id.main_toolbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.main_viewpager = global::ValleyAuthenticator.Droid.Resource.Id.main_viewpager;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.masked = global::ValleyAuthenticator.Droid.Resource.Id.masked;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.media_actions = global::ValleyAuthenticator.Droid.Resource.Id.media_actions;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.message = global::ValleyAuthenticator.Droid.Resource.Id.message;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.META = global::ValleyAuthenticator.Droid.Resource.Id.META;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.middle = global::ValleyAuthenticator.Droid.Resource.Id.middle;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.mini = global::ValleyAuthenticator.Droid.Resource.Id.mini;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.mtrl_child_content_container = global::ValleyAuthenticator.Droid.Resource.Id.mtrl_child_content_container;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.mtrl_internal_children_alpha_tag = global::ValleyAuthenticator.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.multiply = global::ValleyAuthenticator.Droid.Resource.Id.multiply;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.navigation_header_container = global::ValleyAuthenticator.Droid.Resource.Id.navigation_header_container;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.never = global::ValleyAuthenticator.Droid.Resource.Id.never;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.none = global::ValleyAuthenticator.Droid.Resource.Id.none;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.normal = global::ValleyAuthenticator.Droid.Resource.Id.normal;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.notification_background = global::ValleyAuthenticator.Droid.Resource.Id.notification_background;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.notification_main_column = global::ValleyAuthenticator.Droid.Resource.Id.notification_main_column;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.notification_main_column_container = global::ValleyAuthenticator.Droid.Resource.Id.notification_main_column_container;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.off = global::ValleyAuthenticator.Droid.Resource.Id.off;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.on = global::ValleyAuthenticator.Droid.Resource.Id.on;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.outline = global::ValleyAuthenticator.Droid.Resource.Id.outline;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.parallax = global::ValleyAuthenticator.Droid.Resource.Id.parallax;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.parentPanel = global::ValleyAuthenticator.Droid.Resource.Id.parentPanel;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.parent_matrix = global::ValleyAuthenticator.Droid.Resource.Id.parent_matrix;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.pin = global::ValleyAuthenticator.Droid.Resource.Id.pin;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.progress_circular = global::ValleyAuthenticator.Droid.Resource.Id.progress_circular;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.progress_horizontal = global::ValleyAuthenticator.Droid.Resource.Id.progress_horizontal;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.radio = global::ValleyAuthenticator.Droid.Resource.Id.radio;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.right = global::ValleyAuthenticator.Droid.Resource.Id.right;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.right_icon = global::ValleyAuthenticator.Droid.Resource.Id.right_icon;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.right_side = global::ValleyAuthenticator.Droid.Resource.Id.right_side;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.save_non_transition_alpha = global::ValleyAuthenticator.Droid.Resource.Id.save_non_transition_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.save_overlay_view = global::ValleyAuthenticator.Droid.Resource.Id.save_overlay_view;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.screen = global::ValleyAuthenticator.Droid.Resource.Id.screen;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.scroll = global::ValleyAuthenticator.Droid.Resource.Id.scroll;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.scrollable = global::ValleyAuthenticator.Droid.Resource.Id.scrollable;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.scrollIndicatorDown = global::ValleyAuthenticator.Droid.Resource.Id.scrollIndicatorDown;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.scrollIndicatorUp = global::ValleyAuthenticator.Droid.Resource.Id.scrollIndicatorUp;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.scrollView = global::ValleyAuthenticator.Droid.Resource.Id.scrollView;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.search_badge = global::ValleyAuthenticator.Droid.Resource.Id.search_badge;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.search_bar = global::ValleyAuthenticator.Droid.Resource.Id.search_bar;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.search_button = global::ValleyAuthenticator.Droid.Resource.Id.search_button;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.search_close_btn = global::ValleyAuthenticator.Droid.Resource.Id.search_close_btn;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.search_edit_frame = global::ValleyAuthenticator.Droid.Resource.Id.search_edit_frame;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.search_go_btn = global::ValleyAuthenticator.Droid.Resource.Id.search_go_btn;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.search_mag_icon = global::ValleyAuthenticator.Droid.Resource.Id.search_mag_icon;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.search_plate = global::ValleyAuthenticator.Droid.Resource.Id.search_plate;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.search_src_text = global::ValleyAuthenticator.Droid.Resource.Id.search_src_text;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.search_voice_btn = global::ValleyAuthenticator.Droid.Resource.Id.search_voice_btn;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.selected = global::ValleyAuthenticator.Droid.Resource.Id.selected;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.select_dialog_listview = global::ValleyAuthenticator.Droid.Resource.Id.select_dialog_listview;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.shellcontent_appbar = global::ValleyAuthenticator.Droid.Resource.Id.shellcontent_appbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.shellcontent_toolbar = global::ValleyAuthenticator.Droid.Resource.Id.shellcontent_toolbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.SHIFT = global::ValleyAuthenticator.Droid.Resource.Id.SHIFT;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.shortcut = global::ValleyAuthenticator.Droid.Resource.Id.shortcut;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.showCustom = global::ValleyAuthenticator.Droid.Resource.Id.showCustom;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.showHome = global::ValleyAuthenticator.Droid.Resource.Id.showHome;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.showTitle = global::ValleyAuthenticator.Droid.Resource.Id.showTitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.sliding_tabs = global::ValleyAuthenticator.Droid.Resource.Id.sliding_tabs;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.snackbar_action = global::ValleyAuthenticator.Droid.Resource.Id.snackbar_action;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.snackbar_text = global::ValleyAuthenticator.Droid.Resource.Id.snackbar_text;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.snap = global::ValleyAuthenticator.Droid.Resource.Id.snap;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.snapMargins = global::ValleyAuthenticator.Droid.Resource.Id.snapMargins;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.spacer = global::ValleyAuthenticator.Droid.Resource.Id.spacer;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.split_action_bar = global::ValleyAuthenticator.Droid.Resource.Id.split_action_bar;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.src_atop = global::ValleyAuthenticator.Droid.Resource.Id.src_atop;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.src_in = global::ValleyAuthenticator.Droid.Resource.Id.src_in;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.src_over = global::ValleyAuthenticator.Droid.Resource.Id.src_over;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.start = global::ValleyAuthenticator.Droid.Resource.Id.start;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.status_bar_latest_event_content = global::ValleyAuthenticator.Droid.Resource.Id.status_bar_latest_event_content;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.stretch = global::ValleyAuthenticator.Droid.Resource.Id.stretch;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.submenuarrow = global::ValleyAuthenticator.Droid.Resource.Id.submenuarrow;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.submit_area = global::ValleyAuthenticator.Droid.Resource.Id.submit_area;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.SYM = global::ValleyAuthenticator.Droid.Resource.Id.SYM;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.tabMode = global::ValleyAuthenticator.Droid.Resource.Id.tabMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.tag_accessibility_actions = global::ValleyAuthenticator.Droid.Resource.Id.tag_accessibility_actions;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.tag_accessibility_clickable_spans = global::ValleyAuthenticator.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.tag_accessibility_heading = global::ValleyAuthenticator.Droid.Resource.Id.tag_accessibility_heading;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.tag_accessibility_pane_title = global::ValleyAuthenticator.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.tag_screen_reader_focusable = global::ValleyAuthenticator.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.tag_transition_group = global::ValleyAuthenticator.Droid.Resource.Id.tag_transition_group;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.tag_unhandled_key_event_manager = global::ValleyAuthenticator.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.tag_unhandled_key_listeners = global::ValleyAuthenticator.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.text = global::ValleyAuthenticator.Droid.Resource.Id.text;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.text2 = global::ValleyAuthenticator.Droid.Resource.Id.text2;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.textinput_counter = global::ValleyAuthenticator.Droid.Resource.Id.textinput_counter;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.textinput_error = global::ValleyAuthenticator.Droid.Resource.Id.textinput_error;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.textinput_helper_text = global::ValleyAuthenticator.Droid.Resource.Id.textinput_helper_text;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.textSpacerNoButtons = global::ValleyAuthenticator.Droid.Resource.Id.textSpacerNoButtons;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.textSpacerNoTitle = global::ValleyAuthenticator.Droid.Resource.Id.textSpacerNoTitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.textStart = global::ValleyAuthenticator.Droid.Resource.Id.textStart;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.time = global::ValleyAuthenticator.Droid.Resource.Id.time;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.title = global::ValleyAuthenticator.Droid.Resource.Id.title;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.titleDividerNoCustom = global::ValleyAuthenticator.Droid.Resource.Id.titleDividerNoCustom;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.title_template = global::ValleyAuthenticator.Droid.Resource.Id.title_template;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.toolbar = global::ValleyAuthenticator.Droid.Resource.Id.toolbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.top = global::ValleyAuthenticator.Droid.Resource.Id.top;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.topPanel = global::ValleyAuthenticator.Droid.Resource.Id.topPanel;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.touch_outside = global::ValleyAuthenticator.Droid.Resource.Id.touch_outside;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.transition_current_scene = global::ValleyAuthenticator.Droid.Resource.Id.transition_current_scene;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.transition_layout_save = global::ValleyAuthenticator.Droid.Resource.Id.transition_layout_save;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.transition_position = global::ValleyAuthenticator.Droid.Resource.Id.transition_position;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.transition_scene_layoutid_cache = global::ValleyAuthenticator.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.transition_transform = global::ValleyAuthenticator.Droid.Resource.Id.transition_transform;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.@unchecked = global::ValleyAuthenticator.Droid.Resource.Id.@unchecked;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.uniform = global::ValleyAuthenticator.Droid.Resource.Id.uniform;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.unlabeled = global::ValleyAuthenticator.Droid.Resource.Id.unlabeled;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.up = global::ValleyAuthenticator.Droid.Resource.Id.up;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.useLogo = global::ValleyAuthenticator.Droid.Resource.Id.useLogo;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.view_offset_helper = global::ValleyAuthenticator.Droid.Resource.Id.view_offset_helper;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.visible = global::ValleyAuthenticator.Droid.Resource.Id.visible;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.withText = global::ValleyAuthenticator.Droid.Resource.Id.withText;
+			global::ZXing.Net.Mobile.Forms.Resource.Id.wrap_content = global::ValleyAuthenticator.Droid.Resource.Id.wrap_content;
+			global::ZXing.Net.Mobile.Forms.Resource.Integer.abc_config_activityDefaultDur = global::ValleyAuthenticator.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::ZXing.Net.Mobile.Forms.Resource.Integer.abc_config_activityShortDur = global::ValleyAuthenticator.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::ZXing.Net.Mobile.Forms.Resource.Integer.app_bar_elevation_anim_duration = global::ValleyAuthenticator.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::ZXing.Net.Mobile.Forms.Resource.Integer.bottom_sheet_slide_duration = global::ValleyAuthenticator.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::ZXing.Net.Mobile.Forms.Resource.Integer.cancel_button_image_alpha = global::ValleyAuthenticator.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Integer.config_tooltipAnimTime = global::ValleyAuthenticator.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::ZXing.Net.Mobile.Forms.Resource.Integer.design_snackbar_text_max_lines = global::ValleyAuthenticator.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::ZXing.Net.Mobile.Forms.Resource.Integer.design_tab_indicator_anim_duration_ms = global::ValleyAuthenticator.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::ZXing.Net.Mobile.Forms.Resource.Integer.hide_password_duration = global::ValleyAuthenticator.Droid.Resource.Integer.hide_password_duration;
+			global::ZXing.Net.Mobile.Forms.Resource.Integer.mtrl_btn_anim_delay_ms = global::ValleyAuthenticator.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::ZXing.Net.Mobile.Forms.Resource.Integer.mtrl_btn_anim_duration_ms = global::ValleyAuthenticator.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::ZXing.Net.Mobile.Forms.Resource.Integer.mtrl_chip_anim_duration = global::ValleyAuthenticator.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::ZXing.Net.Mobile.Forms.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::ValleyAuthenticator.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::ZXing.Net.Mobile.Forms.Resource.Integer.show_password_duration = global::ValleyAuthenticator.Droid.Resource.Integer.show_password_duration;
+			global::ZXing.Net.Mobile.Forms.Resource.Integer.status_bar_notification_info_maxnum = global::ValleyAuthenticator.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::ZXing.Net.Mobile.Forms.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::ValleyAuthenticator.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::ZXing.Net.Mobile.Forms.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::ValleyAuthenticator.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::ZXing.Net.Mobile.Forms.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::ValleyAuthenticator.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::ZXing.Net.Mobile.Forms.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::ValleyAuthenticator.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::ZXing.Net.Mobile.Forms.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::ValleyAuthenticator.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::ZXing.Net.Mobile.Forms.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::ValleyAuthenticator.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::ZXing.Net.Mobile.Forms.Resource.Interpolator.fast_out_slow_in = global::ValleyAuthenticator.Droid.Resource.Interpolator.fast_out_slow_in;
+			global::ZXing.Net.Mobile.Forms.Resource.Interpolator.mtrl_fast_out_linear_in = global::ValleyAuthenticator.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::ZXing.Net.Mobile.Forms.Resource.Interpolator.mtrl_fast_out_slow_in = global::ValleyAuthenticator.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::ZXing.Net.Mobile.Forms.Resource.Interpolator.mtrl_linear = global::ValleyAuthenticator.Droid.Resource.Interpolator.mtrl_linear;
+			global::ZXing.Net.Mobile.Forms.Resource.Interpolator.mtrl_linear_out_slow_in = global::ValleyAuthenticator.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_action_bar_title_item = global::ValleyAuthenticator.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_action_bar_up_container = global::ValleyAuthenticator.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_action_menu_item_layout = global::ValleyAuthenticator.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_action_menu_layout = global::ValleyAuthenticator.Droid.Resource.Layout.abc_action_menu_layout;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_action_mode_bar = global::ValleyAuthenticator.Droid.Resource.Layout.abc_action_mode_bar;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_action_mode_close_item_material = global::ValleyAuthenticator.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_activity_chooser_view = global::ValleyAuthenticator.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_activity_chooser_view_list_item = global::ValleyAuthenticator.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_alert_dialog_button_bar_material = global::ValleyAuthenticator.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_alert_dialog_material = global::ValleyAuthenticator.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_alert_dialog_title_material = global::ValleyAuthenticator.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_cascading_menu_item_layout = global::ValleyAuthenticator.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_dialog_title_material = global::ValleyAuthenticator.Droid.Resource.Layout.abc_dialog_title_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_expanded_menu_layout = global::ValleyAuthenticator.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_list_menu_item_checkbox = global::ValleyAuthenticator.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_list_menu_item_icon = global::ValleyAuthenticator.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_list_menu_item_layout = global::ValleyAuthenticator.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_list_menu_item_radio = global::ValleyAuthenticator.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_popup_menu_header_item_layout = global::ValleyAuthenticator.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_popup_menu_item_layout = global::ValleyAuthenticator.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_screen_content_include = global::ValleyAuthenticator.Droid.Resource.Layout.abc_screen_content_include;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_screen_simple = global::ValleyAuthenticator.Droid.Resource.Layout.abc_screen_simple;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_screen_simple_overlay_action_mode = global::ValleyAuthenticator.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_screen_toolbar = global::ValleyAuthenticator.Droid.Resource.Layout.abc_screen_toolbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_search_dropdown_item_icons_2line = global::ValleyAuthenticator.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_search_view = global::ValleyAuthenticator.Droid.Resource.Layout.abc_search_view;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_select_dialog_material = global::ValleyAuthenticator.Droid.Resource.Layout.abc_select_dialog_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.abc_tooltip = global::ValleyAuthenticator.Droid.Resource.Layout.abc_tooltip;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.BottomTabLayout = global::ValleyAuthenticator.Droid.Resource.Layout.BottomTabLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.browser_actions_context_menu_page = global::ValleyAuthenticator.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.browser_actions_context_menu_row = global::ValleyAuthenticator.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.custom_dialog = global::ValleyAuthenticator.Droid.Resource.Layout.custom_dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.design_bottom_navigation_item = global::ValleyAuthenticator.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.design_bottom_sheet_dialog = global::ValleyAuthenticator.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.design_layout_snackbar = global::ValleyAuthenticator.Droid.Resource.Layout.design_layout_snackbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.design_layout_snackbar_include = global::ValleyAuthenticator.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.design_layout_tab_icon = global::ValleyAuthenticator.Droid.Resource.Layout.design_layout_tab_icon;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.design_layout_tab_text = global::ValleyAuthenticator.Droid.Resource.Layout.design_layout_tab_text;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.design_menu_item_action_area = global::ValleyAuthenticator.Droid.Resource.Layout.design_menu_item_action_area;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.design_navigation_item = global::ValleyAuthenticator.Droid.Resource.Layout.design_navigation_item;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.design_navigation_item_header = global::ValleyAuthenticator.Droid.Resource.Layout.design_navigation_item_header;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.design_navigation_item_separator = global::ValleyAuthenticator.Droid.Resource.Layout.design_navigation_item_separator;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.design_navigation_item_subheader = global::ValleyAuthenticator.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.design_navigation_menu = global::ValleyAuthenticator.Droid.Resource.Layout.design_navigation_menu;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.design_navigation_menu_item = global::ValleyAuthenticator.Droid.Resource.Layout.design_navigation_menu_item;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.FallbackTabbarDoNotUse = global::ValleyAuthenticator.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.FallbackToolbarDoNotUse = global::ValleyAuthenticator.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.FlyoutContent = global::ValleyAuthenticator.Droid.Resource.Layout.FlyoutContent;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.mtrl_layout_snackbar = global::ValleyAuthenticator.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.mtrl_layout_snackbar_include = global::ValleyAuthenticator.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.notification_action = global::ValleyAuthenticator.Droid.Resource.Layout.notification_action;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.notification_action_tombstone = global::ValleyAuthenticator.Droid.Resource.Layout.notification_action_tombstone;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.notification_media_action = global::ValleyAuthenticator.Droid.Resource.Layout.notification_media_action;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.notification_media_cancel_action = global::ValleyAuthenticator.Droid.Resource.Layout.notification_media_cancel_action;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.notification_template_big_media = global::ValleyAuthenticator.Droid.Resource.Layout.notification_template_big_media;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.notification_template_big_media_custom = global::ValleyAuthenticator.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.notification_template_big_media_narrow = global::ValleyAuthenticator.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.notification_template_big_media_narrow_custom = global::ValleyAuthenticator.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.notification_template_custom_big = global::ValleyAuthenticator.Droid.Resource.Layout.notification_template_custom_big;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.notification_template_icon_group = global::ValleyAuthenticator.Droid.Resource.Layout.notification_template_icon_group;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.notification_template_lines_media = global::ValleyAuthenticator.Droid.Resource.Layout.notification_template_lines_media;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.notification_template_media = global::ValleyAuthenticator.Droid.Resource.Layout.notification_template_media;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.notification_template_media_custom = global::ValleyAuthenticator.Droid.Resource.Layout.notification_template_media_custom;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.notification_template_part_chronometer = global::ValleyAuthenticator.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.notification_template_part_time = global::ValleyAuthenticator.Droid.Resource.Layout.notification_template_part_time;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.RootLayout = global::ValleyAuthenticator.Droid.Resource.Layout.RootLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.select_dialog_item_material = global::ValleyAuthenticator.Droid.Resource.Layout.select_dialog_item_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.select_dialog_multichoice_material = global::ValleyAuthenticator.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.select_dialog_singlechoice_material = global::ValleyAuthenticator.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.ShellContent = global::ValleyAuthenticator.Droid.Resource.Layout.ShellContent;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.support_simple_spinner_dropdown_item = global::ValleyAuthenticator.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.Tabbar = global::ValleyAuthenticator.Droid.Resource.Layout.Tabbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.Toolbar = global::ValleyAuthenticator.Droid.Resource.Layout.Toolbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.zxingscanneractivitylayout = global::ValleyAuthenticator.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Layout.zxingscannerfragmentlayout = global::ValleyAuthenticator.Droid.Resource.Layout.zxingscannerfragmentlayout;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_action_bar_home_description = global::ValleyAuthenticator.Droid.Resource.String.abc_action_bar_home_description;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_action_bar_up_description = global::ValleyAuthenticator.Droid.Resource.String.abc_action_bar_up_description;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_action_menu_overflow_description = global::ValleyAuthenticator.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_action_mode_done = global::ValleyAuthenticator.Droid.Resource.String.abc_action_mode_done;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_activitychooserview_choose_application = global::ValleyAuthenticator.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_activity_chooser_view_see_all = global::ValleyAuthenticator.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_capital_off = global::ValleyAuthenticator.Droid.Resource.String.abc_capital_off;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_capital_on = global::ValleyAuthenticator.Droid.Resource.String.abc_capital_on;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_menu_alt_shortcut_label = global::ValleyAuthenticator.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_menu_ctrl_shortcut_label = global::ValleyAuthenticator.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_menu_delete_shortcut_label = global::ValleyAuthenticator.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_menu_enter_shortcut_label = global::ValleyAuthenticator.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_menu_function_shortcut_label = global::ValleyAuthenticator.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_menu_meta_shortcut_label = global::ValleyAuthenticator.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_menu_shift_shortcut_label = global::ValleyAuthenticator.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_menu_space_shortcut_label = global::ValleyAuthenticator.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_menu_sym_shortcut_label = global::ValleyAuthenticator.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_prepend_shortcut_label = global::ValleyAuthenticator.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_searchview_description_clear = global::ValleyAuthenticator.Droid.Resource.String.abc_searchview_description_clear;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_searchview_description_query = global::ValleyAuthenticator.Droid.Resource.String.abc_searchview_description_query;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_searchview_description_search = global::ValleyAuthenticator.Droid.Resource.String.abc_searchview_description_search;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_searchview_description_submit = global::ValleyAuthenticator.Droid.Resource.String.abc_searchview_description_submit;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_searchview_description_voice = global::ValleyAuthenticator.Droid.Resource.String.abc_searchview_description_voice;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_search_hint = global::ValleyAuthenticator.Droid.Resource.String.abc_search_hint;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_shareactionprovider_share_with = global::ValleyAuthenticator.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_shareactionprovider_share_with_application = global::ValleyAuthenticator.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::ZXing.Net.Mobile.Forms.Resource.String.abc_toolbar_collapse_description = global::ValleyAuthenticator.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::ZXing.Net.Mobile.Forms.Resource.String.appbar_scrolling_view_behavior = global::ValleyAuthenticator.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::ZXing.Net.Mobile.Forms.Resource.String.bottom_sheet_behavior = global::ValleyAuthenticator.Droid.Resource.String.bottom_sheet_behavior;
+			global::ZXing.Net.Mobile.Forms.Resource.String.character_counter_content_description = global::ValleyAuthenticator.Droid.Resource.String.character_counter_content_description;
+			global::ZXing.Net.Mobile.Forms.Resource.String.character_counter_pattern = global::ValleyAuthenticator.Droid.Resource.String.character_counter_pattern;
+			global::ZXing.Net.Mobile.Forms.Resource.String.fab_transformation_scrim_behavior = global::ValleyAuthenticator.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::ZXing.Net.Mobile.Forms.Resource.String.fab_transformation_sheet_behavior = global::ValleyAuthenticator.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::ZXing.Net.Mobile.Forms.Resource.String.hide_bottom_view_on_scroll_behavior = global::ValleyAuthenticator.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::ZXing.Net.Mobile.Forms.Resource.String.mtrl_chip_close_icon_content_description = global::ValleyAuthenticator.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::ZXing.Net.Mobile.Forms.Resource.String.password_toggle_content_description = global::ValleyAuthenticator.Droid.Resource.String.password_toggle_content_description;
+			global::ZXing.Net.Mobile.Forms.Resource.String.path_password_eye = global::ValleyAuthenticator.Droid.Resource.String.path_password_eye;
+			global::ZXing.Net.Mobile.Forms.Resource.String.path_password_eye_mask_strike_through = global::ValleyAuthenticator.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::ZXing.Net.Mobile.Forms.Resource.String.path_password_eye_mask_visible = global::ValleyAuthenticator.Droid.Resource.String.path_password_eye_mask_visible;
+			global::ZXing.Net.Mobile.Forms.Resource.String.path_password_strike_through = global::ValleyAuthenticator.Droid.Resource.String.path_password_strike_through;
+			global::ZXing.Net.Mobile.Forms.Resource.String.search_menu_title = global::ValleyAuthenticator.Droid.Resource.String.search_menu_title;
+			global::ZXing.Net.Mobile.Forms.Resource.String.status_bar_notification_info_overflow = global::ValleyAuthenticator.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.AlertDialog_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.AlertDialog_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Animation_AppCompat_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Animation_AppCompat_DropDownUp = global::ValleyAuthenticator.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Animation_AppCompat_Tooltip = global::ValleyAuthenticator.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Animation_Design_BottomSheetDialog = global::ValleyAuthenticator.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_AlertDialog_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_AlertDialog_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Animation_AppCompat_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::ValleyAuthenticator.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Animation_AppCompat_Tooltip = global::ValleyAuthenticator.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_CardView = global::ValleyAuthenticator.Droid.Resource.Style.Base_CardView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_DialogWindowTitle_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Button = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Large = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Small = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Title = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_ThemeOverlay_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::ValleyAuthenticator.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::ValleyAuthenticator.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::ValleyAuthenticator.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_AppCompat_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_MaterialComponents = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_MaterialComponents_Light = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::ValleyAuthenticator.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V14_Theme_MaterialComponents = global::ValleyAuthenticator.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::ValleyAuthenticator.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::ValleyAuthenticator.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::ValleyAuthenticator.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::ValleyAuthenticator.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V21_Theme_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V21_Theme_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V22_Theme_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V22_Theme_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V23_Theme_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V23_Theme_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V26_Theme_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V26_Theme_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::ValleyAuthenticator.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V28_Theme_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V28_Theme_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V7_Theme_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V7_Theme_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::ValleyAuthenticator.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::ValleyAuthenticator.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::ValleyAuthenticator.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_ActionButton = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_ActionMode = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_Button = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_Button_Small = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_EditText = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_ImageButton = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_ListView = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_RatingBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_SearchView = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_SeekBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_Spinner = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_TextView = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_Toolbar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_Design_TabLayout = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_MaterialComponents_Chip = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.CardView = global::ValleyAuthenticator.Droid.Resource.Style.CardView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.CardView_Dark = global::ValleyAuthenticator.Droid.Resource.Style.CardView_Dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.CardView_Light = global::ValleyAuthenticator.Droid.Resource.Style.CardView_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Platform_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Platform_AppCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Platform_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Platform_MaterialComponents = global::ValleyAuthenticator.Droid.Resource.Style.Platform_MaterialComponents;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Platform_MaterialComponents_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Platform_MaterialComponents_Light = global::ValleyAuthenticator.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Platform_ThemeOverlay_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::ValleyAuthenticator.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Platform_V21_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Platform_V21_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Platform_V25_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Platform_V25_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Platform_Widget_AppCompat_Spinner = global::ValleyAuthenticator.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::ValleyAuthenticator.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::ValleyAuthenticator.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Body1 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Body2 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Button = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Caption = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Display1 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Display2 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Display3 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Display4 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Headline = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Large = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Medium = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Menu = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Small = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Subhead = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Title = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Tooltip = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_Compat_Notification = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_Compat_Notification_Info = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_Compat_Notification_Media = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_Compat_Notification_Time = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_Compat_Notification_Title = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_Design_Counter = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_Design_Counter_Overflow = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_Design_Error = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_Design_HelperText = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_Design_Hint = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_Design_Snackbar_Message = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_Design_Tab = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_MaterialComponents_Button = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_MaterialComponents_Caption = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_MaterialComponents_Chip = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_MaterialComponents_Overline = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.ThemeOverlay_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.ThemeOverlay_AppCompat_Dark = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.ThemeOverlay_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.ThemeOverlay_MaterialComponents = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_AppCompat_CompactMenu = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_AppCompat_DayNight = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_AppCompat_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_AppCompat_Dialog_Alert = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_AppCompat_Light_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_AppCompat_NoActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_Design = global::ValleyAuthenticator.Droid.Resource.Style.Theme_Design;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_Design_BottomSheetDialog = global::ValleyAuthenticator.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_Design_Light = global::ValleyAuthenticator.Droid.Resource.Style.Theme_Design_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::ValleyAuthenticator.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_Design_Light_NoActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_Design_NoActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_MaterialComponents = global::ValleyAuthenticator.Droid.Resource.Style.Theme_MaterialComponents;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::ValleyAuthenticator.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_MaterialComponents_Bridge = global::ValleyAuthenticator.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_MaterialComponents_CompactMenu = global::ValleyAuthenticator.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_MaterialComponents_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::ValleyAuthenticator.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::ValleyAuthenticator.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::ValleyAuthenticator.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_MaterialComponents_Light = global::ValleyAuthenticator.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::ValleyAuthenticator.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::ValleyAuthenticator.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::ValleyAuthenticator.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::ValleyAuthenticator.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::ValleyAuthenticator.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::ValleyAuthenticator.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::ValleyAuthenticator.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_MaterialComponents_NoActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::ValleyAuthenticator.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_ActionButton = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_ActionMode = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_ActivityChooserView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Button = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_ButtonBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Button_Borderless = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Button_Colored = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Button_Small = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_EditText = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_ImageButton = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Light_ActionButton = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Light_SearchView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_ListMenuView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_ListPopupWindow = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_ListView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_ListView_DropDown = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_ListView_Menu = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_PopupMenu = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_PopupWindow = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_ProgressBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_RatingBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_RatingBar_Small = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_SearchView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_SeekBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Spinner = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_TextView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_TextView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Toolbar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_Compat_NotificationActionContainer = global::ValleyAuthenticator.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_Compat_NotificationActionText = global::ValleyAuthenticator.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_Design_AppBarLayout = global::ValleyAuthenticator.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_Design_BottomNavigationView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_Design_BottomSheet_Modal = global::ValleyAuthenticator.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_Design_CollapsingToolbar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_Design_FloatingActionButton = global::ValleyAuthenticator.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_Design_NavigationView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::ValleyAuthenticator.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_Design_Snackbar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_Design_TabLayout = global::ValleyAuthenticator.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_Design_TextInputLayout = global::ValleyAuthenticator.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_Button = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_Button_Icon = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_CardView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_ChipGroup = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_Chip_Action = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_NavigationView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_Snackbar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_TabLayout = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_MaterialComponents_Toolbar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Style.Widget_Support_CoordinatorLayout = global::ValleyAuthenticator.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBarLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBarLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_background = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_background;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_backgroundSplit = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_backgroundStacked = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_contentInsetEnd = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_contentInsetLeft = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_contentInsetRight = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_contentInsetStart = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_customNavigationLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_displayOptions = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_divider = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_divider;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_elevation = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_elevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_height = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_height;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_hideOnContentScroll = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_homeAsUpIndicator = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_homeLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_icon = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_icon;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_itemPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_logo = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_logo;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_navigationMode = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_popupTheme = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_progressBarPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_progressBarStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_subtitle = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_subtitleTextStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_title = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_title;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionBar_titleTextStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionMenuItemView = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionMenuItemView;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionMenuItemView_android_minWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionMenuView = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionMenuView;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionMode = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionMode_background = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionMode_background;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionMode_backgroundSplit = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionMode_closeItemLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionMode_height = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionMode_height;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionMode_subtitleTextStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActionMode_titleTextStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActivityChooserView = global::ValleyAuthenticator.Droid.Resource.Styleable.ActivityChooserView;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ActivityChooserView_initialActivityCount = global::ValleyAuthenticator.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AlertDialog = global::ValleyAuthenticator.Droid.Resource.Styleable.AlertDialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AlertDialog_android_layout = global::ValleyAuthenticator.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AlertDialog_buttonIconDimen = global::ValleyAuthenticator.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AlertDialog_listItemLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AlertDialog_listLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AlertDialog_showTitle = global::ValleyAuthenticator.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AnimatedStateListDrawableCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AnimatedStateListDrawableItem = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AnimatedStateListDrawableTransition = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppBarLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.AppBarLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppBarLayoutStates = global::ValleyAuthenticator.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::ValleyAuthenticator.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::ValleyAuthenticator.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppBarLayoutStates_state_liftable = global::ValleyAuthenticator.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppBarLayoutStates_state_lifted = global::ValleyAuthenticator.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppBarLayout_android_background = global::ValleyAuthenticator.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::ValleyAuthenticator.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::ValleyAuthenticator.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppBarLayout_elevation = global::ValleyAuthenticator.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppBarLayout_expanded = global::ValleyAuthenticator.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppBarLayout_Layout = global::ValleyAuthenticator.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::ValleyAuthenticator.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::ValleyAuthenticator.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppBarLayout_liftOnScroll = global::ValleyAuthenticator.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatImageView = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatImageView;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatImageView_android_src = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatImageView_srcCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatImageView_tint = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatImageView_tintMode = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatSeekBar = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatSeekBar_android_thumb = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatSeekBar_tickMark = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextHelper = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextView = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextView_android_textAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextView_drawableTint = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextView_drawableTintMode = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextView_fontFamily = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextView_lineHeight = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextView_textAllCaps = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTextView_textLocale = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_textLocale;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionBarDivider = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionBarSize = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionBarStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionBarTheme = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionModeBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionModeStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_buttonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_checkboxStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_colorAccent = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_colorControlActivated = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_colorControlNormal = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_colorError = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_colorPrimary = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_controlBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_dialogTheme = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_dividerVertical = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_editTextBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_editTextColor = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_editTextStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_panelBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_searchViewStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_seekBarStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_spinnerStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_switchStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_toolbarStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_windowActionBar = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.AppCompatTheme_windowNoTitle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.BottomAppBar = global::ValleyAuthenticator.Droid.Resource.Styleable.BottomAppBar;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.BottomAppBar_backgroundTint = global::ValleyAuthenticator.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::ValleyAuthenticator.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.BottomAppBar_fabCradleMargin = global::ValleyAuthenticator.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::ValleyAuthenticator.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::ValleyAuthenticator.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.BottomAppBar_hideOnScroll = global::ValleyAuthenticator.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.BottomNavigationView = global::ValleyAuthenticator.Droid.Resource.Styleable.BottomNavigationView;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::ValleyAuthenticator.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.BottomSheetBehavior_Layout = global::ValleyAuthenticator.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::ValleyAuthenticator.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::ValleyAuthenticator.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::ValleyAuthenticator.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::ValleyAuthenticator.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ButtonBarLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.ButtonBarLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ButtonBarLayout_allowStacking = global::ValleyAuthenticator.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CardView = global::ValleyAuthenticator.Droid.Resource.Styleable.CardView;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CardView_android_minHeight = global::ValleyAuthenticator.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CardView_android_minWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CardView_cardBackgroundColor = global::ValleyAuthenticator.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CardView_cardCornerRadius = global::ValleyAuthenticator.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CardView_cardElevation = global::ValleyAuthenticator.Droid.Resource.Styleable.CardView_cardElevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CardView_cardMaxElevation = global::ValleyAuthenticator.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CardView_cardPreventCornerOverlap = global::ValleyAuthenticator.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CardView_cardUseCompatPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CardView_contentPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.CardView_contentPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CardView_contentPaddingBottom = global::ValleyAuthenticator.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CardView_contentPaddingLeft = global::ValleyAuthenticator.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CardView_contentPaddingRight = global::ValleyAuthenticator.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CardView_contentPaddingTop = global::ValleyAuthenticator.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ChipGroup = global::ValleyAuthenticator.Droid.Resource.Styleable.ChipGroup;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ChipGroup_checkedChip = global::ValleyAuthenticator.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ChipGroup_chipSpacing = global::ValleyAuthenticator.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::ValleyAuthenticator.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ChipGroup_chipSpacingVertical = global::ValleyAuthenticator.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ChipGroup_singleLine = global::ValleyAuthenticator.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ChipGroup_singleSelection = global::ValleyAuthenticator.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_android_checkable = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_android_checkable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_android_ellipsize = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_android_maxWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_android_text = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_android_text;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_android_textAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_checkedIcon = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_checkedIconEnabled = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_checkedIconVisible = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_chipBackgroundColor = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_chipCornerRadius = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_chipEndPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_chipIcon = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_chipIcon;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_chipIconEnabled = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_chipIconSize = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_chipIconTint = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_chipIconVisible = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_chipMinHeight = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_chipStartPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_chipStrokeColor = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_chipStrokeWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_closeIcon = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_closeIcon;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_closeIconEnabled = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_closeIconEndPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_closeIconSize = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_closeIconStartPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_closeIconTint = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_closeIconVisible = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_hideMotionSpec = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_iconEndPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_iconStartPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_rippleColor = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_rippleColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_showMotionSpec = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_textEndPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Chip_textStartPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CollapsingToolbarLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::ValleyAuthenticator.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::ValleyAuthenticator.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::ValleyAuthenticator.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::ValleyAuthenticator.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::ValleyAuthenticator.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::ValleyAuthenticator.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::ValleyAuthenticator.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::ValleyAuthenticator.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CollapsingToolbarLayout_Layout = global::ValleyAuthenticator.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::ValleyAuthenticator.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::ValleyAuthenticator.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::ValleyAuthenticator.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::ValleyAuthenticator.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::ValleyAuthenticator.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CollapsingToolbarLayout_title = global::ValleyAuthenticator.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::ValleyAuthenticator.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::ValleyAuthenticator.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ColorStateListItem = global::ValleyAuthenticator.Droid.Resource.Styleable.ColorStateListItem;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ColorStateListItem_alpha = global::ValleyAuthenticator.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ColorStateListItem_android_alpha = global::ValleyAuthenticator.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ColorStateListItem_android_color = global::ValleyAuthenticator.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CompoundButton = global::ValleyAuthenticator.Droid.Resource.Styleable.CompoundButton;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CompoundButton_android_button = global::ValleyAuthenticator.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CompoundButton_buttonCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.CompoundButton_buttonCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CompoundButton_buttonTint = global::ValleyAuthenticator.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CompoundButton_buttonTintMode = global::ValleyAuthenticator.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CoordinatorLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.CoordinatorLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CoordinatorLayout_keylines = global::ValleyAuthenticator.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CoordinatorLayout_Layout = global::ValleyAuthenticator.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::ValleyAuthenticator.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::ValleyAuthenticator.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::ValleyAuthenticator.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::ValleyAuthenticator.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::ValleyAuthenticator.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::ValleyAuthenticator.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::ValleyAuthenticator.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.DrawerArrowToggle = global::ValleyAuthenticator.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::ValleyAuthenticator.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::ValleyAuthenticator.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.DrawerArrowToggle_barLength = global::ValleyAuthenticator.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.DrawerArrowToggle_color = global::ValleyAuthenticator.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.DrawerArrowToggle_drawableSize = global::ValleyAuthenticator.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::ValleyAuthenticator.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.DrawerArrowToggle_spinBars = global::ValleyAuthenticator.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.DrawerArrowToggle_thickness = global::ValleyAuthenticator.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FloatingActionButton = global::ValleyAuthenticator.Droid.Resource.Styleable.FloatingActionButton;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FloatingActionButton_backgroundTint = global::ValleyAuthenticator.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::ValleyAuthenticator.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::ValleyAuthenticator.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::ValleyAuthenticator.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FloatingActionButton_borderWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FloatingActionButton_elevation = global::ValleyAuthenticator.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FloatingActionButton_fabCustomSize = global::ValleyAuthenticator.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FloatingActionButton_fabSize = global::ValleyAuthenticator.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::ValleyAuthenticator.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::ValleyAuthenticator.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FloatingActionButton_maxImageSize = global::ValleyAuthenticator.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::ValleyAuthenticator.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FloatingActionButton_rippleColor = global::ValleyAuthenticator.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FloatingActionButton_showMotionSpec = global::ValleyAuthenticator.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FloatingActionButton_useCompatPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FlowLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.FlowLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FlowLayout_itemSpacing = global::ValleyAuthenticator.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FlowLayout_lineSpacing = global::ValleyAuthenticator.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FontFamily = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamily;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FontFamilyFont = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamilyFont;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FontFamilyFont_android_font = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FontFamilyFont_android_fontStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FontFamilyFont_android_fontWeight = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FontFamilyFont_font = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FontFamilyFont_fontStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FontFamilyFont_fontWeight = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FontFamilyFont_ttcIndex = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FontFamily_fontProviderAuthority = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FontFamily_fontProviderCerts = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FontFamily_fontProviderPackage = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.FontFamily_fontProviderQuery = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ForegroundLinearLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::ValleyAuthenticator.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::ValleyAuthenticator.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::ValleyAuthenticator.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.GradientColor = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.GradientColorItem = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColorItem;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.GradientColorItem_android_color = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.GradientColorItem_android_offset = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.GradientColor_android_centerColor = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.GradientColor_android_centerX = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.GradientColor_android_centerY = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.GradientColor_android_endColor = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.GradientColor_android_endX = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.GradientColor_android_endY = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.GradientColor_android_gradientRadius = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.GradientColor_android_startColor = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.GradientColor_android_startX = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.GradientColor_android_startY = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.GradientColor_android_tileMode = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.GradientColor_android_type = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_type;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.LinearLayoutCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.LinearLayoutCompat_android_gravity = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.LinearLayoutCompat_android_orientation = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.LinearLayoutCompat_divider = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.LinearLayoutCompat_Layout = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.LinearLayoutCompat_showDividers = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ListPopupWindow = global::ValleyAuthenticator.Droid.Resource.Styleable.ListPopupWindow;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::ValleyAuthenticator.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::ValleyAuthenticator.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MaterialButton = global::ValleyAuthenticator.Droid.Resource.Styleable.MaterialButton;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MaterialButton_android_insetBottom = global::ValleyAuthenticator.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MaterialButton_android_insetLeft = global::ValleyAuthenticator.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MaterialButton_android_insetRight = global::ValleyAuthenticator.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MaterialButton_android_insetTop = global::ValleyAuthenticator.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MaterialButton_backgroundTint = global::ValleyAuthenticator.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MaterialButton_backgroundTintMode = global::ValleyAuthenticator.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MaterialButton_cornerRadius = global::ValleyAuthenticator.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MaterialButton_icon = global::ValleyAuthenticator.Droid.Resource.Styleable.MaterialButton_icon;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MaterialButton_iconGravity = global::ValleyAuthenticator.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MaterialButton_iconPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MaterialButton_iconSize = global::ValleyAuthenticator.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MaterialButton_iconTint = global::ValleyAuthenticator.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MaterialButton_iconTintMode = global::ValleyAuthenticator.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MaterialButton_rippleColor = global::ValleyAuthenticator.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MaterialButton_strokeColor = global::ValleyAuthenticator.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MaterialButton_strokeWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MaterialCardView = global::ValleyAuthenticator.Droid.Resource.Styleable.MaterialCardView;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MaterialCardView_strokeColor = global::ValleyAuthenticator.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MaterialCardView_strokeWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuGroup = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuGroup;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuGroup_android_checkableBehavior = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuGroup_android_enabled = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuGroup_android_id = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuGroup_android_menuCategory = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuGroup_android_orderInCategory = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuGroup_android_visible = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_actionLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_actionProviderClass = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_actionViewClass = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_alphabeticModifiers = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_android_checkable = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_android_checked = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_android_enabled = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_android_icon = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_android_id = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_id;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_android_menuCategory = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_android_numericShortcut = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_android_onClick = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_android_orderInCategory = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_android_title = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_title;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_android_titleCondensed = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_android_visible = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_contentDescription = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_iconTint = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_iconTintMode = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_numericModifiers = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_showAsAction = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuItem_tooltipText = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuView = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuView;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuView_android_headerBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuView_android_horizontalDivider = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuView_android_itemBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuView_android_itemTextAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuView_android_verticalDivider = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuView_android_windowAnimationStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuView_preserveIconSpacing = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.MenuView_subMenuArrow = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.NavigationView = global::ValleyAuthenticator.Droid.Resource.Styleable.NavigationView;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.NavigationView_android_background = global::ValleyAuthenticator.Droid.Resource.Styleable.NavigationView_android_background;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::ValleyAuthenticator.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.NavigationView_android_maxWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.NavigationView_elevation = global::ValleyAuthenticator.Droid.Resource.Styleable.NavigationView_elevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.NavigationView_headerLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.NavigationView_itemBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.NavigationView_itemHorizontalPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.NavigationView_itemIconPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.NavigationView_itemIconTint = global::ValleyAuthenticator.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.NavigationView_itemTextAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.NavigationView_itemTextColor = global::ValleyAuthenticator.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.NavigationView_menu = global::ValleyAuthenticator.Droid.Resource.Styleable.NavigationView_menu;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.PopupWindow = global::ValleyAuthenticator.Droid.Resource.Styleable.PopupWindow;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.PopupWindowBackgroundState = global::ValleyAuthenticator.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::ValleyAuthenticator.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.PopupWindow_android_popupBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.PopupWindow_overlapAnchor = global::ValleyAuthenticator.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.RecycleListView = global::ValleyAuthenticator.Droid.Resource.Styleable.RecycleListView;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::ValleyAuthenticator.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::ValleyAuthenticator.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.RecyclerView = global::ValleyAuthenticator.Droid.Resource.Styleable.RecyclerView;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.RecyclerView_android_clipToPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.RecyclerView_android_descendantFocusability = global::ValleyAuthenticator.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.RecyclerView_android_orientation = global::ValleyAuthenticator.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.RecyclerView_fastScrollEnabled = global::ValleyAuthenticator.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.RecyclerView_layoutManager = global::ValleyAuthenticator.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.RecyclerView_reverseLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.RecyclerView_spanCount = global::ValleyAuthenticator.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.RecyclerView_stackFromEnd = global::ValleyAuthenticator.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ScrimInsetsFrameLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::ValleyAuthenticator.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ScrollingViewBehavior_Layout = global::ValleyAuthenticator.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::ValleyAuthenticator.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SearchView = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SearchView_android_focusable = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SearchView_android_imeOptions = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SearchView_android_inputType = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SearchView_android_maxWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SearchView_closeIcon = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SearchView_commitIcon = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SearchView_defaultQueryHint = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SearchView_goIcon = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_goIcon;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SearchView_iconifiedByDefault = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SearchView_layout = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_layout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SearchView_queryBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SearchView_queryHint = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_queryHint;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SearchView_searchHintIcon = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SearchView_searchIcon = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SearchView_submitBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SearchView_suggestionRowLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SearchView_voiceIcon = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Snackbar = global::ValleyAuthenticator.Droid.Resource.Styleable.Snackbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SnackbarLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.SnackbarLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SnackbarLayout_android_maxWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SnackbarLayout_elevation = global::ValleyAuthenticator.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Snackbar_snackbarButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Snackbar_snackbarStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Spinner = global::ValleyAuthenticator.Droid.Resource.Styleable.Spinner;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Spinner_android_dropDownWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Spinner_android_entries = global::ValleyAuthenticator.Droid.Resource.Styleable.Spinner_android_entries;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Spinner_android_popupBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Spinner_android_prompt = global::ValleyAuthenticator.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Spinner_popupTheme = global::ValleyAuthenticator.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.StateListDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.StateListDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.StateListDrawableItem = global::ValleyAuthenticator.Droid.Resource.Styleable.StateListDrawableItem;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.StateListDrawableItem_android_drawable = global::ValleyAuthenticator.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.StateListDrawable_android_constantSize = global::ValleyAuthenticator.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.StateListDrawable_android_dither = global::ValleyAuthenticator.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::ValleyAuthenticator.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::ValleyAuthenticator.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.StateListDrawable_android_variablePadding = global::ValleyAuthenticator.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.StateListDrawable_android_visible = global::ValleyAuthenticator.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SwitchCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SwitchCompat_android_textOff = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SwitchCompat_android_textOn = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SwitchCompat_android_thumb = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SwitchCompat_showText = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SwitchCompat_splitTrack = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SwitchCompat_switchMinWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SwitchCompat_switchPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SwitchCompat_switchTextAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SwitchCompat_thumbTextPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SwitchCompat_thumbTint = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SwitchCompat_thumbTintMode = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SwitchCompat_track = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_track;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SwitchCompat_trackTint = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.SwitchCompat_trackTintMode = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabItem = global::ValleyAuthenticator.Droid.Resource.Styleable.TabItem;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabItem_android_icon = global::ValleyAuthenticator.Droid.Resource.Styleable.TabItem_android_icon;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabItem_android_layout = global::ValleyAuthenticator.Droid.Resource.Styleable.TabItem_android_layout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabItem_android_text = global::ValleyAuthenticator.Droid.Resource.Styleable.TabItem_android_text;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabContentStart = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabGravity = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabIconTint = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabIconTintMode = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabIndicator = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabIndicatorColor = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabIndicatorGravity = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabIndicatorHeight = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabInlineLabel = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabMaxWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabMinWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabMode = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabPaddingBottom = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabPaddingEnd = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabPaddingStart = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabPaddingTop = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabRippleColor = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabSelectedTextColor = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabTextAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabTextColor = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TabLayout_tabUnboundedRipple = global::ValleyAuthenticator.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextAppearance_android_fontFamily = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextAppearance_android_shadowColor = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextAppearance_android_shadowDx = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextAppearance_android_shadowDy = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextAppearance_android_shadowRadius = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextAppearance_android_textColor = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextAppearance_android_textColorHint = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextAppearance_android_textColorLink = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextAppearance_android_textFontWeight = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextAppearance_android_textSize = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextAppearance_android_textStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextAppearance_android_typeface = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextAppearance_fontFamily = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextAppearance_fontVariationSettings = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextAppearance_textAllCaps = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextAppearance_textLocale = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_android_hint = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_android_textColorHint = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_boxStrokeColor = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_counterEnabled = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_counterMaxLength = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_counterTextAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_errorEnabled = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_errorTextAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_helperText = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_helperTextEnabled = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_hintEnabled = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_hintTextAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_passwordToggleTint = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::ValleyAuthenticator.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ThemeEnforcement = global::ValleyAuthenticator.Droid.Resource.Styleable.ThemeEnforcement;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::ValleyAuthenticator.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_android_gravity = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_android_minHeight = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_buttonGravity = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_collapseContentDescription = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_collapseIcon = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_contentInsetEnd = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_contentInsetLeft = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_contentInsetRight = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_contentInsetStart = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_logo = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_logo;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_logoDescription = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_maxButtonHeight = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_menu = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_menu;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_navigationContentDescription = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_navigationIcon = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_popupTheme = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_subtitle = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_subtitleTextAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_subtitleTextColor = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_title = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_title;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_titleMargin = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_titleMarginBottom = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_titleMarginEnd = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_titleMargins = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_titleMarginStart = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_titleMarginTop = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_titleTextAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.Toolbar_titleTextColor = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.View = global::ValleyAuthenticator.Droid.Resource.Styleable.View;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ViewBackgroundHelper = global::ValleyAuthenticator.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ViewBackgroundHelper_android_background = global::ValleyAuthenticator.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::ValleyAuthenticator.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::ValleyAuthenticator.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ViewStubCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.ViewStubCompat;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ViewStubCompat_android_id = global::ValleyAuthenticator.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ViewStubCompat_android_inflatedId = global::ValleyAuthenticator.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.ViewStubCompat_android_layout = global::ValleyAuthenticator.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.View_android_focusable = global::ValleyAuthenticator.Droid.Resource.Styleable.View_android_focusable;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.View_android_theme = global::ValleyAuthenticator.Droid.Resource.Styleable.View_android_theme;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.View_paddingEnd = global::ValleyAuthenticator.Droid.Resource.Styleable.View_paddingEnd;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.View_paddingStart = global::ValleyAuthenticator.Droid.Resource.Styleable.View_paddingStart;
+			global::ZXing.Net.Mobile.Forms.Resource.Styleable.View_theme = global::ValleyAuthenticator.Droid.Resource.Styleable.View_theme;
+			global::ZXing.Net.Mobile.Forms.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::ValleyAuthenticator.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_fade_in = global::ValleyAuthenticator.Droid.Resource.Animation.abc_fade_in;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_fade_out = global::ValleyAuthenticator.Droid.Resource.Animation.abc_fade_out;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_grow_fade_in_from_bottom = global::ValleyAuthenticator.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_popup_enter = global::ValleyAuthenticator.Droid.Resource.Animation.abc_popup_enter;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_popup_exit = global::ValleyAuthenticator.Droid.Resource.Animation.abc_popup_exit;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_shrink_fade_out_from_bottom = global::ValleyAuthenticator.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_slide_in_bottom = global::ValleyAuthenticator.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_slide_in_top = global::ValleyAuthenticator.Droid.Resource.Animation.abc_slide_in_top;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_slide_out_bottom = global::ValleyAuthenticator.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_slide_out_top = global::ValleyAuthenticator.Droid.Resource.Animation.abc_slide_out_top;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_tooltip_enter = global::ValleyAuthenticator.Droid.Resource.Animation.abc_tooltip_enter;
+			global::ZXing.Net.Mobile.Resource.Animation.abc_tooltip_exit = global::ValleyAuthenticator.Droid.Resource.Animation.abc_tooltip_exit;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::ZXing.Net.Mobile.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::ValleyAuthenticator.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionBarDivider = global::ValleyAuthenticator.Droid.Resource.Attribute.actionBarDivider;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionBarItemBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.actionBarItemBackground;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionBarPopupTheme = global::ValleyAuthenticator.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionBarSize = global::ValleyAuthenticator.Droid.Resource.Attribute.actionBarSize;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionBarSplitStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionBarStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionBarStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionBarTabBarStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionBarTabStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionBarTabStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionBarTabTextStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionBarTheme = global::ValleyAuthenticator.Droid.Resource.Attribute.actionBarTheme;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionBarWidgetTheme = global::ValleyAuthenticator.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionDropDownStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionDropDownStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionLayout = global::ValleyAuthenticator.Droid.Resource.Attribute.actionLayout;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionMenuTextAppearance = global::ValleyAuthenticator.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionMenuTextColor = global::ValleyAuthenticator.Droid.Resource.Attribute.actionMenuTextColor;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModeBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModeBackground;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModeCloseButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModeCloseDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModeCopyDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModeCutDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModeFindDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModePasteDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModePopupWindowStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModeSelectAllDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModeShareDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModeSplitBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModeStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModeStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionModeWebSearchDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionOverflowButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionOverflowMenuStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionProviderClass = global::ValleyAuthenticator.Droid.Resource.Attribute.actionProviderClass;
+			global::ZXing.Net.Mobile.Resource.Attribute.actionViewClass = global::ValleyAuthenticator.Droid.Resource.Attribute.actionViewClass;
+			global::ZXing.Net.Mobile.Resource.Attribute.activityChooserViewStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.alertDialogButtonGroupStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.alertDialogCenterButtons = global::ValleyAuthenticator.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::ZXing.Net.Mobile.Resource.Attribute.alertDialogStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.alertDialogStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.alertDialogTheme = global::ValleyAuthenticator.Droid.Resource.Attribute.alertDialogTheme;
+			global::ZXing.Net.Mobile.Resource.Attribute.allowStacking = global::ValleyAuthenticator.Droid.Resource.Attribute.allowStacking;
+			global::ZXing.Net.Mobile.Resource.Attribute.alpha = global::ValleyAuthenticator.Droid.Resource.Attribute.alpha;
+			global::ZXing.Net.Mobile.Resource.Attribute.alphabeticModifiers = global::ValleyAuthenticator.Droid.Resource.Attribute.alphabeticModifiers;
+			global::ZXing.Net.Mobile.Resource.Attribute.arrowHeadLength = global::ValleyAuthenticator.Droid.Resource.Attribute.arrowHeadLength;
+			global::ZXing.Net.Mobile.Resource.Attribute.arrowShaftLength = global::ValleyAuthenticator.Droid.Resource.Attribute.arrowShaftLength;
+			global::ZXing.Net.Mobile.Resource.Attribute.autoCompleteTextViewStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.autoSizeMaxTextSize = global::ValleyAuthenticator.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::ZXing.Net.Mobile.Resource.Attribute.autoSizeMinTextSize = global::ValleyAuthenticator.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::ZXing.Net.Mobile.Resource.Attribute.autoSizePresetSizes = global::ValleyAuthenticator.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::ZXing.Net.Mobile.Resource.Attribute.autoSizeStepGranularity = global::ValleyAuthenticator.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::ZXing.Net.Mobile.Resource.Attribute.autoSizeTextType = global::ValleyAuthenticator.Droid.Resource.Attribute.autoSizeTextType;
+			global::ZXing.Net.Mobile.Resource.Attribute.background = global::ValleyAuthenticator.Droid.Resource.Attribute.background;
+			global::ZXing.Net.Mobile.Resource.Attribute.backgroundSplit = global::ValleyAuthenticator.Droid.Resource.Attribute.backgroundSplit;
+			global::ZXing.Net.Mobile.Resource.Attribute.backgroundStacked = global::ValleyAuthenticator.Droid.Resource.Attribute.backgroundStacked;
+			global::ZXing.Net.Mobile.Resource.Attribute.backgroundTint = global::ValleyAuthenticator.Droid.Resource.Attribute.backgroundTint;
+			global::ZXing.Net.Mobile.Resource.Attribute.backgroundTintMode = global::ValleyAuthenticator.Droid.Resource.Attribute.backgroundTintMode;
+			global::ZXing.Net.Mobile.Resource.Attribute.barLength = global::ValleyAuthenticator.Droid.Resource.Attribute.barLength;
+			global::ZXing.Net.Mobile.Resource.Attribute.borderlessButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonBarButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonBarNegativeButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonBarNeutralButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonBarPositiveButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonBarStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonBarStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonCompat = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonCompat;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonGravity = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonGravity;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonIconDimen = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonIconDimen;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonPanelSideLayout = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonStyleSmall = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonStyleSmall;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonTint = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonTint;
+			global::ZXing.Net.Mobile.Resource.Attribute.buttonTintMode = global::ValleyAuthenticator.Droid.Resource.Attribute.buttonTintMode;
+			global::ZXing.Net.Mobile.Resource.Attribute.checkboxStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.checkboxStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.checkedTextViewStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.closeIcon = global::ValleyAuthenticator.Droid.Resource.Attribute.closeIcon;
+			global::ZXing.Net.Mobile.Resource.Attribute.closeItemLayout = global::ValleyAuthenticator.Droid.Resource.Attribute.closeItemLayout;
+			global::ZXing.Net.Mobile.Resource.Attribute.collapseContentDescription = global::ValleyAuthenticator.Droid.Resource.Attribute.collapseContentDescription;
+			global::ZXing.Net.Mobile.Resource.Attribute.collapseIcon = global::ValleyAuthenticator.Droid.Resource.Attribute.collapseIcon;
+			global::ZXing.Net.Mobile.Resource.Attribute.color = global::ValleyAuthenticator.Droid.Resource.Attribute.color;
+			global::ZXing.Net.Mobile.Resource.Attribute.colorAccent = global::ValleyAuthenticator.Droid.Resource.Attribute.colorAccent;
+			global::ZXing.Net.Mobile.Resource.Attribute.colorBackgroundFloating = global::ValleyAuthenticator.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::ZXing.Net.Mobile.Resource.Attribute.colorButtonNormal = global::ValleyAuthenticator.Droid.Resource.Attribute.colorButtonNormal;
+			global::ZXing.Net.Mobile.Resource.Attribute.colorControlActivated = global::ValleyAuthenticator.Droid.Resource.Attribute.colorControlActivated;
+			global::ZXing.Net.Mobile.Resource.Attribute.colorControlHighlight = global::ValleyAuthenticator.Droid.Resource.Attribute.colorControlHighlight;
+			global::ZXing.Net.Mobile.Resource.Attribute.colorControlNormal = global::ValleyAuthenticator.Droid.Resource.Attribute.colorControlNormal;
+			global::ZXing.Net.Mobile.Resource.Attribute.colorError = global::ValleyAuthenticator.Droid.Resource.Attribute.colorError;
+			global::ZXing.Net.Mobile.Resource.Attribute.colorPrimary = global::ValleyAuthenticator.Droid.Resource.Attribute.colorPrimary;
+			global::ZXing.Net.Mobile.Resource.Attribute.colorPrimaryDark = global::ValleyAuthenticator.Droid.Resource.Attribute.colorPrimaryDark;
+			global::ZXing.Net.Mobile.Resource.Attribute.colorSwitchThumbNormal = global::ValleyAuthenticator.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::ZXing.Net.Mobile.Resource.Attribute.commitIcon = global::ValleyAuthenticator.Droid.Resource.Attribute.commitIcon;
+			global::ZXing.Net.Mobile.Resource.Attribute.contentDescription = global::ValleyAuthenticator.Droid.Resource.Attribute.contentDescription;
+			global::ZXing.Net.Mobile.Resource.Attribute.contentInsetEnd = global::ValleyAuthenticator.Droid.Resource.Attribute.contentInsetEnd;
+			global::ZXing.Net.Mobile.Resource.Attribute.contentInsetEndWithActions = global::ValleyAuthenticator.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::ZXing.Net.Mobile.Resource.Attribute.contentInsetLeft = global::ValleyAuthenticator.Droid.Resource.Attribute.contentInsetLeft;
+			global::ZXing.Net.Mobile.Resource.Attribute.contentInsetRight = global::ValleyAuthenticator.Droid.Resource.Attribute.contentInsetRight;
+			global::ZXing.Net.Mobile.Resource.Attribute.contentInsetStart = global::ValleyAuthenticator.Droid.Resource.Attribute.contentInsetStart;
+			global::ZXing.Net.Mobile.Resource.Attribute.contentInsetStartWithNavigation = global::ValleyAuthenticator.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::ZXing.Net.Mobile.Resource.Attribute.controlBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.controlBackground;
+			global::ZXing.Net.Mobile.Resource.Attribute.coordinatorLayoutStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.customNavigationLayout = global::ValleyAuthenticator.Droid.Resource.Attribute.customNavigationLayout;
+			global::ZXing.Net.Mobile.Resource.Attribute.defaultQueryHint = global::ValleyAuthenticator.Droid.Resource.Attribute.defaultQueryHint;
+			global::ZXing.Net.Mobile.Resource.Attribute.dialogCornerRadius = global::ValleyAuthenticator.Droid.Resource.Attribute.dialogCornerRadius;
+			global::ZXing.Net.Mobile.Resource.Attribute.dialogPreferredPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::ZXing.Net.Mobile.Resource.Attribute.dialogTheme = global::ValleyAuthenticator.Droid.Resource.Attribute.dialogTheme;
+			global::ZXing.Net.Mobile.Resource.Attribute.displayOptions = global::ValleyAuthenticator.Droid.Resource.Attribute.displayOptions;
+			global::ZXing.Net.Mobile.Resource.Attribute.divider = global::ValleyAuthenticator.Droid.Resource.Attribute.divider;
+			global::ZXing.Net.Mobile.Resource.Attribute.dividerHorizontal = global::ValleyAuthenticator.Droid.Resource.Attribute.dividerHorizontal;
+			global::ZXing.Net.Mobile.Resource.Attribute.dividerPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.dividerPadding;
+			global::ZXing.Net.Mobile.Resource.Attribute.dividerVertical = global::ValleyAuthenticator.Droid.Resource.Attribute.dividerVertical;
+			global::ZXing.Net.Mobile.Resource.Attribute.drawableBottomCompat = global::ValleyAuthenticator.Droid.Resource.Attribute.drawableBottomCompat;
+			global::ZXing.Net.Mobile.Resource.Attribute.drawableEndCompat = global::ValleyAuthenticator.Droid.Resource.Attribute.drawableEndCompat;
+			global::ZXing.Net.Mobile.Resource.Attribute.drawableLeftCompat = global::ValleyAuthenticator.Droid.Resource.Attribute.drawableLeftCompat;
+			global::ZXing.Net.Mobile.Resource.Attribute.drawableRightCompat = global::ValleyAuthenticator.Droid.Resource.Attribute.drawableRightCompat;
+			global::ZXing.Net.Mobile.Resource.Attribute.drawableSize = global::ValleyAuthenticator.Droid.Resource.Attribute.drawableSize;
+			global::ZXing.Net.Mobile.Resource.Attribute.drawableStartCompat = global::ValleyAuthenticator.Droid.Resource.Attribute.drawableStartCompat;
+			global::ZXing.Net.Mobile.Resource.Attribute.drawableTint = global::ValleyAuthenticator.Droid.Resource.Attribute.drawableTint;
+			global::ZXing.Net.Mobile.Resource.Attribute.drawableTintMode = global::ValleyAuthenticator.Droid.Resource.Attribute.drawableTintMode;
+			global::ZXing.Net.Mobile.Resource.Attribute.drawableTopCompat = global::ValleyAuthenticator.Droid.Resource.Attribute.drawableTopCompat;
+			global::ZXing.Net.Mobile.Resource.Attribute.drawerArrowStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.drawerArrowStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.dropdownListPreferredItemHeight = global::ValleyAuthenticator.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::ZXing.Net.Mobile.Resource.Attribute.dropDownListViewStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.editTextBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.editTextBackground;
+			global::ZXing.Net.Mobile.Resource.Attribute.editTextColor = global::ValleyAuthenticator.Droid.Resource.Attribute.editTextColor;
+			global::ZXing.Net.Mobile.Resource.Attribute.editTextStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.editTextStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.elevation = global::ValleyAuthenticator.Droid.Resource.Attribute.elevation;
+			global::ZXing.Net.Mobile.Resource.Attribute.expandActivityOverflowButtonDrawable = global::ValleyAuthenticator.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::ZXing.Net.Mobile.Resource.Attribute.firstBaselineToTopHeight = global::ValleyAuthenticator.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::ZXing.Net.Mobile.Resource.Attribute.font = global::ValleyAuthenticator.Droid.Resource.Attribute.font;
+			global::ZXing.Net.Mobile.Resource.Attribute.fontFamily = global::ValleyAuthenticator.Droid.Resource.Attribute.fontFamily;
+			global::ZXing.Net.Mobile.Resource.Attribute.fontProviderAuthority = global::ValleyAuthenticator.Droid.Resource.Attribute.fontProviderAuthority;
+			global::ZXing.Net.Mobile.Resource.Attribute.fontProviderCerts = global::ValleyAuthenticator.Droid.Resource.Attribute.fontProviderCerts;
+			global::ZXing.Net.Mobile.Resource.Attribute.fontProviderFetchStrategy = global::ValleyAuthenticator.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::ZXing.Net.Mobile.Resource.Attribute.fontProviderFetchTimeout = global::ValleyAuthenticator.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::ZXing.Net.Mobile.Resource.Attribute.fontProviderPackage = global::ValleyAuthenticator.Droid.Resource.Attribute.fontProviderPackage;
+			global::ZXing.Net.Mobile.Resource.Attribute.fontProviderQuery = global::ValleyAuthenticator.Droid.Resource.Attribute.fontProviderQuery;
+			global::ZXing.Net.Mobile.Resource.Attribute.fontStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.fontStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.fontVariationSettings = global::ValleyAuthenticator.Droid.Resource.Attribute.fontVariationSettings;
+			global::ZXing.Net.Mobile.Resource.Attribute.fontWeight = global::ValleyAuthenticator.Droid.Resource.Attribute.fontWeight;
+			global::ZXing.Net.Mobile.Resource.Attribute.gapBetweenBars = global::ValleyAuthenticator.Droid.Resource.Attribute.gapBetweenBars;
+			global::ZXing.Net.Mobile.Resource.Attribute.goIcon = global::ValleyAuthenticator.Droid.Resource.Attribute.goIcon;
+			global::ZXing.Net.Mobile.Resource.Attribute.height = global::ValleyAuthenticator.Droid.Resource.Attribute.height;
+			global::ZXing.Net.Mobile.Resource.Attribute.hideOnContentScroll = global::ValleyAuthenticator.Droid.Resource.Attribute.hideOnContentScroll;
+			global::ZXing.Net.Mobile.Resource.Attribute.homeAsUpIndicator = global::ValleyAuthenticator.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::ZXing.Net.Mobile.Resource.Attribute.homeLayout = global::ValleyAuthenticator.Droid.Resource.Attribute.homeLayout;
+			global::ZXing.Net.Mobile.Resource.Attribute.icon = global::ValleyAuthenticator.Droid.Resource.Attribute.icon;
+			global::ZXing.Net.Mobile.Resource.Attribute.iconifiedByDefault = global::ValleyAuthenticator.Droid.Resource.Attribute.iconifiedByDefault;
+			global::ZXing.Net.Mobile.Resource.Attribute.iconTint = global::ValleyAuthenticator.Droid.Resource.Attribute.iconTint;
+			global::ZXing.Net.Mobile.Resource.Attribute.iconTintMode = global::ValleyAuthenticator.Droid.Resource.Attribute.iconTintMode;
+			global::ZXing.Net.Mobile.Resource.Attribute.imageButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.imageButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.indeterminateProgressStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.initialActivityCount = global::ValleyAuthenticator.Droid.Resource.Attribute.initialActivityCount;
+			global::ZXing.Net.Mobile.Resource.Attribute.isLightTheme = global::ValleyAuthenticator.Droid.Resource.Attribute.isLightTheme;
+			global::ZXing.Net.Mobile.Resource.Attribute.itemPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.itemPadding;
+			global::ZXing.Net.Mobile.Resource.Attribute.keylines = global::ValleyAuthenticator.Droid.Resource.Attribute.keylines;
+			global::ZXing.Net.Mobile.Resource.Attribute.lastBaselineToBottomHeight = global::ValleyAuthenticator.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::ZXing.Net.Mobile.Resource.Attribute.layout = global::ValleyAuthenticator.Droid.Resource.Attribute.layout;
+			global::ZXing.Net.Mobile.Resource.Attribute.layout_anchor = global::ValleyAuthenticator.Droid.Resource.Attribute.layout_anchor;
+			global::ZXing.Net.Mobile.Resource.Attribute.layout_anchorGravity = global::ValleyAuthenticator.Droid.Resource.Attribute.layout_anchorGravity;
+			global::ZXing.Net.Mobile.Resource.Attribute.layout_behavior = global::ValleyAuthenticator.Droid.Resource.Attribute.layout_behavior;
+			global::ZXing.Net.Mobile.Resource.Attribute.layout_dodgeInsetEdges = global::ValleyAuthenticator.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::ZXing.Net.Mobile.Resource.Attribute.layout_insetEdge = global::ValleyAuthenticator.Droid.Resource.Attribute.layout_insetEdge;
+			global::ZXing.Net.Mobile.Resource.Attribute.layout_keyline = global::ValleyAuthenticator.Droid.Resource.Attribute.layout_keyline;
+			global::ZXing.Net.Mobile.Resource.Attribute.lineHeight = global::ValleyAuthenticator.Droid.Resource.Attribute.lineHeight;
+			global::ZXing.Net.Mobile.Resource.Attribute.listChoiceBackgroundIndicator = global::ValleyAuthenticator.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::ZXing.Net.Mobile.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::ValleyAuthenticator.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::ZXing.Net.Mobile.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::ValleyAuthenticator.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::ZXing.Net.Mobile.Resource.Attribute.listDividerAlertDialog = global::ValleyAuthenticator.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::ZXing.Net.Mobile.Resource.Attribute.listItemLayout = global::ValleyAuthenticator.Droid.Resource.Attribute.listItemLayout;
+			global::ZXing.Net.Mobile.Resource.Attribute.listLayout = global::ValleyAuthenticator.Droid.Resource.Attribute.listLayout;
+			global::ZXing.Net.Mobile.Resource.Attribute.listMenuViewStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.listMenuViewStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.listPopupWindowStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.listPreferredItemHeight = global::ValleyAuthenticator.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::ZXing.Net.Mobile.Resource.Attribute.listPreferredItemHeightLarge = global::ValleyAuthenticator.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::ZXing.Net.Mobile.Resource.Attribute.listPreferredItemHeightSmall = global::ValleyAuthenticator.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::ZXing.Net.Mobile.Resource.Attribute.listPreferredItemPaddingEnd = global::ValleyAuthenticator.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::ZXing.Net.Mobile.Resource.Attribute.listPreferredItemPaddingLeft = global::ValleyAuthenticator.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::ZXing.Net.Mobile.Resource.Attribute.listPreferredItemPaddingRight = global::ValleyAuthenticator.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::ZXing.Net.Mobile.Resource.Attribute.listPreferredItemPaddingStart = global::ValleyAuthenticator.Droid.Resource.Attribute.listPreferredItemPaddingStart;
+			global::ZXing.Net.Mobile.Resource.Attribute.logo = global::ValleyAuthenticator.Droid.Resource.Attribute.logo;
+			global::ZXing.Net.Mobile.Resource.Attribute.logoDescription = global::ValleyAuthenticator.Droid.Resource.Attribute.logoDescription;
+			global::ZXing.Net.Mobile.Resource.Attribute.maxButtonHeight = global::ValleyAuthenticator.Droid.Resource.Attribute.maxButtonHeight;
+			global::ZXing.Net.Mobile.Resource.Attribute.measureWithLargestChild = global::ValleyAuthenticator.Droid.Resource.Attribute.measureWithLargestChild;
+			global::ZXing.Net.Mobile.Resource.Attribute.menu = global::ValleyAuthenticator.Droid.Resource.Attribute.menu;
+			global::ZXing.Net.Mobile.Resource.Attribute.multiChoiceItemLayout = global::ValleyAuthenticator.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::ZXing.Net.Mobile.Resource.Attribute.navigationContentDescription = global::ValleyAuthenticator.Droid.Resource.Attribute.navigationContentDescription;
+			global::ZXing.Net.Mobile.Resource.Attribute.navigationIcon = global::ValleyAuthenticator.Droid.Resource.Attribute.navigationIcon;
+			global::ZXing.Net.Mobile.Resource.Attribute.navigationMode = global::ValleyAuthenticator.Droid.Resource.Attribute.navigationMode;
+			global::ZXing.Net.Mobile.Resource.Attribute.numericModifiers = global::ValleyAuthenticator.Droid.Resource.Attribute.numericModifiers;
+			global::ZXing.Net.Mobile.Resource.Attribute.overlapAnchor = global::ValleyAuthenticator.Droid.Resource.Attribute.overlapAnchor;
+			global::ZXing.Net.Mobile.Resource.Attribute.paddingBottomNoButtons = global::ValleyAuthenticator.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::ZXing.Net.Mobile.Resource.Attribute.paddingEnd = global::ValleyAuthenticator.Droid.Resource.Attribute.paddingEnd;
+			global::ZXing.Net.Mobile.Resource.Attribute.paddingStart = global::ValleyAuthenticator.Droid.Resource.Attribute.paddingStart;
+			global::ZXing.Net.Mobile.Resource.Attribute.paddingTopNoTitle = global::ValleyAuthenticator.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::ZXing.Net.Mobile.Resource.Attribute.panelBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.panelBackground;
+			global::ZXing.Net.Mobile.Resource.Attribute.panelMenuListTheme = global::ValleyAuthenticator.Droid.Resource.Attribute.panelMenuListTheme;
+			global::ZXing.Net.Mobile.Resource.Attribute.panelMenuListWidth = global::ValleyAuthenticator.Droid.Resource.Attribute.panelMenuListWidth;
+			global::ZXing.Net.Mobile.Resource.Attribute.popupMenuStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.popupMenuStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.popupTheme = global::ValleyAuthenticator.Droid.Resource.Attribute.popupTheme;
+			global::ZXing.Net.Mobile.Resource.Attribute.popupWindowStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.popupWindowStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.preserveIconSpacing = global::ValleyAuthenticator.Droid.Resource.Attribute.preserveIconSpacing;
+			global::ZXing.Net.Mobile.Resource.Attribute.progressBarPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.progressBarPadding;
+			global::ZXing.Net.Mobile.Resource.Attribute.progressBarStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.progressBarStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.queryBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.queryBackground;
+			global::ZXing.Net.Mobile.Resource.Attribute.queryHint = global::ValleyAuthenticator.Droid.Resource.Attribute.queryHint;
+			global::ZXing.Net.Mobile.Resource.Attribute.radioButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.radioButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.ratingBarStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.ratingBarStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.ratingBarStyleIndicator = global::ValleyAuthenticator.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::ZXing.Net.Mobile.Resource.Attribute.ratingBarStyleSmall = global::ValleyAuthenticator.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::ZXing.Net.Mobile.Resource.Attribute.searchHintIcon = global::ValleyAuthenticator.Droid.Resource.Attribute.searchHintIcon;
+			global::ZXing.Net.Mobile.Resource.Attribute.searchIcon = global::ValleyAuthenticator.Droid.Resource.Attribute.searchIcon;
+			global::ZXing.Net.Mobile.Resource.Attribute.searchViewStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.searchViewStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.seekBarStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.seekBarStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.selectableItemBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.selectableItemBackground;
+			global::ZXing.Net.Mobile.Resource.Attribute.selectableItemBackgroundBorderless = global::ValleyAuthenticator.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::ZXing.Net.Mobile.Resource.Attribute.showAsAction = global::ValleyAuthenticator.Droid.Resource.Attribute.showAsAction;
+			global::ZXing.Net.Mobile.Resource.Attribute.showDividers = global::ValleyAuthenticator.Droid.Resource.Attribute.showDividers;
+			global::ZXing.Net.Mobile.Resource.Attribute.showText = global::ValleyAuthenticator.Droid.Resource.Attribute.showText;
+			global::ZXing.Net.Mobile.Resource.Attribute.showTitle = global::ValleyAuthenticator.Droid.Resource.Attribute.showTitle;
+			global::ZXing.Net.Mobile.Resource.Attribute.singleChoiceItemLayout = global::ValleyAuthenticator.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::ZXing.Net.Mobile.Resource.Attribute.spinBars = global::ValleyAuthenticator.Droid.Resource.Attribute.spinBars;
+			global::ZXing.Net.Mobile.Resource.Attribute.spinnerDropDownItemStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.spinnerStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.spinnerStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.splitTrack = global::ValleyAuthenticator.Droid.Resource.Attribute.splitTrack;
+			global::ZXing.Net.Mobile.Resource.Attribute.srcCompat = global::ValleyAuthenticator.Droid.Resource.Attribute.srcCompat;
+			global::ZXing.Net.Mobile.Resource.Attribute.state_above_anchor = global::ValleyAuthenticator.Droid.Resource.Attribute.state_above_anchor;
+			global::ZXing.Net.Mobile.Resource.Attribute.statusBarBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.statusBarBackground;
+			global::ZXing.Net.Mobile.Resource.Attribute.subMenuArrow = global::ValleyAuthenticator.Droid.Resource.Attribute.subMenuArrow;
+			global::ZXing.Net.Mobile.Resource.Attribute.submitBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.submitBackground;
+			global::ZXing.Net.Mobile.Resource.Attribute.subtitle = global::ValleyAuthenticator.Droid.Resource.Attribute.subtitle;
+			global::ZXing.Net.Mobile.Resource.Attribute.subtitleTextAppearance = global::ValleyAuthenticator.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::ZXing.Net.Mobile.Resource.Attribute.subtitleTextColor = global::ValleyAuthenticator.Droid.Resource.Attribute.subtitleTextColor;
+			global::ZXing.Net.Mobile.Resource.Attribute.subtitleTextStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.subtitleTextStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.suggestionRowLayout = global::ValleyAuthenticator.Droid.Resource.Attribute.suggestionRowLayout;
+			global::ZXing.Net.Mobile.Resource.Attribute.switchMinWidth = global::ValleyAuthenticator.Droid.Resource.Attribute.switchMinWidth;
+			global::ZXing.Net.Mobile.Resource.Attribute.switchPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.switchPadding;
+			global::ZXing.Net.Mobile.Resource.Attribute.switchStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.switchStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.switchTextAppearance = global::ValleyAuthenticator.Droid.Resource.Attribute.switchTextAppearance;
+			global::ZXing.Net.Mobile.Resource.Attribute.textAllCaps = global::ValleyAuthenticator.Droid.Resource.Attribute.textAllCaps;
+			global::ZXing.Net.Mobile.Resource.Attribute.textAppearanceLargePopupMenu = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::ZXing.Net.Mobile.Resource.Attribute.textAppearanceListItem = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceListItem;
+			global::ZXing.Net.Mobile.Resource.Attribute.textAppearanceListItemSecondary = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::ZXing.Net.Mobile.Resource.Attribute.textAppearanceListItemSmall = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::ZXing.Net.Mobile.Resource.Attribute.textAppearancePopupMenuHeader = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::ZXing.Net.Mobile.Resource.Attribute.textAppearanceSearchResultSubtitle = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::ZXing.Net.Mobile.Resource.Attribute.textAppearanceSearchResultTitle = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::ZXing.Net.Mobile.Resource.Attribute.textAppearanceSmallPopupMenu = global::ValleyAuthenticator.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::ZXing.Net.Mobile.Resource.Attribute.textColorAlertDialogListItem = global::ValleyAuthenticator.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::ZXing.Net.Mobile.Resource.Attribute.textColorSearchUrl = global::ValleyAuthenticator.Droid.Resource.Attribute.textColorSearchUrl;
+			global::ZXing.Net.Mobile.Resource.Attribute.textLocale = global::ValleyAuthenticator.Droid.Resource.Attribute.textLocale;
+			global::ZXing.Net.Mobile.Resource.Attribute.theme = global::ValleyAuthenticator.Droid.Resource.Attribute.theme;
+			global::ZXing.Net.Mobile.Resource.Attribute.thickness = global::ValleyAuthenticator.Droid.Resource.Attribute.thickness;
+			global::ZXing.Net.Mobile.Resource.Attribute.thumbTextPadding = global::ValleyAuthenticator.Droid.Resource.Attribute.thumbTextPadding;
+			global::ZXing.Net.Mobile.Resource.Attribute.thumbTint = global::ValleyAuthenticator.Droid.Resource.Attribute.thumbTint;
+			global::ZXing.Net.Mobile.Resource.Attribute.thumbTintMode = global::ValleyAuthenticator.Droid.Resource.Attribute.thumbTintMode;
+			global::ZXing.Net.Mobile.Resource.Attribute.tickMark = global::ValleyAuthenticator.Droid.Resource.Attribute.tickMark;
+			global::ZXing.Net.Mobile.Resource.Attribute.tickMarkTint = global::ValleyAuthenticator.Droid.Resource.Attribute.tickMarkTint;
+			global::ZXing.Net.Mobile.Resource.Attribute.tickMarkTintMode = global::ValleyAuthenticator.Droid.Resource.Attribute.tickMarkTintMode;
+			global::ZXing.Net.Mobile.Resource.Attribute.tint = global::ValleyAuthenticator.Droid.Resource.Attribute.tint;
+			global::ZXing.Net.Mobile.Resource.Attribute.tintMode = global::ValleyAuthenticator.Droid.Resource.Attribute.tintMode;
+			global::ZXing.Net.Mobile.Resource.Attribute.title = global::ValleyAuthenticator.Droid.Resource.Attribute.title;
+			global::ZXing.Net.Mobile.Resource.Attribute.titleMargin = global::ValleyAuthenticator.Droid.Resource.Attribute.titleMargin;
+			global::ZXing.Net.Mobile.Resource.Attribute.titleMarginBottom = global::ValleyAuthenticator.Droid.Resource.Attribute.titleMarginBottom;
+			global::ZXing.Net.Mobile.Resource.Attribute.titleMarginEnd = global::ValleyAuthenticator.Droid.Resource.Attribute.titleMarginEnd;
+			global::ZXing.Net.Mobile.Resource.Attribute.titleMargins = global::ValleyAuthenticator.Droid.Resource.Attribute.titleMargins;
+			global::ZXing.Net.Mobile.Resource.Attribute.titleMarginStart = global::ValleyAuthenticator.Droid.Resource.Attribute.titleMarginStart;
+			global::ZXing.Net.Mobile.Resource.Attribute.titleMarginTop = global::ValleyAuthenticator.Droid.Resource.Attribute.titleMarginTop;
+			global::ZXing.Net.Mobile.Resource.Attribute.titleTextAppearance = global::ValleyAuthenticator.Droid.Resource.Attribute.titleTextAppearance;
+			global::ZXing.Net.Mobile.Resource.Attribute.titleTextColor = global::ValleyAuthenticator.Droid.Resource.Attribute.titleTextColor;
+			global::ZXing.Net.Mobile.Resource.Attribute.titleTextStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.titleTextStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.toolbarNavigationButtonStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.toolbarStyle = global::ValleyAuthenticator.Droid.Resource.Attribute.toolbarStyle;
+			global::ZXing.Net.Mobile.Resource.Attribute.tooltipForegroundColor = global::ValleyAuthenticator.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::ZXing.Net.Mobile.Resource.Attribute.tooltipFrameBackground = global::ValleyAuthenticator.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::ZXing.Net.Mobile.Resource.Attribute.tooltipText = global::ValleyAuthenticator.Droid.Resource.Attribute.tooltipText;
+			global::ZXing.Net.Mobile.Resource.Attribute.track = global::ValleyAuthenticator.Droid.Resource.Attribute.track;
+			global::ZXing.Net.Mobile.Resource.Attribute.trackTint = global::ValleyAuthenticator.Droid.Resource.Attribute.trackTint;
+			global::ZXing.Net.Mobile.Resource.Attribute.trackTintMode = global::ValleyAuthenticator.Droid.Resource.Attribute.trackTintMode;
+			global::ZXing.Net.Mobile.Resource.Attribute.ttcIndex = global::ValleyAuthenticator.Droid.Resource.Attribute.ttcIndex;
+			global::ZXing.Net.Mobile.Resource.Attribute.viewInflaterClass = global::ValleyAuthenticator.Droid.Resource.Attribute.viewInflaterClass;
+			global::ZXing.Net.Mobile.Resource.Attribute.voiceIcon = global::ValleyAuthenticator.Droid.Resource.Attribute.voiceIcon;
+			global::ZXing.Net.Mobile.Resource.Attribute.windowActionBar = global::ValleyAuthenticator.Droid.Resource.Attribute.windowActionBar;
+			global::ZXing.Net.Mobile.Resource.Attribute.windowActionBarOverlay = global::ValleyAuthenticator.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::ZXing.Net.Mobile.Resource.Attribute.windowActionModeOverlay = global::ValleyAuthenticator.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::ZXing.Net.Mobile.Resource.Attribute.windowFixedHeightMajor = global::ValleyAuthenticator.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::ZXing.Net.Mobile.Resource.Attribute.windowFixedHeightMinor = global::ValleyAuthenticator.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::ZXing.Net.Mobile.Resource.Attribute.windowFixedWidthMajor = global::ValleyAuthenticator.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::ZXing.Net.Mobile.Resource.Attribute.windowFixedWidthMinor = global::ValleyAuthenticator.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::ZXing.Net.Mobile.Resource.Attribute.windowMinWidthMajor = global::ValleyAuthenticator.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::ZXing.Net.Mobile.Resource.Attribute.windowMinWidthMinor = global::ValleyAuthenticator.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::ZXing.Net.Mobile.Resource.Attribute.windowNoTitle = global::ValleyAuthenticator.Droid.Resource.Attribute.windowNoTitle;
+			global::ZXing.Net.Mobile.Resource.Boolean.abc_action_bar_embed_tabs = global::ValleyAuthenticator.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::ZXing.Net.Mobile.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::ValleyAuthenticator.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::ZXing.Net.Mobile.Resource.Color.abc_background_cache_hint_selector_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.abc_background_cache_hint_selector_material_light = global::ValleyAuthenticator.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.abc_btn_colored_borderless_text_material = global::ValleyAuthenticator.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::ZXing.Net.Mobile.Resource.Color.abc_btn_colored_text_material = global::ValleyAuthenticator.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::ZXing.Net.Mobile.Resource.Color.abc_color_highlight_material = global::ValleyAuthenticator.Droid.Resource.Color.abc_color_highlight_material;
+			global::ZXing.Net.Mobile.Resource.Color.abc_hint_foreground_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.abc_hint_foreground_material_light = global::ValleyAuthenticator.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.abc_primary_text_disable_only_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.abc_primary_text_disable_only_material_light = global::ValleyAuthenticator.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.abc_primary_text_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.abc_primary_text_material_light = global::ValleyAuthenticator.Droid.Resource.Color.abc_primary_text_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.abc_search_url_text = global::ValleyAuthenticator.Droid.Resource.Color.abc_search_url_text;
+			global::ZXing.Net.Mobile.Resource.Color.abc_search_url_text_normal = global::ValleyAuthenticator.Droid.Resource.Color.abc_search_url_text_normal;
+			global::ZXing.Net.Mobile.Resource.Color.abc_search_url_text_pressed = global::ValleyAuthenticator.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::ZXing.Net.Mobile.Resource.Color.abc_search_url_text_selected = global::ValleyAuthenticator.Droid.Resource.Color.abc_search_url_text_selected;
+			global::ZXing.Net.Mobile.Resource.Color.abc_secondary_text_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.abc_secondary_text_material_light = global::ValleyAuthenticator.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.abc_tint_btn_checkable = global::ValleyAuthenticator.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::ZXing.Net.Mobile.Resource.Color.abc_tint_default = global::ValleyAuthenticator.Droid.Resource.Color.abc_tint_default;
+			global::ZXing.Net.Mobile.Resource.Color.abc_tint_edittext = global::ValleyAuthenticator.Droid.Resource.Color.abc_tint_edittext;
+			global::ZXing.Net.Mobile.Resource.Color.abc_tint_seek_thumb = global::ValleyAuthenticator.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::ZXing.Net.Mobile.Resource.Color.abc_tint_spinner = global::ValleyAuthenticator.Droid.Resource.Color.abc_tint_spinner;
+			global::ZXing.Net.Mobile.Resource.Color.abc_tint_switch_track = global::ValleyAuthenticator.Droid.Resource.Color.abc_tint_switch_track;
+			global::ZXing.Net.Mobile.Resource.Color.accent_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.accent_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.accent_material_light = global::ValleyAuthenticator.Droid.Resource.Color.accent_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.background_floating_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.background_floating_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.background_floating_material_light = global::ValleyAuthenticator.Droid.Resource.Color.background_floating_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.background_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.background_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.background_material_light = global::ValleyAuthenticator.Droid.Resource.Color.background_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.bright_foreground_disabled_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.bright_foreground_disabled_material_light = global::ValleyAuthenticator.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.bright_foreground_inverse_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.bright_foreground_inverse_material_light = global::ValleyAuthenticator.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.bright_foreground_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.bright_foreground_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.bright_foreground_material_light = global::ValleyAuthenticator.Droid.Resource.Color.bright_foreground_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.browser_actions_bg_grey = global::ValleyAuthenticator.Droid.Resource.Color.browser_actions_bg_grey;
+			global::ZXing.Net.Mobile.Resource.Color.browser_actions_divider_color = global::ValleyAuthenticator.Droid.Resource.Color.browser_actions_divider_color;
+			global::ZXing.Net.Mobile.Resource.Color.browser_actions_text_color = global::ValleyAuthenticator.Droid.Resource.Color.browser_actions_text_color;
+			global::ZXing.Net.Mobile.Resource.Color.browser_actions_title_color = global::ValleyAuthenticator.Droid.Resource.Color.browser_actions_title_color;
+			global::ZXing.Net.Mobile.Resource.Color.button_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.button_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.button_material_light = global::ValleyAuthenticator.Droid.Resource.Color.button_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.dim_foreground_disabled_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.dim_foreground_disabled_material_light = global::ValleyAuthenticator.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.dim_foreground_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.dim_foreground_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.dim_foreground_material_light = global::ValleyAuthenticator.Droid.Resource.Color.dim_foreground_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.error_color_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.error_color_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.error_color_material_light = global::ValleyAuthenticator.Droid.Resource.Color.error_color_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.foreground_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.foreground_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.foreground_material_light = global::ValleyAuthenticator.Droid.Resource.Color.foreground_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.highlighted_text_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.highlighted_text_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.highlighted_text_material_light = global::ValleyAuthenticator.Droid.Resource.Color.highlighted_text_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.material_blue_grey_800 = global::ValleyAuthenticator.Droid.Resource.Color.material_blue_grey_800;
+			global::ZXing.Net.Mobile.Resource.Color.material_blue_grey_900 = global::ValleyAuthenticator.Droid.Resource.Color.material_blue_grey_900;
+			global::ZXing.Net.Mobile.Resource.Color.material_blue_grey_950 = global::ValleyAuthenticator.Droid.Resource.Color.material_blue_grey_950;
+			global::ZXing.Net.Mobile.Resource.Color.material_deep_teal_200 = global::ValleyAuthenticator.Droid.Resource.Color.material_deep_teal_200;
+			global::ZXing.Net.Mobile.Resource.Color.material_deep_teal_500 = global::ValleyAuthenticator.Droid.Resource.Color.material_deep_teal_500;
+			global::ZXing.Net.Mobile.Resource.Color.material_grey_100 = global::ValleyAuthenticator.Droid.Resource.Color.material_grey_100;
+			global::ZXing.Net.Mobile.Resource.Color.material_grey_300 = global::ValleyAuthenticator.Droid.Resource.Color.material_grey_300;
+			global::ZXing.Net.Mobile.Resource.Color.material_grey_50 = global::ValleyAuthenticator.Droid.Resource.Color.material_grey_50;
+			global::ZXing.Net.Mobile.Resource.Color.material_grey_600 = global::ValleyAuthenticator.Droid.Resource.Color.material_grey_600;
+			global::ZXing.Net.Mobile.Resource.Color.material_grey_800 = global::ValleyAuthenticator.Droid.Resource.Color.material_grey_800;
+			global::ZXing.Net.Mobile.Resource.Color.material_grey_850 = global::ValleyAuthenticator.Droid.Resource.Color.material_grey_850;
+			global::ZXing.Net.Mobile.Resource.Color.material_grey_900 = global::ValleyAuthenticator.Droid.Resource.Color.material_grey_900;
+			global::ZXing.Net.Mobile.Resource.Color.notification_action_color_filter = global::ValleyAuthenticator.Droid.Resource.Color.notification_action_color_filter;
+			global::ZXing.Net.Mobile.Resource.Color.notification_icon_bg_color = global::ValleyAuthenticator.Droid.Resource.Color.notification_icon_bg_color;
+			global::ZXing.Net.Mobile.Resource.Color.primary_dark_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.primary_dark_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.primary_dark_material_light = global::ValleyAuthenticator.Droid.Resource.Color.primary_dark_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.primary_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.primary_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.primary_material_light = global::ValleyAuthenticator.Droid.Resource.Color.primary_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.primary_text_default_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.primary_text_default_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.primary_text_default_material_light = global::ValleyAuthenticator.Droid.Resource.Color.primary_text_default_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.primary_text_disabled_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.primary_text_disabled_material_light = global::ValleyAuthenticator.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.ripple_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.ripple_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.ripple_material_light = global::ValleyAuthenticator.Droid.Resource.Color.ripple_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.secondary_text_default_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.secondary_text_default_material_light = global::ValleyAuthenticator.Droid.Resource.Color.secondary_text_default_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.secondary_text_disabled_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.secondary_text_disabled_material_light = global::ValleyAuthenticator.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.switch_thumb_disabled_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.switch_thumb_disabled_material_light = global::ValleyAuthenticator.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.switch_thumb_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.switch_thumb_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.switch_thumb_material_light = global::ValleyAuthenticator.Droid.Resource.Color.switch_thumb_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.switch_thumb_normal_material_dark = global::ValleyAuthenticator.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::ZXing.Net.Mobile.Resource.Color.switch_thumb_normal_material_light = global::ValleyAuthenticator.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::ZXing.Net.Mobile.Resource.Color.tooltip_background_dark = global::ValleyAuthenticator.Droid.Resource.Color.tooltip_background_dark;
+			global::ZXing.Net.Mobile.Resource.Color.tooltip_background_light = global::ValleyAuthenticator.Droid.Resource.Color.tooltip_background_light;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_content_inset_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_default_height_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_default_padding_end_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_default_padding_start_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_elevation_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_stacked_max_height = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_button_min_height_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_button_min_width_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_action_button_min_width_overflow_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_alert_dialog_button_bar_height = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_alert_dialog_button_dimen = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_button_inset_horizontal_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_button_inset_vertical_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_button_padding_horizontal_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_button_padding_vertical_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_config_prefDialogWidth = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_control_corner_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_control_corner_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_control_inset_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_control_inset_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_control_padding_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_control_padding_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_corner_radius_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_fixed_height_major = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_fixed_height_minor = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_fixed_width_major = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_fixed_width_minor = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_min_width_major = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_min_width_minor = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_padding_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_padding_top_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dialog_title_divider_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_disabled_alpha_material_dark = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_disabled_alpha_material_light = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dropdownitem_icon_width = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dropdownitem_text_padding_left = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_dropdownitem_text_padding_right = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_edit_text_inset_bottom_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_edit_text_inset_top_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_floating_window_z = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_floating_window_z;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_list_item_height_large_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_list_item_height_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_list_item_height_small_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_list_item_height_small_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_list_item_padding_horizontal_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_panel_menu_list_width = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_progress_bar_height_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_search_view_preferred_height = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_search_view_preferred_width = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_seekbar_track_background_height_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_seekbar_track_progress_height_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_select_dialog_padding_start_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_switch_padding = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_switch_padding;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_body_1_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_body_2_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_button_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_caption_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_display_1_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_display_2_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_display_3_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_display_4_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_headline_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_large_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_medium_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_menu_header_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_menu_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_small_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_subhead_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_title_material = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.abc_text_size_title_material_toolbar = global::ValleyAuthenticator.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::ZXing.Net.Mobile.Resource.Dimension.browser_actions_context_menu_max_width = global::ValleyAuthenticator.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::ZXing.Net.Mobile.Resource.Dimension.browser_actions_context_menu_min_padding = global::ValleyAuthenticator.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::ZXing.Net.Mobile.Resource.Dimension.compat_button_inset_horizontal_material = global::ValleyAuthenticator.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.compat_button_inset_vertical_material = global::ValleyAuthenticator.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.compat_button_padding_horizontal_material = global::ValleyAuthenticator.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.compat_button_padding_vertical_material = global::ValleyAuthenticator.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.compat_control_corner_material = global::ValleyAuthenticator.Droid.Resource.Dimension.compat_control_corner_material;
+			global::ZXing.Net.Mobile.Resource.Dimension.compat_notification_large_icon_max_height = global::ValleyAuthenticator.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::ZXing.Net.Mobile.Resource.Dimension.compat_notification_large_icon_max_width = global::ValleyAuthenticator.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::ZXing.Net.Mobile.Resource.Dimension.disabled_alpha_material_dark = global::ValleyAuthenticator.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::ZXing.Net.Mobile.Resource.Dimension.disabled_alpha_material_light = global::ValleyAuthenticator.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::ZXing.Net.Mobile.Resource.Dimension.highlight_alpha_material_colored = global::ValleyAuthenticator.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::ZXing.Net.Mobile.Resource.Dimension.highlight_alpha_material_dark = global::ValleyAuthenticator.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::ZXing.Net.Mobile.Resource.Dimension.highlight_alpha_material_light = global::ValleyAuthenticator.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::ZXing.Net.Mobile.Resource.Dimension.hint_alpha_material_dark = global::ValleyAuthenticator.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::ZXing.Net.Mobile.Resource.Dimension.hint_alpha_material_light = global::ValleyAuthenticator.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::ZXing.Net.Mobile.Resource.Dimension.hint_pressed_alpha_material_dark = global::ValleyAuthenticator.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::ZXing.Net.Mobile.Resource.Dimension.hint_pressed_alpha_material_light = global::ValleyAuthenticator.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_action_icon_size = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_action_icon_size;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_action_text_size = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_action_text_size;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_big_circle_margin = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_content_margin_start = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_content_margin_start;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_large_icon_height = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_large_icon_height;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_large_icon_width = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_large_icon_width;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_main_column_padding_top = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_media_narrow_margin = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_right_icon_size = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_right_icon_size;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_right_side_padding_top = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_small_icon_background_padding = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_small_icon_size_as_large = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_subtext_size = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_subtext_size;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_top_pad = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_top_pad;
+			global::ZXing.Net.Mobile.Resource.Dimension.notification_top_pad_large_text = global::ValleyAuthenticator.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::ZXing.Net.Mobile.Resource.Dimension.tooltip_corner_radius = global::ValleyAuthenticator.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::ZXing.Net.Mobile.Resource.Dimension.tooltip_horizontal_padding = global::ValleyAuthenticator.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::ZXing.Net.Mobile.Resource.Dimension.tooltip_margin = global::ValleyAuthenticator.Droid.Resource.Dimension.tooltip_margin;
+			global::ZXing.Net.Mobile.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::ValleyAuthenticator.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::ZXing.Net.Mobile.Resource.Dimension.tooltip_precise_anchor_threshold = global::ValleyAuthenticator.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::ZXing.Net.Mobile.Resource.Dimension.tooltip_vertical_padding = global::ValleyAuthenticator.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::ZXing.Net.Mobile.Resource.Dimension.tooltip_y_offset_non_touch = global::ValleyAuthenticator.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::ZXing.Net.Mobile.Resource.Dimension.tooltip_y_offset_touch = global::ValleyAuthenticator.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_action_bar_item_background_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_borderless_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_check_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_check_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_check_material_anim = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_check_material_anim;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_colored_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_default_mtrl_shape = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_radio_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_radio_material_anim = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_radio_material_anim;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_cab_background_internal_bg = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_cab_background_top_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_control_background_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_control_background_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_dialog_material_background = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_edit_text_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_edit_text_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_ab_back_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_clear_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_go_search_api_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_menu_overflow_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_search_api_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ic_voice_search_api_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_item_background_holo_dark = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_item_background_holo_light = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_divider_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_divider_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_divider_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_focused_holo = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_longpressed_holo = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_pressed_holo_dark = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_pressed_holo_light = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_selector_disabled_holo_light = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_selector_holo_dark = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_list_selector_holo_light = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_popup_background_mtrl_mult = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ratingbar_indicator_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ratingbar_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_ratingbar_small_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_seekbar_thumb_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_seekbar_tick_mark_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_seekbar_track_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_spinner_textfield_background_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_switch_thumb_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_switch_track_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_tab_indicator_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_textfield_search_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_text_cursor_material = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::ZXing.Net.Mobile.Resource.Drawable.abc_vector_test = global::ValleyAuthenticator.Droid.Resource.Drawable.abc_vector_test;
+			global::ZXing.Net.Mobile.Resource.Drawable.btn_checkbox_checked_mtrl = global::ValleyAuthenticator.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::ZXing.Net.Mobile.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::ValleyAuthenticator.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::ZXing.Net.Mobile.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::ValleyAuthenticator.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::ZXing.Net.Mobile.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::ValleyAuthenticator.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::ZXing.Net.Mobile.Resource.Drawable.btn_radio_off_mtrl = global::ValleyAuthenticator.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::ZXing.Net.Mobile.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::ValleyAuthenticator.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::ZXing.Net.Mobile.Resource.Drawable.btn_radio_on_mtrl = global::ValleyAuthenticator.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::ZXing.Net.Mobile.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::ValleyAuthenticator.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::ZXing.Net.Mobile.Resource.Drawable.notification_action_background = global::ValleyAuthenticator.Droid.Resource.Drawable.notification_action_background;
+			global::ZXing.Net.Mobile.Resource.Drawable.notification_bg = global::ValleyAuthenticator.Droid.Resource.Drawable.notification_bg;
+			global::ZXing.Net.Mobile.Resource.Drawable.notification_bg_low = global::ValleyAuthenticator.Droid.Resource.Drawable.notification_bg_low;
+			global::ZXing.Net.Mobile.Resource.Drawable.notification_bg_low_normal = global::ValleyAuthenticator.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::ZXing.Net.Mobile.Resource.Drawable.notification_bg_low_pressed = global::ValleyAuthenticator.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::ZXing.Net.Mobile.Resource.Drawable.notification_bg_normal = global::ValleyAuthenticator.Droid.Resource.Drawable.notification_bg_normal;
+			global::ZXing.Net.Mobile.Resource.Drawable.notification_bg_normal_pressed = global::ValleyAuthenticator.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::ZXing.Net.Mobile.Resource.Drawable.notification_icon_background = global::ValleyAuthenticator.Droid.Resource.Drawable.notification_icon_background;
+			global::ZXing.Net.Mobile.Resource.Drawable.notification_template_icon_bg = global::ValleyAuthenticator.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::ZXing.Net.Mobile.Resource.Drawable.notification_template_icon_low_bg = global::ValleyAuthenticator.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::ZXing.Net.Mobile.Resource.Drawable.notification_tile_bg = global::ValleyAuthenticator.Droid.Resource.Drawable.notification_tile_bg;
+			global::ZXing.Net.Mobile.Resource.Drawable.notify_panel_notification_icon_bg = global::ValleyAuthenticator.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::ZXing.Net.Mobile.Resource.Drawable.tooltip_frame_dark = global::ValleyAuthenticator.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::ZXing.Net.Mobile.Resource.Drawable.tooltip_frame_light = global::ValleyAuthenticator.Droid.Resource.Drawable.tooltip_frame_light;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_action_clickable_span = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_0 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_0;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_1 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_1;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_10 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_10;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_11 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_11;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_12 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_12;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_13 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_13;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_14 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_14;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_15 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_15;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_16 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_16;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_17 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_17;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_18 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_18;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_19 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_19;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_2 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_2;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_20 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_20;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_21 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_21;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_22 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_22;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_23 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_23;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_24 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_24;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_25 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_25;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_26 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_26;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_27 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_27;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_28 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_28;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_29 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_29;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_3 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_3;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_30 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_30;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_31 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_31;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_4 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_4;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_5 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_5;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_6 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_6;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_7 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_7;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_8 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_8;
+			global::ZXing.Net.Mobile.Resource.Id.accessibility_custom_action_9 = global::ValleyAuthenticator.Droid.Resource.Id.accessibility_custom_action_9;
+			global::ZXing.Net.Mobile.Resource.Id.actions = global::ValleyAuthenticator.Droid.Resource.Id.actions;
+			global::ZXing.Net.Mobile.Resource.Id.action_bar = global::ValleyAuthenticator.Droid.Resource.Id.action_bar;
+			global::ZXing.Net.Mobile.Resource.Id.action_bar_activity_content = global::ValleyAuthenticator.Droid.Resource.Id.action_bar_activity_content;
+			global::ZXing.Net.Mobile.Resource.Id.action_bar_container = global::ValleyAuthenticator.Droid.Resource.Id.action_bar_container;
+			global::ZXing.Net.Mobile.Resource.Id.action_bar_root = global::ValleyAuthenticator.Droid.Resource.Id.action_bar_root;
+			global::ZXing.Net.Mobile.Resource.Id.action_bar_spinner = global::ValleyAuthenticator.Droid.Resource.Id.action_bar_spinner;
+			global::ZXing.Net.Mobile.Resource.Id.action_bar_subtitle = global::ValleyAuthenticator.Droid.Resource.Id.action_bar_subtitle;
+			global::ZXing.Net.Mobile.Resource.Id.action_bar_title = global::ValleyAuthenticator.Droid.Resource.Id.action_bar_title;
+			global::ZXing.Net.Mobile.Resource.Id.action_container = global::ValleyAuthenticator.Droid.Resource.Id.action_container;
+			global::ZXing.Net.Mobile.Resource.Id.action_context_bar = global::ValleyAuthenticator.Droid.Resource.Id.action_context_bar;
+			global::ZXing.Net.Mobile.Resource.Id.action_divider = global::ValleyAuthenticator.Droid.Resource.Id.action_divider;
+			global::ZXing.Net.Mobile.Resource.Id.action_image = global::ValleyAuthenticator.Droid.Resource.Id.action_image;
+			global::ZXing.Net.Mobile.Resource.Id.action_menu_divider = global::ValleyAuthenticator.Droid.Resource.Id.action_menu_divider;
+			global::ZXing.Net.Mobile.Resource.Id.action_menu_presenter = global::ValleyAuthenticator.Droid.Resource.Id.action_menu_presenter;
+			global::ZXing.Net.Mobile.Resource.Id.action_mode_bar = global::ValleyAuthenticator.Droid.Resource.Id.action_mode_bar;
+			global::ZXing.Net.Mobile.Resource.Id.action_mode_bar_stub = global::ValleyAuthenticator.Droid.Resource.Id.action_mode_bar_stub;
+			global::ZXing.Net.Mobile.Resource.Id.action_mode_close_button = global::ValleyAuthenticator.Droid.Resource.Id.action_mode_close_button;
+			global::ZXing.Net.Mobile.Resource.Id.action_text = global::ValleyAuthenticator.Droid.Resource.Id.action_text;
+			global::ZXing.Net.Mobile.Resource.Id.activity_chooser_view_content = global::ValleyAuthenticator.Droid.Resource.Id.activity_chooser_view_content;
+			global::ZXing.Net.Mobile.Resource.Id.add = global::ValleyAuthenticator.Droid.Resource.Id.add;
+			global::ZXing.Net.Mobile.Resource.Id.alertTitle = global::ValleyAuthenticator.Droid.Resource.Id.alertTitle;
+			global::ZXing.Net.Mobile.Resource.Id.all = global::ValleyAuthenticator.Droid.Resource.Id.all;
+			global::ZXing.Net.Mobile.Resource.Id.ALT = global::ValleyAuthenticator.Droid.Resource.Id.ALT;
+			global::ZXing.Net.Mobile.Resource.Id.always = global::ValleyAuthenticator.Droid.Resource.Id.always;
+			global::ZXing.Net.Mobile.Resource.Id.async = global::ValleyAuthenticator.Droid.Resource.Id.async;
+			global::ZXing.Net.Mobile.Resource.Id.beginning = global::ValleyAuthenticator.Droid.Resource.Id.beginning;
+			global::ZXing.Net.Mobile.Resource.Id.blocking = global::ValleyAuthenticator.Droid.Resource.Id.blocking;
+			global::ZXing.Net.Mobile.Resource.Id.bottom = global::ValleyAuthenticator.Droid.Resource.Id.bottom;
+			global::ZXing.Net.Mobile.Resource.Id.browser_actions_header_text = global::ValleyAuthenticator.Droid.Resource.Id.browser_actions_header_text;
+			global::ZXing.Net.Mobile.Resource.Id.browser_actions_menu_items = global::ValleyAuthenticator.Droid.Resource.Id.browser_actions_menu_items;
+			global::ZXing.Net.Mobile.Resource.Id.browser_actions_menu_item_icon = global::ValleyAuthenticator.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::ZXing.Net.Mobile.Resource.Id.browser_actions_menu_item_text = global::ValleyAuthenticator.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::ZXing.Net.Mobile.Resource.Id.browser_actions_menu_view = global::ValleyAuthenticator.Droid.Resource.Id.browser_actions_menu_view;
+			global::ZXing.Net.Mobile.Resource.Id.buttonPanel = global::ValleyAuthenticator.Droid.Resource.Id.buttonPanel;
+			global::ZXing.Net.Mobile.Resource.Id.center = global::ValleyAuthenticator.Droid.Resource.Id.center;
+			global::ZXing.Net.Mobile.Resource.Id.center_horizontal = global::ValleyAuthenticator.Droid.Resource.Id.center_horizontal;
+			global::ZXing.Net.Mobile.Resource.Id.center_vertical = global::ValleyAuthenticator.Droid.Resource.Id.center_vertical;
+			global::ZXing.Net.Mobile.Resource.Id.checkbox = global::ValleyAuthenticator.Droid.Resource.Id.checkbox;
+			global::ZXing.Net.Mobile.Resource.Id.@checked = global::ValleyAuthenticator.Droid.Resource.Id.@checked;
+			global::ZXing.Net.Mobile.Resource.Id.chronometer = global::ValleyAuthenticator.Droid.Resource.Id.chronometer;
+			global::ZXing.Net.Mobile.Resource.Id.clip_horizontal = global::ValleyAuthenticator.Droid.Resource.Id.clip_horizontal;
+			global::ZXing.Net.Mobile.Resource.Id.clip_vertical = global::ValleyAuthenticator.Droid.Resource.Id.clip_vertical;
+			global::ZXing.Net.Mobile.Resource.Id.collapseActionView = global::ValleyAuthenticator.Droid.Resource.Id.collapseActionView;
+			global::ZXing.Net.Mobile.Resource.Id.content = global::ValleyAuthenticator.Droid.Resource.Id.content;
+			global::ZXing.Net.Mobile.Resource.Id.contentFrame = global::ValleyAuthenticator.Droid.Resource.Id.contentFrame;
+			global::ZXing.Net.Mobile.Resource.Id.contentPanel = global::ValleyAuthenticator.Droid.Resource.Id.contentPanel;
+			global::ZXing.Net.Mobile.Resource.Id.CTRL = global::ValleyAuthenticator.Droid.Resource.Id.CTRL;
+			global::ZXing.Net.Mobile.Resource.Id.custom = global::ValleyAuthenticator.Droid.Resource.Id.custom;
+			global::ZXing.Net.Mobile.Resource.Id.customPanel = global::ValleyAuthenticator.Droid.Resource.Id.customPanel;
+			global::ZXing.Net.Mobile.Resource.Id.decor_content_parent = global::ValleyAuthenticator.Droid.Resource.Id.decor_content_parent;
+			global::ZXing.Net.Mobile.Resource.Id.default_activity_button = global::ValleyAuthenticator.Droid.Resource.Id.default_activity_button;
+			global::ZXing.Net.Mobile.Resource.Id.dialog_button = global::ValleyAuthenticator.Droid.Resource.Id.dialog_button;
+			global::ZXing.Net.Mobile.Resource.Id.disableHome = global::ValleyAuthenticator.Droid.Resource.Id.disableHome;
+			global::ZXing.Net.Mobile.Resource.Id.edit_query = global::ValleyAuthenticator.Droid.Resource.Id.edit_query;
+			global::ZXing.Net.Mobile.Resource.Id.end = global::ValleyAuthenticator.Droid.Resource.Id.end;
+			global::ZXing.Net.Mobile.Resource.Id.expanded_menu = global::ValleyAuthenticator.Droid.Resource.Id.expanded_menu;
+			global::ZXing.Net.Mobile.Resource.Id.expand_activities_button = global::ValleyAuthenticator.Droid.Resource.Id.expand_activities_button;
+			global::ZXing.Net.Mobile.Resource.Id.fill = global::ValleyAuthenticator.Droid.Resource.Id.fill;
+			global::ZXing.Net.Mobile.Resource.Id.fill_horizontal = global::ValleyAuthenticator.Droid.Resource.Id.fill_horizontal;
+			global::ZXing.Net.Mobile.Resource.Id.fill_vertical = global::ValleyAuthenticator.Droid.Resource.Id.fill_vertical;
+			global::ZXing.Net.Mobile.Resource.Id.forever = global::ValleyAuthenticator.Droid.Resource.Id.forever;
+			global::ZXing.Net.Mobile.Resource.Id.FUNCTION = global::ValleyAuthenticator.Droid.Resource.Id.FUNCTION;
+			global::ZXing.Net.Mobile.Resource.Id.group_divider = global::ValleyAuthenticator.Droid.Resource.Id.group_divider;
+			global::ZXing.Net.Mobile.Resource.Id.home = global::ValleyAuthenticator.Droid.Resource.Id.home;
+			global::ZXing.Net.Mobile.Resource.Id.homeAsUp = global::ValleyAuthenticator.Droid.Resource.Id.homeAsUp;
+			global::ZXing.Net.Mobile.Resource.Id.icon = global::ValleyAuthenticator.Droid.Resource.Id.icon;
+			global::ZXing.Net.Mobile.Resource.Id.icon_group = global::ValleyAuthenticator.Droid.Resource.Id.icon_group;
+			global::ZXing.Net.Mobile.Resource.Id.ifRoom = global::ValleyAuthenticator.Droid.Resource.Id.ifRoom;
+			global::ZXing.Net.Mobile.Resource.Id.image = global::ValleyAuthenticator.Droid.Resource.Id.image;
+			global::ZXing.Net.Mobile.Resource.Id.info = global::ValleyAuthenticator.Droid.Resource.Id.info;
+			global::ZXing.Net.Mobile.Resource.Id.italic = global::ValleyAuthenticator.Droid.Resource.Id.italic;
+			global::ZXing.Net.Mobile.Resource.Id.left = global::ValleyAuthenticator.Droid.Resource.Id.left;
+			global::ZXing.Net.Mobile.Resource.Id.line1 = global::ValleyAuthenticator.Droid.Resource.Id.line1;
+			global::ZXing.Net.Mobile.Resource.Id.line3 = global::ValleyAuthenticator.Droid.Resource.Id.line3;
+			global::ZXing.Net.Mobile.Resource.Id.listMode = global::ValleyAuthenticator.Droid.Resource.Id.listMode;
+			global::ZXing.Net.Mobile.Resource.Id.list_item = global::ValleyAuthenticator.Droid.Resource.Id.list_item;
+			global::ZXing.Net.Mobile.Resource.Id.message = global::ValleyAuthenticator.Droid.Resource.Id.message;
+			global::ZXing.Net.Mobile.Resource.Id.META = global::ValleyAuthenticator.Droid.Resource.Id.META;
+			global::ZXing.Net.Mobile.Resource.Id.middle = global::ValleyAuthenticator.Droid.Resource.Id.middle;
+			global::ZXing.Net.Mobile.Resource.Id.multiply = global::ValleyAuthenticator.Droid.Resource.Id.multiply;
+			global::ZXing.Net.Mobile.Resource.Id.never = global::ValleyAuthenticator.Droid.Resource.Id.never;
+			global::ZXing.Net.Mobile.Resource.Id.none = global::ValleyAuthenticator.Droid.Resource.Id.none;
+			global::ZXing.Net.Mobile.Resource.Id.normal = global::ValleyAuthenticator.Droid.Resource.Id.normal;
+			global::ZXing.Net.Mobile.Resource.Id.notification_background = global::ValleyAuthenticator.Droid.Resource.Id.notification_background;
+			global::ZXing.Net.Mobile.Resource.Id.notification_main_column = global::ValleyAuthenticator.Droid.Resource.Id.notification_main_column;
+			global::ZXing.Net.Mobile.Resource.Id.notification_main_column_container = global::ValleyAuthenticator.Droid.Resource.Id.notification_main_column_container;
+			global::ZXing.Net.Mobile.Resource.Id.off = global::ValleyAuthenticator.Droid.Resource.Id.off;
+			global::ZXing.Net.Mobile.Resource.Id.on = global::ValleyAuthenticator.Droid.Resource.Id.on;
+			global::ZXing.Net.Mobile.Resource.Id.parentPanel = global::ValleyAuthenticator.Droid.Resource.Id.parentPanel;
+			global::ZXing.Net.Mobile.Resource.Id.progress_circular = global::ValleyAuthenticator.Droid.Resource.Id.progress_circular;
+			global::ZXing.Net.Mobile.Resource.Id.progress_horizontal = global::ValleyAuthenticator.Droid.Resource.Id.progress_horizontal;
+			global::ZXing.Net.Mobile.Resource.Id.radio = global::ValleyAuthenticator.Droid.Resource.Id.radio;
+			global::ZXing.Net.Mobile.Resource.Id.right = global::ValleyAuthenticator.Droid.Resource.Id.right;
+			global::ZXing.Net.Mobile.Resource.Id.right_icon = global::ValleyAuthenticator.Droid.Resource.Id.right_icon;
+			global::ZXing.Net.Mobile.Resource.Id.right_side = global::ValleyAuthenticator.Droid.Resource.Id.right_side;
+			global::ZXing.Net.Mobile.Resource.Id.screen = global::ValleyAuthenticator.Droid.Resource.Id.screen;
+			global::ZXing.Net.Mobile.Resource.Id.scrollIndicatorDown = global::ValleyAuthenticator.Droid.Resource.Id.scrollIndicatorDown;
+			global::ZXing.Net.Mobile.Resource.Id.scrollIndicatorUp = global::ValleyAuthenticator.Droid.Resource.Id.scrollIndicatorUp;
+			global::ZXing.Net.Mobile.Resource.Id.scrollView = global::ValleyAuthenticator.Droid.Resource.Id.scrollView;
+			global::ZXing.Net.Mobile.Resource.Id.search_badge = global::ValleyAuthenticator.Droid.Resource.Id.search_badge;
+			global::ZXing.Net.Mobile.Resource.Id.search_bar = global::ValleyAuthenticator.Droid.Resource.Id.search_bar;
+			global::ZXing.Net.Mobile.Resource.Id.search_button = global::ValleyAuthenticator.Droid.Resource.Id.search_button;
+			global::ZXing.Net.Mobile.Resource.Id.search_close_btn = global::ValleyAuthenticator.Droid.Resource.Id.search_close_btn;
+			global::ZXing.Net.Mobile.Resource.Id.search_edit_frame = global::ValleyAuthenticator.Droid.Resource.Id.search_edit_frame;
+			global::ZXing.Net.Mobile.Resource.Id.search_go_btn = global::ValleyAuthenticator.Droid.Resource.Id.search_go_btn;
+			global::ZXing.Net.Mobile.Resource.Id.search_mag_icon = global::ValleyAuthenticator.Droid.Resource.Id.search_mag_icon;
+			global::ZXing.Net.Mobile.Resource.Id.search_plate = global::ValleyAuthenticator.Droid.Resource.Id.search_plate;
+			global::ZXing.Net.Mobile.Resource.Id.search_src_text = global::ValleyAuthenticator.Droid.Resource.Id.search_src_text;
+			global::ZXing.Net.Mobile.Resource.Id.search_voice_btn = global::ValleyAuthenticator.Droid.Resource.Id.search_voice_btn;
+			global::ZXing.Net.Mobile.Resource.Id.select_dialog_listview = global::ValleyAuthenticator.Droid.Resource.Id.select_dialog_listview;
+			global::ZXing.Net.Mobile.Resource.Id.SHIFT = global::ValleyAuthenticator.Droid.Resource.Id.SHIFT;
+			global::ZXing.Net.Mobile.Resource.Id.shortcut = global::ValleyAuthenticator.Droid.Resource.Id.shortcut;
+			global::ZXing.Net.Mobile.Resource.Id.showCustom = global::ValleyAuthenticator.Droid.Resource.Id.showCustom;
+			global::ZXing.Net.Mobile.Resource.Id.showHome = global::ValleyAuthenticator.Droid.Resource.Id.showHome;
+			global::ZXing.Net.Mobile.Resource.Id.showTitle = global::ValleyAuthenticator.Droid.Resource.Id.showTitle;
+			global::ZXing.Net.Mobile.Resource.Id.spacer = global::ValleyAuthenticator.Droid.Resource.Id.spacer;
+			global::ZXing.Net.Mobile.Resource.Id.split_action_bar = global::ValleyAuthenticator.Droid.Resource.Id.split_action_bar;
+			global::ZXing.Net.Mobile.Resource.Id.src_atop = global::ValleyAuthenticator.Droid.Resource.Id.src_atop;
+			global::ZXing.Net.Mobile.Resource.Id.src_in = global::ValleyAuthenticator.Droid.Resource.Id.src_in;
+			global::ZXing.Net.Mobile.Resource.Id.src_over = global::ValleyAuthenticator.Droid.Resource.Id.src_over;
+			global::ZXing.Net.Mobile.Resource.Id.start = global::ValleyAuthenticator.Droid.Resource.Id.start;
+			global::ZXing.Net.Mobile.Resource.Id.submenuarrow = global::ValleyAuthenticator.Droid.Resource.Id.submenuarrow;
+			global::ZXing.Net.Mobile.Resource.Id.submit_area = global::ValleyAuthenticator.Droid.Resource.Id.submit_area;
+			global::ZXing.Net.Mobile.Resource.Id.SYM = global::ValleyAuthenticator.Droid.Resource.Id.SYM;
+			global::ZXing.Net.Mobile.Resource.Id.tabMode = global::ValleyAuthenticator.Droid.Resource.Id.tabMode;
+			global::ZXing.Net.Mobile.Resource.Id.tag_accessibility_actions = global::ValleyAuthenticator.Droid.Resource.Id.tag_accessibility_actions;
+			global::ZXing.Net.Mobile.Resource.Id.tag_accessibility_clickable_spans = global::ValleyAuthenticator.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::ZXing.Net.Mobile.Resource.Id.tag_accessibility_heading = global::ValleyAuthenticator.Droid.Resource.Id.tag_accessibility_heading;
+			global::ZXing.Net.Mobile.Resource.Id.tag_accessibility_pane_title = global::ValleyAuthenticator.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::ZXing.Net.Mobile.Resource.Id.tag_screen_reader_focusable = global::ValleyAuthenticator.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::ZXing.Net.Mobile.Resource.Id.tag_transition_group = global::ValleyAuthenticator.Droid.Resource.Id.tag_transition_group;
+			global::ZXing.Net.Mobile.Resource.Id.tag_unhandled_key_event_manager = global::ValleyAuthenticator.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::ZXing.Net.Mobile.Resource.Id.tag_unhandled_key_listeners = global::ValleyAuthenticator.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::ZXing.Net.Mobile.Resource.Id.text = global::ValleyAuthenticator.Droid.Resource.Id.text;
+			global::ZXing.Net.Mobile.Resource.Id.text2 = global::ValleyAuthenticator.Droid.Resource.Id.text2;
+			global::ZXing.Net.Mobile.Resource.Id.textSpacerNoButtons = global::ValleyAuthenticator.Droid.Resource.Id.textSpacerNoButtons;
+			global::ZXing.Net.Mobile.Resource.Id.textSpacerNoTitle = global::ValleyAuthenticator.Droid.Resource.Id.textSpacerNoTitle;
+			global::ZXing.Net.Mobile.Resource.Id.time = global::ValleyAuthenticator.Droid.Resource.Id.time;
+			global::ZXing.Net.Mobile.Resource.Id.title = global::ValleyAuthenticator.Droid.Resource.Id.title;
+			global::ZXing.Net.Mobile.Resource.Id.titleDividerNoCustom = global::ValleyAuthenticator.Droid.Resource.Id.titleDividerNoCustom;
+			global::ZXing.Net.Mobile.Resource.Id.title_template = global::ValleyAuthenticator.Droid.Resource.Id.title_template;
+			global::ZXing.Net.Mobile.Resource.Id.top = global::ValleyAuthenticator.Droid.Resource.Id.top;
+			global::ZXing.Net.Mobile.Resource.Id.topPanel = global::ValleyAuthenticator.Droid.Resource.Id.topPanel;
+			global::ZXing.Net.Mobile.Resource.Id.@unchecked = global::ValleyAuthenticator.Droid.Resource.Id.@unchecked;
+			global::ZXing.Net.Mobile.Resource.Id.uniform = global::ValleyAuthenticator.Droid.Resource.Id.uniform;
+			global::ZXing.Net.Mobile.Resource.Id.up = global::ValleyAuthenticator.Droid.Resource.Id.up;
+			global::ZXing.Net.Mobile.Resource.Id.useLogo = global::ValleyAuthenticator.Droid.Resource.Id.useLogo;
+			global::ZXing.Net.Mobile.Resource.Id.withText = global::ValleyAuthenticator.Droid.Resource.Id.withText;
+			global::ZXing.Net.Mobile.Resource.Id.wrap_content = global::ValleyAuthenticator.Droid.Resource.Id.wrap_content;
+			global::ZXing.Net.Mobile.Resource.Integer.abc_config_activityDefaultDur = global::ValleyAuthenticator.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::ZXing.Net.Mobile.Resource.Integer.abc_config_activityShortDur = global::ValleyAuthenticator.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::ZXing.Net.Mobile.Resource.Integer.cancel_button_image_alpha = global::ValleyAuthenticator.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::ZXing.Net.Mobile.Resource.Integer.config_tooltipAnimTime = global::ValleyAuthenticator.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::ZXing.Net.Mobile.Resource.Integer.status_bar_notification_info_maxnum = global::ValleyAuthenticator.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::ZXing.Net.Mobile.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::ValleyAuthenticator.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::ZXing.Net.Mobile.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::ValleyAuthenticator.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::ZXing.Net.Mobile.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::ValleyAuthenticator.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::ZXing.Net.Mobile.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::ValleyAuthenticator.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::ZXing.Net.Mobile.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::ValleyAuthenticator.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::ZXing.Net.Mobile.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::ValleyAuthenticator.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::ZXing.Net.Mobile.Resource.Interpolator.fast_out_slow_in = global::ValleyAuthenticator.Droid.Resource.Interpolator.fast_out_slow_in;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_action_bar_title_item = global::ValleyAuthenticator.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_action_bar_up_container = global::ValleyAuthenticator.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_action_menu_item_layout = global::ValleyAuthenticator.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_action_menu_layout = global::ValleyAuthenticator.Droid.Resource.Layout.abc_action_menu_layout;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_action_mode_bar = global::ValleyAuthenticator.Droid.Resource.Layout.abc_action_mode_bar;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_action_mode_close_item_material = global::ValleyAuthenticator.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_activity_chooser_view = global::ValleyAuthenticator.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_activity_chooser_view_list_item = global::ValleyAuthenticator.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_alert_dialog_button_bar_material = global::ValleyAuthenticator.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_alert_dialog_material = global::ValleyAuthenticator.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_alert_dialog_title_material = global::ValleyAuthenticator.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_cascading_menu_item_layout = global::ValleyAuthenticator.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_dialog_title_material = global::ValleyAuthenticator.Droid.Resource.Layout.abc_dialog_title_material;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_expanded_menu_layout = global::ValleyAuthenticator.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_list_menu_item_checkbox = global::ValleyAuthenticator.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_list_menu_item_icon = global::ValleyAuthenticator.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_list_menu_item_layout = global::ValleyAuthenticator.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_list_menu_item_radio = global::ValleyAuthenticator.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_popup_menu_header_item_layout = global::ValleyAuthenticator.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_popup_menu_item_layout = global::ValleyAuthenticator.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_screen_content_include = global::ValleyAuthenticator.Droid.Resource.Layout.abc_screen_content_include;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_screen_simple = global::ValleyAuthenticator.Droid.Resource.Layout.abc_screen_simple;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_screen_simple_overlay_action_mode = global::ValleyAuthenticator.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_screen_toolbar = global::ValleyAuthenticator.Droid.Resource.Layout.abc_screen_toolbar;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_search_dropdown_item_icons_2line = global::ValleyAuthenticator.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_search_view = global::ValleyAuthenticator.Droid.Resource.Layout.abc_search_view;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_select_dialog_material = global::ValleyAuthenticator.Droid.Resource.Layout.abc_select_dialog_material;
+			global::ZXing.Net.Mobile.Resource.Layout.abc_tooltip = global::ValleyAuthenticator.Droid.Resource.Layout.abc_tooltip;
+			global::ZXing.Net.Mobile.Resource.Layout.browser_actions_context_menu_page = global::ValleyAuthenticator.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::ZXing.Net.Mobile.Resource.Layout.browser_actions_context_menu_row = global::ValleyAuthenticator.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::ZXing.Net.Mobile.Resource.Layout.custom_dialog = global::ValleyAuthenticator.Droid.Resource.Layout.custom_dialog;
+			global::ZXing.Net.Mobile.Resource.Layout.notification_action = global::ValleyAuthenticator.Droid.Resource.Layout.notification_action;
+			global::ZXing.Net.Mobile.Resource.Layout.notification_action_tombstone = global::ValleyAuthenticator.Droid.Resource.Layout.notification_action_tombstone;
+			global::ZXing.Net.Mobile.Resource.Layout.notification_template_custom_big = global::ValleyAuthenticator.Droid.Resource.Layout.notification_template_custom_big;
+			global::ZXing.Net.Mobile.Resource.Layout.notification_template_icon_group = global::ValleyAuthenticator.Droid.Resource.Layout.notification_template_icon_group;
+			global::ZXing.Net.Mobile.Resource.Layout.notification_template_part_chronometer = global::ValleyAuthenticator.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::ZXing.Net.Mobile.Resource.Layout.notification_template_part_time = global::ValleyAuthenticator.Droid.Resource.Layout.notification_template_part_time;
+			global::ZXing.Net.Mobile.Resource.Layout.select_dialog_item_material = global::ValleyAuthenticator.Droid.Resource.Layout.select_dialog_item_material;
+			global::ZXing.Net.Mobile.Resource.Layout.select_dialog_multichoice_material = global::ValleyAuthenticator.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::ZXing.Net.Mobile.Resource.Layout.select_dialog_singlechoice_material = global::ValleyAuthenticator.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::ZXing.Net.Mobile.Resource.Layout.support_simple_spinner_dropdown_item = global::ValleyAuthenticator.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::ZXing.Net.Mobile.Resource.Layout.zxingscanneractivitylayout = global::ValleyAuthenticator.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Net.Mobile.Resource.Layout.zxingscannerfragmentlayout = global::ValleyAuthenticator.Droid.Resource.Layout.zxingscannerfragmentlayout;
+			global::ZXing.Net.Mobile.Resource.String.abc_action_bar_home_description = global::ValleyAuthenticator.Droid.Resource.String.abc_action_bar_home_description;
+			global::ZXing.Net.Mobile.Resource.String.abc_action_bar_up_description = global::ValleyAuthenticator.Droid.Resource.String.abc_action_bar_up_description;
+			global::ZXing.Net.Mobile.Resource.String.abc_action_menu_overflow_description = global::ValleyAuthenticator.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::ZXing.Net.Mobile.Resource.String.abc_action_mode_done = global::ValleyAuthenticator.Droid.Resource.String.abc_action_mode_done;
+			global::ZXing.Net.Mobile.Resource.String.abc_activitychooserview_choose_application = global::ValleyAuthenticator.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::ZXing.Net.Mobile.Resource.String.abc_activity_chooser_view_see_all = global::ValleyAuthenticator.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::ZXing.Net.Mobile.Resource.String.abc_capital_off = global::ValleyAuthenticator.Droid.Resource.String.abc_capital_off;
+			global::ZXing.Net.Mobile.Resource.String.abc_capital_on = global::ValleyAuthenticator.Droid.Resource.String.abc_capital_on;
+			global::ZXing.Net.Mobile.Resource.String.abc_menu_alt_shortcut_label = global::ValleyAuthenticator.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::ZXing.Net.Mobile.Resource.String.abc_menu_ctrl_shortcut_label = global::ValleyAuthenticator.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::ZXing.Net.Mobile.Resource.String.abc_menu_delete_shortcut_label = global::ValleyAuthenticator.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::ZXing.Net.Mobile.Resource.String.abc_menu_enter_shortcut_label = global::ValleyAuthenticator.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::ZXing.Net.Mobile.Resource.String.abc_menu_function_shortcut_label = global::ValleyAuthenticator.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::ZXing.Net.Mobile.Resource.String.abc_menu_meta_shortcut_label = global::ValleyAuthenticator.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::ZXing.Net.Mobile.Resource.String.abc_menu_shift_shortcut_label = global::ValleyAuthenticator.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::ZXing.Net.Mobile.Resource.String.abc_menu_space_shortcut_label = global::ValleyAuthenticator.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::ZXing.Net.Mobile.Resource.String.abc_menu_sym_shortcut_label = global::ValleyAuthenticator.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::ZXing.Net.Mobile.Resource.String.abc_prepend_shortcut_label = global::ValleyAuthenticator.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::ZXing.Net.Mobile.Resource.String.abc_searchview_description_clear = global::ValleyAuthenticator.Droid.Resource.String.abc_searchview_description_clear;
+			global::ZXing.Net.Mobile.Resource.String.abc_searchview_description_query = global::ValleyAuthenticator.Droid.Resource.String.abc_searchview_description_query;
+			global::ZXing.Net.Mobile.Resource.String.abc_searchview_description_search = global::ValleyAuthenticator.Droid.Resource.String.abc_searchview_description_search;
+			global::ZXing.Net.Mobile.Resource.String.abc_searchview_description_submit = global::ValleyAuthenticator.Droid.Resource.String.abc_searchview_description_submit;
+			global::ZXing.Net.Mobile.Resource.String.abc_searchview_description_voice = global::ValleyAuthenticator.Droid.Resource.String.abc_searchview_description_voice;
+			global::ZXing.Net.Mobile.Resource.String.abc_search_hint = global::ValleyAuthenticator.Droid.Resource.String.abc_search_hint;
+			global::ZXing.Net.Mobile.Resource.String.abc_shareactionprovider_share_with = global::ValleyAuthenticator.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::ZXing.Net.Mobile.Resource.String.abc_shareactionprovider_share_with_application = global::ValleyAuthenticator.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::ZXing.Net.Mobile.Resource.String.abc_toolbar_collapse_description = global::ValleyAuthenticator.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::ZXing.Net.Mobile.Resource.String.search_menu_title = global::ValleyAuthenticator.Droid.Resource.String.search_menu_title;
+			global::ZXing.Net.Mobile.Resource.String.status_bar_notification_info_overflow = global::ValleyAuthenticator.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::ZXing.Net.Mobile.Resource.Style.AlertDialog_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.AlertDialog_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Animation_AppCompat_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Animation_AppCompat_DropDownUp = global::ValleyAuthenticator.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::ZXing.Net.Mobile.Resource.Style.Animation_AppCompat_Tooltip = global::ValleyAuthenticator.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::ZXing.Net.Mobile.Resource.Style.Base_AlertDialog_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_AlertDialog_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Animation_AppCompat_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::ValleyAuthenticator.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Animation_AppCompat_Tooltip = global::ValleyAuthenticator.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::ZXing.Net.Mobile.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_DialogWindowTitle_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Button = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Large = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Small = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Title = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::ZXing.Net.Mobile.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::ValleyAuthenticator.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::ZXing.Net.Mobile.Resource.Style.Base_ThemeOverlay_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::ValleyAuthenticator.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::ZXing.Net.Mobile.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::ValleyAuthenticator.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::ZXing.Net.Mobile.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::ValleyAuthenticator.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V21_Theme_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V21_Theme_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V22_Theme_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V22_Theme_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V23_Theme_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V23_Theme_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V26_Theme_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V26_Theme_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::ValleyAuthenticator.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V28_Theme_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V28_Theme_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V7_Theme_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V7_Theme_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::ValleyAuthenticator.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::ValleyAuthenticator.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::ZXing.Net.Mobile.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::ValleyAuthenticator.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ActionButton = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ActionMode = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Button = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Button_Small = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_EditText = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ImageButton = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ListView = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_RatingBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_SearchView = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_SeekBar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Spinner = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_TextView = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Toolbar = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::ZXing.Net.Mobile.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::ValleyAuthenticator.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::ZXing.Net.Mobile.Resource.Style.Platform_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Platform_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Platform_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Platform_ThemeOverlay_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::ValleyAuthenticator.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::ZXing.Net.Mobile.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Platform_V21_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Platform_V21_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Platform_V25_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Platform_V25_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Platform_Widget_AppCompat_Spinner = global::ValleyAuthenticator.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::ZXing.Net.Mobile.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::ValleyAuthenticator.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::ZXing.Net.Mobile.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::ValleyAuthenticator.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::ZXing.Net.Mobile.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::ValleyAuthenticator.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Body1 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Body2 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Button = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Caption = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Display1 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Display2 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Display3 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Display4 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Headline = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Large = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Medium = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Menu = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Small = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Subhead = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Title = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Tooltip = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_Compat_Notification = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_Compat_Notification_Info = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_Compat_Notification_Time = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_Compat_Notification_Title = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::ZXing.Net.Mobile.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::ValleyAuthenticator.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::ZXing.Net.Mobile.Resource.Style.ThemeOverlay_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.ThemeOverlay_AppCompat_Dark = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::ZXing.Net.Mobile.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::ZXing.Net.Mobile.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::ZXing.Net.Mobile.Resource.Style.ThemeOverlay_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_CompactMenu = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_DayNight = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_Dialog_Alert = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_Light = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_Light_Dialog = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Theme_AppCompat_NoActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ActionButton = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ActionMode = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ActivityChooserView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Button = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ButtonBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Button_Borderless = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Button_Colored = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Button_Small = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_EditText = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ImageButton = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionButton = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_SearchView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ListMenuView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ListPopupWindow = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ListView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ListView_DropDown = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ListView_Menu = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_PopupMenu = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_PopupWindow = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ProgressBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_RatingBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_RatingBar_Small = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_SearchView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_SeekBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Spinner = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_TextView = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_TextView;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Toolbar = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::ValleyAuthenticator.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_Compat_NotificationActionContainer = global::ValleyAuthenticator.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_Compat_NotificationActionText = global::ValleyAuthenticator.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::ZXing.Net.Mobile.Resource.Style.Widget_Support_CoordinatorLayout = global::ValleyAuthenticator.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBarLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBarLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_background = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_background;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_backgroundSplit = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_backgroundStacked = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_contentInsetEnd = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_contentInsetLeft = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_contentInsetRight = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_contentInsetStart = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_customNavigationLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_displayOptions = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_divider = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_divider;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_elevation = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_elevation;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_height = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_height;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_hideOnContentScroll = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_homeAsUpIndicator = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_homeLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_icon = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_icon;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_itemPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_logo = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_logo;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_navigationMode = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_popupTheme = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_progressBarPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_progressBarStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_subtitle = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_subtitleTextStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_title = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_title;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionBar_titleTextStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionMenuItemView = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionMenuItemView;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionMenuItemView_android_minWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionMenuView = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionMenuView;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionMode = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionMode;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionMode_background = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionMode_background;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionMode_backgroundSplit = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionMode_closeItemLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionMode_height = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionMode_height;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionMode_subtitleTextStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActionMode_titleTextStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActivityChooserView = global::ValleyAuthenticator.Droid.Resource.Styleable.ActivityChooserView;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.ActivityChooserView_initialActivityCount = global::ValleyAuthenticator.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::ZXing.Net.Mobile.Resource.Styleable.AlertDialog = global::ValleyAuthenticator.Droid.Resource.Styleable.AlertDialog;
+			global::ZXing.Net.Mobile.Resource.Styleable.AlertDialog_android_layout = global::ValleyAuthenticator.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::ZXing.Net.Mobile.Resource.Styleable.AlertDialog_buttonIconDimen = global::ValleyAuthenticator.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::ZXing.Net.Mobile.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.AlertDialog_listItemLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.AlertDialog_listLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.AlertDialog_showTitle = global::ValleyAuthenticator.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableItem = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableTransition = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::ZXing.Net.Mobile.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::ValleyAuthenticator.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatImageView = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatImageView;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatImageView_android_src = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatImageView_srcCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatImageView_tint = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatImageView_tintMode = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatSeekBar = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatSeekBar_android_thumb = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatSeekBar_tickMark = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextHelper = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_android_textAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_drawableTint = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_drawableTintMode = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_fontFamily = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_lineHeight = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_textAllCaps = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTextView_textLocale = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTextView_textLocale;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionBarDivider = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionBarSize = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionBarStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionBarTheme = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModeBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModeStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_buttonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_checkboxStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_colorAccent = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_colorControlActivated = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_colorControlNormal = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_colorError = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_colorPrimary = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_controlBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_dialogTheme = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_dividerVertical = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_editTextBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_editTextColor = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_editTextStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_panelBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_searchViewStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_seekBarStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_spinnerStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_switchStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_toolbarStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_windowActionBar = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::ZXing.Net.Mobile.Resource.Styleable.AppCompatTheme_windowNoTitle = global::ValleyAuthenticator.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::ZXing.Net.Mobile.Resource.Styleable.ButtonBarLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.ButtonBarLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.ButtonBarLayout_allowStacking = global::ValleyAuthenticator.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::ZXing.Net.Mobile.Resource.Styleable.ColorStateListItem = global::ValleyAuthenticator.Droid.Resource.Styleable.ColorStateListItem;
+			global::ZXing.Net.Mobile.Resource.Styleable.ColorStateListItem_alpha = global::ValleyAuthenticator.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::ZXing.Net.Mobile.Resource.Styleable.ColorStateListItem_android_alpha = global::ValleyAuthenticator.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::ZXing.Net.Mobile.Resource.Styleable.ColorStateListItem_android_color = global::ValleyAuthenticator.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::ZXing.Net.Mobile.Resource.Styleable.CompoundButton = global::ValleyAuthenticator.Droid.Resource.Styleable.CompoundButton;
+			global::ZXing.Net.Mobile.Resource.Styleable.CompoundButton_android_button = global::ValleyAuthenticator.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::ZXing.Net.Mobile.Resource.Styleable.CompoundButton_buttonCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.CompoundButton_buttonCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.CompoundButton_buttonTint = global::ValleyAuthenticator.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::ZXing.Net.Mobile.Resource.Styleable.CompoundButton_buttonTintMode = global::ValleyAuthenticator.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::ZXing.Net.Mobile.Resource.Styleable.CoordinatorLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.CoordinatorLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.CoordinatorLayout_keylines = global::ValleyAuthenticator.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::ZXing.Net.Mobile.Resource.Styleable.CoordinatorLayout_Layout = global::ValleyAuthenticator.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::ZXing.Net.Mobile.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::ValleyAuthenticator.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::ZXing.Net.Mobile.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::ValleyAuthenticator.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::ZXing.Net.Mobile.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::ValleyAuthenticator.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::ZXing.Net.Mobile.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::ValleyAuthenticator.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::ZXing.Net.Mobile.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::ValleyAuthenticator.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::ZXing.Net.Mobile.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::ValleyAuthenticator.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::ZXing.Net.Mobile.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::ValleyAuthenticator.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::ZXing.Net.Mobile.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.DrawerArrowToggle = global::ValleyAuthenticator.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::ZXing.Net.Mobile.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::ValleyAuthenticator.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::ZXing.Net.Mobile.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::ValleyAuthenticator.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::ZXing.Net.Mobile.Resource.Styleable.DrawerArrowToggle_barLength = global::ValleyAuthenticator.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::ZXing.Net.Mobile.Resource.Styleable.DrawerArrowToggle_color = global::ValleyAuthenticator.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::ZXing.Net.Mobile.Resource.Styleable.DrawerArrowToggle_drawableSize = global::ValleyAuthenticator.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::ZXing.Net.Mobile.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::ValleyAuthenticator.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::ZXing.Net.Mobile.Resource.Styleable.DrawerArrowToggle_spinBars = global::ValleyAuthenticator.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::ZXing.Net.Mobile.Resource.Styleable.DrawerArrowToggle_thickness = global::ValleyAuthenticator.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamily = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamily;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamilyFont = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamilyFont;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamilyFont_android_font = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamilyFont_android_fontStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamilyFont_android_fontWeight = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamilyFont_font = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamilyFont_fontStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamilyFont_fontWeight = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamilyFont_ttcIndex = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamily_fontProviderAuthority = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamily_fontProviderCerts = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamily_fontProviderPackage = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::ZXing.Net.Mobile.Resource.Styleable.FontFamily_fontProviderQuery = global::ValleyAuthenticator.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColorItem = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColorItem;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColorItem_android_color = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColorItem_android_offset = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_centerColor = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_centerX = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_centerY = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_endColor = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_endX = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_endY = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_gradientRadius = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_startColor = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_startX = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_startY = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_tileMode = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::ZXing.Net.Mobile.Resource.Styleable.GradientColor_android_type = global::ValleyAuthenticator.Droid.Resource.Styleable.GradientColor_android_type;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_android_gravity = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_android_orientation = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_divider = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_Layout = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::ZXing.Net.Mobile.Resource.Styleable.LinearLayoutCompat_showDividers = global::ValleyAuthenticator.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::ZXing.Net.Mobile.Resource.Styleable.ListPopupWindow = global::ValleyAuthenticator.Droid.Resource.Styleable.ListPopupWindow;
+			global::ZXing.Net.Mobile.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::ValleyAuthenticator.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::ZXing.Net.Mobile.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::ValleyAuthenticator.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuGroup = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuGroup;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuGroup_android_checkableBehavior = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuGroup_android_enabled = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuGroup_android_id = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuGroup_android_menuCategory = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuGroup_android_orderInCategory = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuGroup_android_visible = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_actionLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_actionProviderClass = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_actionViewClass = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_alphabeticModifiers = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_checkable = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_checked = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_enabled = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_icon = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_id = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_id;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_menuCategory = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_numericShortcut = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_onClick = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_orderInCategory = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_title = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_title;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_titleCondensed = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_android_visible = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_contentDescription = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_iconTint = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_iconTintMode = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_numericModifiers = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_showAsAction = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuItem_tooltipText = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuView = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuView;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuView_android_headerBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuView_android_horizontalDivider = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuView_android_itemBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuView_android_itemTextAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuView_android_verticalDivider = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuView_android_windowAnimationStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuView_preserveIconSpacing = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::ZXing.Net.Mobile.Resource.Styleable.MenuView_subMenuArrow = global::ValleyAuthenticator.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::ZXing.Net.Mobile.Resource.Styleable.PopupWindow = global::ValleyAuthenticator.Droid.Resource.Styleable.PopupWindow;
+			global::ZXing.Net.Mobile.Resource.Styleable.PopupWindowBackgroundState = global::ValleyAuthenticator.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::ZXing.Net.Mobile.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::ValleyAuthenticator.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::ZXing.Net.Mobile.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.PopupWindow_android_popupBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.PopupWindow_overlapAnchor = global::ValleyAuthenticator.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::ZXing.Net.Mobile.Resource.Styleable.RecycleListView = global::ValleyAuthenticator.Droid.Resource.Styleable.RecycleListView;
+			global::ZXing.Net.Mobile.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::ValleyAuthenticator.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::ZXing.Net.Mobile.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::ValleyAuthenticator.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_android_focusable = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_android_imeOptions = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_android_inputType = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_android_maxWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_closeIcon = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_commitIcon = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_defaultQueryHint = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_goIcon = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_goIcon;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_iconifiedByDefault = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_layout = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_layout;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_queryBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_queryHint = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_queryHint;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_searchHintIcon = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_searchIcon = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_submitBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_suggestionRowLayout = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::ZXing.Net.Mobile.Resource.Styleable.SearchView_voiceIcon = global::ValleyAuthenticator.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::ZXing.Net.Mobile.Resource.Styleable.Spinner = global::ValleyAuthenticator.Droid.Resource.Styleable.Spinner;
+			global::ZXing.Net.Mobile.Resource.Styleable.Spinner_android_dropDownWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::ZXing.Net.Mobile.Resource.Styleable.Spinner_android_entries = global::ValleyAuthenticator.Droid.Resource.Styleable.Spinner_android_entries;
+			global::ZXing.Net.Mobile.Resource.Styleable.Spinner_android_popupBackground = global::ValleyAuthenticator.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::ZXing.Net.Mobile.Resource.Styleable.Spinner_android_prompt = global::ValleyAuthenticator.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::ZXing.Net.Mobile.Resource.Styleable.Spinner_popupTheme = global::ValleyAuthenticator.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::ZXing.Net.Mobile.Resource.Styleable.StateListDrawable = global::ValleyAuthenticator.Droid.Resource.Styleable.StateListDrawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.StateListDrawableItem = global::ValleyAuthenticator.Droid.Resource.Styleable.StateListDrawableItem;
+			global::ZXing.Net.Mobile.Resource.Styleable.StateListDrawableItem_android_drawable = global::ValleyAuthenticator.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::ZXing.Net.Mobile.Resource.Styleable.StateListDrawable_android_constantSize = global::ValleyAuthenticator.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::ZXing.Net.Mobile.Resource.Styleable.StateListDrawable_android_dither = global::ValleyAuthenticator.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::ZXing.Net.Mobile.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::ValleyAuthenticator.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::ZXing.Net.Mobile.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::ValleyAuthenticator.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::ZXing.Net.Mobile.Resource.Styleable.StateListDrawable_android_variablePadding = global::ValleyAuthenticator.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::ZXing.Net.Mobile.Resource.Styleable.StateListDrawable_android_visible = global::ValleyAuthenticator.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_android_textOff = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_android_textOn = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_android_thumb = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_showText = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_splitTrack = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_switchMinWidth = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_switchPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_switchTextAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_thumbTextPadding = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_thumbTint = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_thumbTintMode = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_track = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_track;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_trackTint = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::ZXing.Net.Mobile.Resource.Styleable.SwitchCompat_trackTintMode = global::ValleyAuthenticator.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_fontFamily = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_shadowColor = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_shadowDx = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_shadowDy = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_shadowRadius = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_textColor = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_textColorHint = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_textColorLink = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_textFontWeight = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_textSize = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_textStyle = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_android_typeface = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_fontFamily = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_fontVariationSettings = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_textAllCaps = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::ZXing.Net.Mobile.Resource.Styleable.TextAppearance_textLocale = global::ValleyAuthenticator.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_android_gravity = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_android_minHeight = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_buttonGravity = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_collapseContentDescription = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_collapseIcon = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_contentInsetEnd = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_contentInsetLeft = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_contentInsetRight = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_contentInsetStart = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_logo = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_logo;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_logoDescription = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_maxButtonHeight = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_menu = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_menu;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_navigationContentDescription = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_navigationIcon = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_popupTheme = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_subtitle = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_subtitleTextAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_subtitleTextColor = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_title = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_title;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_titleMargin = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_titleMarginBottom = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_titleMarginEnd = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_titleMargins = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_titleMarginStart = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_titleMarginTop = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_titleTextAppearance = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::ZXing.Net.Mobile.Resource.Styleable.Toolbar_titleTextColor = global::ValleyAuthenticator.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::ZXing.Net.Mobile.Resource.Styleable.View = global::ValleyAuthenticator.Droid.Resource.Styleable.View;
+			global::ZXing.Net.Mobile.Resource.Styleable.ViewBackgroundHelper = global::ValleyAuthenticator.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::ZXing.Net.Mobile.Resource.Styleable.ViewBackgroundHelper_android_background = global::ValleyAuthenticator.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::ZXing.Net.Mobile.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::ValleyAuthenticator.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::ZXing.Net.Mobile.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::ValleyAuthenticator.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::ZXing.Net.Mobile.Resource.Styleable.ViewStubCompat = global::ValleyAuthenticator.Droid.Resource.Styleable.ViewStubCompat;
+			global::ZXing.Net.Mobile.Resource.Styleable.ViewStubCompat_android_id = global::ValleyAuthenticator.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::ZXing.Net.Mobile.Resource.Styleable.ViewStubCompat_android_inflatedId = global::ValleyAuthenticator.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::ZXing.Net.Mobile.Resource.Styleable.ViewStubCompat_android_layout = global::ValleyAuthenticator.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::ZXing.Net.Mobile.Resource.Styleable.View_android_focusable = global::ValleyAuthenticator.Droid.Resource.Styleable.View_android_focusable;
+			global::ZXing.Net.Mobile.Resource.Styleable.View_android_theme = global::ValleyAuthenticator.Droid.Resource.Styleable.View_android_theme;
+			global::ZXing.Net.Mobile.Resource.Styleable.View_paddingEnd = global::ValleyAuthenticator.Droid.Resource.Styleable.View_paddingEnd;
+			global::ZXing.Net.Mobile.Resource.Styleable.View_paddingStart = global::ValleyAuthenticator.Droid.Resource.Styleable.View_paddingStart;
+			global::ZXing.Net.Mobile.Resource.Styleable.View_theme = global::ValleyAuthenticator.Droid.Resource.Styleable.View_theme;
+			global::ZXing.Net.Mobile.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::ValleyAuthenticator.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 		}
 		
 		public partial class Animation
@@ -17058,772 +21377,775 @@ namespace ValleyAuthenticator.Droid
 			public const int content = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int contentPanel = 2131230855;
+			public const int contentFrame = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int contiguous = 2131230856;
+			public const int contentPanel = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int continuousVelocity = 2131230857;
+			public const int contiguous = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int coordinator = 2131230858;
+			public const int continuousVelocity = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int cos = 2131230859;
+			public const int coordinator = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int counterclockwise = 2131230860;
+			public const int cos = 2131230860;
+			
+			// aapt resource value: 0x7F08008D
+			public const int counterclockwise = 2131230861;
 			
 			// aapt resource value: 0x7F080003
 			public const int CTRL = 2131230723;
 			
-			// aapt resource value: 0x7F08008D
-			public const int currentState = 2131230861;
-			
 			// aapt resource value: 0x7F08008E
-			public const int custom = 2131230862;
+			public const int currentState = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int customPanel = 2131230863;
+			public const int custom = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int cut = 2131230864;
+			public const int customPanel = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int date_picker_actions = 2131230865;
+			public const int cut = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int decelerate = 2131230866;
+			public const int date_picker_actions = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int decelerateAndComplete = 2131230867;
+			public const int decelerate = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int decor_content_parent = 2131230868;
+			public const int decelerateAndComplete = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int default_activity_button = 2131230869;
+			public const int decor_content_parent = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int deltaRelative = 2131230870;
+			public const int default_activity_button = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int dependency_ordering = 2131230871;
+			public const int deltaRelative = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int design_bottom_sheet = 2131230872;
+			public const int dependency_ordering = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int design_menu_item_action_area = 2131230873;
+			public const int design_bottom_sheet = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int design_menu_item_action_area_stub = 2131230874;
+			public const int design_menu_item_action_area = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int design_menu_item_text = 2131230875;
+			public const int design_menu_item_action_area_stub = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int design_navigation_view = 2131230876;
+			public const int design_menu_item_text = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int dialog_button = 2131230877;
+			public const int design_navigation_view = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int dimensions = 2131230878;
+			public const int dialog_button = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int direct = 2131230879;
+			public const int dimensions = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int disableHome = 2131230880;
+			public const int direct = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int disableIntraAutoTransition = 2131230881;
+			public const int disableHome = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int disablePostScroll = 2131230882;
+			public const int disableIntraAutoTransition = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int disableScroll = 2131230883;
+			public const int disablePostScroll = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int disjoint = 2131230884;
+			public const int disableScroll = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int dragAnticlockwise = 2131230885;
+			public const int disjoint = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int dragClockwise = 2131230886;
+			public const int dragAnticlockwise = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int dragDown = 2131230887;
+			public const int dragClockwise = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int dragEnd = 2131230888;
+			public const int dragDown = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int dragLeft = 2131230889;
+			public const int dragEnd = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int dragRight = 2131230890;
+			public const int dragLeft = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int dragStart = 2131230891;
+			public const int dragRight = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int dragUp = 2131230892;
+			public const int dragStart = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int dropdown_menu = 2131230893;
+			public const int dragUp = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int easeIn = 2131230894;
+			public const int dropdown_menu = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int easeInOut = 2131230895;
+			public const int easeIn = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int easeOut = 2131230896;
+			public const int easeInOut = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int east = 2131230897;
+			public const int easeOut = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int edit_query = 2131230898;
+			public const int east = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int elastic = 2131230899;
+			public const int edit_query = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int end = 2131230900;
+			public const int elastic = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int endToStart = 2131230901;
+			public const int end = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int end_padder = 2131230902;
+			public const int endToStart = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int enterAlways = 2131230903;
+			public const int end_padder = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int enterAlwaysCollapsed = 2131230904;
+			public const int enterAlways = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int exitUntilCollapsed = 2131230905;
-			
-			// aapt resource value: 0x7F0800BB
-			public const int expanded_menu = 2131230907;
+			public const int enterAlwaysCollapsed = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int expand_activities_button = 2131230906;
+			public const int exitUntilCollapsed = 2131230906;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int fade = 2131230908;
+			public const int expanded_menu = 2131230908;
+			
+			// aapt resource value: 0x7F0800BB
+			public const int expand_activities_button = 2131230907;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int fill = 2131230909;
-			
-			// aapt resource value: 0x7F0800C0
-			public const int filled = 2131230912;
+			public const int fade = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int fill_horizontal = 2131230910;
-			
-			// aapt resource value: 0x7F0800BF
-			public const int fill_vertical = 2131230911;
+			public const int fill = 2131230910;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int fitToContents = 2131230913;
+			public const int filled = 2131230913;
+			
+			// aapt resource value: 0x7F0800BF
+			public const int fill_horizontal = 2131230911;
+			
+			// aapt resource value: 0x7F0800C0
+			public const int fill_vertical = 2131230912;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int @fixed = 2131230914;
+			public const int fitToContents = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int flip = 2131230915;
+			public const int @fixed = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int floating = 2131230916;
+			public const int flip = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int flyoutcontent_appbar = 2131230917;
+			public const int floating = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int forever = 2131230918;
+			public const int flyoutcontent_appbar = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int fragment_container_view_tag = 2131230919;
+			public const int forever = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int frost = 2131230920;
+			public const int fragment_container_view_tag = 2131230920;
+			
+			// aapt resource value: 0x7F0800C9
+			public const int frost = 2131230921;
 			
 			// aapt resource value: 0x7F080004
 			public const int FUNCTION = 2131230724;
 			
-			// aapt resource value: 0x7F0800C9
-			public const int ghost_view = 2131230921;
-			
 			// aapt resource value: 0x7F0800CA
-			public const int ghost_view_holder = 2131230922;
+			public const int ghost_view = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int gone = 2131230923;
+			public const int ghost_view_holder = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int graph = 2131230924;
+			public const int gone = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int graph_wrap = 2131230925;
-			
-			// aapt resource value: 0x7F0800CF
-			public const int grouping = 2131230927;
-			
-			// aapt resource value: 0x7F0800D0
-			public const int groups = 2131230928;
+			public const int graph = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int group_divider = 2131230926;
+			public const int graph_wrap = 2131230926;
+			
+			// aapt resource value: 0x7F0800D0
+			public const int grouping = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int guideline = 2131230929;
+			public const int groups = 2131230929;
+			
+			// aapt resource value: 0x7F0800CF
+			public const int group_divider = 2131230927;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int header_title = 2131230930;
+			public const int guideline = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int hideable = 2131230931;
+			public const int header_title = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int home = 2131230932;
+			public const int hideable = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int homeAsUp = 2131230933;
+			public const int home = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int honorRequest = 2131230934;
+			public const int homeAsUp = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int horizontal_only = 2131230935;
+			public const int honorRequest = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int icon = 2131230936;
+			public const int horizontal_only = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int icon_frame = 2131230937;
+			public const int icon = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int icon_group = 2131230938;
+			public const int icon_frame = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int ifRoom = 2131230939;
+			public const int icon_group = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int ignore = 2131230940;
+			public const int ifRoom = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int ignoreRequest = 2131230941;
+			public const int ignore = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int image = 2131230942;
+			public const int ignoreRequest = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int immediateStop = 2131230943;
+			public const int image = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int included = 2131230944;
+			public const int immediateStop = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int info = 2131230945;
+			public const int included = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int invisible = 2131230946;
+			public const int info = 2131230946;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int inward = 2131230947;
+			public const int invisible = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int italic = 2131230948;
+			public const int inward = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int item_touch_helper_previous_elevation = 2131230949;
+			public const int italic = 2131230949;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int jumpToEnd = 2131230950;
+			public const int item_touch_helper_previous_elevation = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int jumpToStart = 2131230951;
+			public const int jumpToEnd = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int labeled = 2131230952;
+			public const int jumpToStart = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int layout = 2131230953;
+			public const int labeled = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int left = 2131230954;
+			public const int layout = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int leftToRight = 2131230955;
+			public const int left = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int legacy = 2131230956;
+			public const int leftToRight = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int line1 = 2131230957;
+			public const int legacy = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int line3 = 2131230958;
+			public const int line1 = 2131230958;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int linear = 2131230959;
+			public const int line3 = 2131230959;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int listMode = 2131230960;
+			public const int linear = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int list_item = 2131230961;
+			public const int listMode = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int main_appbar = 2131230962;
+			public const int list_item = 2131230962;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int main_tablayout = 2131230963;
+			public const int main_appbar = 2131230963;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int main_toolbar = 2131230964;
+			public const int main_tablayout = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int main_viewpager = 2131230965;
+			public const int main_toolbar = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int masked = 2131230966;
+			public const int main_viewpager = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int match_constraint = 2131230967;
+			public const int masked = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int match_parent = 2131230968;
+			public const int match_constraint = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int material_clock_display = 2131230969;
+			public const int match_parent = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int material_clock_face = 2131230970;
+			public const int material_clock_display = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int material_clock_hand = 2131230971;
+			public const int material_clock_face = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int material_clock_period_am_button = 2131230972;
+			public const int material_clock_hand = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int material_clock_period_pm_button = 2131230973;
+			public const int material_clock_period_am_button = 2131230973;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int material_clock_period_toggle = 2131230974;
+			public const int material_clock_period_pm_button = 2131230974;
 			
 			// aapt resource value: 0x7F0800FF
-			public const int material_hour_text_input = 2131230975;
+			public const int material_clock_period_toggle = 2131230975;
 			
 			// aapt resource value: 0x7F080100
-			public const int material_hour_tv = 2131230976;
+			public const int material_hour_text_input = 2131230976;
 			
 			// aapt resource value: 0x7F080101
-			public const int material_label = 2131230977;
+			public const int material_hour_tv = 2131230977;
 			
 			// aapt resource value: 0x7F080102
-			public const int material_minute_text_input = 2131230978;
+			public const int material_label = 2131230978;
 			
 			// aapt resource value: 0x7F080103
-			public const int material_minute_tv = 2131230979;
+			public const int material_minute_text_input = 2131230979;
 			
 			// aapt resource value: 0x7F080104
-			public const int material_textinput_timepicker = 2131230980;
+			public const int material_minute_tv = 2131230980;
 			
 			// aapt resource value: 0x7F080105
-			public const int material_timepicker_cancel_button = 2131230981;
+			public const int material_textinput_timepicker = 2131230981;
 			
 			// aapt resource value: 0x7F080106
-			public const int material_timepicker_container = 2131230982;
+			public const int material_timepicker_cancel_button = 2131230982;
 			
 			// aapt resource value: 0x7F080107
-			public const int material_timepicker_edit_text = 2131230983;
+			public const int material_timepicker_container = 2131230983;
 			
 			// aapt resource value: 0x7F080108
-			public const int material_timepicker_mode_button = 2131230984;
+			public const int material_timepicker_edit_text = 2131230984;
 			
 			// aapt resource value: 0x7F080109
-			public const int material_timepicker_ok_button = 2131230985;
+			public const int material_timepicker_mode_button = 2131230985;
 			
 			// aapt resource value: 0x7F08010A
-			public const int material_timepicker_view = 2131230986;
+			public const int material_timepicker_ok_button = 2131230986;
 			
 			// aapt resource value: 0x7F08010B
-			public const int material_value_index = 2131230987;
+			public const int material_timepicker_view = 2131230987;
 			
 			// aapt resource value: 0x7F08010C
-			public const int media_actions = 2131230988;
+			public const int material_value_index = 2131230988;
 			
 			// aapt resource value: 0x7F08010D
-			public const int media_controller_compat_view_tag = 2131230989;
+			public const int media_actions = 2131230989;
 			
 			// aapt resource value: 0x7F08010E
-			public const int message = 2131230990;
+			public const int media_controller_compat_view_tag = 2131230990;
+			
+			// aapt resource value: 0x7F08010F
+			public const int message = 2131230991;
 			
 			// aapt resource value: 0x7F080005
 			public const int META = 2131230725;
 			
-			// aapt resource value: 0x7F08010F
-			public const int middle = 2131230991;
-			
 			// aapt resource value: 0x7F080110
-			public const int mini = 2131230992;
+			public const int middle = 2131230992;
 			
 			// aapt resource value: 0x7F080111
-			public const int month_grid = 2131230993;
+			public const int mini = 2131230993;
 			
 			// aapt resource value: 0x7F080112
-			public const int month_navigation_bar = 2131230994;
+			public const int month_grid = 2131230994;
 			
 			// aapt resource value: 0x7F080113
-			public const int month_navigation_fragment_toggle = 2131230995;
+			public const int month_navigation_bar = 2131230995;
 			
 			// aapt resource value: 0x7F080114
-			public const int month_navigation_next = 2131230996;
+			public const int month_navigation_fragment_toggle = 2131230996;
 			
 			// aapt resource value: 0x7F080115
-			public const int month_navigation_previous = 2131230997;
+			public const int month_navigation_next = 2131230997;
 			
 			// aapt resource value: 0x7F080116
-			public const int month_title = 2131230998;
+			public const int month_navigation_previous = 2131230998;
 			
 			// aapt resource value: 0x7F080117
-			public const int motion_base = 2131230999;
+			public const int month_title = 2131230999;
 			
 			// aapt resource value: 0x7F080118
-			public const int mtrl_anchor_parent = 2131231000;
-			
-			// aapt resource value: 0x7F08011A
-			public const int mtrl_calendar_days_of_week = 2131231002;
+			public const int motion_base = 2131231000;
 			
 			// aapt resource value: 0x7F080119
-			public const int mtrl_calendar_day_selector_frame = 2131231001;
+			public const int mtrl_anchor_parent = 2131231001;
 			
 			// aapt resource value: 0x7F08011B
-			public const int mtrl_calendar_frame = 2131231003;
+			public const int mtrl_calendar_days_of_week = 2131231003;
+			
+			// aapt resource value: 0x7F08011A
+			public const int mtrl_calendar_day_selector_frame = 2131231002;
 			
 			// aapt resource value: 0x7F08011C
-			public const int mtrl_calendar_main_pane = 2131231004;
+			public const int mtrl_calendar_frame = 2131231004;
 			
 			// aapt resource value: 0x7F08011D
-			public const int mtrl_calendar_months = 2131231005;
+			public const int mtrl_calendar_main_pane = 2131231005;
 			
 			// aapt resource value: 0x7F08011E
-			public const int mtrl_calendar_selection_frame = 2131231006;
+			public const int mtrl_calendar_months = 2131231006;
 			
 			// aapt resource value: 0x7F08011F
-			public const int mtrl_calendar_text_input_frame = 2131231007;
+			public const int mtrl_calendar_selection_frame = 2131231007;
 			
 			// aapt resource value: 0x7F080120
-			public const int mtrl_calendar_year_selector_frame = 2131231008;
+			public const int mtrl_calendar_text_input_frame = 2131231008;
 			
 			// aapt resource value: 0x7F080121
-			public const int mtrl_card_checked_layer_id = 2131231009;
+			public const int mtrl_calendar_year_selector_frame = 2131231009;
 			
 			// aapt resource value: 0x7F080122
-			public const int mtrl_child_content_container = 2131231010;
+			public const int mtrl_card_checked_layer_id = 2131231010;
 			
 			// aapt resource value: 0x7F080123
-			public const int mtrl_internal_children_alpha_tag = 2131231011;
+			public const int mtrl_child_content_container = 2131231011;
 			
 			// aapt resource value: 0x7F080124
-			public const int mtrl_motion_snapshot_view = 2131231012;
+			public const int mtrl_internal_children_alpha_tag = 2131231012;
 			
 			// aapt resource value: 0x7F080125
-			public const int mtrl_picker_fullscreen = 2131231013;
+			public const int mtrl_motion_snapshot_view = 2131231013;
 			
 			// aapt resource value: 0x7F080126
-			public const int mtrl_picker_header = 2131231014;
+			public const int mtrl_picker_fullscreen = 2131231014;
 			
 			// aapt resource value: 0x7F080127
-			public const int mtrl_picker_header_selection_text = 2131231015;
+			public const int mtrl_picker_header = 2131231015;
 			
 			// aapt resource value: 0x7F080128
-			public const int mtrl_picker_header_title_and_selection = 2131231016;
+			public const int mtrl_picker_header_selection_text = 2131231016;
 			
 			// aapt resource value: 0x7F080129
-			public const int mtrl_picker_header_toggle = 2131231017;
+			public const int mtrl_picker_header_title_and_selection = 2131231017;
 			
 			// aapt resource value: 0x7F08012A
-			public const int mtrl_picker_text_input_date = 2131231018;
+			public const int mtrl_picker_header_toggle = 2131231018;
 			
 			// aapt resource value: 0x7F08012B
-			public const int mtrl_picker_text_input_range_end = 2131231019;
+			public const int mtrl_picker_text_input_date = 2131231019;
 			
 			// aapt resource value: 0x7F08012C
-			public const int mtrl_picker_text_input_range_start = 2131231020;
+			public const int mtrl_picker_text_input_range_end = 2131231020;
 			
 			// aapt resource value: 0x7F08012D
-			public const int mtrl_picker_title_text = 2131231021;
+			public const int mtrl_picker_text_input_range_start = 2131231021;
 			
 			// aapt resource value: 0x7F08012E
-			public const int mtrl_view_tag_bottom_padding = 2131231022;
+			public const int mtrl_picker_title_text = 2131231022;
 			
 			// aapt resource value: 0x7F08012F
-			public const int multiply = 2131231023;
-			
-			// aapt resource value: 0x7F080131
-			public const int navigation_bar_item_icon_view = 2131231025;
-			
-			// aapt resource value: 0x7F080132
-			public const int navigation_bar_item_labels_group = 2131231026;
-			
-			// aapt resource value: 0x7F080133
-			public const int navigation_bar_item_large_label_view = 2131231027;
-			
-			// aapt resource value: 0x7F080134
-			public const int navigation_bar_item_small_label_view = 2131231028;
-			
-			// aapt resource value: 0x7F080135
-			public const int navigation_header_container = 2131231029;
+			public const int mtrl_view_tag_bottom_padding = 2131231023;
 			
 			// aapt resource value: 0x7F080130
-			public const int nav_controller_view_tag = 2131231024;
+			public const int multiply = 2131231024;
+			
+			// aapt resource value: 0x7F080132
+			public const int navigation_bar_item_icon_view = 2131231026;
+			
+			// aapt resource value: 0x7F080133
+			public const int navigation_bar_item_labels_group = 2131231027;
+			
+			// aapt resource value: 0x7F080134
+			public const int navigation_bar_item_large_label_view = 2131231028;
+			
+			// aapt resource value: 0x7F080135
+			public const int navigation_bar_item_small_label_view = 2131231029;
 			
 			// aapt resource value: 0x7F080136
-			public const int never = 2131231030;
+			public const int navigation_header_container = 2131231030;
+			
+			// aapt resource value: 0x7F080131
+			public const int nav_controller_view_tag = 2131231025;
 			
 			// aapt resource value: 0x7F080137
-			public const int neverCompleteToEnd = 2131231031;
+			public const int never = 2131231031;
 			
 			// aapt resource value: 0x7F080138
-			public const int neverCompleteToStart = 2131231032;
-			
-			// aapt resource value: 0x7F08013B
-			public const int none = 2131231035;
-			
-			// aapt resource value: 0x7F08013C
-			public const int normal = 2131231036;
-			
-			// aapt resource value: 0x7F08013D
-			public const int north = 2131231037;
+			public const int neverCompleteToEnd = 2131231032;
 			
 			// aapt resource value: 0x7F080139
-			public const int noScroll = 2131231033;
+			public const int neverCompleteToStart = 2131231033;
 			
-			// aapt resource value: 0x7F08013A
-			public const int noState = 2131231034;
+			// aapt resource value: 0x7F08013C
+			public const int none = 2131231036;
+			
+			// aapt resource value: 0x7F08013D
+			public const int normal = 2131231037;
 			
 			// aapt resource value: 0x7F08013E
-			public const int notification_background = 2131231038;
+			public const int north = 2131231038;
+			
+			// aapt resource value: 0x7F08013A
+			public const int noScroll = 2131231034;
+			
+			// aapt resource value: 0x7F08013B
+			public const int noState = 2131231035;
 			
 			// aapt resource value: 0x7F08013F
-			public const int notification_main_column = 2131231039;
+			public const int notification_background = 2131231039;
 			
 			// aapt resource value: 0x7F080140
-			public const int notification_main_column_container = 2131231040;
+			public const int notification_main_column = 2131231040;
+			
+			// aapt resource value: 0x7F080141
+			public const int notification_main_column_container = 2131231041;
 			
 			// aapt resource value: 0x7F080006
 			public const int NO_DEBUG = 2131230726;
 			
-			// aapt resource value: 0x7F080141
-			public const int off = 2131231041;
-			
 			// aapt resource value: 0x7F080142
-			public const int on = 2131231042;
+			public const int off = 2131231042;
 			
 			// aapt resource value: 0x7F080143
-			public const int outline = 2131231043;
+			public const int on = 2131231043;
 			
 			// aapt resource value: 0x7F080144
-			public const int outward = 2131231044;
+			public const int outline = 2131231044;
 			
 			// aapt resource value: 0x7F080145
-			public const int overshoot = 2131231045;
+			public const int outward = 2131231045;
 			
 			// aapt resource value: 0x7F080146
-			public const int packed = 2131231046;
+			public const int overshoot = 2131231046;
 			
 			// aapt resource value: 0x7F080147
-			public const int parallax = 2131231047;
+			public const int packed = 2131231047;
 			
 			// aapt resource value: 0x7F080148
-			public const int parent = 2131231048;
+			public const int parallax = 2131231048;
 			
 			// aapt resource value: 0x7F080149
-			public const int parentPanel = 2131231049;
+			public const int parent = 2131231049;
 			
 			// aapt resource value: 0x7F08014A
-			public const int parentRelative = 2131231050;
+			public const int parentPanel = 2131231050;
 			
 			// aapt resource value: 0x7F08014B
-			public const int parent_matrix = 2131231051;
+			public const int parentRelative = 2131231051;
 			
 			// aapt resource value: 0x7F08014C
-			public const int password_toggle = 2131231052;
+			public const int parent_matrix = 2131231052;
 			
 			// aapt resource value: 0x7F08014D
-			public const int path = 2131231053;
+			public const int password_toggle = 2131231053;
 			
 			// aapt resource value: 0x7F08014E
-			public const int pathRelative = 2131231054;
+			public const int path = 2131231054;
 			
 			// aapt resource value: 0x7F08014F
-			public const int peekHeight = 2131231055;
+			public const int pathRelative = 2131231055;
 			
 			// aapt resource value: 0x7F080150
-			public const int percent = 2131231056;
+			public const int peekHeight = 2131231056;
 			
 			// aapt resource value: 0x7F080151
-			public const int pin = 2131231057;
+			public const int percent = 2131231057;
 			
 			// aapt resource value: 0x7F080152
-			public const int position = 2131231058;
+			public const int pin = 2131231058;
 			
 			// aapt resource value: 0x7F080153
-			public const int postLayout = 2131231059;
+			public const int position = 2131231059;
 			
 			// aapt resource value: 0x7F080154
-			public const int progress_circular = 2131231060;
+			public const int postLayout = 2131231060;
 			
 			// aapt resource value: 0x7F080155
-			public const int progress_horizontal = 2131231061;
+			public const int progress_circular = 2131231061;
 			
 			// aapt resource value: 0x7F080156
-			public const int radio = 2131231062;
+			public const int progress_horizontal = 2131231062;
 			
 			// aapt resource value: 0x7F080157
-			public const int ratio = 2131231063;
+			public const int radio = 2131231063;
 			
 			// aapt resource value: 0x7F080158
-			public const int rectangles = 2131231064;
+			public const int ratio = 2131231064;
 			
 			// aapt resource value: 0x7F080159
-			public const int recycler_view = 2131231065;
+			public const int rectangles = 2131231065;
 			
 			// aapt resource value: 0x7F08015A
-			public const int reverseSawtooth = 2131231066;
+			public const int recycler_view = 2131231066;
 			
 			// aapt resource value: 0x7F08015B
-			public const int right = 2131231067;
+			public const int reverseSawtooth = 2131231067;
 			
 			// aapt resource value: 0x7F08015C
-			public const int rightToLeft = 2131231068;
+			public const int right = 2131231068;
 			
 			// aapt resource value: 0x7F08015D
-			public const int right_icon = 2131231069;
+			public const int rightToLeft = 2131231069;
 			
 			// aapt resource value: 0x7F08015E
-			public const int right_side = 2131231070;
+			public const int right_icon = 2131231070;
 			
 			// aapt resource value: 0x7F08015F
-			public const int rounded = 2131231071;
+			public const int right_side = 2131231071;
 			
 			// aapt resource value: 0x7F080160
-			public const int row_index_key = 2131231072;
+			public const int rounded = 2131231072;
 			
 			// aapt resource value: 0x7F080161
-			public const int save_non_transition_alpha = 2131231073;
+			public const int row_index_key = 2131231073;
 			
 			// aapt resource value: 0x7F080162
-			public const int save_overlay_view = 2131231074;
+			public const int save_non_transition_alpha = 2131231074;
 			
 			// aapt resource value: 0x7F080163
-			public const int sawtooth = 2131231075;
+			public const int save_overlay_view = 2131231075;
 			
 			// aapt resource value: 0x7F080164
-			public const int scale = 2131231076;
+			public const int sawtooth = 2131231076;
 			
 			// aapt resource value: 0x7F080165
-			public const int screen = 2131231077;
+			public const int scale = 2131231077;
 			
 			// aapt resource value: 0x7F080166
-			public const int scroll = 2131231078;
-			
-			// aapt resource value: 0x7F08016A
-			public const int scrollable = 2131231082;
+			public const int screen = 2131231078;
 			
 			// aapt resource value: 0x7F080167
-			public const int scrollIndicatorDown = 2131231079;
-			
-			// aapt resource value: 0x7F080168
-			public const int scrollIndicatorUp = 2131231080;
-			
-			// aapt resource value: 0x7F080169
-			public const int scrollView = 2131231081;
+			public const int scroll = 2131231079;
 			
 			// aapt resource value: 0x7F08016B
-			public const int search_badge = 2131231083;
+			public const int scrollable = 2131231083;
+			
+			// aapt resource value: 0x7F080168
+			public const int scrollIndicatorDown = 2131231080;
+			
+			// aapt resource value: 0x7F080169
+			public const int scrollIndicatorUp = 2131231081;
+			
+			// aapt resource value: 0x7F08016A
+			public const int scrollView = 2131231082;
 			
 			// aapt resource value: 0x7F08016C
-			public const int search_bar = 2131231084;
+			public const int search_badge = 2131231084;
 			
 			// aapt resource value: 0x7F08016D
-			public const int search_button = 2131231085;
+			public const int search_bar = 2131231085;
 			
 			// aapt resource value: 0x7F08016E
-			public const int search_close_btn = 2131231086;
+			public const int search_button = 2131231086;
 			
 			// aapt resource value: 0x7F08016F
-			public const int search_edit_frame = 2131231087;
+			public const int search_close_btn = 2131231087;
 			
 			// aapt resource value: 0x7F080170
-			public const int search_go_btn = 2131231088;
+			public const int search_edit_frame = 2131231088;
 			
 			// aapt resource value: 0x7F080171
-			public const int search_mag_icon = 2131231089;
+			public const int search_go_btn = 2131231089;
 			
 			// aapt resource value: 0x7F080172
-			public const int search_plate = 2131231090;
+			public const int search_mag_icon = 2131231090;
 			
 			// aapt resource value: 0x7F080173
-			public const int search_src_text = 2131231091;
+			public const int search_plate = 2131231091;
 			
 			// aapt resource value: 0x7F080174
-			public const int search_voice_btn = 2131231092;
+			public const int search_src_text = 2131231092;
 			
 			// aapt resource value: 0x7F080175
-			public const int seekbar = 2131231093;
+			public const int search_voice_btn = 2131231093;
 			
 			// aapt resource value: 0x7F080176
-			public const int seekbar_value = 2131231094;
-			
-			// aapt resource value: 0x7F080178
-			public const int selected = 2131231096;
-			
-			// aapt resource value: 0x7F080179
-			public const int selection_type = 2131231097;
+			public const int seekbar = 2131231094;
 			
 			// aapt resource value: 0x7F080177
-			public const int select_dialog_listview = 2131231095;
+			public const int seekbar_value = 2131231095;
+			
+			// aapt resource value: 0x7F080179
+			public const int selected = 2131231097;
 			
 			// aapt resource value: 0x7F08017A
-			public const int sharedValueSet = 2131231098;
+			public const int selection_type = 2131231098;
+			
+			// aapt resource value: 0x7F080178
+			public const int select_dialog_listview = 2131231096;
 			
 			// aapt resource value: 0x7F08017B
-			public const int sharedValueUnset = 2131231099;
+			public const int sharedValueSet = 2131231099;
 			
 			// aapt resource value: 0x7F08017C
-			public const int shellcontent_appbar = 2131231100;
+			public const int sharedValueUnset = 2131231100;
 			
 			// aapt resource value: 0x7F08017D
-			public const int shellcontent_toolbar = 2131231101;
+			public const int shellcontent_appbar = 2131231101;
+			
+			// aapt resource value: 0x7F08017E
+			public const int shellcontent_toolbar = 2131231102;
 			
 			// aapt resource value: 0x7F080007
 			public const int SHIFT = 2131230727;
 			
-			// aapt resource value: 0x7F08017E
-			public const int shortcut = 2131231102;
-			
 			// aapt resource value: 0x7F08017F
-			public const int showCustom = 2131231103;
+			public const int shortcut = 2131231103;
 			
 			// aapt resource value: 0x7F080180
-			public const int showHome = 2131231104;
+			public const int showCustom = 2131231104;
 			
 			// aapt resource value: 0x7F080181
-			public const int showTitle = 2131231105;
+			public const int showHome = 2131231105;
+			
+			// aapt resource value: 0x7F080182
+			public const int showTitle = 2131231106;
 			
 			// aapt resource value: 0x7F080008
 			public const int SHOW_ALL = 2131230728;
@@ -17834,242 +22156,242 @@ namespace ValleyAuthenticator.Droid
 			// aapt resource value: 0x7F08000A
 			public const int SHOW_PROGRESS = 2131230730;
 			
-			// aapt resource value: 0x7F080182
-			public const int sin = 2131231106;
-			
 			// aapt resource value: 0x7F080183
-			public const int skipCollapsed = 2131231107;
+			public const int sin = 2131231107;
 			
 			// aapt resource value: 0x7F080184
-			public const int skipped = 2131231108;
+			public const int skipCollapsed = 2131231108;
 			
 			// aapt resource value: 0x7F080185
-			public const int slide = 2131231109;
+			public const int skipped = 2131231109;
 			
 			// aapt resource value: 0x7F080186
-			public const int sliding_tabs = 2131231110;
+			public const int slide = 2131231110;
 			
 			// aapt resource value: 0x7F080187
-			public const int snackbar_action = 2131231111;
+			public const int sliding_tabs = 2131231111;
 			
 			// aapt resource value: 0x7F080188
-			public const int snackbar_text = 2131231112;
+			public const int snackbar_action = 2131231112;
 			
 			// aapt resource value: 0x7F080189
-			public const int snap = 2131231113;
+			public const int snackbar_text = 2131231113;
 			
 			// aapt resource value: 0x7F08018A
-			public const int snapMargins = 2131231114;
+			public const int snap = 2131231114;
 			
 			// aapt resource value: 0x7F08018B
-			public const int south = 2131231115;
+			public const int snapMargins = 2131231115;
 			
 			// aapt resource value: 0x7F08018C
-			public const int spacer = 2131231116;
+			public const int south = 2131231116;
 			
 			// aapt resource value: 0x7F08018D
-			public const int special_effects_controller_view_tag = 2131231117;
+			public const int spacer = 2131231117;
 			
 			// aapt resource value: 0x7F08018E
-			public const int spinner = 2131231118;
+			public const int special_effects_controller_view_tag = 2131231118;
 			
 			// aapt resource value: 0x7F08018F
-			public const int spline = 2131231119;
+			public const int spinner = 2131231119;
 			
 			// aapt resource value: 0x7F080190
-			public const int split_action_bar = 2131231120;
+			public const int spline = 2131231120;
 			
 			// aapt resource value: 0x7F080191
-			public const int spread = 2131231121;
+			public const int split_action_bar = 2131231121;
 			
 			// aapt resource value: 0x7F080192
-			public const int spread_inside = 2131231122;
+			public const int spread = 2131231122;
 			
 			// aapt resource value: 0x7F080193
-			public const int spring = 2131231123;
+			public const int spread_inside = 2131231123;
 			
 			// aapt resource value: 0x7F080194
-			public const int square = 2131231124;
+			public const int spring = 2131231124;
 			
 			// aapt resource value: 0x7F080195
-			public const int src_atop = 2131231125;
+			public const int square = 2131231125;
 			
 			// aapt resource value: 0x7F080196
-			public const int src_in = 2131231126;
+			public const int src_atop = 2131231126;
 			
 			// aapt resource value: 0x7F080197
-			public const int src_over = 2131231127;
+			public const int src_in = 2131231127;
 			
 			// aapt resource value: 0x7F080198
-			public const int standard = 2131231128;
+			public const int src_over = 2131231128;
 			
 			// aapt resource value: 0x7F080199
-			public const int start = 2131231129;
+			public const int standard = 2131231129;
 			
 			// aapt resource value: 0x7F08019A
-			public const int startHorizontal = 2131231130;
+			public const int start = 2131231130;
 			
 			// aapt resource value: 0x7F08019B
-			public const int startToEnd = 2131231131;
+			public const int startHorizontal = 2131231131;
 			
 			// aapt resource value: 0x7F08019C
-			public const int startVertical = 2131231132;
+			public const int startToEnd = 2131231132;
 			
 			// aapt resource value: 0x7F08019D
-			public const int staticLayout = 2131231133;
+			public const int startVertical = 2131231133;
 			
 			// aapt resource value: 0x7F08019E
-			public const int staticPostLayout = 2131231134;
+			public const int staticLayout = 2131231134;
 			
 			// aapt resource value: 0x7F08019F
-			public const int status_bar_latest_event_content = 2131231135;
+			public const int staticPostLayout = 2131231135;
 			
 			// aapt resource value: 0x7F0801A0
-			public const int stop = 2131231136;
+			public const int status_bar_latest_event_content = 2131231136;
 			
 			// aapt resource value: 0x7F0801A1
-			public const int stretch = 2131231137;
+			public const int stop = 2131231137;
 			
 			// aapt resource value: 0x7F0801A2
-			public const int submenuarrow = 2131231138;
+			public const int stretch = 2131231138;
 			
 			// aapt resource value: 0x7F0801A3
-			public const int submit_area = 2131231139;
+			public const int submenuarrow = 2131231139;
 			
 			// aapt resource value: 0x7F0801A4
-			public const int supportScrollUp = 2131231140;
+			public const int submit_area = 2131231140;
 			
 			// aapt resource value: 0x7F0801A5
-			public const int switchWidget = 2131231141;
+			public const int supportScrollUp = 2131231141;
+			
+			// aapt resource value: 0x7F0801A6
+			public const int switchWidget = 2131231142;
 			
 			// aapt resource value: 0x7F08000B
 			public const int SYM = 2131230731;
 			
-			// aapt resource value: 0x7F0801A6
-			public const int tabMode = 2131231142;
-			
 			// aapt resource value: 0x7F0801A7
-			public const int tag_accessibility_actions = 2131231143;
+			public const int tabMode = 2131231143;
 			
 			// aapt resource value: 0x7F0801A8
-			public const int tag_accessibility_clickable_spans = 2131231144;
+			public const int tag_accessibility_actions = 2131231144;
 			
 			// aapt resource value: 0x7F0801A9
-			public const int tag_accessibility_heading = 2131231145;
+			public const int tag_accessibility_clickable_spans = 2131231145;
 			
 			// aapt resource value: 0x7F0801AA
-			public const int tag_accessibility_pane_title = 2131231146;
+			public const int tag_accessibility_heading = 2131231146;
 			
 			// aapt resource value: 0x7F0801AB
-			public const int tag_on_apply_window_listener = 2131231147;
+			public const int tag_accessibility_pane_title = 2131231147;
 			
 			// aapt resource value: 0x7F0801AC
-			public const int tag_on_receive_content_listener = 2131231148;
+			public const int tag_on_apply_window_listener = 2131231148;
 			
 			// aapt resource value: 0x7F0801AD
-			public const int tag_on_receive_content_mime_types = 2131231149;
+			public const int tag_on_receive_content_listener = 2131231149;
 			
 			// aapt resource value: 0x7F0801AE
-			public const int tag_screen_reader_focusable = 2131231150;
+			public const int tag_on_receive_content_mime_types = 2131231150;
 			
 			// aapt resource value: 0x7F0801AF
-			public const int tag_state_description = 2131231151;
+			public const int tag_screen_reader_focusable = 2131231151;
 			
 			// aapt resource value: 0x7F0801B0
-			public const int tag_transition_group = 2131231152;
+			public const int tag_state_description = 2131231152;
 			
 			// aapt resource value: 0x7F0801B1
-			public const int tag_unhandled_key_event_manager = 2131231153;
+			public const int tag_transition_group = 2131231153;
 			
 			// aapt resource value: 0x7F0801B2
-			public const int tag_unhandled_key_listeners = 2131231154;
+			public const int tag_unhandled_key_event_manager = 2131231154;
 			
 			// aapt resource value: 0x7F0801B3
-			public const int tag_window_insets_animation_callback = 2131231155;
+			public const int tag_unhandled_key_listeners = 2131231155;
 			
 			// aapt resource value: 0x7F0801B4
-			public const int test_checkbox_android_button_tint = 2131231156;
+			public const int tag_window_insets_animation_callback = 2131231156;
 			
 			// aapt resource value: 0x7F0801B5
-			public const int test_checkbox_app_button_tint = 2131231157;
+			public const int test_checkbox_android_button_tint = 2131231157;
 			
 			// aapt resource value: 0x7F0801B6
-			public const int test_radiobutton_android_button_tint = 2131231158;
+			public const int test_checkbox_app_button_tint = 2131231158;
 			
 			// aapt resource value: 0x7F0801B7
-			public const int test_radiobutton_app_button_tint = 2131231159;
+			public const int test_radiobutton_android_button_tint = 2131231159;
 			
 			// aapt resource value: 0x7F0801B8
-			public const int text = 2131231160;
+			public const int test_radiobutton_app_button_tint = 2131231160;
 			
 			// aapt resource value: 0x7F0801B9
-			public const int text2 = 2131231161;
+			public const int text = 2131231161;
 			
 			// aapt resource value: 0x7F0801BA
-			public const int textEnd = 2131231162;
-			
-			// aapt resource value: 0x7F0801C2
-			public const int textinput_counter = 2131231170;
-			
-			// aapt resource value: 0x7F0801C3
-			public const int textinput_error = 2131231171;
-			
-			// aapt resource value: 0x7F0801C4
-			public const int textinput_helper_text = 2131231172;
-			
-			// aapt resource value: 0x7F0801C5
-			public const int textinput_placeholder = 2131231173;
-			
-			// aapt resource value: 0x7F0801C6
-			public const int textinput_prefix_text = 2131231174;
-			
-			// aapt resource value: 0x7F0801C7
-			public const int textinput_suffix_text = 2131231175;
+			public const int text2 = 2131231162;
 			
 			// aapt resource value: 0x7F0801BB
-			public const int textSpacerNoButtons = 2131231163;
+			public const int textEnd = 2131231163;
 			
-			// aapt resource value: 0x7F0801BC
-			public const int textSpacerNoTitle = 2131231164;
+			// aapt resource value: 0x7F0801C3
+			public const int textinput_counter = 2131231171;
 			
-			// aapt resource value: 0x7F0801BD
-			public const int textStart = 2131231165;
+			// aapt resource value: 0x7F0801C4
+			public const int textinput_error = 2131231172;
 			
-			// aapt resource value: 0x7F0801BE
-			public const int textTop = 2131231166;
+			// aapt resource value: 0x7F0801C5
+			public const int textinput_helper_text = 2131231173;
 			
-			// aapt resource value: 0x7F0801BF
-			public const int text_input_end_icon = 2131231167;
+			// aapt resource value: 0x7F0801C6
+			public const int textinput_placeholder = 2131231174;
 			
-			// aapt resource value: 0x7F0801C0
-			public const int text_input_error_icon = 2131231168;
-			
-			// aapt resource value: 0x7F0801C1
-			public const int text_input_start_icon = 2131231169;
+			// aapt resource value: 0x7F0801C7
+			public const int textinput_prefix_text = 2131231175;
 			
 			// aapt resource value: 0x7F0801C8
-			public const int time = 2131231176;
+			public const int textinput_suffix_text = 2131231176;
+			
+			// aapt resource value: 0x7F0801BC
+			public const int textSpacerNoButtons = 2131231164;
+			
+			// aapt resource value: 0x7F0801BD
+			public const int textSpacerNoTitle = 2131231165;
+			
+			// aapt resource value: 0x7F0801BE
+			public const int textStart = 2131231166;
+			
+			// aapt resource value: 0x7F0801BF
+			public const int textTop = 2131231167;
+			
+			// aapt resource value: 0x7F0801C0
+			public const int text_input_end_icon = 2131231168;
+			
+			// aapt resource value: 0x7F0801C1
+			public const int text_input_error_icon = 2131231169;
+			
+			// aapt resource value: 0x7F0801C2
+			public const int text_input_start_icon = 2131231170;
 			
 			// aapt resource value: 0x7F0801C9
-			public const int title = 2131231177;
+			public const int time = 2131231177;
 			
 			// aapt resource value: 0x7F0801CA
-			public const int titleDividerNoCustom = 2131231178;
+			public const int title = 2131231178;
 			
 			// aapt resource value: 0x7F0801CB
-			public const int title_template = 2131231179;
+			public const int titleDividerNoCustom = 2131231179;
 			
 			// aapt resource value: 0x7F0801CC
-			public const int toggle = 2131231180;
+			public const int title_template = 2131231180;
 			
 			// aapt resource value: 0x7F0801CD
-			public const int toolbar = 2131231181;
+			public const int toggle = 2131231181;
 			
 			// aapt resource value: 0x7F0801CE
-			public const int top = 2131231182;
+			public const int toolbar = 2131231182;
 			
 			// aapt resource value: 0x7F0801CF
-			public const int topPanel = 2131231183;
+			public const int top = 2131231183;
+			
+			// aapt resource value: 0x7F0801D0
+			public const int topPanel = 2131231184;
 			
 			// aapt resource value: 0x7F08000C
 			public const int TOP_END = 2131230732;
@@ -18077,98 +22399,98 @@ namespace ValleyAuthenticator.Droid
 			// aapt resource value: 0x7F08000D
 			public const int TOP_START = 2131230733;
 			
-			// aapt resource value: 0x7F0801D0
-			public const int touch_outside = 2131231184;
-			
 			// aapt resource value: 0x7F0801D1
-			public const int transitionToEnd = 2131231185;
+			public const int touch_outside = 2131231185;
 			
 			// aapt resource value: 0x7F0801D2
-			public const int transitionToStart = 2131231186;
+			public const int transitionToEnd = 2131231186;
 			
 			// aapt resource value: 0x7F0801D3
-			public const int transition_current_scene = 2131231187;
+			public const int transitionToStart = 2131231187;
 			
 			// aapt resource value: 0x7F0801D4
-			public const int transition_layout_save = 2131231188;
+			public const int transition_current_scene = 2131231188;
 			
 			// aapt resource value: 0x7F0801D5
-			public const int transition_position = 2131231189;
+			public const int transition_layout_save = 2131231189;
 			
 			// aapt resource value: 0x7F0801D6
-			public const int transition_scene_layoutid_cache = 2131231190;
+			public const int transition_position = 2131231190;
 			
 			// aapt resource value: 0x7F0801D7
-			public const int transition_transform = 2131231191;
+			public const int transition_scene_layoutid_cache = 2131231191;
 			
 			// aapt resource value: 0x7F0801D8
-			public const int triangle = 2131231192;
+			public const int transition_transform = 2131231192;
 			
 			// aapt resource value: 0x7F0801D9
-			public const int @unchecked = 2131231193;
+			public const int triangle = 2131231193;
 			
 			// aapt resource value: 0x7F0801DA
-			public const int uniform = 2131231194;
+			public const int @unchecked = 2131231194;
 			
 			// aapt resource value: 0x7F0801DB
-			public const int unlabeled = 2131231195;
+			public const int uniform = 2131231195;
 			
 			// aapt resource value: 0x7F0801DC
-			public const int up = 2131231196;
+			public const int unlabeled = 2131231196;
 			
 			// aapt resource value: 0x7F0801DD
-			public const int useLogo = 2131231197;
+			public const int up = 2131231197;
 			
 			// aapt resource value: 0x7F0801DE
-			public const int vertical_only = 2131231198;
+			public const int useLogo = 2131231198;
 			
 			// aapt resource value: 0x7F0801DF
-			public const int view_offset_helper = 2131231199;
+			public const int vertical_only = 2131231199;
 			
 			// aapt resource value: 0x7F0801E0
-			public const int view_transition = 2131231200;
+			public const int view_offset_helper = 2131231200;
 			
 			// aapt resource value: 0x7F0801E1
-			public const int view_tree_lifecycle_owner = 2131231201;
+			public const int view_transition = 2131231201;
 			
 			// aapt resource value: 0x7F0801E2
-			public const int view_tree_saved_state_registry_owner = 2131231202;
+			public const int view_tree_lifecycle_owner = 2131231202;
 			
 			// aapt resource value: 0x7F0801E3
-			public const int view_tree_view_model_store_owner = 2131231203;
+			public const int view_tree_saved_state_registry_owner = 2131231203;
 			
 			// aapt resource value: 0x7F0801E4
-			public const int visible = 2131231204;
+			public const int view_tree_view_model_store_owner = 2131231204;
 			
 			// aapt resource value: 0x7F0801E5
-			public const int visible_removing_fragment_view_tag = 2131231205;
+			public const int visible = 2131231205;
 			
 			// aapt resource value: 0x7F0801E6
-			public const int west = 2131231206;
-			
-			// aapt resource value: 0x7F0801E8
-			public const int withinBounds = 2131231208;
+			public const int visible_removing_fragment_view_tag = 2131231206;
 			
 			// aapt resource value: 0x7F0801E7
-			public const int withText = 2131231207;
+			public const int west = 2131231207;
 			
 			// aapt resource value: 0x7F0801E9
-			public const int wrap = 2131231209;
+			public const int withinBounds = 2131231209;
+			
+			// aapt resource value: 0x7F0801E8
+			public const int withText = 2131231208;
 			
 			// aapt resource value: 0x7F0801EA
-			public const int wrap_content = 2131231210;
+			public const int wrap = 2131231210;
 			
 			// aapt resource value: 0x7F0801EB
-			public const int wrap_content_constrained = 2131231211;
+			public const int wrap_content = 2131231211;
 			
 			// aapt resource value: 0x7F0801EC
-			public const int x_left = 2131231212;
+			public const int wrap_content_constrained = 2131231212;
 			
 			// aapt resource value: 0x7F0801ED
-			public const int x_right = 2131231213;
+			public const int x_left = 2131231213;
 			
 			// aapt resource value: 0x7F0801EE
-			public const int zero_corner_chip = 2131231214;
+			public const int x_right = 2131231214;
+			
+			// aapt resource value: 0x7F0801EF
+			public const int zero_corner_chip = 2131231215;
 			
 			static Id()
 			{
@@ -18775,6 +23097,12 @@ namespace ValleyAuthenticator.Droid
 			
 			// aapt resource value: 0x7F0B0094
 			public const int Toolbar = 2131427476;
+			
+			// aapt resource value: 0x7F0B0095
+			public const int zxingscanneractivitylayout = 2131427477;
+			
+			// aapt resource value: 0x7F0B0096
+			public const int zxingscannerfragmentlayout = 2131427478;
 			
 			static Layout()
 			{

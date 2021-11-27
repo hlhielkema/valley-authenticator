@@ -25,6 +25,9 @@ namespace ValleyAuthenticator.iOS
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
+            // XZing QR scanning init
+            ZXing.Net.Mobile.Forms.iOS.Platform.Init();
+
             return base.FinishedLaunching(app, options);
         }
     }

@@ -72,7 +72,7 @@ namespace ValleyAuthenticator.Views
         private void OnClickedScanQr(object sender, EventArgs e)
         {
             // TODO: Add QR-scan later
-            Navigation.PushAsync(new AddEntryFromSecretPage(_storage, _directoryId));
+            Navigation.PushAsync(new AddEntryFromQrPage(_storage, _directoryId));
         }
 
         private void OnClickedEnterSecret(object sender, EventArgs e)
