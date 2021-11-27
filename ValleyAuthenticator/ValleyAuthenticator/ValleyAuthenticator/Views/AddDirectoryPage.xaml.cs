@@ -8,7 +8,7 @@ namespace ValleyAuthenticator.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AddDirectoryPage : ContentPage
     {
-        private AuthenticatorStorage _storage;
+        private readonly AuthenticatorStorage _storage;
         private Guid? _directory;
 
         public AddDirectoryPage(AuthenticatorStorage storage, Guid? directory)

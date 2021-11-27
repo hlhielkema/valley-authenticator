@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ValleyAuthenticator.Storage;
 using ValleyAuthenticator.Storage.Models;
-using ValleyAuthenticator.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -17,7 +13,7 @@ namespace ValleyAuthenticator.Views
     {
         public ObservableCollection<AuthNodeInfo> Items { get; set; }
 
-        private AuthenticatorStorage _storage;
+        private readonly AuthenticatorStorage _storage;
         private Guid? _directoryId;
 
         public DirectoryListPage(AuthenticatorStorage storage, Guid? directoryId)

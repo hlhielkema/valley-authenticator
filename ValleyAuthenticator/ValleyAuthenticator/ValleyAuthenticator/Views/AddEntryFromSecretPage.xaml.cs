@@ -12,7 +12,7 @@ namespace ValleyAuthenticator.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AddEntryFromSecretPage : ContentPage
     {
-        private AuthenticatorStorage _storage;
+        private readonly AuthenticatorStorage _storage;
         private Guid? _directory;
 
         public AddEntryFromSecretPage(AuthenticatorStorage storage, Guid? directory)

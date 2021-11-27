@@ -6,10 +6,40 @@ using ValleyAuthenticator.Storage.Models;
 namespace ValleyAuthenticator.Storage
 {
     public sealed class AuthenticatorStorage
-    {   
-        private AuthDirectoryData _root;
-        private Dictionary<Guid, AuthDirectoryData> _directoryLookup;
-        private Dictionary<Guid, AuthEntryData> _entryLookup;
+    {
+        public static AuthenticatorStorage Instance
+        {
+            get
+            {
+                if (_instance == null)
+                {
+                    _instance = new AuthenticatorStorage();
+                    _instance.AddTestData();
+                }
+                return _instance;
+            }
+        }
+
+        private static AuthenticatorStorage _instance;
+
+        private readonly AuthDirectoryData _root;
+        private readonly Dictionary<Guid, AuthDirectoryData> _directoryLookup;
+        private readonly Dictionary<Guid, AuthEntryData> _entryLookup;
+
+        private AuthenticatorStorage()
+        {
+            _root = new AuthDirectoryData()
+            {
+                Id = Guid.NewGuid(),
+                Name = "root",
+                Parent = null,
+                Directories = new List<AuthDirectoryData>(),
+                Entries = new List<AuthEntryData>()
+            };
+            _directoryLookup = new Dictionary<Guid, AuthDirectoryData>();
+            _entryLookup = new Dictionary<Guid, AuthEntryData>();
+            _directoryLookup.Add(_root.Id, _root);
+        }
 
         public Guid AddDirectory(Guid? directoryId, string name)
         {
@@ -122,22 +152,7 @@ namespace ValleyAuthenticator.Storage
                 _entryLookup.Add(entry.Id, entry);
             foreach (AuthDirectoryData childDirectory in directory.Directories)
                 IndexDirectory(childDirectory);
-        }
-
-        public AuthenticatorStorage()
-        {
-            _root = new AuthDirectoryData()
-            {
-                Id = Guid.NewGuid(),
-                Name = "root",
-                Parent = null,
-                Directories = new List<AuthDirectoryData>(),
-                Entries = new List<AuthEntryData>()
-            };
-            _directoryLookup = new Dictionary<Guid, AuthDirectoryData>();
-            _entryLookup = new Dictionary<Guid, AuthEntryData>();
-            _directoryLookup.Add(_root.Id, _root);
-        }
+        }        
 
         public void AddTestData()
         {

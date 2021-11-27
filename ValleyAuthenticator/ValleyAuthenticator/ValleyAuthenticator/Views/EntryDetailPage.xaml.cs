@@ -14,11 +14,11 @@ namespace ValleyAuthenticator.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class EntryDetailPage : ContentPage
     {
-        private AuthenticatorStorage _storage;
+        private readonly AuthenticatorStorage _storage;
         private Guid _entryId;
-        private AuthEntryInfo _entryInfo;
-        private System.Timers.Timer _timer;
-        private Totp _totp;
+        private readonly AuthEntryInfo _entryInfo;
+        private readonly System.Timers.Timer _timer;
+        private readonly Totp _totp;
 
         public EntryDetailPage(AuthenticatorStorage storage, Guid entryId)
         {
@@ -44,9 +44,11 @@ namespace ValleyAuthenticator.Views
             {
                 UpdateCode();
 
-                _timer = new System.Timers.Timer(1000);
-                _timer.AutoReset = true;
-                _timer.Elapsed += _timer_Elapsed;
+                _timer = new System.Timers.Timer(1000)
+                {
+                    AutoReset = true
+                };
+                _timer.Elapsed += Timer_Elapsed;
                 _timer.Enabled = true;
             }
         }
@@ -57,7 +59,7 @@ namespace ValleyAuthenticator.Views
             CodeLabel.Text = string.Format("{0} ({1})", code, 60 - DateTime.Now.Second);
         }
 
-        private void _timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
+        private void Timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
             Device.BeginInvokeOnMainThread(() => {
                 UpdateCode();
