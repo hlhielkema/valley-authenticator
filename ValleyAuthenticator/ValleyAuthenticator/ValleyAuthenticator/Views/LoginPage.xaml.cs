@@ -15,7 +15,7 @@ namespace ValleyAuthenticator.Views
         public LoginPage()
         {
             InitializeComponent();
-            this.BindingContext = new LoginViewModel();
+            this.BindingContext = new LoginViewModel(Navigation);
         }
     }
 }

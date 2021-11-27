@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ValleyAuthenticator.Views.EntryDetailPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Copy to clipboard" Order="Primary" Clicked="OnClickedCopyToClipboard"/>
+        <ToolbarItem Text="Delete" Order="Secondary" Clicked="OnClickedDelete"/>
+        <ToolbarItem Text="Export" Order="Secondary" Clicked="OnClickedExport"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Entry info"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label 
+                Text="[NAME]"                
+                FontSize="18"
+                FontAttributes="Bold"
+                x:Name="NameLabel"
+                HorizontalOptions="Center" />
+
+            <Label 
+                Text="[CODE]"                
+                FontSize="18"
+                FontAttributes="Bold"
+                x:Name="CodeLabel"
+                HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

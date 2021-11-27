@@ -1,5 +1,6 @@
 ﻿using System;
 using ValleyAuthenticator.Services;
+using ValleyAuthenticator.Storage;
 using ValleyAuthenticator.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -12,7 +13,7 @@ namespace ValleyAuthenticator
         public App()
         {
             InitializeComponent();
-
+            
             DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
         }
