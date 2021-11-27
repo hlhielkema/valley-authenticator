@@ -13,7 +13,10 @@ namespace ValleyAuthenticator.Views
             InitializeComponent();
 
             string dataUri = TotpUtilities.GenerateAppUri(entryInfo.Name, entryInfo.Secret);
-            ExportUriLabel.Text = dataUri;
+            //ExportUriLabel.Text = dataUri;
+
+            qrView.BarcodeValue = dataUri;
+            qrView.IsVisible = true;            
         }
     }
 }

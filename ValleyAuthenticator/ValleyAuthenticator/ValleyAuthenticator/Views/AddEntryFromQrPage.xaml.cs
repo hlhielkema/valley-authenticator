@@ -16,31 +16,39 @@ namespace ValleyAuthenticator.Views
     {
         private readonly AuthenticatorStorage _storage;
         private Guid? _directory;
+        private bool _completed;
 
         public AddEntryFromQrPage(AuthenticatorStorage storage, Guid? directory)
         {
+            // https://github.com/Redth/ZXing.Net.Mobile
+            // https://www.youtube.com/watch?v=kwVtlT3E7fw
+
             InitializeComponent();
 
             _storage = storage;
             _directory = directory;
+            _completed = false;
         }
 
         private void ZXingScannerView_OnScanResult(ZXing.Result result)
         {
             Device.BeginInvokeOnMainThread(async () =>
             {
+                // Prevent adding multiple entries.
+                // This also prevents a second navigation pop.
+                if (_completed)
+                    return;
+
                 if (result.BarcodeFormat == ZXing.BarcodeFormat.QR_CODE)
                 {
                     if (TotpUtilities.TryParseAppUri(result.Text, out OtpData data))
-                    {
-                        _storage.AddEntry(_directory, data.Label, data.Secret);
+                    {                        
+                        _completed = true;
+                        _storage.AddEntry(_directory, data.Label, data.Secret);                        
                         await Navigation.PopAsync();
                     }
                 }
             });
-        }
-
-        // https://github.com/Redth/ZXing.Net.Mobile
-        // https://www.youtube.com/watch?v=kwVtlT3E7fw
+        }        
     }
 }

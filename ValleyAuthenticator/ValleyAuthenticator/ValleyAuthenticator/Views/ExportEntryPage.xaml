@@ -1,12 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ValleyAuthenticator.Views.ExportEntryPage">
+             x:Class="ValleyAuthenticator.Views.ExportEntryPage"
+             xmlns:zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
+             xmlns:zxingc="clr-namespace:ZXing.Common;assembly=zxing">
     <ContentPage.Content>
         <StackLayout>
-            <Label x:Name="ExportUriLabel" 
-                   VerticalOptions="CenterAndExpand" 
-                   HorizontalOptions="CenterAndExpand" />
+            <zxing:ZXingBarcodeImageView x:Name="qrView"
+                                         BarcodeFormat="QR_CODE"
+                                         VerticalOptions="CenterAndExpand"
+                                         HorizontalOptions="CenterAndExpand"
+                                         HeightRequest="300"
+                                         WidthRequest="300">
+                <zxing:ZXingBarcodeImageView.BarcodeOptions>
+                    <zxingc:EncodingOptions Width="300" Height="300" />
+                </zxing:ZXingBarcodeImageView.BarcodeOptions>
+            </zxing:ZXingBarcodeImageView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
