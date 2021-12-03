@@ -10,7 +10,6 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Entry info"
-                VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
             <Label 
@@ -25,6 +24,11 @@
                 FontSize="18"
                 FontAttributes="Bold"
                 x:Name="CodeLabel"
+                HorizontalOptions="Center" />
+            <Label 
+                Text="[CODE]"                
+                FontSize="14"
+                x:Name="NextCodeLabel"
                 HorizontalOptions="Center" />
         </StackLayout>
     </ContentPage.Content>

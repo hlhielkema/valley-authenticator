@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ValleyAuthenticator.Storage;
 using ValleyAuthenticator.Storage.Models;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -38,6 +39,7 @@ namespace ValleyAuthenticator.Views
             catch
             {
                 CodeLabel.Text = "Invalid secret";
+                NextCodeLabel.Text = "";
             }
 
             if (_totp != null)
@@ -56,7 +58,16 @@ namespace ValleyAuthenticator.Views
         private void UpdateCode()
         {
             string code = _totp.ComputeTotp();
-            CodeLabel.Text = string.Format("{0} ({1})", code, 60 - DateTime.Now.Second);
+            string nextCode = _totp.ComputeTotp(DateTime.UtcNow.AddMinutes(1));
+            
+            int secondsLeft = 60 - DateTime.Now.Second;
+            
+            CodeLabel.Text = string.Format("{0} ({1})", code, secondsLeft);
+
+            if (secondsLeft <= 20)
+                NextCodeLabel.Text = string.Format("{0} (next)", nextCode);
+            else
+                NextCodeLabel.Text = "";
         }
 
         private void Timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
@@ -86,9 +97,10 @@ namespace ValleyAuthenticator.Views
             await Navigation.PopAsync();
         }
 
-        private void OnClickedCopyToClipboard(object sender, EventArgs e)
+        private async void OnClickedCopyToClipboard(object sender, EventArgs e)
         {
-            // TODO
+            string code = _totp.ComputeTotp();
+            await Clipboard.SetTextAsync(code);
         }
 
         private async void OnClickedExport(object sender, EventArgs e)
