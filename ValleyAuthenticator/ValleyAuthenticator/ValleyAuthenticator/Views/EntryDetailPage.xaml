@@ -9,25 +9,33 @@
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
-            <Label 
-                Text="[NAME]"                
-                FontSize="18"
-                FontAttributes="Bold"
-                x:Name="NameLabel"
-                HorizontalOptions="Center"
-                Padding="32" />
-
-            <Frame BackgroundColor="LightGray"
-                     CornerRadius="2"                     
-                     VerticalOptions="Center"
-                     HorizontalOptions="Center"
-                     Padding="16">
-                <StackLayout>
-                    <Label Text="[CODE]"                
+            <StackLayout Padding="32">
+                <Label Text="[LABEL]"                
                        FontSize="18"
                        FontAttributes="Bold"
-                       x:Name="CodeLabel"
-                       HorizontalOptions="Center" />
+                       x:Name="NameLabel"
+                       HorizontalOptions="Center"  /> 
+                <Label Text="[ISSUER]"                
+                       FontSize="14"
+                       x:Name="IssuerLabel"
+                       HorizontalOptions="Center"/>
+            </StackLayout>
+
+            <Frame BackgroundColor="{StaticResource Primary}"
+                     CornerRadius="2"                     
+                     VerticalOptions="Center"
+                     HorizontalOptions="Center">
+                <StackLayout>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnClickedCopyToClipboard"/>
+                    </StackLayout.GestureRecognizers>
+                    <Label Text="[CODE]"                
+                           Padding="16,0,16,0"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           x:Name="CodeLabel"
+                           HorizontalOptions="Center"
+                           TextColor="White"/>
                 </StackLayout>
             </Frame>
             <Label Text="[CODE]"                

@@ -65,7 +65,7 @@ namespace ValleyAuthenticator.Storage
             return id;
         }
 
-        public Guid AddEntry(Guid? directoryId, string name, string secret)
+        public Guid AddEntry(Guid? directoryId, string name, string secret, string issuer)
         {
             Guid id = Guid.NewGuid();
 
@@ -76,9 +76,10 @@ namespace ValleyAuthenticator.Storage
             AuthEntryData entry = new AuthEntryData()
             {
                 Id = id,
-                Name = name,
+                Label = name,
                 Parent = target.Id,
                 Secret = secret,
+                Issuer = issuer,
             };
 
             target.Entries.Add(entry);
@@ -98,7 +99,7 @@ namespace ValleyAuthenticator.Storage
             foreach (AuthDirectoryData directory in target.Directories)
                 result.Add(new AuthNodeInfo(directory.Id, target.Id, directory.Name, AuthNodeType.Directory));
             foreach (AuthEntryData entry in target.Entries)
-                result.Add(new AuthNodeInfo(entry.Id, target.Id, entry.Name, AuthNodeType.Entry));
+                result.Add(new AuthNodeInfo(entry.Id, target.Id, entry.Label, AuthNodeType.Entry));
 
             return result;
         }
@@ -106,7 +107,7 @@ namespace ValleyAuthenticator.Storage
         public AuthEntryInfo GetEntry(Guid entryId)
         {
             AuthEntryData data = _entryLookup[entryId];
-            return new AuthEntryInfo(data.Id, data.Name, data.Secret);
+            return new AuthEntryInfo(data.Id, data.Label, data.Secret, data.Issuer);
         }
 
         public bool DeleteDirectory(Guid directoryId)
@@ -160,10 +161,10 @@ namespace ValleyAuthenticator.Storage
             AddDirectory(null, "Work");
             AddDirectory(null, "Private");
             AddDirectory(null, "Side projects");
-            AddEntry(null, "Google", "345h7");
-            AddEntry(null, "Microsoft", "345h7");
-            AddEntry(null, "Gmail (invalid)", "123456789");
-            AddEntry(favoriteId, "Ydentic", "345h7");
+            AddEntry(null, "admin", "345h7", "Google");
+            AddEntry(null, "admin", "345h7", "Microsoft");
+            AddEntry(null, "admin@gmail.com", "123456789", "Gmail (invalid)");
+            AddEntry(favoriteId, "admin", "345h7", "Ydentic");
         }
     }
 }

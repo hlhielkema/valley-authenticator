@@ -16,10 +16,11 @@ namespace ValleyAuthenticator.Views
     public partial class EntryDetailPage : ContentPage
     {
         private readonly AuthenticatorStorage _storage;
-        private Guid _entryId;
         private readonly AuthEntryInfo _entryInfo;
         private readonly System.Timers.Timer _timer;
         private readonly Totp _totp;
+        private Guid _entryId;        
+        private DateTime? _timeCopied;
 
         public EntryDetailPage(AuthenticatorStorage storage, Guid entryId)
         {
@@ -29,7 +30,8 @@ namespace ValleyAuthenticator.Views
             _entryId = entryId;
             _entryInfo = _storage.GetEntry(_entryId);
 
-            NameLabel.Text = _entryInfo.Name;
+            NameLabel.Text = _entryInfo.Label;
+            IssuerLabel.Text = _entryInfo.Issuer;
 
             try
             {
@@ -59,14 +61,17 @@ namespace ValleyAuthenticator.Views
         {
             string code = _totp.ComputeTotp();
                         
-            int secondsLeft = 60 - DateTime.Now.Second;
-            
-            CodeLabel.Text = string.Format("{0} ({1})", code, secondsLeft);
+            int secondsLeft = 30 - (DateTime.Now.Second % 30);
 
-            NextCodeLabel.IsVisible = secondsLeft <= 20;
+            if (_timeCopied > DateTime.UtcNow.AddSeconds(-2))
+                CodeLabel.Text = "Copied!";
+            else
+                CodeLabel.Text = string.Format("{0} ({1})", code, secondsLeft);
+
+            NextCodeLabel.IsVisible = secondsLeft <= 15;
             if (NextCodeLabel.IsVisible)
             {
-                string nextCode = _totp.ComputeTotp(DateTime.UtcNow.AddMinutes(1));
+                string nextCode = _totp.ComputeTotp(DateTime.Now.AddSeconds(20));
                 NextCodeLabel.Text = nextCode;
             }
         }
@@ -102,6 +107,9 @@ namespace ValleyAuthenticator.Views
         {
             string code = _totp.ComputeTotp();
             await Clipboard.SetTextAsync(code);
+
+            _timeCopied = DateTime.UtcNow;
+            UpdateCode();
         }
 
         private async void OnClickedExport(object sender, EventArgs e)

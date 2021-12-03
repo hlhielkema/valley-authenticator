@@ -6,15 +6,18 @@ namespace ValleyAuthenticator.Storage.Models
     {
         public Guid Id { get; set; }
 
-        public string Name { get; set; }
+        public string Label { get; set; }
 
         public string Secret { get; set; }
 
-        public AuthEntryInfo(Guid id, string name, string secret)
+        public string Issuer { get; set; }
+
+        public AuthEntryInfo(Guid id, string label, string secret, string issuer)
         {
             Id = id;
-            Name = name;
+            Label = label;
             Secret = secret;
+            Issuer = issuer;
         }
     }
 }

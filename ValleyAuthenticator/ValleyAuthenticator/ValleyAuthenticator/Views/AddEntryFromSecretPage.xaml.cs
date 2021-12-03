@@ -27,9 +27,10 @@ namespace ValleyAuthenticator.Views
         {
             string name = nameEditor.Text;
             string secret = secretEditor.Text;
-            if (!string.IsNullOrWhiteSpace(name) && !string.IsNullOrWhiteSpace(secret))
+            string issuer = issuerEditor.Text;
+            if (!string.IsNullOrWhiteSpace(name) && !string.IsNullOrWhiteSpace(secret) && !string.IsNullOrWhiteSpace(issuer))
             {
-                _storage.AddEntry(_directory, name, secret);
+                _storage.AddEntry(_directory, name, secret, issuer);
                 await Navigation.PopAsync();
             }
         }
