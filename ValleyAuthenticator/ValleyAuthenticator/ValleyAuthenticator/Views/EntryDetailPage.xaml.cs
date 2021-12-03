@@ -105,6 +105,9 @@ namespace ValleyAuthenticator.Views
 
         private async void OnClickedCopyToClipboard(object sender, EventArgs e)
         {
+            if (_totp == null)
+                return;
+            
             string code = _totp.ComputeTotp();
             await Clipboard.SetTextAsync(code);
 
@@ -114,6 +117,9 @@ namespace ValleyAuthenticator.Views
 
         private async void OnClickedExport(object sender, EventArgs e)
         {
+            if (_totp == null)
+                return;
+
             await Navigation.PushAsync(new ExportEntryPage(_entryInfo));
         }
     }

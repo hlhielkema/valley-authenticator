@@ -82,7 +82,7 @@ namespace ValleyAuthenticator.Views
 
             // Ask for confirmation
             string questions = String.Format("Are you sure you want to delete this {0}?", item.Type.ToString().ToLower());
-            if (!await DisplayAlert("Question?", questions, "Yes", "No"))
+            if (!await DisplayAlert("Confirm delete", questions, "Yes", "No"))
                 return;
 
             switch (item.Type)

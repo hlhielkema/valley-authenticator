@@ -19,7 +19,7 @@
                     <ViewCell.ContextActions>
                         <MenuItem Clicked="OnDelete" CommandParameter="{Binding .}" Text="Delete" IsDestructive="True" />
                     </ViewCell.ContextActions>
-                    <StackLayout Padding="15,0" Spacing="0">
+                    <StackLayout Padding="15,4" Spacing="0">
                         <Label Text="{Binding Name}" Style="{DynamicResource ListItemTextStyle}" />
                         <Label Text="{Binding Detail}" Style="{DynamicResource ListItemDetailTextStyle}"/>
                     </StackLayout>
