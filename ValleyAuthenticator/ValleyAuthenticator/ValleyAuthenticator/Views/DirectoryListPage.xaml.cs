@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using ValleyAuthenticator.Storage;
 using ValleyAuthenticator.Storage.Models;
+using ValleyAuthenticator.Utils;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -23,6 +24,8 @@ namespace ValleyAuthenticator.Views
             _storage = storage;
             _directoryId = directoryId;
 
+
+
             Items = new ObservableCollection<AuthNodeInfo>();
 
             MyListView.ItemsSource = Items;
@@ -36,10 +39,8 @@ namespace ValleyAuthenticator.Views
 
         private void ReloadContent()
         {
-            List<AuthNodeInfo> items = _storage.GetForDirectory(_directoryId);
-            Items.Clear();
-            foreach (AuthNodeInfo item in items)
-                Items.Add(item);
+            List<AuthNodeInfo> items = _storage.GetForDirectory(_directoryId);            
+            MergeObservableCollection.Replace(Items, items);            
         }
 
         async void Handle_ItemTapped(object sender, ItemTappedEventArgs e)
@@ -59,6 +60,9 @@ namespace ValleyAuthenticator.Views
                     break;
 
             }
+
+            // Deselect Item
+            ((ListView)sender).SelectedItem = null;
         }
 
         private void OnClickedAddDirectory(object sender, EventArgs e)
