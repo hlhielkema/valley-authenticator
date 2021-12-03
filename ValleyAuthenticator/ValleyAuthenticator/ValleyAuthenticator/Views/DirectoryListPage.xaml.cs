@@ -59,9 +59,6 @@ namespace ValleyAuthenticator.Views
                     break;
 
             }
-
-            // Deselect Item
-            ((ListView)sender).SelectedItem = null;
         }
 
         private void OnClickedAddDirectory(object sender, EventArgs e)
@@ -71,7 +68,6 @@ namespace ValleyAuthenticator.Views
 
         private void OnClickedScanQr(object sender, EventArgs e)
         {
-            // TODO: Add QR-scan later
             Navigation.PushAsync(new AddEntryFromQrPage(_storage, _directoryId));
         }
 
@@ -80,9 +76,14 @@ namespace ValleyAuthenticator.Views
             Navigation.PushAsync(new AddEntryFromSecretPage(_storage, _directoryId));
         }
 
-        public void OnDelete(object sender, EventArgs e)
+        public async void OnDelete(object sender, EventArgs e)
         {
             AuthNodeInfo item = (AuthNodeInfo)((MenuItem)sender).CommandParameter;
+
+            // Ask for confirmation
+            string questions = String.Format("Are you sure you want to delete this {0}?", item.Type.ToString().ToLower());
+            if (!await DisplayAlert("Question?", questions, "Yes", "No"))
+                return;
 
             switch (item.Type)
             {
@@ -94,10 +95,8 @@ namespace ValleyAuthenticator.Views
                     break;
 
             }
-            ReloadContent();
 
-            var mi = ((MenuItem)sender);
-            DisplayAlert("Delete Context Action", mi.CommandParameter + " delete context action", "OK");
+            ReloadContent();
         }
     }
 }

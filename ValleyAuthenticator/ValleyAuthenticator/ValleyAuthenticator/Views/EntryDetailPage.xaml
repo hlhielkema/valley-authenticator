@@ -9,27 +9,33 @@
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Entry info"
-                HorizontalOptions="CenterAndExpand" />
-
             <Label 
                 Text="[NAME]"                
                 FontSize="18"
                 FontAttributes="Bold"
                 x:Name="NameLabel"
-                HorizontalOptions="Center" />
+                HorizontalOptions="Center"
+                Padding="32" />
 
-            <Label 
-                Text="[CODE]"                
-                FontSize="18"
-                FontAttributes="Bold"
-                x:Name="CodeLabel"
-                HorizontalOptions="Center" />
-            <Label 
-                Text="[CODE]"                
-                FontSize="14"
-                x:Name="NextCodeLabel"
-                HorizontalOptions="Center" />
+            <Frame BackgroundColor="LightGray"
+                     CornerRadius="2"                     
+                     VerticalOptions="Center"
+                     HorizontalOptions="Center"
+                     Padding="16">
+                <StackLayout>
+                    <Label Text="[CODE]"                
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       x:Name="CodeLabel"
+                       HorizontalOptions="Center" />
+                </StackLayout>
+            </Frame>
+            <Label Text="[CODE]"                
+                   FontSize="14"
+                   x:Name="NextCodeLabel"
+                   HorizontalOptions="Center"
+                   TextColor="LightGray"
+                   IsVisible="False"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

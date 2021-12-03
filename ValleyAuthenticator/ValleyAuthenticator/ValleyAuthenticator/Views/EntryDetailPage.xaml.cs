@@ -58,16 +58,17 @@ namespace ValleyAuthenticator.Views
         private void UpdateCode()
         {
             string code = _totp.ComputeTotp();
-            string nextCode = _totp.ComputeTotp(DateTime.UtcNow.AddMinutes(1));
-            
+                        
             int secondsLeft = 60 - DateTime.Now.Second;
             
             CodeLabel.Text = string.Format("{0} ({1})", code, secondsLeft);
 
-            if (secondsLeft <= 20)
-                NextCodeLabel.Text = string.Format("{0} (next)", nextCode);
-            else
-                NextCodeLabel.Text = "";
+            NextCodeLabel.IsVisible = secondsLeft <= 20;
+            if (NextCodeLabel.IsVisible)
+            {
+                string nextCode = _totp.ComputeTotp(DateTime.UtcNow.AddMinutes(1));
+                NextCodeLabel.Text = nextCode;
+            }
         }
 
         private void Timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
