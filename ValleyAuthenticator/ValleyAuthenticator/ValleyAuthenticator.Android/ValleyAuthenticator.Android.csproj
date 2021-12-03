@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v12.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -91,7 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ValleyAuthenticator\ValleyAuthenticator.csproj">
-      <Project>{B6275D56-90AE-4000-BF39-C5E2BCE74D61}</Project>
+      <Project>{9631B567-FEC9-4D2D-AD07-7E554938BBE4}</Project>
       <Name>ValleyAuthenticator</Name>
     </ProjectReference>
   </ItemGroup>
