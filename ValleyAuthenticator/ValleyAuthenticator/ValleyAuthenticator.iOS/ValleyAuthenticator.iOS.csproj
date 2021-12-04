@@ -145,4 +145,10 @@
       <Name>ValleyAuthenticator</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\noitems.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\noitems.png" />
+  </ItemGroup>
 </Project>

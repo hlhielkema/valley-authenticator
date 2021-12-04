@@ -32,7 +32,7 @@ namespace ValleyAuthenticator.Views
 
             Items = new ObservableCollection<AuthNodeInfo>();
 
-            MyListView.ItemsSource = Items;
+            ItemsView.ItemsSource = Items;
         }
 
         protected override void OnAppearing()
@@ -44,7 +44,12 @@ namespace ValleyAuthenticator.Views
         private void ReloadContent()
         {
             List<AuthNodeInfo> items = _storage.GetForDirectory(_directoryId);            
-            MergeObservableCollection.Replace(Items, items);            
+            MergeObservableCollection.Replace(Items, items);
+
+            bool anyItems = Items.Count > 0;
+
+            ItemsView.IsVisible = anyItems;
+            NoItemsView.IsVisible = !anyItems;
         }
 
         async void Handle_ItemTapped(object sender, ItemTappedEventArgs e)

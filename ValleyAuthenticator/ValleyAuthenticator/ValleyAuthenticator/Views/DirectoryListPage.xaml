@@ -7,24 +7,36 @@
         <ToolbarItem Text="Enter secret" Order="Secondary" Clicked="OnClickedEnterSecret"/>
         <ToolbarItem Text="Add directory" Order="Secondary" Clicked="OnClickedAddDirectory"/>
     </ContentPage.ToolbarItems>
-    <ListView x:Name="MyListView"
+
+    <StackLayout HorizontalOptions="FillAndExpand">
+
+        <StackLayout x:Name="NoItemsView" IsVisible="False" Orientation="Vertical" VerticalOptions="CenterAndExpand" BackgroundColor="Blue">
+            <Image Source="noitems.png" Aspect="AspectFit" VerticalOptions="CenterAndExpand"/>
+            <Label Text="There is nothing here" 
+                   HorizontalOptions="CenterAndExpand" 
+                   Padding="16"
+                   FontAttributes="Italic">
+            </Label>
+        </StackLayout>
+        <ListView x:Name="ItemsView"
             ItemsSource="{Binding Items}"
             ItemTapped="Handle_ItemTapped"
             CachingStrategy="RecycleElement" HasUnevenRows="True">
 
-        <!--Custom View Cells-->
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <ViewCell>
-                    <ViewCell.ContextActions>
-                        <MenuItem Clicked="OnDelete" CommandParameter="{Binding .}" Text="Delete" IsDestructive="True" />
-                    </ViewCell.ContextActions>
-                    <StackLayout Padding="15,4" Spacing="0">
-                        <Label Text="{Binding Name}" Style="{DynamicResource ListItemTextStyle}" />
-                        <Label Text="{Binding Detail}" Style="{DynamicResource ListItemDetailTextStyle}"/>
-                    </StackLayout>
-                </ViewCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
+            <!--Custom View Cells-->
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.ContextActions>
+                            <MenuItem Clicked="OnDelete" CommandParameter="{Binding .}" Text="Delete" IsDestructive="True" />
+                        </ViewCell.ContextActions>
+                        <StackLayout Padding="15,4" Spacing="0">
+                            <Label Text="{Binding Name}" Style="{DynamicResource ListItemTextStyle}" />
+                            <Label Text="{Binding Detail}" Style="{DynamicResource ListItemDetailTextStyle}"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
 </ContentPage>
