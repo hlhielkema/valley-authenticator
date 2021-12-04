@@ -17,6 +17,10 @@ namespace ValleyAuthenticator.Views
         private readonly AuthenticatorStorage _storage;
         private Guid? _directoryId;
 
+        public DirectoryListPage()
+            : this(AuthenticatorStorage.Instance, null)
+        { }
+
         public DirectoryListPage(AuthenticatorStorage storage, Guid? directoryId)
         {
             InitializeComponent();

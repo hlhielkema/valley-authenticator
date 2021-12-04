@@ -11,9 +11,9 @@ namespace ValleyAuthenticator
             InitializeComponent();
         }
 
-        private async void OnMenuItemClicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new DirectoryListPage(AuthenticatorStorage.Instance, null));
-        }
+        //private async void OnMenuItemClicked(object sender, EventArgs e)
+        //{
+        //    await Navigation.PushAsync(new DirectoryListPage(AuthenticatorStorage.Instance, null));
+        //}
     }
 }

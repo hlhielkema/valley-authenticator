@@ -37,10 +37,6 @@
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Button Margin="0,10,0,0" Text="Start"
-                        BackgroundColor="{StaticResource Primary}"
-                        TextColor="White"
-                        Clicked="OnStartClicked"/>
             </StackLayout>
         </ScrollView>
     </Grid>
