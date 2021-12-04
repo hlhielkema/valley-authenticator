@@ -2,47 +2,71 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ValleyAuthenticator.Views.EntryDetailPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#96d1ff</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Delete" Order="Secondary" Clicked="OnClickedDelete"/>
         <ToolbarItem Text="Export" Order="Secondary" Clicked="OnClickedExport"/>
     </ContentPage.ToolbarItems>
+
+   
     <ContentPage.Content>
-        <StackLayout>
-            <StackLayout Padding="32">
-                <Label Text="[LABEL]"                
-                       FontSize="18"
-                       FontAttributes="Bold"
-                       x:Name="NameLabel"
-                       HorizontalOptions="Center"  /> 
-                <Label Text="[ISSUER]"                
-                       FontSize="14"
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <StackLayout BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                    <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
+                        <Label Text="[ISSUER]"                
+                       FontSize="16"
+                                FontAttributes="Bold"
                        x:Name="IssuerLabel"
                        HorizontalOptions="Center"/>
+                    </ContentView>
+                </StackLayout>
             </StackLayout>
+            <ScrollView Grid.Row="1">
+                <StackLayout>
+                    <StackLayout Padding="32">
+                        <Label Text="[LABEL]"                
+                       FontSize="18"
+                       x:Name="NameLabel"
+                       HorizontalOptions="Center"  />
+                       
+                    </StackLayout>
 
-            <Frame BackgroundColor="{StaticResource Primary}"
+                    <Frame BackgroundColor="{StaticResource Primary}"
                      CornerRadius="2"                     
                      VerticalOptions="Center"
                      HorizontalOptions="Center">
-                <StackLayout>
-                    <StackLayout.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnClickedCopyToClipboard"/>
-                    </StackLayout.GestureRecognizers>
-                    <Label Text="[CODE]"                
+                        <StackLayout>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnClickedCopyToClipboard"/>
+                            </StackLayout.GestureRecognizers>
+                            <Label Text="[CODE]"                
                            Padding="16,0,16,0"
                            FontSize="18"
                            FontAttributes="Bold"
                            x:Name="CodeLabel"
                            HorizontalOptions="Center"
                            TextColor="White"/>
-                </StackLayout>
-            </Frame>
-            <Label Text="[CODE]"                
+                        </StackLayout>
+                    </Frame>
+                    <Label Text="[CODE]"                
                    FontSize="14"
                    x:Name="NextCodeLabel"
                    HorizontalOptions="Center"
                    TextColor="LightGray"
                    IsVisible="False"/>
-        </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

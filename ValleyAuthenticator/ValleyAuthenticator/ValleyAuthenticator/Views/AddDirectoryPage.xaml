@@ -3,18 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ValleyAuthenticator.Views.AddDirectoryPage">
     <ContentPage.Content>
-        <StackLayout>
-            <StackLayout Orientation="Vertical" Padding="16" Spacing="8">
-                <Label Text="Add directory"
-                       HorizontalOptions="Start" />
+        <StackLayout Orientation="Vertical" Padding="16" Spacing="8">
+            <Label Text="Create directory"
+                       HorizontalOptions="Start"
+                   FontAttributes="Bold"/>
 
-                <Editor x:Name="nameEditor" Placeholder="Name" />
-                
-                <Button Margin="0,10,0,0" Text="Start"
+            <Editor x:Name="nameEditor" Placeholder="Name" />
+
+            <Button Margin="0,10,0,0" Text="Create"
                         BackgroundColor="{StaticResource Primary}"
                         TextColor="White"
                         Clicked="OnAddClicked"/>
-            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
