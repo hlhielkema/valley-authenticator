@@ -38,5 +38,7 @@
 	<string>1.0</string>
 	<key>NSCameraUsageDescription</key>
 	<string>Scan QR-codes</string>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
 </dict>
 </plist>

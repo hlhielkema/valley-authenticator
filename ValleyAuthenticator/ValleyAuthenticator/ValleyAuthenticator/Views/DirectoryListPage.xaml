@@ -10,7 +10,7 @@
 
     <StackLayout HorizontalOptions="FillAndExpand">
 
-        <StackLayout x:Name="NoItemsView" IsVisible="False" Orientation="Vertical" VerticalOptions="CenterAndExpand" BackgroundColor="Blue">
+        <StackLayout x:Name="NoItemsView" IsVisible="False" Orientation="Vertical" VerticalOptions="CenterAndExpand">
             <Image Source="noitems.png" Aspect="AspectFit" VerticalOptions="CenterAndExpand"/>
             <Label Text="There is nothing here" 
                    HorizontalOptions="CenterAndExpand" 
