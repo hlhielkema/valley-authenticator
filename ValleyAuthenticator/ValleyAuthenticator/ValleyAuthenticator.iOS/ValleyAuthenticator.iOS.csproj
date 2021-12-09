@@ -151,4 +151,10 @@
   <ItemGroup>
     <BundleResource Include="Resources\noitems.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\folder.png" />
+  </ItemGroup>
 </Project>

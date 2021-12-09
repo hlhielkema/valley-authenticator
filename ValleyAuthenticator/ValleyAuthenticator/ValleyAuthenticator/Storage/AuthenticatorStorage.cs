@@ -97,9 +97,9 @@ namespace ValleyAuthenticator.Storage
             List<AuthNodeInfo> result = new List<AuthNodeInfo>();
 
             foreach (AuthDirectoryData directory in target.Directories)
-                result.Add(new AuthNodeInfo(directory.Id, target.Id, directory.Name, AuthNodeType.Directory));
+                result.Add(new AuthNodeInfo(directory.Id, target.Id, directory.Name, string.Format("{0} entries, {1} directories", directory.Entries.Count, directory.Directories.Count), AuthNodeType.Directory));
             foreach (AuthEntryData entry in target.Entries)
-                result.Add(new AuthNodeInfo(entry.Id, target.Id, entry.Label, AuthNodeType.Entry));
+                result.Add(new AuthNodeInfo(entry.Id, target.Id, entry.Issuer, entry.Label, AuthNodeType.Entry));
 
             return result;
         }

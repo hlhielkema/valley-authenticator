@@ -11,15 +11,30 @@ namespace ValleyAuthenticator.Storage.Models
 
         public string Name { get; private set; }
 
-        public string Detail => Type.ToString();
+        public string Detail { get; private set; }
 
         public AuthNodeType Type { get; private set; }
 
-        public AuthNodeInfo(Guid id, Guid parent, string name, AuthNodeType type)
+        public string Image
+        {
+            get
+            {
+                switch (Type)
+                {
+                    case AuthNodeType.Entry:
+                        return "key.png";
+                    default:
+                        return "folder.png";
+                }
+            }
+        }
+
+        public AuthNodeInfo(Guid id, Guid parent, string name, string detail, AuthNodeType type)
         {
             Id = id;
             Parent = parent;
             Name = name;
+            Detail = detail;
             Type = type;
         }
 
