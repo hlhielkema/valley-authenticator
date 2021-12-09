@@ -10,11 +10,23 @@
     </ContentPage.Resources>
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Delete" Order="Secondary" Clicked="OnClickedDelete"/>
-        <ToolbarItem Text="Export" Order="Secondary" Clicked="OnClickedExport"/>
-    </ContentPage.ToolbarItems>
-
-   
+        <ToolbarItem Order="Secondary" Clicked="OnClickedDelete">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource
+                    FontFamily="FontAwesome"
+                    Glyph="&#xf2ed;"
+                    Size="22" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+         <ToolbarItem Order="Secondary" Clicked="OnClickedExport">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource
+                    FontFamily="FontAwesome"
+                    Glyph="&#xf56e;"
+                    Size="22" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>   
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
