@@ -73,20 +73,30 @@ namespace ValleyAuthenticator.Views
             // Deselect Item
             ((ListView)sender).SelectedItem = null;
         }
-
-        private void OnClickedAddDirectory(object sender, EventArgs e)
+       
+        private async void OnClickedAdd(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new AddDirectoryPage(_storage, _directoryId));
-        }
+            string action = await DisplayActionSheet("Add", "Cancel", null, "Scan QR", "Enter secret", "New directory");
 
-        private void OnClickedScanQr(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new AddEntryFromQrPage(_storage, _directoryId));
-        }
+            switch (action)
+            {
+                case "Scan QR":
+                    await Navigation.PushAsync(new AddEntryFromQrPage(_storage, _directoryId));
+                    return;
 
-        private void OnClickedEnterSecret(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new AddEntryFromSecretPage(_storage, _directoryId));
+                case "Enter secret":
+                    await Navigation.PushAsync(new AddEntryFromSecretPage(_storage, _directoryId));
+                    return;
+
+                case "New directory":
+                    string name = await DisplayPromptAsync("Create new directory", "Enter name");
+                    if (!string.IsNullOrWhiteSpace(name))
+                    {
+                        _storage.AddDirectory(_directoryId, name);
+                        ReloadContent();
+                    }
+                    return;
+            }
         }
 
         public async void OnDelete(object sender, EventArgs e)
