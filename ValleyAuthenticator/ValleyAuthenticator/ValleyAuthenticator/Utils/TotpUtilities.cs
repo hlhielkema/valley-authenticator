@@ -30,22 +30,18 @@ namespace ValleyAuthenticator.Utils
         /// <returns>
         ///     URI as a string
         /// </returns>
-        public static string GenerateAppUri(string username, string secret)
+        public static string GenerateAppUri(OtpData data)
         {
             // Input validation
-            if (string.IsNullOrWhiteSpace(username))
-                throw new ArgumentException(nameof(username));
-            if (string.IsNullOrWhiteSpace(secret))
-                throw new ArgumentException(nameof(secret));
-            if (secret.Length > 50)
-                throw new ArgumentException(nameof(secret));
+            if (data == null)
+                throw new ArgumentNullException(nameof(data));
 
             // otpauth://TYPE/LABEL?PARAMETERS
             // https://github.com/google/google-authenticator/wiki/Key-Uri-Format
 
             // Encode the parameters
-            string encodedSecret = Uri.EscapeDataString(secret);
-            string encodedLabel = Uri.EscapeDataString(username);
+            string encodedSecret = Uri.EscapeDataString(data.Secret);
+            string encodedLabel = Uri.EscapeDataString(data.Label);
             string encodedIssuer = Uri.EscapeDataString("Valley");
 
             // Format the URI

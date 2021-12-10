@@ -4,20 +4,14 @@ namespace ValleyAuthenticator.Storage.Models
 {
     public sealed class AuthEntryInfo
     {
-        public Guid Id { get; set; }
+        public Guid Id { get; private set; }
 
-        public string Label { get; set; }
+        public OtpData Data { get; private set; }
 
-        public string Secret { get; set; }
-
-        public string Issuer { get; set; }
-
-        public AuthEntryInfo(Guid id, string label, string secret, string issuer)
+        public AuthEntryInfo(Guid id, OtpData data)
         {
             Id = id;
-            Label = label;
-            Secret = secret;
-            Issuer = issuer;
+            Data = data;
         }
     }
 }

@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ValleyAuthenticator.Storage;
+using ValleyAuthenticator.Storage.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -25,12 +22,12 @@ namespace ValleyAuthenticator.Views
 
         private async void OnAddClicked(object sender, EventArgs e)
         {
-            string name = nameEditor.Text;
+            string label = labelEditor.Text;
             string secret = secretEditor.Text;
             string issuer = issuerEditor.Text;
-            if (!string.IsNullOrWhiteSpace(name) && !string.IsNullOrWhiteSpace(secret) && !string.IsNullOrWhiteSpace(issuer))
+            if (!string.IsNullOrWhiteSpace(label) && !string.IsNullOrWhiteSpace(secret) && !string.IsNullOrWhiteSpace(issuer))
             {
-                _storage.AddEntry(_directory, name, secret, issuer);
+                _storage.AddEntry(_directory, new OtpData(EntryType.Totp, label, secret, issuer));
                 await Navigation.PopAsync();
             }
         }

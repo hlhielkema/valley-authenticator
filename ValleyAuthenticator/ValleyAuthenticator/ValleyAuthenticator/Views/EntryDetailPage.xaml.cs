@@ -30,12 +30,12 @@ namespace ValleyAuthenticator.Views
             _entryId = entryId;
             _entryInfo = _storage.GetEntry(_entryId);
 
-            NameLabel.Text = _entryInfo.Label;
-            IssuerLabel.Text = _entryInfo.Issuer;
+            NameLabel.Text = _entryInfo.Data.Label;
+            IssuerLabel.Text = _entryInfo.Data.Issuer;
 
             try
             {
-                byte[] base32Bytes = Base32Encoding.ToBytes(_entryInfo.Secret);
+                byte[] base32Bytes = Base32Encoding.ToBytes(_entryInfo.Data.Secret);
                 _totp = new Totp(base32Bytes);
             }
             catch

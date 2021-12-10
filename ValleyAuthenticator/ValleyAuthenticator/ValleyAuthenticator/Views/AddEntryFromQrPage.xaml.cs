@@ -44,7 +44,7 @@ namespace ValleyAuthenticator.Views
                     if (TotpUtilities.TryParseAppUri(result.Text, out OtpData data))
                     {                        
                         _completed = true;
-                        _storage.AddEntry(_directory, data.Label, data.Secret, data.Issuer);                        
+                        _storage.AddEntry(_directory, data);                        
                         await Navigation.PopAsync();
                     }
                 }

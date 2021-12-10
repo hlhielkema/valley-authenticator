@@ -65,7 +65,7 @@ namespace ValleyAuthenticator.Storage
             return id;
         }
 
-        public Guid AddEntry(Guid? directoryId, string name, string secret, string issuer)
+        public Guid AddEntry(Guid? directoryId, OtpData data)
         {
             Guid id = Guid.NewGuid();
 
@@ -76,10 +76,8 @@ namespace ValleyAuthenticator.Storage
             AuthEntryData entry = new AuthEntryData()
             {
                 Id = id,
-                Label = name,
                 Parent = target.Id,
-                Secret = secret,
-                Issuer = issuer,
+                Data = data
             };
 
             target.Entries.Add(entry);
@@ -99,7 +97,7 @@ namespace ValleyAuthenticator.Storage
             foreach (AuthDirectoryData directory in target.Directories)
                 result.Add(new AuthNodeInfo(directory.Id, target.Id, directory.Name, string.Format("{0} entries, {1} directories", directory.Entries.Count, directory.Directories.Count), AuthNodeType.Directory));
             foreach (AuthEntryData entry in target.Entries)
-                result.Add(new AuthNodeInfo(entry.Id, target.Id, entry.Issuer, entry.Label, AuthNodeType.Entry));
+                result.Add(new AuthNodeInfo(entry.Id, target.Id, entry.Data.Issuer, entry.Data.Label, AuthNodeType.Entry));
 
             return result;
         }
@@ -107,7 +105,7 @@ namespace ValleyAuthenticator.Storage
         public AuthEntryInfo GetEntry(Guid entryId)
         {
             AuthEntryData data = _entryLookup[entryId];
-            return new AuthEntryInfo(data.Id, data.Label, data.Secret, data.Issuer);
+            return new AuthEntryInfo(data.Id, data.Data);
         }
 
         public bool DeleteDirectory(Guid directoryId)
@@ -161,10 +159,10 @@ namespace ValleyAuthenticator.Storage
             AddDirectory(null, "Work");
             AddDirectory(null, "Private");
             AddDirectory(null, "Side projects");
-            AddEntry(null, "admin", "345h7", "Google");
-            AddEntry(null, "admin", "345h7", "Microsoft");
-            AddEntry(null, "admin@gmail.com", "123456789", "Gmail (invalid)");
-            AddEntry(favoriteId, "admin", "345h7", "Ydentic");
+            AddEntry(null, new OtpData(EntryType.Totp, "admin", "345h7", "Google"));
+            AddEntry(null, new OtpData(EntryType.Totp, "admin", "345h7", "Microsoft"));
+            AddEntry(null, new OtpData(EntryType.Totp, "admin@gmail.com", "123456789", "Gmail (invalid)"));
+            AddEntry(favoriteId, new OtpData(EntryType.Totp, "admin", "345h7", "Ydentic"));
         }
     }
 }
