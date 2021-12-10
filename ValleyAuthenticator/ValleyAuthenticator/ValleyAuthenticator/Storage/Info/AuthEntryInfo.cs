@@ -1,6 +1,7 @@
 ﻿using System;
+using ValleyAuthenticator.Storage.Otp;
 
-namespace ValleyAuthenticator.Storage.Models
+namespace ValleyAuthenticator.Storage.Info
 {
     public sealed class AuthEntryInfo
     {

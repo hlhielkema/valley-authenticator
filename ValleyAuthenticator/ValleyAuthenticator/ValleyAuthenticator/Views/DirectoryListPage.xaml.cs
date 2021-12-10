@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using ValleyAuthenticator.Storage;
+using ValleyAuthenticator.Storage.Info;
 using ValleyAuthenticator.Storage.Models;
 using ValleyAuthenticator.Utils;
 using Xamarin.Forms;
@@ -61,10 +62,10 @@ namespace ValleyAuthenticator.Views
 
             switch (item.Type)
             {
-                case AuthNodeType.Directory:
+                case NodeType.Directory:
                     await Navigation.PushAsync(new DirectoryListPage(_storage, item.Id));
                     break;
-                case AuthNodeType.Entry:
+                case NodeType.OtpEntry:
                     await Navigation.PushAsync(new EntryDetailPage(_storage, item.Id));
                     break;
 
@@ -110,10 +111,10 @@ namespace ValleyAuthenticator.Views
 
             switch (item.Type)
             {
-                case AuthNodeType.Directory:
+                case NodeType.Directory:
                     _storage.DeleteDirectory(item.Id);
                     break;
-                case AuthNodeType.Entry:
+                case NodeType.OtpEntry:
                     _storage.DeleteEntry(item.Id);
                     break;
 

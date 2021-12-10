@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ValleyAuthenticator.Storage;
 using ValleyAuthenticator.Storage.Models;
+using ValleyAuthenticator.Storage.Otp;
 using ValleyAuthenticator.Utils;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;

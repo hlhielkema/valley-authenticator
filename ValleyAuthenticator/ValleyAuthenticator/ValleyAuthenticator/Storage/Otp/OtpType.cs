@@ -1,6 +1,6 @@
-﻿namespace ValleyAuthenticator.Storage.Models
+﻿namespace ValleyAuthenticator.Storage.Otp
 {
-    public enum EntryType
+    public enum OtpType
     {
         /// <summary>
         /// Timed one-time password

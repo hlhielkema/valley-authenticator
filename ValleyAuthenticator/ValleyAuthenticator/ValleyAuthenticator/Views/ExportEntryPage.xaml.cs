@@ -1,4 +1,5 @@
-﻿using ValleyAuthenticator.Storage.Models;
+﻿using ValleyAuthenticator.Storage.Info;
+using ValleyAuthenticator.Storage.Models;
 using ValleyAuthenticator.Utils;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;

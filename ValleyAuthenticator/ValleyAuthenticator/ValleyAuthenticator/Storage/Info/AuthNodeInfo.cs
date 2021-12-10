@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ValleyAuthenticator.Storage.Models
+namespace ValleyAuthenticator.Storage.Info
 {
     public sealed class AuthNodeInfo
     {
@@ -13,7 +13,7 @@ namespace ValleyAuthenticator.Storage.Models
 
         public string Detail { get; private set; }
 
-        public AuthNodeType Type { get; private set; }
+        public NodeType Type { get; private set; }
 
         public string Image
         {
@@ -21,7 +21,7 @@ namespace ValleyAuthenticator.Storage.Models
             {
                 switch (Type)
                 {
-                    case AuthNodeType.Entry:
+                    case NodeType.OtpEntry:
                         return "key.png";
                     default:
                         return "folder.png";
@@ -29,7 +29,7 @@ namespace ValleyAuthenticator.Storage.Models
             }
         }
 
-        public AuthNodeInfo(Guid id, Guid parent, string name, string detail, AuthNodeType type)
+        public AuthNodeInfo(Guid id, Guid parent, string name, string detail, NodeType type)
         {
             Id = id;
             Parent = parent;

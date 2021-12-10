@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using ValleyAuthenticator.Storage.Info;
 using ValleyAuthenticator.Storage.Models;
+using ValleyAuthenticator.Storage.Otp;
 
 namespace ValleyAuthenticator.Storage
 {
@@ -22,22 +24,22 @@ namespace ValleyAuthenticator.Storage
 
         private static AuthenticatorStorage _instance;
 
-        private readonly AuthDirectoryData _root;
-        private readonly Dictionary<Guid, AuthDirectoryData> _directoryLookup;
-        private readonly Dictionary<Guid, AuthEntryData> _entryLookup;
+        private readonly InternalDirectoryData _root;
+        private readonly Dictionary<Guid, InternalDirectoryData> _directoryLookup;
+        private readonly Dictionary<Guid, InternalOtpEntryData> _entryLookup;
 
         private AuthenticatorStorage()
         {
-            _root = new AuthDirectoryData()
+            _root = new InternalDirectoryData()
             {
                 Id = Guid.NewGuid(),
                 Name = "root",
                 Parent = null,
-                Directories = new List<AuthDirectoryData>(),
-                Entries = new List<AuthEntryData>()
+                Directories = new List<InternalDirectoryData>(),
+                OtpEntries = new List<InternalOtpEntryData>()
             };
-            _directoryLookup = new Dictionary<Guid, AuthDirectoryData>();
-            _entryLookup = new Dictionary<Guid, AuthEntryData>();
+            _directoryLookup = new Dictionary<Guid, InternalDirectoryData>();
+            _entryLookup = new Dictionary<Guid, InternalOtpEntryData>();
             _directoryLookup.Add(_root.Id, _root);
         }
 
@@ -45,17 +47,17 @@ namespace ValleyAuthenticator.Storage
         {
             Guid id = Guid.NewGuid();
 
-            AuthDirectoryData target = _root;
+            InternalDirectoryData target = _root;
             if (directoryId.HasValue)
                 target = _directoryLookup[directoryId.Value];
 
-            AuthDirectoryData directory = new AuthDirectoryData()
+            InternalDirectoryData directory = new InternalDirectoryData()
             {
                 Id = id,
                 Name = name,
                 Parent = target.Id,
-                Directories = new List<AuthDirectoryData>(),
-                Entries = new List<AuthEntryData>()
+                Directories = new List<InternalDirectoryData>(),
+                OtpEntries = new List<InternalOtpEntryData>()
             };
 
             target.Directories.Add(directory);
@@ -69,18 +71,18 @@ namespace ValleyAuthenticator.Storage
         {
             Guid id = Guid.NewGuid();
 
-            AuthDirectoryData target = _root;
+            InternalDirectoryData target = _root;
             if (directoryId.HasValue)
                 target = _directoryLookup[directoryId.Value];
 
-            AuthEntryData entry = new AuthEntryData()
+            InternalOtpEntryData entry = new InternalOtpEntryData()
             {
                 Id = id,
                 Parent = target.Id,
                 Data = data
             };
 
-            target.Entries.Add(entry);
+            target.OtpEntries.Add(entry);
             _entryLookup.Add(id, entry);
 
             return id;
@@ -88,33 +90,33 @@ namespace ValleyAuthenticator.Storage
 
         public List<AuthNodeInfo> GetForDirectory(Guid? directoryId)
         {
-            AuthDirectoryData target = _root;
+            InternalDirectoryData target = _root;
             if (directoryId.HasValue)
                 target = _directoryLookup[directoryId.Value];
 
             List<AuthNodeInfo> result = new List<AuthNodeInfo>();
 
-            foreach (AuthDirectoryData directory in target.Directories)
-                result.Add(new AuthNodeInfo(directory.Id, target.Id, directory.Name, string.Format("{0} entries, {1} directories", directory.Entries.Count, directory.Directories.Count), AuthNodeType.Directory));
-            foreach (AuthEntryData entry in target.Entries)
-                result.Add(new AuthNodeInfo(entry.Id, target.Id, entry.Data.Issuer, entry.Data.Label, AuthNodeType.Entry));
+            foreach (InternalDirectoryData directory in target.Directories)
+                result.Add(new AuthNodeInfo(directory.Id, target.Id, directory.Name, string.Format("{0} entries, {1} directories", directory.OtpEntries.Count, directory.Directories.Count), NodeType.Directory));
+            foreach (InternalOtpEntryData entry in target.OtpEntries)
+                result.Add(new AuthNodeInfo(entry.Id, target.Id, entry.Data.Issuer, entry.Data.Label, NodeType.OtpEntry));
 
             return result;
         }
 
         public AuthEntryInfo GetEntry(Guid entryId)
         {
-            AuthEntryData data = _entryLookup[entryId];
+            InternalOtpEntryData data = _entryLookup[entryId];
             return new AuthEntryInfo(data.Id, data.Data);
         }
 
         public bool DeleteDirectory(Guid directoryId)
         {
-            if (_directoryLookup.TryGetValue(directoryId, out AuthDirectoryData data))
+            if (_directoryLookup.TryGetValue(directoryId, out InternalDirectoryData data))
             {
                 if (!data.Parent.HasValue)
                     throw new Exception("Root cannot be deleted");
-                AuthDirectoryData parentDirectory = _directoryLookup[data.Parent.Value];
+                InternalDirectoryData parentDirectory = _directoryLookup[data.Parent.Value];
                 if (!parentDirectory.Directories.Remove(data))
                     throw new Exception("Entry found in directory");
                 _directoryLookup.Remove(directoryId);
@@ -126,10 +128,10 @@ namespace ValleyAuthenticator.Storage
 
         public bool DeleteEntry(Guid entryId)
         {
-            if (_entryLookup.TryGetValue(entryId, out AuthEntryData data))
+            if (_entryLookup.TryGetValue(entryId, out InternalOtpEntryData data))
             {
-                AuthDirectoryData parentDirectory = _directoryLookup[data.Parent];
-                if (!parentDirectory.Entries.Remove(data))
+                InternalDirectoryData parentDirectory = _directoryLookup[data.Parent];
+                if (!parentDirectory.OtpEntries.Remove(data))
                     throw new Exception("Entry found in directory");
                 _entryLookup.Remove(entryId);
                 return true;
@@ -144,12 +146,12 @@ namespace ValleyAuthenticator.Storage
             IndexDirectory(_root);
         }
 
-        private void IndexDirectory(AuthDirectoryData directory)
+        private void IndexDirectory(InternalDirectoryData directory)
         {
             _directoryLookup.Add(directory.Id, directory);
-            foreach (AuthEntryData entry in directory.Entries)
+            foreach (InternalOtpEntryData entry in directory.OtpEntries)
                 _entryLookup.Add(entry.Id, entry);
-            foreach (AuthDirectoryData childDirectory in directory.Directories)
+            foreach (InternalDirectoryData childDirectory in directory.Directories)
                 IndexDirectory(childDirectory);
         }        
 
@@ -159,10 +161,10 @@ namespace ValleyAuthenticator.Storage
             AddDirectory(null, "Work");
             AddDirectory(null, "Private");
             AddDirectory(null, "Side projects");
-            AddEntry(null, new OtpData(EntryType.Totp, "admin", "345h7", "Google"));
-            AddEntry(null, new OtpData(EntryType.Totp, "admin", "345h7", "Microsoft"));
-            AddEntry(null, new OtpData(EntryType.Totp, "admin@gmail.com", "123456789", "Gmail (invalid)"));
-            AddEntry(favoriteId, new OtpData(EntryType.Totp, "admin", "345h7", "Ydentic"));
+            AddEntry(null, new OtpData(OtpType.Totp, "admin", "345h7", "Google"));
+            AddEntry(null, new OtpData(OtpType.Totp, "admin", "345h7", "Microsoft"));
+            AddEntry(null, new OtpData(OtpType.Totp, "admin@gmail.com", "123456789", "Gmail (invalid)"));
+            AddEntry(favoriteId, new OtpData(OtpType.Totp, "admin", "345h7", "Ydentic"));
         }
     }
 }

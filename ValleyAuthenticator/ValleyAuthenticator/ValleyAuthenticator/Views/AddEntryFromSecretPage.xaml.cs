@@ -1,6 +1,7 @@
 ﻿using System;
 using ValleyAuthenticator.Storage;
 using ValleyAuthenticator.Storage.Models;
+using ValleyAuthenticator.Storage.Otp;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -27,7 +28,7 @@ namespace ValleyAuthenticator.Views
             string issuer = issuerEditor.Text;
             if (!string.IsNullOrWhiteSpace(label) && !string.IsNullOrWhiteSpace(secret) && !string.IsNullOrWhiteSpace(issuer))
             {
-                _storage.AddEntry(_directory, new OtpData(EntryType.Totp, label, secret, issuer));
+                _storage.AddEntry(_directory, new OtpData(OtpType.Totp, label, secret, issuer));
                 await Navigation.PopAsync();
             }
         }
