@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using ValleyAuthenticator.Storage;
+using ValleyAuthenticator.Storage.Abstract;
 using ValleyAuthenticator.Storage.Info;
-using ValleyAuthenticator.Storage.Models;
 using ValleyAuthenticator.Utils;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -13,25 +13,21 @@ namespace ValleyAuthenticator.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class DirectoryListPage : ContentPage
     {
-        public ObservableCollection<AuthNodeInfo> Items { get; set; }
+        public ObservableCollection<NodeInfo> Items { get; set; }
 
-        private readonly AuthenticatorStorage _storage;
-        private Guid? _directoryId;
+        private readonly IDirectoryContext _directoryContext;
 
         public DirectoryListPage()
-            : this(AuthenticatorStorage.Instance, null)
+            : this(AuthenticatorStorage.Instance.GetRootDirectoryContext())
         { }
 
-        public DirectoryListPage(AuthenticatorStorage storage, Guid? directoryId)
+        public DirectoryListPage(IDirectoryContext directoryContext)
         {
             InitializeComponent();
 
-            _storage = storage;
-            _directoryId = directoryId;
+            _directoryContext = directoryContext;
 
-
-
-            Items = new ObservableCollection<AuthNodeInfo>();
+            Items = new ObservableCollection<NodeInfo>();
 
             ItemsView.ItemsSource = Items;
         }
@@ -44,7 +40,7 @@ namespace ValleyAuthenticator.Views
 
         private void ReloadContent()
         {
-            List<AuthNodeInfo> items = _storage.GetForDirectory(_directoryId);            
+            List<NodeInfo> items = _directoryContext.GetChilds();            
             MergeObservableCollection.Replace(Items, items);
 
             bool anyItems = Items.Count > 0;
@@ -58,18 +54,12 @@ namespace ValleyAuthenticator.Views
             if (e.Item == null)
                 return;
 
-            AuthNodeInfo item = (AuthNodeInfo)e.Item;
+            NodeInfo item = (NodeInfo)e.Item;
 
-            switch (item.Type)
-            {
-                case NodeType.Directory:
-                    await Navigation.PushAsync(new DirectoryListPage(_storage, item.Id));
-                    break;
-                case NodeType.OtpEntry:
-                    await Navigation.PushAsync(new EntryDetailPage(_storage, item.Id));
-                    break;
-
-            }
+            if (item.Context is IDirectoryContext directoryContext)
+                await Navigation.PushAsync(new DirectoryListPage(directoryContext));
+            else if (item.Context is IOtpEntryContext otpEntryContext)
+                await Navigation.PushAsync(new EntryDetailPage(otpEntryContext));
 
             // Deselect Item
             ((ListView)sender).SelectedItem = null;
@@ -82,18 +72,18 @@ namespace ValleyAuthenticator.Views
             switch (action)
             {
                 case "Scan QR":
-                    await Navigation.PushAsync(new AddEntryFromQrPage(_storage, _directoryId));
+                    await Navigation.PushAsync(new AddEntryFromQrPage(_directoryContext));
                     return;
 
                 case "Enter secret":
-                    await Navigation.PushAsync(new AddEntryFromSecretPage(_storage, _directoryId));
+                    await Navigation.PushAsync(new AddEntryFromSecretPage(_directoryContext));
                     return;
 
                 case "New directory":
                     string name = await DisplayPromptAsync("Create new directory", "Enter name");
                     if (!string.IsNullOrWhiteSpace(name))
                     {
-                        _storage.AddDirectory(_directoryId, name);
+                        _directoryContext.AddDirectory(name);
                         ReloadContent();
                     }
                     return;
@@ -102,23 +92,14 @@ namespace ValleyAuthenticator.Views
 
         public async void OnDelete(object sender, EventArgs e)
         {
-            AuthNodeInfo item = (AuthNodeInfo)((MenuItem)sender).CommandParameter;
+            NodeInfo item = (NodeInfo)((MenuItem)sender).CommandParameter;
 
             // Ask for confirmation
             string questions = String.Format("Are you sure you want to delete this {0}?", item.Type.ToString().ToLower());
             if (!await DisplayAlert("Confirm delete", questions, "Yes", "No"))
                 return;
 
-            switch (item.Type)
-            {
-                case NodeType.Directory:
-                    _storage.DeleteDirectory(item.Id);
-                    break;
-                case NodeType.OtpEntry:
-                    _storage.DeleteEntry(item.Id);
-                    break;
-
-            }
+            item.Context.Delete();
 
             ReloadContent();
         }

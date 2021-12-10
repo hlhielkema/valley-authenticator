@@ -1,4 +1,4 @@
-﻿namespace ValleyAuthenticator.Storage.Otp
+﻿namespace ValleyAuthenticator.Storage.Info
 {
     public enum OtpType
     {

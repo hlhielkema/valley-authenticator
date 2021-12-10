@@ -1,9 +1,8 @@
 ﻿using Newtonsoft.Json;
 using System;
-using ValleyAuthenticator.Storage.Otp;
 
-namespace ValleyAuthenticator.Storage.Models
-{    
+namespace ValleyAuthenticator.Storage.Internal.Model
+{
     internal sealed class InternalOtpEntryData
     {
         [JsonProperty("id")]
@@ -13,6 +12,6 @@ namespace ValleyAuthenticator.Storage.Models
         public Guid Parent { get; set; }
 
         [JsonProperty("otp_data")]
-        public OtpData Data { get; set; }
+        public InternalOtpData Data { get; set; }
     }
 }

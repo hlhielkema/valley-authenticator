@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValleyAuthenticator.Android
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValleyAuthenticator.iOS", "ValleyAuthenticator\ValleyAuthenticator.iOS\ValleyAuthenticator.iOS.csproj", "{647628AB-A986-4ABB-867F-706A89F4FB5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValleyAuthenticator", "ValleyAuthenticator\ValleyAuthenticator\ValleyAuthenticator.csproj", "{9631B567-FEC9-4D2D-AD07-7E554938BBE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValleyAuthenticator", "ValleyAuthenticator\ValleyAuthenticator\ValleyAuthenticator.csproj", "{9631B567-FEC9-4D2D-AD07-7E554938BBE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValleyAuthenticator.Storage", "ValleyAuthenticator.Storage\ValleyAuthenticator.Storage.csproj", "{4A13C441-7FA9-4606-98E3-9F104AFB3F5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,18 @@ Global
 		{9631B567-FEC9-4D2D-AD07-7E554938BBE4}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{9631B567-FEC9-4D2D-AD07-7E554938BBE4}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{9631B567-FEC9-4D2D-AD07-7E554938BBE4}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{4A13C441-7FA9-4606-98E3-9F104AFB3F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A13C441-7FA9-4606-98E3-9F104AFB3F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A13C441-7FA9-4606-98E3-9F104AFB3F5A}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{4A13C441-7FA9-4606-98E3-9F104AFB3F5A}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{4A13C441-7FA9-4606-98E3-9F104AFB3F5A}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{4A13C441-7FA9-4606-98E3-9F104AFB3F5A}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{4A13C441-7FA9-4606-98E3-9F104AFB3F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A13C441-7FA9-4606-98E3-9F104AFB3F5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A13C441-7FA9-4606-98E3-9F104AFB3F5A}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{4A13C441-7FA9-4606-98E3-9F104AFB3F5A}.Release|iPhone.Build.0 = Release|Any CPU
+		{4A13C441-7FA9-4606-98E3-9F104AFB3F5A}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{4A13C441-7FA9-4606-98E3-9F104AFB3F5A}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

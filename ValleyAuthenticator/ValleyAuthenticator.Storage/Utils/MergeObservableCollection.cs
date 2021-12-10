@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ValleyAuthenticator.Utils
 {
-    internal class MergeObservableCollection
+    public class MergeObservableCollection
     {
         public static bool MatchElements<T>(ObservableCollection<T> collection, List<T> updated)
         {

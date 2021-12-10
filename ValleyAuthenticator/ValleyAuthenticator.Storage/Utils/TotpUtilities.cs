@@ -2,12 +2,11 @@
 using System;
 using System.Collections.Specialized;
 using System.Web;
-using ValleyAuthenticator.Storage.Models;
-using ValleyAuthenticator.Storage.Otp;
+using ValleyAuthenticator.Storage.Info;
 
 namespace ValleyAuthenticator.Utils
 {
-    internal class TotpUtilities
+    public class TotpUtilities
     {
         /// <summary>
         /// Create a secret for the code validation method.
@@ -62,12 +61,7 @@ namespace ValleyAuthenticator.Utils
                 string secret = query["secret"];
                 string issuer = query["issuer"];
 
-                data = new OtpData()
-                {
-                    Issuer = issuer,
-                    Secret = secret,
-                    Label = label,
-                };
+                data = new OtpData(OtpType.Totp, label, secret, issuer);                
 
                 // TODO: Move input validation
 

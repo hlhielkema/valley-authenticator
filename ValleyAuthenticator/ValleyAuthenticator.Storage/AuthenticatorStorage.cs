@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using ValleyAuthenticator.Storage.Abstract;
+using ValleyAuthenticator.Storage.Impl;
 using ValleyAuthenticator.Storage.Info;
-using ValleyAuthenticator.Storage.Models;
-using ValleyAuthenticator.Storage.Otp;
+using ValleyAuthenticator.Storage.Internal.Model;
 
 namespace ValleyAuthenticator.Storage
 {
-    public sealed class AuthenticatorStorage
+    public sealed class AuthenticatorStorage : IAuthenticatorStorage
     {
-        public static AuthenticatorStorage Instance
+        public static IAuthenticatorStorage Instance
         {
             get
             {
@@ -42,6 +42,15 @@ namespace ValleyAuthenticator.Storage
             _entryLookup = new Dictionary<Guid, InternalOtpEntryData>();
             _directoryLookup.Add(_root.Id, _root);
         }
+
+        public IDirectoryContext GetRootDirectoryContext()
+            => new DirectoryContext(this, null);
+
+        public IDirectoryContext GetDirectoryContext(Guid? directoryId)
+            => new DirectoryContext(this, directoryId);
+
+        public IOtpEntryContext GetOtpEntryContext(Guid entryId)
+            => new OtpEntryContext(this, entryId);
 
         public Guid AddDirectory(Guid? directoryId, string name)
         {
@@ -79,7 +88,7 @@ namespace ValleyAuthenticator.Storage
             {
                 Id = id,
                 Parent = target.Id,
-                Data = data
+                Data = data.AsData(),
             };
 
             target.OtpEntries.Add(entry);
@@ -88,26 +97,26 @@ namespace ValleyAuthenticator.Storage
             return id;
         }
 
-        public List<AuthNodeInfo> GetForDirectory(Guid? directoryId)
+        public List<NodeInfo> GetForDirectory(Guid? directoryId)
         {
             InternalDirectoryData target = _root;
             if (directoryId.HasValue)
                 target = _directoryLookup[directoryId.Value];
 
-            List<AuthNodeInfo> result = new List<AuthNodeInfo>();
+            List<NodeInfo> result = new List<NodeInfo>();
 
             foreach (InternalDirectoryData directory in target.Directories)
-                result.Add(new AuthNodeInfo(directory.Id, target.Id, directory.Name, string.Format("{0} entries, {1} directories", directory.OtpEntries.Count, directory.Directories.Count), NodeType.Directory));
+                result.Add(new NodeInfo(GetDirectoryContext(directory.Id), directory.Id, target.Id, directory.Name, string.Format("{0} entries, {1} directories", directory.OtpEntries.Count, directory.Directories.Count), NodeType.Directory));
             foreach (InternalOtpEntryData entry in target.OtpEntries)
-                result.Add(new AuthNodeInfo(entry.Id, target.Id, entry.Data.Issuer, entry.Data.Label, NodeType.OtpEntry));
+                result.Add(new NodeInfo(GetOtpEntryContext(entry.Id), entry.Id, target.Id, entry.Data.Issuer, entry.Data.Label, NodeType.OtpEntry));
 
             return result;
         }
 
-        public AuthEntryInfo GetEntry(Guid entryId)
+        public OtpData GetEntryOtpData(Guid entryId)
         {
             InternalOtpEntryData data = _entryLookup[entryId];
-            return new AuthEntryInfo(data.Id, data.Data);
+            return new OtpData(data.Data);
         }
 
         public bool DeleteDirectory(Guid directoryId)

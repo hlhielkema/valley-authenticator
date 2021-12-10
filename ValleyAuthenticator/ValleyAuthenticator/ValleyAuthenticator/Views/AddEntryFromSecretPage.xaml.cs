@@ -1,7 +1,7 @@
 ﻿using System;
 using ValleyAuthenticator.Storage;
-using ValleyAuthenticator.Storage.Models;
-using ValleyAuthenticator.Storage.Otp;
+using ValleyAuthenticator.Storage.Abstract;
+using ValleyAuthenticator.Storage.Info;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,15 +10,13 @@ namespace ValleyAuthenticator.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AddEntryFromSecretPage : ContentPage
     {
-        private readonly AuthenticatorStorage _storage;
-        private Guid? _directory;
+        private IDirectoryContext _createContext;
 
-        public AddEntryFromSecretPage(AuthenticatorStorage storage, Guid? directory)
+        public AddEntryFromSecretPage(IDirectoryContext createContext)
         {
             InitializeComponent();
 
-            _storage = storage;
-            _directory = directory;
+            _createContext = createContext;
         }
 
         private async void OnAddClicked(object sender, EventArgs e)
@@ -26,9 +24,10 @@ namespace ValleyAuthenticator.Views
             string label = labelEditor.Text;
             string secret = secretEditor.Text;
             string issuer = issuerEditor.Text;
+
             if (!string.IsNullOrWhiteSpace(label) && !string.IsNullOrWhiteSpace(secret) && !string.IsNullOrWhiteSpace(issuer))
             {
-                _storage.AddEntry(_directory, new OtpData(OtpType.Totp, label, secret, issuer));
+                _createContext.AddEntry(new OtpData(OtpType.Totp, label, secret, issuer));
                 await Navigation.PopAsync();
             }
         }

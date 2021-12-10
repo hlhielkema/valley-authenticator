@@ -15,7 +15,7 @@ namespace ValleyAuthenticator.Views
 
         private async void OnStartClicked(object sender, EventArgs e)
         {                     
-            await Navigation.PushAsync(new DirectoryListPage(AuthenticatorStorage.Instance, null));
+            await Navigation.PushAsync(new DirectoryListPage());
         }
     }
 }

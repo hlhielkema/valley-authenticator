@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ValleyAuthenticator.Storage.Models
+namespace ValleyAuthenticator.Storage.Internal.Model
 {
     internal sealed class InternalDirectoryData
     {

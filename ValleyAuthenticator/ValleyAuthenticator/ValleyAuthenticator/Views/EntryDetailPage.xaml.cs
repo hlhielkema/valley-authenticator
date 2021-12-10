@@ -1,12 +1,8 @@
 ﻿using OtpNet;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ValleyAuthenticator.Storage;
+using ValleyAuthenticator.Storage.Abstract;
 using ValleyAuthenticator.Storage.Info;
-using ValleyAuthenticator.Storage.Models;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -16,27 +12,25 @@ namespace ValleyAuthenticator.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class EntryDetailPage : ContentPage
     {
-        private readonly AuthenticatorStorage _storage;
-        private readonly AuthEntryInfo _entryInfo;
+        private readonly IOtpEntryContext _entryContext;
+        private readonly OtpData _otpData;
         private readonly System.Timers.Timer _timer;
         private readonly Totp _totp;
-        private Guid _entryId;        
         private DateTime? _timeCopied;
 
-        public EntryDetailPage(AuthenticatorStorage storage, Guid entryId)
+        public EntryDetailPage(IOtpEntryContext entryContext)
         {
             InitializeComponent();
 
-            _storage = storage;
-            _entryId = entryId;
-            _entryInfo = _storage.GetEntry(_entryId);
+            _entryContext = entryContext;
+            _otpData = entryContext.GetOtpData();
 
-            NameLabel.Text = _entryInfo.Data.Label;
-            IssuerLabel.Text = _entryInfo.Data.Issuer;
+            NameLabel.Text = _otpData.Label;
+            IssuerLabel.Text = _otpData.Issuer;
 
             try
             {
-                byte[] base32Bytes = Base32Encoding.ToBytes(_entryInfo.Data.Secret);
+                byte[] base32Bytes = Base32Encoding.ToBytes(_otpData.Secret);
                 _totp = new Totp(base32Bytes);
             }
             catch
@@ -100,7 +94,7 @@ namespace ValleyAuthenticator.Views
 
         private async void OnClickedDelete(object sender, EventArgs e)
         {
-            _storage.DeleteEntry(_entryId);
+            _entryContext.Delete();
             await Navigation.PopAsync();
         }
 
@@ -121,7 +115,7 @@ namespace ValleyAuthenticator.Views
             if (_totp == null)
                 return;
 
-            await Navigation.PushAsync(new ExportEntryPage(_entryInfo));
+            await Navigation.PushAsync(new ExportEntryPage(_otpData));
         }
     }
 }

@@ -1,17 +1,18 @@
 ﻿using Newtonsoft.Json;
 
-namespace ValleyAuthenticator.Storage.Otp
+namespace ValleyAuthenticator.Storage.Internal.Model
 {
     /// <summary>
     /// Data for TOTP or HOTP
     /// </summary>
-    public sealed class OtpData
+    internal sealed class InternalOtpData
     {
         /// <summary>
         /// Time-based one-time password (TOTP) or counter-based one-time password (HOTP).
+        /// The value should be "TOTP" or "HOTP".
         /// </summary>
         [JsonProperty("type")]
-        public OtpType Type { get; set; }
+        public string Type { get; set; }
 
         /// <summary>
         /// The label is used to identify which account a key is associated with.
@@ -58,20 +59,5 @@ namespace ValleyAuthenticator.Storage.Otp
         /// </summary>
         [JsonProperty("period")]
         public int Period { get; set; }
-
-        public OtpData()
-        { }
-
-        public OtpData(OtpType type, string label, string secret, string issuer)
-        {
-            Type = type;
-            Label = label;
-            Secret = secret;
-            Issuer = issuer;
-            Algorithm = "SHA1";
-            Digits = 6;
-            Counter = 0;
-            Period = 30;
-        }
     }
 }
