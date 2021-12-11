@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Text;
 using ValleyAuthenticator.Storage.Abstract;
-using ValleyAuthenticator.Storage.Info;
+using ValleyAuthenticator.Storage.Abstract.Models;
 using ValleyAuthenticator.Storage.Internal;
 using ValleyAuthenticator.Storage.Internal.Model;
 
@@ -11,11 +10,17 @@ namespace ValleyAuthenticator.Storage.Impl
 {
     internal class DirectoryContext : IDirectoryContext
     {
+        public string TypeDisplayName { get; } = "Directory";
+
         // Private fields
         private InternalStorageManager _storage;
         private ContextManager _contextManager;
         private Guid _directoryId;
         private List<ObservableCollection<NodeInfo>> _subscribed;
+
+        // Private constants
+        private string IMAGE_OTP_ENTRY = "key.png";
+        private string IMAGE_DIRECTORY = "folder.png";
 
         public DirectoryContext(InternalStorageManager storage, ContextManager contextManager, Guid directoryId)
         {            
@@ -37,14 +42,14 @@ namespace ValleyAuthenticator.Storage.Impl
 
                 string detail = FormatDirectoryLabel(directory);
 
-                initial.Add(new NodeInfo(context, directory.Id, directory.Name, detail, NodeType.Directory));
+                initial.Add(new NodeInfo(context, directory.Id, directory.Name, detail, IMAGE_DIRECTORY));
             }
 
             foreach (InternalOtpEntryData entry in target.OtpEntries)
             {
                 IOtpEntryContext context = _contextManager.GetOtpEntryContext(entry.Id);
 
-                initial.Add(new NodeInfo(context, entry.Id, entry.Data.Issuer, entry.Data.Label, NodeType.OtpEntry));
+                initial.Add(new NodeInfo(context, entry.Id, entry.Data.Issuer, entry.Data.Label, IMAGE_OTP_ENTRY));
             }
 
             ObservableCollection<NodeInfo> collection = new ObservableCollection<NodeInfo>(initial);
@@ -65,7 +70,7 @@ namespace ValleyAuthenticator.Storage.Impl
 
             IOtpEntryContext context = _contextManager.GetOtpEntryContext(id);
 
-            NodeInfo node = new NodeInfo(context, id, data.Issuer, data.Label, NodeType.OtpEntry);
+            NodeInfo node = new NodeInfo(context, id, data.Issuer, data.Label, IMAGE_OTP_ENTRY);
 
             foreach (ObservableCollection<NodeInfo> collection in _subscribed)
                 collection.Add(node);
@@ -83,7 +88,7 @@ namespace ValleyAuthenticator.Storage.Impl
 
             string detail = FormatDirectoryLabel();
 
-            NodeInfo node = new NodeInfo(context, id, name, detail, NodeType.Directory);
+            NodeInfo node = new NodeInfo(context, id, name, detail, IMAGE_DIRECTORY);
 
             foreach (ObservableCollection<NodeInfo> collection in _subscribed)
             {
@@ -91,7 +96,7 @@ namespace ValleyAuthenticator.Storage.Impl
                 // The directories are always at the top of the list.
 
                 int last = 0;
-                while (last < collection.Count && collection[last].Type == NodeType.Directory)
+                while (last < collection.Count && collection[last].Context is IDirectoryContext)
                     last++;
                 collection.Insert(last, node);
             }
@@ -106,8 +111,8 @@ namespace ValleyAuthenticator.Storage.Impl
             Guid? parent = _storage.GetDirectory(_directoryId).Parent;
             if (parent != null)
             {
-                var ctx = _contextManager.GetDirectoryContext(parent.Value);
-                ctx.UpdateDirectoryLabel(_directoryId);
+                DirectoryContext directoryContext = _contextManager.GetDirectoryContext(parent.Value);
+                directoryContext.UpdateDirectoryLabel(_directoryId);
             }
         }
 
@@ -121,9 +126,10 @@ namespace ValleyAuthenticator.Storage.Impl
             {
                 foreach (NodeInfo node in collection)
                 {
-                    if (node.Type == NodeType.Directory && node.Id == directoryId)
+                    if (node.Id == directoryId)
                     {
-                        node.Detail = detail;
+                        node.UpdateDetail(detail);
+                        break;
                     }
                 }
             }

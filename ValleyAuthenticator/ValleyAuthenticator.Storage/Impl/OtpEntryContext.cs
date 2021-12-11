@@ -1,12 +1,15 @@
 ﻿using System;
 using ValleyAuthenticator.Storage.Abstract;
-using ValleyAuthenticator.Storage.Info;
+using ValleyAuthenticator.Storage.Abstract.Models;
 using ValleyAuthenticator.Storage.Internal;
 
 namespace ValleyAuthenticator.Storage.Impl
 {
     internal class OtpEntryContext : IOtpEntryContext
     {
+        public string TypeDisplayName { get; } = "OTP entry";
+
+        // Private fields
         private InternalStorageManager _storage;
         private ContextManager _contextManager;
         private Guid _entryId;

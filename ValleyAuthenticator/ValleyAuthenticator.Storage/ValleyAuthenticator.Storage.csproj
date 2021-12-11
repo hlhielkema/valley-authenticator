@@ -10,4 +10,8 @@
     <PackageReference Include="Otp.NET" Version="1.2.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Info\" />
+  </ItemGroup>
+
 </Project>

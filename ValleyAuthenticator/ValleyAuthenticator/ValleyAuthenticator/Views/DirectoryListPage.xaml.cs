@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using ValleyAuthenticator.Storage;
 using ValleyAuthenticator.Storage.Abstract;
-using ValleyAuthenticator.Storage.Info;
-using ValleyAuthenticator.Utils;
+using ValleyAuthenticator.Storage.Abstract.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -105,7 +103,7 @@ namespace ValleyAuthenticator.Views
             NodeInfo item = (NodeInfo)((MenuItem)sender).CommandParameter;
 
             // Ask for confirmation
-            string questions = String.Format("Are you sure you want to delete this {0}?", item.Type.ToString().ToLower());
+            string questions = String.Format("Are you sure you want to delete this {0}?", item.Context.TypeDisplayName);
             if (!await DisplayAlert("Confirm delete", questions, "Yes", "No"))
                 return;
 

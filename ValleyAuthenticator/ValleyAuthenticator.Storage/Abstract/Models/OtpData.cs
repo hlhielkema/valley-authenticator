@@ -2,7 +2,7 @@
 using System;
 using ValleyAuthenticator.Storage.Internal.Model;
 
-namespace ValleyAuthenticator.Storage.Info
+namespace ValleyAuthenticator.Storage.Abstract.Models
 {
     /// <summary>
     /// Data for TOTP or HOTP

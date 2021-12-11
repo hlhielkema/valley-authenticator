@@ -2,6 +2,8 @@
 {
     public interface INodeContext
     {        
+        string TypeDisplayName { get; }
+
         bool Delete();
     }
 }

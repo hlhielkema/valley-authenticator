@@ -1,4 +1,4 @@
-﻿using ValleyAuthenticator.Storage.Info;
+﻿using ValleyAuthenticator.Storage.Abstract.Models;
 
 namespace ValleyAuthenticator.Storage.Abstract
 {

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using ValleyAuthenticator.Storage.Info;
+using ValleyAuthenticator.Storage.Abstract.Models;
 using ValleyAuthenticator.Storage.Internal.Model;
 
 namespace ValleyAuthenticator.Storage.Internal
