@@ -137,22 +137,32 @@ namespace ValleyAuthenticator.Storage.Impl
 
         private string FormatDirectoryLabel(InternalDirectoryData directory = null)
         {
-            if (directory == null)
-                return "empty directory";
-
-            int entries = directory.OtpEntries.Count;
-            int directories = directory.Directories.Count;
-
-            if (entries > 0)
+            if (directory != null)
             {
-                if (directories > 0)
-                    return string.Format("{0} entries, {1} directories", entries, directories);
-                return string.Format("{0} entries", entries);
+                int entries = directory.OtpEntries.Count;
+                int directories = directory.Directories.Count;
+
+                if (entries > 0)
+                {
+                    string entriesLabel = (entries == 1) ? "1 entry" :
+                                                           string.Format("{0} entries", entries);
+
+                    if (directories > 0)
+                    {
+                        return (directories == 1) ? string.Format("{0}, 1 directory", entriesLabel) :
+                                                    string.Format("{0}, {1} directories", entriesLabel, directories);
+                    }
+
+                    return entriesLabel;
+                }
+                else if (directories > 0)
+                {
+                    return (directories == 1) ? "1 directory" :
+                                                string.Format("{0} directories", directories);
+                }
             }
-            else if (directories > 0)            
-                return string.Format("{0} directories", directories);            
-            else
-                return "empty directory";            
+
+            return "empty";
         }
 
         public bool Delete()
