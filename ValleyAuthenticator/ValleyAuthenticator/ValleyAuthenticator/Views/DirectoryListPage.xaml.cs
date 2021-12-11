@@ -14,11 +14,11 @@ namespace ValleyAuthenticator.Views
     public partial class DirectoryListPage : ContentPage
     {
         public ObservableCollection<NodeInfo> Items { get; set; }
-
         private readonly IDirectoryContext _directoryContext;
+        //private bool _disposed;
 
         public DirectoryListPage()
-            : this(AuthenticatorStorage.Instance.GetRootDirectoryContext())
+            : this(AuthenticatorStorage.GetRootDirectoryContext())
         { }
 
         public DirectoryListPage(IDirectoryContext directoryContext)
@@ -27,27 +27,38 @@ namespace ValleyAuthenticator.Views
 
             _directoryContext = directoryContext;
 
-            Items = new ObservableCollection<NodeInfo>();
-
+            Items = directoryContext.ListAndSubscribe();
             ItemsView.ItemsSource = Items;
+
+            Items.CollectionChanged += (sender, e) =>
+            {
+                UpdateImageState();
+            };
+
+            UpdateImageState();
+        }
+
+        private void UpdateImageState()
+        {
+            bool anyItems = Items.Count > 0;
+            ItemsView.IsVisible = anyItems;
+            NoItemsView.IsVisible = !anyItems;
         }
 
         protected override void OnAppearing()
         {
-            ReloadContent();
+            //if (_disposed)
+            //    throw new Exception("Directory list was disposed");
+
             base.OnAppearing();
         }
 
-        private void ReloadContent()
-        {
-            List<NodeInfo> items = _directoryContext.GetChilds();            
-            MergeObservableCollection.Replace(Items, items);
-
-            bool anyItems = Items.Count > 0;
-
-            ItemsView.IsVisible = anyItems;
-            NoItemsView.IsVisible = !anyItems;
-        }
+        //protected override void OnDisappearing()
+        //{
+        //    _directoryContext.Unsubscribe(Items);
+        //    _disposed = true;
+        //    base.OnDisappearing();
+        //}        
 
         async void Handle_ItemTapped(object sender, ItemTappedEventArgs e)
         {
@@ -84,7 +95,6 @@ namespace ValleyAuthenticator.Views
                     if (!string.IsNullOrWhiteSpace(name))
                     {
                         _directoryContext.AddDirectory(name);
-                        ReloadContent();
                     }
                     return;
             }
@@ -100,8 +110,6 @@ namespace ValleyAuthenticator.Views
                 return;
 
             item.Context.Delete();
-
-            ReloadContent();
         }
     }
 }

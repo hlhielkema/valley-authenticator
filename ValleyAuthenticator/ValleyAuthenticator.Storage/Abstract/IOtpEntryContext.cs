@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using ValleyAuthenticator.Storage.Info;
+﻿using ValleyAuthenticator.Storage.Info;
 
 namespace ValleyAuthenticator.Storage.Abstract
 {

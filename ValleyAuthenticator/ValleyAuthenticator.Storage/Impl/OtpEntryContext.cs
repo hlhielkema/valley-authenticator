@@ -1,28 +1,38 @@
 ﻿using System;
 using ValleyAuthenticator.Storage.Abstract;
 using ValleyAuthenticator.Storage.Info;
+using ValleyAuthenticator.Storage.Internal;
 
 namespace ValleyAuthenticator.Storage.Impl
 {
     internal class OtpEntryContext : IOtpEntryContext
     {
-        private AuthenticatorStorage _storage;
+        private InternalStorageManager _storage;
+        private ContextManager _contextManager;
         private Guid _entryId;
 
-        public OtpEntryContext(AuthenticatorStorage storage, Guid entryId)
+        public OtpEntryContext(InternalStorageManager storage, ContextManager contextManager, Guid entryId)
         {
             _storage = storage;
+            _contextManager = contextManager;
             _entryId = entryId;
         }
 
         public bool Delete()
         {
-            return _storage.DeleteEntry(_entryId);
+            Guid parent = _storage.GetOtpEntry(_entryId).Parent;            
+
+            bool deleted = _storage.DeleteOtpEntry(_entryId);
+
+            if (deleted)
+                _contextManager.GetDirectoryContext(parent).OnItemDeleted(_entryId);
+
+            return deleted;
         }
 
         public OtpData GetOtpData()
         {
-            return _storage.GetEntryOtpData(_entryId);
+            return new OtpData(_storage.GetOtpEntry(_entryId).Data);
         }
     }
 }

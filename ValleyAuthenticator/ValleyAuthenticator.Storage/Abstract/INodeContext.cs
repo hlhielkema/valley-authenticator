@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ValleyAuthenticator.Storage.Abstract
+﻿namespace ValleyAuthenticator.Storage.Abstract
 {
     public interface INodeContext
     {        
