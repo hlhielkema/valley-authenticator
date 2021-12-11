@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using ValleyAuthenticator.Storage.Abstract;
 using ValleyAuthenticator.Storage.Abstract.Models;
 using ValleyAuthenticator.Storage.Internal.Model;
 
@@ -7,14 +9,17 @@ namespace ValleyAuthenticator.Storage.Internal
 {
     internal class InternalStorageManager
     {
-        private readonly InternalDirectoryData _root;
+        private readonly IPersistentStorage _persistentStorage;        
         private readonly Dictionary<Guid, InternalDirectoryData> _directoryLookup;
         private readonly Dictionary<Guid, InternalOtpEntryData> _entryLookup;
+        private InternalDirectoryData _root;
+        private bool _suspendSave;
 
         public Guid RootId => _root.Id;
 
-        public InternalStorageManager()
+        public InternalStorageManager(IPersistentStorage persistentStorage)
         {
+            _persistentStorage = persistentStorage;
             _root = new InternalDirectoryData()
             {
                 Id = Guid.NewGuid(),
@@ -26,6 +31,31 @@ namespace ValleyAuthenticator.Storage.Internal
             _directoryLookup = new Dictionary<Guid, InternalDirectoryData>();
             _entryLookup = new Dictionary<Guid, InternalOtpEntryData>();
             _directoryLookup.Add(_root.Id, _root);
+            _suspendSave = false;
+        }
+
+        public bool Load()
+        {
+            if (_persistentStorage.TryRead(out string json))
+            {
+                _root = JsonConvert.DeserializeObject<InternalDirectoryData>(json);
+
+                RebuildParentStructure(_root);
+
+                RebuildIndex();
+
+                return true;
+            }
+            return false;
+        }
+
+        public void Save()
+        {
+            if (!_suspendSave)
+            {
+                string json = JsonConvert.SerializeObject(_root, Formatting.Indented);
+                _persistentStorage.Write(json);
+            }
         }
 
         public InternalOtpEntryData GetOtpEntry(Guid entryId)
@@ -56,6 +86,8 @@ namespace ValleyAuthenticator.Storage.Internal
             target.Directories.Add(directory);
             _directoryLookup.Add(id, directory);
 
+            Save();
+
             return id;
         }
 
@@ -76,6 +108,8 @@ namespace ValleyAuthenticator.Storage.Internal
 
             _entryLookup.Add(id, entry);
 
+            Save();
+
             return id;
         }        
 
@@ -94,9 +128,12 @@ namespace ValleyAuthenticator.Storage.Internal
                 _directoryLookup.Remove(directoryId);
                 
                 RebuildIndex(); // todo
-                
+
+                Save();
+
                 return true;
             }
+
             return false;
         }
 
@@ -109,10 +146,24 @@ namespace ValleyAuthenticator.Storage.Internal
                     throw new Exception("Entry not found in directory");
                 
                 _entryLookup.Remove(entryId);
-                
+
+                Save();
+
                 return true;
             }
             return false;
+        }
+
+        private void RebuildParentStructure(InternalDirectoryData target)
+        {
+            foreach (InternalOtpEntryData otpEntry in target.OtpEntries)
+                otpEntry.Parent = target.Id;
+
+            foreach (InternalDirectoryData directory in target.Directories)
+            {
+                directory.Parent = target.Id;
+                RebuildParentStructure(directory);
+            }
         }
 
         private void RebuildIndex()
@@ -133,6 +184,7 @@ namespace ValleyAuthenticator.Storage.Internal
 
         public void AddTestData()
         {
+            _suspendSave = true;
             Guid favoriteId = AddDirectory(RootId, "Favorites");
             AddDirectory(RootId, "Work");
             AddDirectory(RootId, "Private");
@@ -141,6 +193,7 @@ namespace ValleyAuthenticator.Storage.Internal
             AddEntry(RootId, new OtpData(OtpType.Totp, "admin", "345h7", "Microsoft"));
             AddEntry(RootId, new OtpData(OtpType.Totp, "admin@gmail.com", "123456789", "Gmail (invalid)"));
             AddEntry(favoriteId, new OtpData(OtpType.Totp, "admin", "345h7", "Ydentic"));
+            _suspendSave = false;
         }
     }
 }

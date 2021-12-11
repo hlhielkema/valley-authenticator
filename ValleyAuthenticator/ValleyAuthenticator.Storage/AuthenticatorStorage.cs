@@ -1,10 +1,13 @@
 ﻿using ValleyAuthenticator.Storage.Abstract;
+using ValleyAuthenticator.Storage.Common;
 using ValleyAuthenticator.Storage.Internal;
 
 namespace ValleyAuthenticator.Storage
 {
     public sealed class AuthenticatorStorage
     {
+        // TODO: Add this as a service in the app
+
         // Private fields
         private static AuthenticatorStorage _instance;        
         private readonly InternalStorageManager _storage;
@@ -12,8 +15,12 @@ namespace ValleyAuthenticator.Storage
 
         public AuthenticatorStorage()
         {
-            _storage = new InternalStorageManager();            
-            _storage.AddTestData();
+            IPersistentStorage persistentStorage = new FileSystemStorage();
+
+            _storage = new InternalStorageManager(persistentStorage);            
+
+            if (!_storage.Load())
+                _storage.AddTestData();
 
             _contextCreator = new ContextManager(_storage);
         }
