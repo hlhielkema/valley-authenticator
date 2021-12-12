@@ -4,6 +4,8 @@
     {        
         string TypeDisplayName { get; }
 
-        bool Delete();
+        bool Exists { get; }
+
+        bool Delete();        
     }
 }

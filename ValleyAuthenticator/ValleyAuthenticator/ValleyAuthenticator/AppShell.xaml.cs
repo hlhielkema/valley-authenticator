@@ -8,7 +8,7 @@ namespace ValleyAuthenticator
     {
         public AppShell()
         {
-            InitializeComponent();
+            InitializeComponent();            
         }
 
         //private async void OnMenuItemClicked(object sender, EventArgs e)

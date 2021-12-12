@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using ValleyAuthenticator.Storage.Abstract;
 using ValleyAuthenticator.Storage.Abstract.Models;
 using ValleyAuthenticator.Storage.Internal.Model;
+using ValleyAuthenticator.Storage.Internal.Models;
 
 namespace ValleyAuthenticator.Storage.Internal
 {
@@ -66,6 +67,40 @@ namespace ValleyAuthenticator.Storage.Internal
         public InternalDirectoryData GetDirectory(Guid directoryId)
         {
             return _directoryLookup[directoryId];
+        }
+
+        public bool OtpEntryExists(Guid entryId)
+            => _entryLookup.ContainsKey(entryId);
+
+        public bool DirectoryExists(Guid directoryId)
+            => _directoryLookup.ContainsKey(directoryId);
+
+        public SearchResults Search(Guid directoryId, string searchQuery)
+        {
+            InternalDirectoryData directory = _directoryLookup[directoryId];
+            SearchResults results = new SearchResults();
+            Search(directory, searchQuery.ToLower(), results);
+            return results;
+        }
+
+        private void Search(InternalDirectoryData searchDirectory, string searchQuery, SearchResults results)
+        {           
+            foreach (InternalOtpEntryData entry in searchDirectory.OtpEntries)
+            {
+                if (entry.Data.Issuer.ToLower().Contains(searchQuery) ||
+                    entry.Data.Label.ToLower().Contains(searchQuery))
+                {
+                    results.OtpEntries.Add(entry);
+                }
+            }
+
+            foreach (InternalDirectoryData directory in searchDirectory.Directories)
+            {
+                if (directory.Name.ToLower().Contains(searchQuery))
+                    results.Directories.Add(directory);
+
+                Search(directory, searchQuery, results);
+            }
         }
 
         public Guid AddDirectory(Guid directoryId, string name)

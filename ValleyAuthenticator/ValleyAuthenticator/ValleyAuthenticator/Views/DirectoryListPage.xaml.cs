@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using ValleyAuthenticator.Storage;
 using ValleyAuthenticator.Storage.Abstract;
 using ValleyAuthenticator.Storage.Abstract.Models;
@@ -10,53 +12,117 @@ namespace ValleyAuthenticator.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class DirectoryListPage : ContentPage
-    {
-        public ObservableCollection<NodeInfo> Items { get; set; }
+    {        
         private readonly IDirectoryContext _directoryContext;
-        //private bool _disposed;
+        private ObservableCollection<NodeInfo> _viewedItems;
+        private ISearchContext _searchContext;
+        private bool _searching;
+        private bool _childActive;
+        private bool _disposed;
+        private bool _isRoot;
 
         public DirectoryListPage()
-            : this(AuthenticatorStorage.GetRootDirectoryContext())
+            : this(AuthenticatorStorage.GetRootDirectoryContext(), isRoot: true)
         { }
 
         public DirectoryListPage(IDirectoryContext directoryContext)
+            : this(directoryContext, isRoot: false)
+        { }
+
+        private DirectoryListPage(IDirectoryContext directoryContext, bool isRoot)
         {
             InitializeComponent();
-
+            
             _directoryContext = directoryContext;
+            _isRoot = isRoot;
+            ObservableCollection<NodeInfo> items = directoryContext.ListAndSubscribe();
+            
+            ItemsView.ItemsSource = items;
+            _viewedItems = items;
 
-            Items = directoryContext.ListAndSubscribe();
-            ItemsView.ItemsSource = Items;
-
-            Items.CollectionChanged += (sender, e) =>
+            items.CollectionChanged += (sender, e) =>
             {
                 UpdateImageState();
             };
+
+            UpdateImageState();            
+        }
+
+        protected override void OnAppearing()
+        {
+            if (_disposed)
+                throw new Exception("Page disposed");
+
+            // Validate if a child page popped
+            if (_childActive)                
+                _directoryContext.Validate();
+
+            _childActive = false;            
+            if (_searchContext != null)
+                _searchContext.Validate();
+
+            base.OnAppearing();
+        }
+
+        protected override void OnDisappearing()
+        {
+            if (!_childActive && !_isRoot)
+            {
+                // Page popped
+
+                _disposed = true;
+                ItemsView.ItemsSource = null;
+                _viewedItems = null;
+
+                if (_searchContext != null)                
+                    _searchContext.Dispose();                
+            }
+        }   
+
+        public void MainSearchBar_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string searchQuery = MainSearchBar.Text;
+
+            if (string.IsNullOrWhiteSpace(searchQuery))
+            {
+                // Reset
+                if (_searching)
+                {
+                    _searching = false;
+                    _viewedItems = _directoryContext.ListAndSubscribe();
+                    ItemsView.ItemsSource = _viewedItems;
+
+                }
+            }
+            else
+            {
+                if (_searching)
+                {
+                    _searchContext.Update(searchQuery);
+                }
+                else
+                {
+
+                    if (_searchContext == null)
+                    {
+                        _searchContext = _directoryContext.CreateSearchContext();                        
+                    }
+
+                    _searching = true;
+                    _viewedItems = _searchContext.ListAndSubscribe();
+                    ItemsView.ItemsSource = _viewedItems;
+                }                
+            }
 
             UpdateImageState();
         }
 
         private void UpdateImageState()
         {
-            bool anyItems = Items.Count > 0;
+            bool anyItems = _viewedItems != null && _viewedItems.Count > 0;
             ItemsView.IsVisible = anyItems;
             NoItemsView.IsVisible = !anyItems;
-        }
-
-        protected override void OnAppearing()
-        {
-            //if (_disposed)
-            //    throw new Exception("Directory list was disposed");
-
-            base.OnAppearing();
-        }
-
-        //protected override void OnDisappearing()
-        //{
-        //    _directoryContext.Unsubscribe(Items);
-        //    _disposed = true;
-        //    base.OnDisappearing();
-        //}        
+        }        
 
         async void Handle_ItemTapped(object sender, ItemTappedEventArgs e)
         {
@@ -66,9 +132,15 @@ namespace ValleyAuthenticator.Views
             NodeInfo item = (NodeInfo)e.Item;
 
             if (item.Context is IDirectoryContext directoryContext)
+            {
+                _childActive = true;
                 await Navigation.PushAsync(new DirectoryListPage(directoryContext));
+            }
             else if (item.Context is IOtpEntryContext otpEntryContext)
+            {
+                _childActive = true;
                 await Navigation.PushAsync(new EntryDetailPage(otpEntryContext));
+            }
 
             // Deselect Item
             ((ListView)sender).SelectedItem = null;
@@ -81,10 +153,12 @@ namespace ValleyAuthenticator.Views
             switch (action)
             {
                 case "Scan QR":
+                    _childActive = true;
                     await Navigation.PushAsync(new AddEntryFromQrPage(_directoryContext));
                     return;
 
                 case "Enter secret":
+                    _childActive = true;
                     await Navigation.PushAsync(new AddEntryFromSecretPage(_directoryContext));
                     return;
 

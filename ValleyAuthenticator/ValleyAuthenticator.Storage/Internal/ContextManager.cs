@@ -6,6 +6,18 @@ namespace ValleyAuthenticator.Storage.Internal
 {
     internal class ContextManager
     {
+        // Private fields
+        private readonly InternalStorageManager _storage;
+        private Dictionary<Guid, DirectoryContext> _directories;
+        private Dictionary<Guid, OtpEntryContext> _otpEntries;
+
+        public ContextManager(InternalStorageManager storage)
+        {
+            _storage = storage;
+            _directories = new Dictionary<Guid, DirectoryContext>();
+            _otpEntries = new Dictionary<Guid, OtpEntryContext>();
+        }
+
         public DirectoryContext GetDirectoryContext(Guid directoryId)
         {
             if (!_directories.TryGetValue(directoryId, out DirectoryContext directoryContext))
@@ -26,17 +38,8 @@ namespace ValleyAuthenticator.Storage.Internal
             return entryContext;
         }
 
-        // Private fields
-        private readonly InternalStorageManager _storage;
-        private Dictionary<Guid, DirectoryContext> _directories;
-        private Dictionary<Guid, OtpEntryContext> _otpEntries;
-
-        public ContextManager(InternalStorageManager storage)
-        {
-            _storage = storage;
-            _directories = new Dictionary<Guid, DirectoryContext>();
-            _otpEntries = new Dictionary<Guid, OtpEntryContext>();
-        }
+        public SearchContext CreateSearchContext(Guid directoryId)
+            => new SearchContext(_storage, this, directoryId);
 
         public void Reset()
         {

@@ -9,6 +9,8 @@ namespace ValleyAuthenticator.Storage.Impl
     {
         public string TypeDisplayName { get; } = "OTP entry";
 
+        public bool Exists => _storage.OtpEntryExists(_entryId);
+
         // Private fields
         private InternalStorageManager _storage;
         private ContextManager _contextManager;

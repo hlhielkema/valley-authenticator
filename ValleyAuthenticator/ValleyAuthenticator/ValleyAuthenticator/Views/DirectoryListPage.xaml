@@ -14,7 +14,8 @@
     </ContentPage.ToolbarItems>
 
     <StackLayout HorizontalOptions="FillAndExpand">
-
+        <SearchBar x:Name="MainSearchBar"
+                   TextChanged="MainSearchBar_TextChanged"/>
         <StackLayout x:Name="NoItemsView" IsVisible="False" Orientation="Vertical" VerticalOptions="CenterAndExpand">
             <Image Source="noitems.png" Aspect="AspectFit" VerticalOptions="CenterAndExpand"/>
             <Label Text="There is nothing here" 
