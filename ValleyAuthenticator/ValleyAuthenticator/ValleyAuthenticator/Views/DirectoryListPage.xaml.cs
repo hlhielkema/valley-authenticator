@@ -91,27 +91,22 @@ namespace ValleyAuthenticator.Views
                     _searching = false;
                     _viewedItems = _directoryContext.ListAndSubscribe();
                     ItemsView.ItemsSource = _viewedItems;
-
                 }
             }
             else
-            {
-                if (_searching)
+            {                                           
+                if (!_searching)
                 {
-                    _searchContext.Update(searchQuery);
-                }
-                else
-                {
-
                     if (_searchContext == null)
-                    {
-                        _searchContext = _directoryContext.CreateSearchContext();                        
-                    }
-
-                    _searching = true;
+                        _searchContext = _directoryContext.CreateSearchContext();                    
+                    
                     _viewedItems = _searchContext.ListAndSubscribe();
                     ItemsView.ItemsSource = _viewedItems;
-                }                
+
+                    _searching = true;
+                }
+
+                _searchContext.Update(searchQuery);
             }
 
             UpdateImageState();
