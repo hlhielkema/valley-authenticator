@@ -202,7 +202,7 @@ namespace ValleyAuthenticator.Storage.Internal
             }
             return false;
         }
-
+        
         private void RebuildParentStructure(InternalDirectoryData target)
         {
             foreach (InternalOtpEntryData otpEntry in target.OtpEntries)

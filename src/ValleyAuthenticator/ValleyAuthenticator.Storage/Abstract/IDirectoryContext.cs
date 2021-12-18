@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using ValleyAuthenticator.Storage.Abstract.Models;
 
@@ -7,6 +6,10 @@ namespace ValleyAuthenticator.Storage.Abstract
 {
     public interface IDirectoryContext : INodeContext
     {
+        bool IsRoot { get; }
+
+        string Name { get; set; }
+
         ISearchContext CreateSearchContext();
 
         IOtpFormContext CreateAddFormContext();
@@ -16,11 +19,9 @@ namespace ValleyAuthenticator.Storage.Abstract
         Guid AddEntry(OtpData data);
 
         Guid AddDirectory(string name);
-
-        void Rename(string name);
-
+        
         string GetDetailLabel();
 
-        void Validate();
+        void Validate();        
     }
 }

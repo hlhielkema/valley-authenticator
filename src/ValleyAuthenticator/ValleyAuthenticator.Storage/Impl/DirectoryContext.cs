@@ -11,9 +11,23 @@ namespace ValleyAuthenticator.Storage.Impl
 {
     internal class DirectoryContext : IDirectoryContext
     {
+        public string Name
+        {
+            get
+            {
+                return _storage.GetDirectory(_directoryId).Name; // todo
+            }
+            set
+            {
+                _storage.RenameDirectory(_directoryId, value);
+            }
+        }
+
         public string TypeDisplayName { get; } = "Directory";
 
         public bool Exists => _storage.DirectoryExists(_directoryId);
+
+        public bool IsRoot => !_storage.GetDirectory(_directoryId).Parent.HasValue;
 
         // Private fields
         private InternalStorageManager _storage;
@@ -163,9 +177,7 @@ namespace ValleyAuthenticator.Storage.Impl
             }
         }
 
-        public void Rename(string name)
-        {
-            _storage.RenameDirectory(_directoryId, name);
-        }
+        public string ExportToJson()
+            => ExportHelper.ExportDirectoryToJson(_storage.GetDirectory(_directoryId));
     }
 }

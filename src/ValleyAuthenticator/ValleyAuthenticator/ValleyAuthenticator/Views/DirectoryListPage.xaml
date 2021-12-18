@@ -2,7 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ValleyAuthenticator.Views.DirectoryListPage">
-    <ContentPage.ToolbarItems>        
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Order="Secondary" Clicked="OnClickedEdit">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource
+                FontFamily="FontAwesome"
+                Glyph="&#xf0ad;"
+                Size="22" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
         <ToolbarItem Order="Primary" Clicked="OnClickedAdd">
             <ToolbarItem.IconImageSource>
               <FontImageSource

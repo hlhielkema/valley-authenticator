@@ -124,7 +124,7 @@ namespace ValleyAuthenticator.Views
             if (_totp == null)
                 return;
 
-            await Navigation.PushAsync(new ExportEntryPage(_otpData));
+            await Navigation.PushAsync(new ExportEntryPage(_entryContext));
         }
     }
 }

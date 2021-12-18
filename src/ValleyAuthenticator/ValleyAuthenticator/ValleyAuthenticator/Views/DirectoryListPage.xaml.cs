@@ -139,6 +139,34 @@ namespace ValleyAuthenticator.Views
             ((ListView)sender).SelectedItem = null;
         }
        
+        private async void OnClickedEdit(object sender, EventArgs e)
+        {
+            string action;
+            if (_directoryContext.IsRoot)
+                action = await DisplayActionSheet("Advanced", "Cancel", null, null, "Export directory"); 
+            else
+                action = await DisplayActionSheet("Advanced", "Cancel", "Delete directory", "Rename directory", "Export directory");
+
+            switch (action)
+            {
+                case "Rename directory":
+                    string name = await DisplayPromptAsync("Rename directory", "Enter name", initialValue: _directoryContext.Name);
+                    if (!string.IsNullOrWhiteSpace(name))
+                        _directoryContext.Name = name;
+                    return;
+
+                case "Export directory":
+                    _childActive = true;
+                    await Navigation.PushAsync(new JsonDataPage(_directoryContext.ExportToJson()));
+                    return;
+
+                case "Delete directory":
+                    _directoryContext.Delete();
+                    await Navigation.PopAsync();
+                    return;
+            }            
+        }
+
         private async void OnClickedAdd(object sender, EventArgs e)
         {
             string action = await DisplayActionSheet("Add", "Cancel", null, "Scan QR", "Enter secret", "New directory");
@@ -185,7 +213,7 @@ namespace ValleyAuthenticator.Views
             {
                 string name = await DisplayPromptAsync("Rename directory", "Enter name", initialValue: item.Name);
                 if (!string.IsNullOrWhiteSpace(name))
-                    directoryContext.Rename(name);
+                    directoryContext.Name = name;
             }
             else if (item.Context is IOtpEntryContext entryContext)
             {

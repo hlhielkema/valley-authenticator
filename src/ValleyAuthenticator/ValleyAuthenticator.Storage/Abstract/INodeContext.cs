@@ -6,6 +6,8 @@
 
         bool Exists { get; }
 
-        bool Delete();        
+        bool Delete();
+
+        string ExportToJson();
     }
 }

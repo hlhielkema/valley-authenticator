@@ -47,5 +47,8 @@ namespace ValleyAuthenticator.Storage.Impl
         {
             _storage.GetOtpEntry(_entryId).Data = data.AsData();
         }
+
+        public string ExportToJson()
+            => ExportHelper.ExportEntryToJson(_storage.GetOtpEntry(_entryId));
     }
 }
