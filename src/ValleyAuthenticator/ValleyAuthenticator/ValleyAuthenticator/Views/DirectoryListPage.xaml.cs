@@ -176,5 +176,21 @@ namespace ValleyAuthenticator.Views
 
             item.Context.Delete();
         }
+
+        public async void OnUpdate(object sender, EventArgs e)
+        {
+            NodeInfo item = (NodeInfo)((MenuItem)sender).CommandParameter;
+
+            if (item.Context is IDirectoryContext directoryContext)
+            {
+                string name = await DisplayPromptAsync("Rename directory", "Enter name", initialValue: item.Name);
+                if (!string.IsNullOrWhiteSpace(name))
+                    directoryContext.Rename(name);
+            }
+            else if (item.Context is IOtpEntryContext entryContext)
+            {
+                await Navigation.PushAsync(new EditEntryPage(entryContext.CreateEditFormContext()));
+            }
+        }
     }
 }

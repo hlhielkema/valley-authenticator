@@ -148,6 +148,20 @@ namespace ValleyAuthenticator.Storage.Internal
             return id;
         }        
 
+        public bool RenameDirectory(Guid directoryId, string name)
+        {
+            if (_directoryLookup.TryGetValue(directoryId, out InternalDirectoryData data))
+            {                
+                data.Name = name;
+
+                Save();
+
+                return true;
+            }
+
+            return false;
+        }
+
         public bool DeleteDirectory(Guid directoryId)
         {
             if (_directoryLookup.TryGetValue(directoryId, out InternalDirectoryData data))

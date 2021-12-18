@@ -17,6 +17,8 @@ namespace ValleyAuthenticator.Storage.Abstract
 
         Guid AddDirectory(string name);
 
+        void Rename(string name);
+
         string GetDetailLabel();
 
         void Validate();

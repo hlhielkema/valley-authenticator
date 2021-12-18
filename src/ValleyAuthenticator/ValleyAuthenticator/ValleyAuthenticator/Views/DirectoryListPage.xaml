@@ -34,6 +34,7 @@
                 <DataTemplate>
                     <ViewCell>
                         <ViewCell.ContextActions>
+                            <MenuItem Clicked="OnUpdate" CommandParameter="{Binding .}" Text="Update" />
                             <MenuItem Clicked="OnDelete" CommandParameter="{Binding .}" Text="Delete" IsDestructive="True" />
                         </ViewCell.ContextActions>
                         <StackLayout Orientation="Horizontal">

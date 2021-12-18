@@ -161,6 +161,11 @@ namespace ValleyAuthenticator.Storage.Impl
                     }
                 }
             }
-        }     
+        }
+
+        public void Rename(string name)
+        {
+            _storage.RenameDirectory(_directoryId, name);
+        }
     }
 }
