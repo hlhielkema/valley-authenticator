@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
 using ValleyAuthenticator.Storage;
 using ValleyAuthenticator.Storage.Abstract;
 using ValleyAuthenticator.Storage.Abstract.Models;
@@ -22,7 +20,7 @@ namespace ValleyAuthenticator.Views
         private bool _isRoot;
 
         public DirectoryListPage()
-            : this(AuthenticatorStorage.GetRootDirectoryContext(), isRoot: true)
+            : this(DependencyService.Get<IAuthenticatorStorage>().GetRootDirectoryContext(), isRoot: true)
         { }
 
         public DirectoryListPage(IDirectoryContext directoryContext)

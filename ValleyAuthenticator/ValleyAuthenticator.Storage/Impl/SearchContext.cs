@@ -48,7 +48,6 @@ namespace ValleyAuthenticator.Storage.Impl
 
             return _collection;
         }
-
         
         public void Update(string searchQuery)
         {
