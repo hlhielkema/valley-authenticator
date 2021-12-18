@@ -14,7 +14,7 @@
             <ToolbarItem.IconImageSource>
                 <FontImageSource
                     FontFamily="FontAwesome"
-                    Glyph="&#xf2ed;"
+                    Glyph="&#xf0ad;"
                     Size="22" />
             </ToolbarItem.IconImageSource>
         </ToolbarItem>
