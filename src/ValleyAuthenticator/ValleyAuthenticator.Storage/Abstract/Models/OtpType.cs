@@ -5,11 +5,11 @@
         /// <summary>
         /// Timed one-time password
         /// </summary>
-        Totp,
+        Totp = 1,
 
         /// <summary>
         /// One-time password
         /// </summary>
-        Hotp,
+        Hotp = 2,
     }
 }

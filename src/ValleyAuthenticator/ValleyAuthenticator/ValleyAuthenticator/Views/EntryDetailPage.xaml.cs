@@ -91,6 +91,11 @@ namespace ValleyAuthenticator.Views
             base.OnDisappearing();
         }
 
+        private async void OnClickedEdit(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new EditEntryPage(_entryContext.CreateEditFormContext()));
+        }
+
         private async void OnClickedDelete(object sender, EventArgs e)
         {
             _entryContext.Delete();

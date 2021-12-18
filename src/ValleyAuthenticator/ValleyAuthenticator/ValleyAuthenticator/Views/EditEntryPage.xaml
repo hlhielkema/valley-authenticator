@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ValleyAuthenticator.Views.EditEntryPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Orientation="Vertical" Padding="16" Spacing="8">
+                <Label Text="Label (username)"></Label>
+                <Editor x:Name="labelEditor" Placeholder="Label (username)" />
+
+                <Label Text="Issuer (website)"></Label>
+                <Editor x:Name="issuerEditor" Placeholder="Issuer (website)" />
+
+                <Label Text="Secret"></Label>
+                <Editor x:Name="secretEditor" Placeholder="Secret" />
+
+                <StackLayout x:Name="showAdvancedOptionsContainer" Orientation="Horizontal">
+                    <CheckBox x:Name="showAdvancedOptions" CheckedChanged="ShowAdvancedOptions"></CheckBox>
+                    <Label Text="Show advanced" VerticalTextAlignment="Center">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ShowAdvancedOptions" />
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+
+                <StackLayout x:Name="advancedOptionsContainer" Orientation="Vertical" IsVisible="false">
+                    <Label Text="Algorithm"></Label>
+                    <Picker x:Name="algorithmPicker" Title="Algorithm"></Picker>
+
+                    <Label Text="Digits"></Label>
+                    <Picker x:Name="digitsPicker" Title="Digits"></Picker>
+
+                    <Label Text="Period"></Label>
+                    <Picker x:Name="periodPicker" Title="Period"></Picker>
+
+                    <Label Text="Type"></Label>
+                    <Picker x:Name="typePicker" Title="Type" SelectedIndexChanged="TypePicker_SelectedIndexChanged"></Picker>
+
+                    <Label x:Name="counterLabel" Text="Counter"></Label>
+                    <Editor x:Name="counterEditor" Placeholder="Counter" Text="0" IsVisible="false" />
+                </StackLayout>
+                              
+                <Button Margin="0,10,0,0"
+                        x:Name="submitButton"
+                    Text="Create"
+                    BackgroundColor="{StaticResource Primary}"
+                    TextColor="White"
+                    Clicked="OnAddClicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -83,16 +83,24 @@ namespace ValleyAuthenticator.Storage.Abstract.Models
             };            
         }
 
-        public OtpData(OtpType type, string label, string secret, string issuer)
+        public OtpData(OtpType type, string label, string secret, string issuer, string algorithm = "SHA1", int digits = 6, int counter = 0, int period = 30)
         {
             Type = type;
             Label = label;
             Secret = secret;
             Issuer = issuer;
-            Algorithm = "SHA1";
-            Digits = 6;
-            Counter = 0;
-            Period = 30;
+            Algorithm = algorithm;
+            Digits = digits;
+            Counter = counter;
+            Period = period;
+        }
+
+        public static OtpData Default
+        {
+            get
+            {
+                return new OtpData(OtpType.Totp, "", "", "");
+            }
         }
     }
 }

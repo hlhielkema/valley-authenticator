@@ -36,6 +36,9 @@ namespace ValleyAuthenticator.Storage.Impl
         public ISearchContext CreateSearchContext()
             => _contextManager.CreateSearchContext(_directoryId);
 
+        public IOtpFormContext CreateAddFormContext()
+            => new AddOtpFormContext(this);
+
         public ObservableCollection<NodeInfo> ListAndSubscribe()
         {
             if (_collection == null)
@@ -158,6 +161,6 @@ namespace ValleyAuthenticator.Storage.Impl
                     }
                 }
             }
-        }
+        }     
     }
 }

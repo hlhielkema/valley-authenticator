@@ -10,6 +10,14 @@
     </ContentPage.Resources>
 
     <ContentPage.ToolbarItems>
+        <ToolbarItem Order="Secondary" Clicked="OnClickedEdit">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource
+                    FontFamily="FontAwesome"
+                    Glyph="&#xf2ed;"
+                    Size="22" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
         <ToolbarItem Order="Secondary" Clicked="OnClickedDelete">
             <ToolbarItem.IconImageSource>
                 <FontImageSource

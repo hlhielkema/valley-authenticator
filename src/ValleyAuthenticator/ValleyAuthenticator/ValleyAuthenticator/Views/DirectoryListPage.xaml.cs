@@ -152,7 +152,7 @@ namespace ValleyAuthenticator.Views
 
                 case "Enter secret":
                     _childActive = true;
-                    await Navigation.PushAsync(new AddEntryFromSecretPage(_directoryContext));
+                    await Navigation.PushAsync(new EditEntryPage(_directoryContext.CreateAddFormContext()));
                     return;
 
                 case "New directory":

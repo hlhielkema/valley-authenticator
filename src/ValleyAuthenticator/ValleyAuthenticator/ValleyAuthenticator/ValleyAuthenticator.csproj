@@ -23,7 +23,7 @@
     <EmbeddedResource Update="Views\AddEntryFromQrPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\AddEntryFromSecretPage.xaml">
+    <EmbeddedResource Update="Views\EditEntryPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\DirectoryListPage.xaml">
@@ -49,5 +49,10 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\ValleyAuthenticator.Storage\ValleyAuthenticator.Storage.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\EditEntryPage.xaml.cs">
+      <DependentUpon>EditEntryPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

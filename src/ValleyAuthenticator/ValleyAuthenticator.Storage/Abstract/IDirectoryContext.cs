@@ -9,6 +9,8 @@ namespace ValleyAuthenticator.Storage.Abstract
     {
         ISearchContext CreateSearchContext();
 
+        IOtpFormContext CreateAddFormContext();
+
         ObservableCollection<NodeInfo> ListAndSubscribe();
         
         Guid AddEntry(OtpData data);

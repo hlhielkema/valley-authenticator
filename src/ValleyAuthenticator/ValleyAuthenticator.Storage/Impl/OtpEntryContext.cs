@@ -23,6 +23,9 @@ namespace ValleyAuthenticator.Storage.Impl
             _entryId = entryId;
         }
 
+        public IOtpFormContext CreateEditFormContext()
+            => new EditExistingOtpFormContext(this);
+
         public bool Delete()
         {
             Guid parent = _storage.GetOtpEntry(_entryId).Parent;            
@@ -38,6 +41,11 @@ namespace ValleyAuthenticator.Storage.Impl
         public OtpData GetOtpData()
         {
             return new OtpData(_storage.GetOtpEntry(_entryId).Data);
+        }
+
+        public void SetOtpData(OtpData data)
+        {
+            _storage.GetOtpEntry(_entryId).Data = data.AsData();
         }
     }
 }
