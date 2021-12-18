@@ -1,4 +1,5 @@
-﻿using ValleyAuthenticator.Storage.Abstract.Models;
+﻿using System.Collections.Generic;
+using ValleyAuthenticator.Storage.Abstract.Models;
 using ValleyAuthenticator.Utils;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -16,7 +17,16 @@ namespace ValleyAuthenticator.Views
             //ExportUriLabel.Text = dataUri;
 
             qrView.BarcodeValue = dataUri;
-            qrView.IsVisible = true;            
+            qrView.IsVisible = true;
+
+            foreach (KeyValuePair<string, string> item in TotpUtilities.ListInformation(otpData))
+            {
+                entryInformation.Add(new TextCell()
+                {
+                    Text = item.Key,
+                    Detail = item.Value
+                });
+            }
         }
     }
 }

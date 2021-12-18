@@ -5,17 +5,25 @@
              xmlns:zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
              xmlns:zxingc="clr-namespace:ZXing.Common;assembly=zxing">
     <ContentPage.Content>
-        <StackLayout>
-            <zxing:ZXingBarcodeImageView x:Name="qrView"
+        <ScrollView>
+            <TableView Intent="Data" HasUnevenRows = "true">
+                <TableRoot>
+                    <TableSection Title="QR code">
+                        <ViewCell>
+                            <zxing:ZXingBarcodeImageView x:Name="qrView"
                                          BarcodeFormat="QR_CODE"
-                                         VerticalOptions="CenterAndExpand"
                                          HorizontalOptions="CenterAndExpand"
                                          HeightRequest="300"
                                          WidthRequest="300">
-                <zxing:ZXingBarcodeImageView.BarcodeOptions>
-                    <zxingc:EncodingOptions Width="300" Height="300" />
-                </zxing:ZXingBarcodeImageView.BarcodeOptions>
-            </zxing:ZXingBarcodeImageView>
-        </StackLayout>
+                                <zxing:ZXingBarcodeImageView.BarcodeOptions>
+                                    <zxingc:EncodingOptions Width="300" Height="300" />
+                                </zxing:ZXingBarcodeImageView.BarcodeOptions>
+                            </zxing:ZXingBarcodeImageView>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection Title="Information" x:Name="entryInformation" />
+                </TableRoot>
+            </TableView>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

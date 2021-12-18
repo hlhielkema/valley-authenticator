@@ -1,5 +1,6 @@
 ﻿using OtpNet;
 using System;
+using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Web;
 using ValleyAuthenticator.Storage.Abstract.Models;
@@ -106,6 +107,23 @@ namespace ValleyAuthenticator.Utils
                 type = TYPE_VALUES[index];
                 return true;
             }
+        }
+
+        public static IEnumerable<KeyValuePair<string, string>> ListInformation(OtpData data)
+        {
+            string typeName = TYPE_NAMES[Array.IndexOf(TYPE_VALUES, data.Type)];
+            string periodName = TYPE_NAMES[Array.IndexOf(SUPPORTED_PERIOD_VALUES, data.Period)];
+
+            yield return new KeyValuePair<string, string>("Type", typeName);
+            yield return new KeyValuePair<string, string>("Issuer", data.Issuer);
+            yield return new KeyValuePair<string, string>("Label", data.Label);
+            yield return new KeyValuePair<string, string>("Secret", data.Secret);
+            yield return new KeyValuePair<string, string>("Algorithm", data.Algorithm);
+            yield return new KeyValuePair<string, string>("Digits", data.Digits.ToString());
+            if (data.Type == OtpType.Hotp)
+                yield return new KeyValuePair<string, string>("Counter", data.Counter.ToString());
+            if (data.Type == OtpType.Totp)
+                yield return new KeyValuePair<string, string>("Period", periodName);
         }
     }
 }
