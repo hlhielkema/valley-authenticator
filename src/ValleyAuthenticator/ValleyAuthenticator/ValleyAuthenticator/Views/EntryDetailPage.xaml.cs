@@ -98,6 +98,11 @@ namespace ValleyAuthenticator.Views
 
         private async void OnClickedDelete(object sender, EventArgs e)
         {
+            // Ask for confirmation
+            string questions = String.Format("Are you sure you want to delete this {0}?", _entryContext.TypeDisplayName);
+            if (!await DisplayAlert("Confirm delete", questions, "Yes", "No"))
+                return;
+
             _entryContext.Delete();
             await Navigation.PopAsync();
         }
