@@ -2,9 +2,20 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ValleyAuthenticator.Views.JsonDataPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Order="Primary" Clicked="OnClickedCopy">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource
+                FontFamily="FontAwesome"
+                Glyph="&#xf24d;"
+                Size="18" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
     <ContentPage.Content>
         <ScrollView>
-            <Editor x:Name="dataEditor" VerticalOptions="Fill"  HorizontalOptions="Fill" />
+            <Editor x:Name="dataEditor" VerticalOptions="Fill"  HorizontalOptions="Fill" IsReadOnly="True" />
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
