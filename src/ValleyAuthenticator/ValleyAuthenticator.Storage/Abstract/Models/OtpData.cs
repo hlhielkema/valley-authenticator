@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using ValleyAuthenticator.Storage.Internal.Model;
+using ValleyAuthenticator.Storage.Utils;
 
 namespace ValleyAuthenticator.Storage.Abstract.Models
 {
@@ -53,6 +54,9 @@ namespace ValleyAuthenticator.Storage.Abstract.Models
         /// </summary>
         public int Period { get; private set; }
 
+        public static OtpData Default
+          => new OtpData(OtpType.Totp, "", "", "");
+
         internal OtpData(InternalOtpData source)
         {
             if (!Enum.TryParse<OtpType>(source.Type, out OtpType type))
@@ -83,7 +87,19 @@ namespace ValleyAuthenticator.Storage.Abstract.Models
             };            
         }
 
-        public OtpData(OtpType type, string label, string secret, string issuer, string algorithm = "SHA1", int digits = 6, int counter = 0, int period = 30)
+        public OtpData(OtpType type, string label, string secret, string issuer)
+        {
+            Type = type;
+            Label = label;
+            Secret = secret;
+            Issuer = issuer;
+            Algorithm = KeyUriFormat.DEFAULT_ALGORITHM;
+            Digits = KeyUriFormat.DEFAULT_DIGITS;
+            Counter = KeyUriFormat.DEFAULT_COUNTER;
+            Period = KeyUriFormat.DEFAULT_PERIOD;
+        }
+
+        public OtpData(OtpType type, string label, string secret, string issuer, string algorithm, int digits, int counter, int period)
         {
             Type = type;
             Label = label;
@@ -93,14 +109,6 @@ namespace ValleyAuthenticator.Storage.Abstract.Models
             Digits = digits;
             Counter = counter;
             Period = period;
-        }
-
-        public static OtpData Default
-        {
-            get
-            {
-                return new OtpData(OtpType.Totp, "", "", "");
-            }
-        }
+        }      
     }
 }

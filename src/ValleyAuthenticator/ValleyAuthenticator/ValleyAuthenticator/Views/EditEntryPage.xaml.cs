@@ -56,7 +56,7 @@ namespace ValleyAuthenticator.Views
             typePicker.SelectedIndex = Array.IndexOf(TotpUtilities.TYPE_VALUES, defaultData.Type);
         }
 
-        private bool TryGetFormData(out OtpData otpData)
+        private bool TryGetFormData(out OtpData otpData, ref string message)
         {
             otpData = null;
 
@@ -67,8 +67,11 @@ namespace ValleyAuthenticator.Views
 
             // Secret
             string secret = secretEditor.Text;
-            if (string.IsNullOrWhiteSpace(secret))
+            if (string.IsNullOrWhiteSpace(secret) || !TotpUtilities.ValidateSecret(secret))
+            {
+                message = "Invalid scret: expected a base-32 encoded value";
                 return false;
+            }
 
             // Issuer
             string issuer = issuerEditor.Text;
@@ -125,11 +128,16 @@ namespace ValleyAuthenticator.Views
         }
 
         private async void OnAddClicked(object sender, EventArgs e)
-        {           
-            if (TryGetFormData(out OtpData data))
-            {
+        {
+            string message = null;
+            if (TryGetFormData(out OtpData data, ref message))
+            {                
                 _formContext.Set(data);
                 await Navigation.PopAsync();
+            }
+            else if (message != null)
+            {
+                await DisplayAlert("Invalid information", message, "OK");
             }
         }
     }

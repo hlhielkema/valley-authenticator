@@ -14,7 +14,7 @@ namespace ValleyAuthenticator.Views
         private readonly IOtpEntryContext _entryContext;
         private readonly OtpData _otpData;
         private readonly System.Timers.Timer _timer;
-        private readonly Totp _totp;
+        private readonly Totp _otp;
         private DateTime? _timeCopied;
 
         public EntryDetailPage(IOtpEntryContext entryContext)
@@ -29,16 +29,20 @@ namespace ValleyAuthenticator.Views
 
             try
             {
+                if (_otpData.Type != OtpType.Totp)
+                    throw new NotImplementedException();
+
                 byte[] base32Bytes = Base32Encoding.ToBytes(_otpData.Secret);
-                _totp = new Totp(base32Bytes);
+
+                _otp = new Totp(base32Bytes, _otpData.Period, Convert(_otpData.Algorithm), _otpData.Digits);                
             }
             catch
             {
-                CodeLabel.Text = "Invalid secret";
+                CodeLabel.Text = "Invalid";
                 NextCodeLabel.Text = "";
             }
 
-            if (_totp != null)
+            if (_otp != null)
             {
                 UpdateCode();
 
@@ -51,21 +55,30 @@ namespace ValleyAuthenticator.Views
             }
         }
 
+        private OtpHashMode Convert(string algorithm)
+        {
+            switch (algorithm)
+            {
+                case "SHA256": return OtpHashMode.Sha256;
+                case "SHA512": return OtpHashMode.Sha512;
+                default: return OtpHashMode.Sha1;
+            }
+        }
+
         private void UpdateCode()
         {
-            string code = _totp.ComputeTotp();
-                        
-            int secondsLeft = 30 - (DateTime.Now.Second % 30);
+            string code = _otp.ComputeTotp();
+            int remainingSeconds = _otp.RemainingSeconds();
 
             if (_timeCopied > DateTime.UtcNow.AddSeconds(-2))
                 CodeLabel.Text = "Copied!";
             else
-                CodeLabel.Text = string.Format("{0} ({1})", code, secondsLeft);
+                CodeLabel.Text = string.Format("{0} ({1})", code, remainingSeconds);
 
-            NextCodeLabel.IsVisible = secondsLeft <= 15;
+            NextCodeLabel.IsVisible = remainingSeconds <= 15;
             if (NextCodeLabel.IsVisible)
             {
-                string nextCode = _totp.ComputeTotp(DateTime.Now.AddSeconds(20));
+                string nextCode = _otp.ComputeTotp(DateTime.Now.AddSeconds(20));
                 NextCodeLabel.Text = nextCode;
             }
         }
@@ -109,10 +122,10 @@ namespace ValleyAuthenticator.Views
 
         private async void OnClickedCopyToClipboard(object sender, EventArgs e)
         {
-            if (_totp == null)
+            if (_otp == null)
                 return;
             
-            string code = _totp.ComputeTotp();
+            string code = _otp.ComputeTotp();
             await Clipboard.SetTextAsync(code);
 
             _timeCopied = DateTime.UtcNow;
@@ -121,7 +134,7 @@ namespace ValleyAuthenticator.Views
 
         private async void OnClickedExport(object sender, EventArgs e)
         {
-            if (_totp == null)
+            if (_otp == null)
                 return;
 
             await Navigation.PushAsync(new ExportEntryPage(_entryContext));

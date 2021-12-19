@@ -14,6 +14,18 @@ namespace ValleyAuthenticator.Utils
         public static readonly string[] TYPE_NAMES = new string[] { "TOTP", "HOTP" };
         public static readonly OtpType[] TYPE_VALUES = new OtpType[] { OtpType.Totp, OtpType.Hotp };
 
+        public static bool ValidateSecret(string secret)
+        {
+            if (string.IsNullOrEmpty(secret))
+                return false;
+            foreach (char c in secret)
+            {
+                if (!(c < '[' && c > '@') && !(c < '8' && c > '1') && !(c < '{' && c > '`'))                
+                    return false;
+            }
+            return true;
+        }
+
         /// <summary>
         /// Create a secret for the code validation method.
         /// </summary>
@@ -58,7 +70,7 @@ namespace ValleyAuthenticator.Utils
         public static IEnumerable<KeyValuePair<string, string>> ListInformation(OtpData data)
         {
             string typeName = TYPE_NAMES[Array.IndexOf(TYPE_VALUES, data.Type)];
-            string periodName = TYPE_NAMES[Array.IndexOf(SUPPORTED_PERIOD_VALUES, data.Period)];
+            string periodName = SUPPORTED_PERIOD_NAMES[Array.IndexOf(SUPPORTED_PERIOD_VALUES, data.Period)];
 
             yield return new KeyValuePair<string, string>("Type", typeName);
             yield return new KeyValuePair<string, string>("Issuer", data.Issuer);
