@@ -35,7 +35,7 @@
     <EmbeddedResource Update="Views\ExportEntryPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\JsonDataPage.xaml">
+    <EmbeddedResource Update="Views\TextDataPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -56,6 +56,9 @@
   <ItemGroup>
     <Compile Update="Views\EditEntryPage.xaml.cs">
       <DependentUpon>EditEntryPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\TextDataPage.xaml.cs">
+      <DependentUpon>TextDataPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 </Project>

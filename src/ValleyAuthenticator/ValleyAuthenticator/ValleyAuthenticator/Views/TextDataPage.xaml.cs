@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace ValleyAuthenticator.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class JsonDataPage : ContentPage
+    public partial class TextDataPage : ContentPage
     {
-        public JsonDataPage(string json)
+        public TextDataPage(string json)
         {
             InitializeComponent();
 

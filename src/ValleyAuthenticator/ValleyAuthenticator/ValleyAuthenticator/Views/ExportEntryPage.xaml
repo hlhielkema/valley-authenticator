@@ -22,6 +22,7 @@
                 </TableSection>
                 <TableSection Title="Information" x:Name="entryInformation" />
                 <TableSection Title="Export as">
+                    <TextCell Text="JSON" Detail="Export this entry to a key URI" Tapped="ExportToKeyUri_Tapped" />
                     <TextCell Text="JSON" Detail="Export this entry to JSON" Tapped="ExportToJson_Tapped" />
                 </TableSection>
             </TableRoot>

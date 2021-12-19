@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using ValleyAuthenticator.Storage.Abstract;
 using ValleyAuthenticator.Storage.Abstract.Models;
+using ValleyAuthenticator.Storage.Utils;
 using ValleyAuthenticator.Utils;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -21,7 +22,7 @@ namespace ValleyAuthenticator.Views
 
             OtpData otpData = entryContext.GetOtpData();
 
-            string dataUri = TotpUtilities.GenerateAppUri(otpData);            
+            string dataUri = KeyUriFormat.GenerateAppUri(otpData);            
             qrView.BarcodeValue = dataUri;
             qrView.IsVisible = true;
 
@@ -35,9 +36,17 @@ namespace ValleyAuthenticator.Views
             }
         }
 
+        private async void ExportToKeyUri_Tapped(object sender, EventArgs e)
+        {
+            OtpData otpData = _entryContext.GetOtpData();
+            string dataUri = KeyUriFormat.GenerateAppUri(otpData);
+
+            await Navigation.PushAsync(new TextDataPage(dataUri));
+        }
+
         private async void ExportToJson_Tapped(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new JsonDataPage(_entryContext.ExportToJson()));
+            await Navigation.PushAsync(new TextDataPage(_entryContext.ExportToJson()));
         }
     }
 }

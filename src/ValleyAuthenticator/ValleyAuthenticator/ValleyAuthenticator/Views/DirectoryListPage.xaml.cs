@@ -157,7 +157,7 @@ namespace ValleyAuthenticator.Views
 
                 case "Export":
                     _childActive = true;
-                    await Navigation.PushAsync(new JsonDataPage(_directoryContext.ExportToJson()));
+                    await Navigation.PushAsync(new TextDataPage(_directoryContext.ExportToJson()));
                     return;
 
 

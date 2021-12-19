@@ -1,5 +1,6 @@
 ﻿using ValleyAuthenticator.Storage.Abstract;
 using ValleyAuthenticator.Storage.Abstract.Models;
+using ValleyAuthenticator.Storage.Utils;
 using ValleyAuthenticator.Utils;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -34,7 +35,7 @@ namespace ValleyAuthenticator.Views
 
                 if (result.BarcodeFormat == ZXing.BarcodeFormat.QR_CODE)
                 {
-                    if (TotpUtilities.TryParseAppUri(result.Text, out OtpData data))
+                    if (KeyUriFormat.TryParseAppUri(result.Text, out OtpData data))
                     {                        
                         _completed = true;
                         _createContext.AddEntry(data);
