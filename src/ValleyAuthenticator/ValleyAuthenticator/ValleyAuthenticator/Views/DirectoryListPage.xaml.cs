@@ -143,24 +143,30 @@ namespace ValleyAuthenticator.Views
         {
             string action;
             if (_directoryContext.IsRoot)
-                action = await DisplayActionSheet("Advanced", "Cancel", null, null, "Export directory"); 
+                action = await DisplayActionSheet("More options", "Cancel", null, null, "Export directory"); 
             else
-                action = await DisplayActionSheet("Advanced", "Cancel", "Delete directory", "Rename directory", "Export directory");
+                action = await DisplayActionSheet("More options", "Cancel", "Delete", "Rename", "Export directory");
 
             switch (action)
             {
-                case "Rename directory":
+                case "Rename":
                     string name = await DisplayPromptAsync("Rename directory", "Enter name", initialValue: _directoryContext.Name);
                     if (!string.IsNullOrWhiteSpace(name))
                         _directoryContext.Name = name;
                     return;
 
-                case "Export directory":
+                case "Export":
                     _childActive = true;
                     await Navigation.PushAsync(new JsonDataPage(_directoryContext.ExportToJson()));
                     return;
 
-                case "Delete directory":
+
+                case "Delete":
+                    // Ask for confirmation
+                    string questions = String.Format("Are you sure you want to delete this {0}?", _directoryContext.TypeDisplayName);
+                    if (!await DisplayAlert("Confirm delete", questions, "Yes", "No"))
+                        return;
+
                     _directoryContext.Delete();
                     await Navigation.PopAsync();
                     return;
