@@ -143,9 +143,9 @@ namespace ValleyAuthenticator.Views
         {
             string action;
             if (_directoryContext.IsRoot)
-                action = await DisplayActionSheet("More options", "Cancel", null, null, "Export directory"); 
+                action = await DisplayActionSheet("More options", "Cancel", null, null, "Import or export"); 
             else
-                action = await DisplayActionSheet("More options", "Cancel", "Delete", "Rename", "Export directory");
+                action = await DisplayActionSheet("More options", "Cancel", "Delete", "Rename", "Import or export");
 
             switch (action)
             {
@@ -154,12 +154,11 @@ namespace ValleyAuthenticator.Views
                     if (!string.IsNullOrWhiteSpace(name))
                         _directoryContext.Name = name;
                     return;
-
-                case "Export":
+            
+                case "Import or export":
                     _childActive = true;
-                    await Navigation.PushAsync(new TextDataPage(_directoryContext.ExportToJson()));
+                    await Navigation.PushAsync(new DirectoryImportExportPage(_directoryContext));
                     return;
-
 
                 case "Delete":
                     // Ask for confirmation

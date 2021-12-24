@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ValleyAuthenticator.Views.DirectoryImportExportPage">
+    <ContentPage.Content>
+        <TableView Intent="Data" HasUnevenRows = "true">
+            <TableRoot>
+                <TableSection Title="Import">
+                    <TextCell Text="JSON" Detail="Import Key URI list" Tapped="ImportToKeyUri_Tapped" />
+                    <TextCell Text="JSON" Detail="Import JSON" Tapped="ImportToJson_Tapped" />
+                </TableSection>
+                <TableSection Title="Export">
+                    <TextCell Text="JSON" Detail="Export as Key URI list" Tapped="ExportToKeyUri_Tapped" />
+                    <TextCell Text="JSON" Detail="Export as JSON" Tapped="ExportToJson_Tapped" />
+                </TableSection>
+            </TableRoot>
+        </TableView>
+    </ContentPage.Content>
+</ContentPage>
