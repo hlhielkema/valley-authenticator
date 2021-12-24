@@ -2,6 +2,7 @@
 using ValleyAuthenticator.Storage.Abstract;
 using ValleyAuthenticator.Storage.Abstract.Models;
 using ValleyAuthenticator.Storage.Internal;
+using ValleyAuthenticator.Storage.Utils;
 
 namespace ValleyAuthenticator.Storage.Impl
 {
@@ -48,7 +49,7 @@ namespace ValleyAuthenticator.Storage.Impl
             _storage.GetOtpEntry(_entryId).Data = data.AsData();
         }
 
-        public string ExportToJson()
-            => ExportHelper.ExportEntryToJson(_storage.GetOtpEntry(_entryId));
+        public string Export(ExportFormat format)
+            => ExportHelper.ExportEntry(_storage.GetOtpEntry(_entryId), format);
     }
 }

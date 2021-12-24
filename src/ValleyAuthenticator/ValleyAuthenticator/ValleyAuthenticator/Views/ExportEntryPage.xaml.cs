@@ -37,16 +37,13 @@ namespace ValleyAuthenticator.Views
         }
 
         private async void ExportToKeyUri_Tapped(object sender, EventArgs e)
-        {
-            OtpData otpData = _entryContext.GetOtpData();
-            string dataUri = KeyUriFormat.GenerateAppUri(otpData);
-
-            await Navigation.PushAsync(new TextDataPage(dataUri));
+        {            
+            await Navigation.PushAsync(new TextDataPage(_entryContext.Export(ExportFormat.KeyUri)));
         }
 
         private async void ExportToJson_Tapped(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new TextDataPage(_entryContext.ExportToJson()));
+            await Navigation.PushAsync(new TextDataPage(_entryContext.Export(ExportFormat.Json)));
         }
     }
 }

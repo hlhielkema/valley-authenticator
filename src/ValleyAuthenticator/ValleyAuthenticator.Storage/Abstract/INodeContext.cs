@@ -1,4 +1,6 @@
-﻿namespace ValleyAuthenticator.Storage.Abstract
+﻿using ValleyAuthenticator.Storage.Abstract.Models;
+
+namespace ValleyAuthenticator.Storage.Abstract
 {
     public interface INodeContext
     {        
@@ -8,6 +10,6 @@
 
         bool Delete();
 
-        string ExportToJson();
+        string Export(ExportFormat format);
     }
 }

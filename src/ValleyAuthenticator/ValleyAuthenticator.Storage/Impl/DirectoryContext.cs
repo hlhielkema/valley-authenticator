@@ -177,7 +177,7 @@ namespace ValleyAuthenticator.Storage.Impl
             }
         }
 
-        public string ExportToJson()
-            => ExportHelper.ExportDirectoryToJson(_storage.GetDirectory(_directoryId));
+        public string Export(ExportFormat format)
+            => ExportHelper.ExportDirectory(_storage.GetDirectory(_directoryId), format);
     }
 }
