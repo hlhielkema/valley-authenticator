@@ -1,7 +1,9 @@
 ﻿using Newtonsoft.Json;
 using System;
+using System.Linq;
 using ValleyAuthenticator.Storage.Internal.Model;
 using ValleyAuthenticator.Storage.Utils;
+using ValleyAuthenticator.Utils;
 
 namespace ValleyAuthenticator.Storage.Abstract.Models
 {
@@ -70,6 +72,46 @@ namespace ValleyAuthenticator.Storage.Abstract.Models
             Digits = source.Digits;
             Counter = source.Counter;
             Period = source.Period;
+        }
+
+        internal static bool Validate(InternalOtpData source)
+        {
+            if (source == null)
+                return false;
+
+            // Type
+            if (!Enum.TryParse(source.Type, out OtpType _))
+                return false;
+
+            // Label
+            if (string.IsNullOrWhiteSpace(source.Label))
+                return false;
+
+            // Secret
+            if (string.IsNullOrWhiteSpace(source.Secret) || !TotpUtilities.ValidateSecret(source.Secret))
+                return false;
+
+            // Issuer
+            if (string.IsNullOrWhiteSpace(source.Issuer))
+                return false;
+
+            // Algorithm
+            if (string.IsNullOrWhiteSpace(source.Algorithm) || !TotpUtilities.SUPPORTED_ALGORITHMS.Contains(source.Algorithm))
+                return false;
+
+            // Digits
+            if (source.Digits <= 0 || !TotpUtilities.SUPPORTED_DIGIT_COUNTS.Contains(source.Digits))
+                return false;
+
+            // Counter
+            if (source.Counter < 0)
+                return false;
+
+            // Period
+            if (!TotpUtilities.SUPPORTED_PERIOD_VALUES.Contains(source.Period))
+                return false;
+
+            return true;
         }
 
         internal InternalOtpData AsData()

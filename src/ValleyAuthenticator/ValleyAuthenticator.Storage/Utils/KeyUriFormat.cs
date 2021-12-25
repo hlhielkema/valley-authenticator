@@ -88,10 +88,17 @@ namespace ValleyAuthenticator.Storage.Utils
 
         public static bool TryParseAppUri(string uriString, out OtpData data)
         {
-            // Parse the URI
+            if (Uri.TryCreate(uriString, UriKind.Absolute, out Uri uri))            
+                return TryParseAppUri(uri, out data);            
             data = null;
-            if (!Uri.TryCreate(uriString, UriKind.Absolute, out Uri uri))
-                return false;                       
+            return false;
+        }
+
+        public static bool TryParseAppUri(Uri uri, out OtpData data)
+        {
+            data = null;
+            if (uri == null)
+                return false;                                    
             if (uri.Scheme != "otpauth")
                 return false;
 

@@ -11,7 +11,7 @@ namespace ValleyAuthenticator.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class EditEntryPage : ContentPage
     {
-        private IOtpFormContext _formContext;
+        private readonly IOtpFormContext _formContext;
 
         public EditEntryPage(IOtpFormContext formContext)
         {

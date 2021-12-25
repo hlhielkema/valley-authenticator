@@ -15,7 +15,7 @@
 
     <ContentPage.Content>
         <ScrollView>
-            <Editor x:Name="dataEditor" VerticalOptions="Fill"  HorizontalOptions="Fill" IsReadOnly="True" />
+            <Editor x:Name="dataEditor" VerticalOptions="Fill"  HorizontalOptions="Fill" />
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>

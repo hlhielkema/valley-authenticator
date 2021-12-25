@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ValleyAuthenticator.Views.DirectoryListPage">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Order="Secondary" Clicked="OnClickedEdit">
+        <ToolbarItem Order="Primary" Clicked="OnClickedEdit">
             <ToolbarItem.IconImageSource>
                 <FontImageSource
                 FontFamily="FontAwesome"

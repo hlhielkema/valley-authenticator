@@ -6,8 +6,9 @@
         <TableView Intent="Data" HasUnevenRows = "true">
             <TableRoot>
                 <TableSection Title="Import">
-                    <TextCell Text="Key URI" Detail="Import Key URI list" Tapped="ImportToKeyUri_Tapped" />
-                    <TextCell Text="JSON" Detail="Import JSON" Tapped="ImportToJson_Tapped" />
+                    <TextCell Text="Key URI" Detail="Import Key URI list" Tapped="ImportAsKeyUri_Tapped" />
+                    <TextCell Text="JSON (entry)" Detail="Import entry JSON" Tapped="ImportSingleAsJson_Tapped" />
+                    <TextCell Text="JSON (directory)" Detail="Import directory JSON" Tapped="ImportMultipleAsJson_Tapped" />
                 </TableSection>
                 <TableSection Title="Export">
                     <TextCell Text="Key URI" Detail="Export as Key URI list" Tapped="ExportToKeyUri_Tapped" />

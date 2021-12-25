@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using ValleyAuthenticator.Storage.Abstract;
 using ValleyAuthenticator.Storage.Abstract.Models;
 using ValleyAuthenticator.Storage.Internal.Model;
@@ -124,6 +125,33 @@ namespace ValleyAuthenticator.Storage.Internal
             Save();
 
             return id;
+        }
+
+        public Guid AddOrGetDirectory(Guid directoryId, string name)
+        {
+            InternalDirectoryData target = _directoryLookup[directoryId];
+            InternalDirectoryData match = target.Directories.FirstOrDefault(x => x.Name == name);
+            if (match == null)
+                return AddDirectory(directoryId, name);
+            else
+                return match.Id;
+        }
+
+        public Guid AddOrGetDirectory(Guid directoryId, string[] names, int offset = 0)
+        {
+            if (names == null)
+                throw new ArgumentNullException(nameof(names));
+            int d = names.Length - offset;
+            if (d < 1)
+                throw new ArgumentException(nameof(names));
+
+            if (d == 1)
+                return AddOrGetDirectory(directoryId, names[offset]);
+            else // d > 1
+            {
+                Guid childId = AddOrGetDirectory(directoryId, names[offset]);
+                return AddOrGetDirectory(childId, names, offset + 1);
+            }
         }
 
         public Guid AddEntry(Guid directoryId, OtpData data)

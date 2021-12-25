@@ -30,14 +30,14 @@ namespace ValleyAuthenticator.Storage.Impl
         public bool IsRoot => !_storage.GetDirectory(_directoryId).Parent.HasValue;
 
         // Private fields
-        private InternalStorageManager _storage;
-        private ContextManager _contextManager;
+        private readonly InternalStorageManager _storage;
+        private readonly ContextManager _contextManager;
         private Guid _directoryId;
         private ObservableCollection<NodeInfo> _collection;
 
         // Private constants
-        private string IMAGE_OTP_ENTRY = "key.png";
-        private string IMAGE_DIRECTORY = "folder.png";
+        private const string IMAGE_OTP_ENTRY = "key.png";
+        private const string IMAGE_DIRECTORY = "folder.png";
 
         public DirectoryContext(InternalStorageManager storage, ContextManager contextManager, Guid directoryId)
         {
@@ -177,7 +177,45 @@ namespace ValleyAuthenticator.Storage.Impl
             }
         }
 
+        private void AddMissingItems()
+        {
+            HashSet<Guid> inCollection = new HashSet<Guid>();
+            foreach (NodeInfo node in _collection)
+                inCollection.Add(node.Id);
+
+            InternalDirectoryData target = _storage.GetDirectory(_directoryId);
+
+            foreach (InternalDirectoryData directory in target.Directories)
+            {
+                if (!inCollection.Contains(directory.Id))
+                {
+                    IDirectoryContext context = _contextManager.GetDirectoryContext(directory.Id);
+                    string detail = DisplayUtilities.FormatDirectoryLabel(directory);
+                    _collection.Add(new NodeInfo(context, directory.Id, directory.Name, detail, IMAGE_DIRECTORY));
+                }
+            }
+
+            foreach (InternalOtpEntryData entry in target.OtpEntries)
+            {
+                if (!inCollection.Contains(entry.Id))
+                { 
+                    IOtpEntryContext context = _contextManager.GetOtpEntryContext(entry.Id);
+                    _collection.Add(new NodeInfo(context, entry.Id, entry.Data.Issuer, entry.Data.Label, IMAGE_OTP_ENTRY));
+                }
+            }
+        }
+
         public string Export(ExportFormat format)
             => ExportHelper.ExportDirectory(_storage.GetDirectory(_directoryId), format);
+
+        public bool TryImport(ExportFormat format, string data, bool multiple)
+        {            
+            if (ExportHelper.TryImport(_storage, _directoryId, format, data, multiple))
+            {
+                AddMissingItems();
+                return true;
+            }
+            return false;
+        }            
     }
 }

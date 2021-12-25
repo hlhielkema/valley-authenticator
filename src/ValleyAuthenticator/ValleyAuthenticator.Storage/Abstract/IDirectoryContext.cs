@@ -22,6 +22,8 @@ namespace ValleyAuthenticator.Storage.Abstract
         
         string GetDetailLabel();
 
-        void Validate();        
+        void Validate();
+
+        bool TryImport(ExportFormat format, string data, bool multiple);
     }
 }

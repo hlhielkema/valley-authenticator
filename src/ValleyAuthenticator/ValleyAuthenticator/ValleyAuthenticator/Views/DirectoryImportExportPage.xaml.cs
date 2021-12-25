@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ValleyAuthenticator.Storage.Abstract;
 using ValleyAuthenticator.Storage.Abstract.Models;
 using Xamarin.Forms;
@@ -14,6 +10,7 @@ namespace ValleyAuthenticator.Views
     public partial class DirectoryImportExportPage : ContentPage
     {
         private readonly IDirectoryContext _directoryContext;
+        private bool _completed;
 
         public DirectoryImportExportPage(IDirectoryContext directoryContext)
         {
@@ -22,14 +19,41 @@ namespace ValleyAuthenticator.Views
             InitializeComponent();
         }
 
-        private async void ImportToKeyUri_Tapped(object sender, EventArgs e)
+        protected override async void OnAppearing()
         {
-            await DisplayAlert("Alert", "Import URI", "Cancel");
+            if (_completed)            
+                await Navigation.PopAsync();            
+            base.OnAppearing();
         }
 
-        private async void ImportToJson_Tapped(object sender, EventArgs e)
+        private async void ImportAsKeyUri_Tapped(object sender, EventArgs e)
         {
-            await DisplayAlert("Alert", "Import JSON", "Cancel");
+            Func<string, bool> callback = data =>
+            {
+                _completed = _directoryContext.TryImport(ExportFormat.KeyUri, data, true);
+                return _completed;
+            };
+            await Navigation.PushAsync(new TextDataPage(callback));
+        }
+
+        private async void ImportMultipleAsJson_Tapped(object sender, EventArgs e)
+        {
+            Func<string, bool> callback = data =>
+            {
+                _completed = _directoryContext.TryImport(ExportFormat.Json, data, true);
+                return _completed;
+            };            
+            await Navigation.PushAsync(new TextDataPage(callback));
+        }
+
+        private async void ImportSingleAsJson_Tapped(object sender, EventArgs e)
+        {
+            Func<string, bool> callback = data =>
+            {
+                _completed = _directoryContext.TryImport(ExportFormat.Json, data, false);
+                return _completed;
+            };
+            await Navigation.PushAsync(new TextDataPage(callback));
         }
 
         private async void ExportToKeyUri_Tapped(object sender, EventArgs e)
