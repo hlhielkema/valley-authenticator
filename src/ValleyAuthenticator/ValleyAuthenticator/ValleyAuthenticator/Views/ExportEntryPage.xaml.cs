@@ -12,7 +12,7 @@ namespace ValleyAuthenticator.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ExportEntryPage : ContentPage
     {
-        private IOtpEntryContext _entryContext;
+        private readonly IOtpEntryContext _entryContext;
 
         public ExportEntryPage(IOtpEntryContext entryContext)
         {
@@ -20,7 +20,7 @@ namespace ValleyAuthenticator.Views
 
             _entryContext = entryContext;
 
-            OtpData otpData = entryContext.GetOtpData();
+            OtpData otpData = entryContext.OtpData;
 
             string dataUri = KeyUriFormat.GenerateAppUri(otpData);            
             qrView.BarcodeValue = dataUri;

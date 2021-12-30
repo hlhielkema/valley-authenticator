@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
 using ValleyAuthenticator.Storage.Abstract;
 using ValleyAuthenticator.Storage.Abstract.Models;
 using ValleyAuthenticator.Storage.Internal;
@@ -15,18 +14,27 @@ namespace ValleyAuthenticator.Storage.Impl
     internal sealed class SearchContext : ISearchContext
     {
         // Private fields
-        private InternalStorageManager _storage;
-        private ContextManager _contextManager;
+        private readonly InternalStorageManager _storage;
+        private readonly ContextManager _contextManager;
         private ObservableCollection<NodeInfo> _collection;
         private Guid _directoryId;
         private bool _disposed;
 
         // Private constants
-        private string IMAGE_OTP_ENTRY = "key.png";
-        private string IMAGE_DIRECTORY = "folder.png";
+        private const string IMAGE_OTP_ENTRY = "key.png";
+        private const string IMAGE_DIRECTORY = "folder.png";
 
         public SearchContext(InternalStorageManager storage, ContextManager contextManager, Guid directoryId)
         {
+            // Input validation
+            if (storage == null)
+                throw new ArgumentNullException(nameof(storage));
+            if (contextManager == null)
+                throw new ArgumentNullException(nameof(contextManager));
+            if (directoryId == Guid.Empty)
+                throw new ArgumentException(nameof(directoryId));
+
+            // Set private fields
             _storage = storage;
             _contextManager = contextManager;
             _directoryId = directoryId;

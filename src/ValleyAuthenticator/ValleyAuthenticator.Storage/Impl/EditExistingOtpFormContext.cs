@@ -8,7 +8,7 @@ namespace ValleyAuthenticator.Storage.Impl
     {
         public string SubmitText => "Update";
 
-        private IOtpEntryContext _entryContext;
+        private readonly IOtpEntryContext _entryContext;
 
         public EditExistingOtpFormContext(IOtpEntryContext entryContext)
         {
@@ -20,37 +20,9 @@ namespace ValleyAuthenticator.Storage.Impl
         }
        
         public OtpData GetDefault()
-            => _entryContext.GetOtpData();
+            => _entryContext.OtpData;
 
         public void Set(OtpData data)
-        {
-            _entryContext.SetOtpData(data);
-        }
-    }
-
-    internal class AddOtpFormContext : IOtpFormContext
-    {
-        public string SubmitText => "Create";
-
-        private IDirectoryContext _directoryContext;
-
-        public AddOtpFormContext(IDirectoryContext directoryContext)
-        {
-            // Input validation
-            if (directoryContext == null)
-                throw new ArgumentNullException(nameof(directoryContext));
-
-            _directoryContext = directoryContext;
-        }
-
-        public OtpData GetDefault()
-        {
-            return OtpData.Default;
-        }
-
-        public void Set(OtpData data)
-        {
-            _directoryContext.AddEntry(data);
-        }
+            => _entryContext.OtpData = data;
     }
 }

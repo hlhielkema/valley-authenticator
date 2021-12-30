@@ -28,31 +28,31 @@ namespace ValleyAuthenticator.Views
 
         private async void ImportAsKeyUri_Tapped(object sender, EventArgs e)
         {
-            Func<string, bool> callback = data =>
+            bool callback(string data)
             {
                 _completed = _directoryContext.TryImport(ExportFormat.KeyUri, data, true);
                 return _completed;
-            };
+            }
             await Navigation.PushAsync(new TextDataPage(callback));
         }
 
         private async void ImportMultipleAsJson_Tapped(object sender, EventArgs e)
         {
-            Func<string, bool> callback = data =>
+            bool callback(string data)
             {
                 _completed = _directoryContext.TryImport(ExportFormat.Json, data, true);
                 return _completed;
-            };            
+            }
             await Navigation.PushAsync(new TextDataPage(callback));
         }
 
         private async void ImportSingleAsJson_Tapped(object sender, EventArgs e)
         {
-            Func<string, bool> callback = data =>
+            bool callback(string data)
             {
                 _completed = _directoryContext.TryImport(ExportFormat.Json, data, false);
                 return _completed;
-            };
+            }
             await Navigation.PushAsync(new TextDataPage(callback));
         }
 

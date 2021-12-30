@@ -4,10 +4,19 @@ using ValleyAuthenticator.Storage.Abstract.Models;
 
 namespace ValleyAuthenticator.Storage.Abstract
 {
+    /// <summary>
+    /// Directory context
+    /// </summary>
     public interface IDirectoryContext : INodeContext
     {
+        /// <summary>
+        /// Gets if the directory is the root directory
+        /// </summary>
         bool IsRoot { get; }
 
+        /// <summary>
+        /// Gets or sets the name of the directory
+        /// </summary>
         string Name { get; set; }
 
         ISearchContext CreateSearchContext();

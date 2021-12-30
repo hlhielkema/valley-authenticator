@@ -2,11 +2,15 @@
 
 namespace ValleyAuthenticator.Storage.Abstract
 {
+    /// <summary>
+    /// OTP entry context
+    /// </summary>
     public interface IOtpEntryContext : INodeContext
     {
-        OtpData GetOtpData();
-
-        void SetOtpData(OtpData data);
+        /// <summary>
+        /// Gets or sets the OTP data of the entry
+        /// </summary>
+        OtpData OtpData { get; set; }
 
         IOtpFormContext CreateEditFormContext();
     }

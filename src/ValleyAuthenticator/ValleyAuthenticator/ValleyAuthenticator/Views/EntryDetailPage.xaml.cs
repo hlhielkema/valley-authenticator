@@ -22,7 +22,7 @@ namespace ValleyAuthenticator.Views
             InitializeComponent();
 
             _entryContext = entryContext;
-            _otpData = entryContext.GetOtpData();
+            _otpData = entryContext.OtpData;
 
             NameLabel.Text = _otpData.Label;
             IssuerLabel.Text = _otpData.Issuer;

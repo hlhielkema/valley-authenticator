@@ -17,7 +17,7 @@ namespace ValleyAuthenticator.Views
         private bool _searching;
         private bool _childActive;
         private bool _disposed;
-        private bool _isRoot;
+        private readonly bool _isRoot;
 
         public DirectoryListPage()
             : this(DependencyService.Get<IAuthenticatorStorage>().GetRootDirectoryContext(), isRoot: true)

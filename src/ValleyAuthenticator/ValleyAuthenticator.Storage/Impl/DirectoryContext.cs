@@ -9,42 +9,76 @@ using ValleyAuthenticator.Storage.Utils;
 
 namespace ValleyAuthenticator.Storage.Impl
 {
+    /// <summary>
+    /// Directory context
+    /// </summary>
     internal class DirectoryContext : IDirectoryContext
     {
+        /// <summary>
+        /// Gets the display name of the type of the node
+        /// </summary>
+        public string TypeDisplayName { get; } = "Directory";
+
+        /// <summary>
+        /// Gets if the node still exists
+        /// </summary>
+        public bool Exists => _storage.DirectoryExists(_directoryId);
+
+        /// <summary>
+        /// Gets if the directory is the root directory
+        /// </summary>
+        public bool IsRoot { get; private set; }
+
+        /// <summary>
+        /// Gets or sets the name of the directory
+        /// </summary>
         public string Name
         {
             get
             {
-                return _storage.GetDirectory(_directoryId).Name; // todo
+                return _name;
             }
             set
             {
+                if (string.IsNullOrWhiteSpace(value))
+                    throw new ArgumentException(nameof(value));
+
                 _storage.RenameDirectory(_directoryId, value);
+                _name = value;                
             }
         }
-
-        public string TypeDisplayName { get; } = "Directory";
-
-        public bool Exists => _storage.DirectoryExists(_directoryId);
-
-        public bool IsRoot => !_storage.GetDirectory(_directoryId).Parent.HasValue;
 
         // Private fields
         private readonly InternalStorageManager _storage;
         private readonly ContextManager _contextManager;
         private Guid _directoryId;
         private ObservableCollection<NodeInfo> _collection;
+        private string _name;
 
         // Private constants
         private const string IMAGE_OTP_ENTRY = "key.png";
         private const string IMAGE_DIRECTORY = "folder.png";
-
+        
         public DirectoryContext(InternalStorageManager storage, ContextManager contextManager, Guid directoryId)
         {
+            // Input validation
+            if (storage == null)
+                throw new ArgumentNullException(nameof(storage));
+            if (contextManager == null)
+                throw new ArgumentNullException(nameof(contextManager));
+            if (directoryId == Guid.Empty)
+                throw new ArgumentException(nameof(directoryId));
+
+            // Set private fields
             _storage = storage;
             _contextManager = contextManager;
             _directoryId = directoryId;
             _collection = null;
+
+            // Query additional information about the directory from the storage
+            InternalDirectoryData data = _storage.GetDirectory(directoryId);
+            _name = data.Name;
+            IsRoot = !_storage.GetDirectory(directoryId).Parent.HasValue;
         }
 
         public ISearchContext CreateSearchContext()
@@ -95,7 +129,7 @@ namespace ValleyAuthenticator.Storage.Impl
 
             return id;
         }
-
+   
         public Guid AddDirectory(string name)
         {
             Guid id = _storage.AddDirectory(_directoryId, name);
