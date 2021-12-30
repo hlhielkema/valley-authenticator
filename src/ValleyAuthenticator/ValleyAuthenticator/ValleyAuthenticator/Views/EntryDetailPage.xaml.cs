@@ -24,8 +24,16 @@ namespace ValleyAuthenticator.Views
             _entryContext = entryContext;
             _otpData = entryContext.OtpData;
 
-            NameLabel.Text = _otpData.Label;
-            IssuerLabel.Text = _otpData.Issuer;
+            entryInformation.Add(new TextCell()
+            {
+                Text = "Issuer",
+                Detail = _otpData.Issuer
+            });
+            entryInformation.Add(new TextCell()
+            {
+                Text = "Username (label)",
+                Detail = _otpData.Label
+            });           
 
             try
             {
@@ -79,7 +87,7 @@ namespace ValleyAuthenticator.Views
             if (NextCodeLabel.IsVisible)
             {
                 string nextCode = _otp.ComputeTotp(DateTime.Now.AddSeconds(20));
-                NextCodeLabel.Text = nextCode;
+                NextCodeLabel.Text = string.Format("Next: {0}", nextCode);
             }
         }
 
@@ -138,6 +146,11 @@ namespace ValleyAuthenticator.Views
                 return;
 
             await Navigation.PushAsync(new ExportEntryPage(_entryContext));
+        }
+
+        private void NextCode_Tapped(object sender, EventArgs e)
+        {
+            NextCodeFrame.IsVisible = false;
         }
     }
 }

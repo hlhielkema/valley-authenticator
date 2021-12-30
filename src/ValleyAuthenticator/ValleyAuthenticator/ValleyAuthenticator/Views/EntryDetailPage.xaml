@@ -34,59 +34,62 @@
                     Size="22" />
             </ToolbarItem.IconImageSource>
         </ToolbarItem>
-    </ContentPage.ToolbarItems>   
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <StackLayout BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
-                    <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
-                        <Label Text="[ISSUER]"                
-                       FontSize="16"
-                                FontAttributes="Bold"
-                       x:Name="IssuerLabel"
-                       HorizontalOptions="Center"/>
-                    </ContentView>
-                </StackLayout>
-            </StackLayout>
-            <ScrollView Grid.Row="1">
-                <StackLayout>
-                    <StackLayout Padding="32">
-                        <Label Text="[LABEL]"                
-                       FontSize="18"
-                       x:Name="NameLabel"
-                       HorizontalOptions="Center"  />
-                       
-                    </StackLayout>
-
-                    <Frame BackgroundColor="{StaticResource Primary}"
-                     CornerRadius="2"                     
-                     VerticalOptions="Center"
-                     HorizontalOptions="Center">
-                        <StackLayout>
-                            <StackLayout.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="OnClickedCopyToClipboard"/>
-                            </StackLayout.GestureRecognizers>
+        <TableView Intent="Data" HasUnevenRows = "true">
+            <TableRoot>
+                <TableSection Title="Authentication code">
+                    <ViewCell Height="120">
+                        <StackLayout Padding="16,16,16,16">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Frame BackgroundColor="{StaticResource Primary}"
+                                   CornerRadius="2"           
+                                   HorizontalOptions="Center">
+                                    <StackLayout>
+                                        <StackLayout.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="OnClickedCopyToClipboard"/>
+                                        </StackLayout.GestureRecognizers>
+                                        <Label Text="[CODE]"                
+                                           Padding="16,0,16,0"
+                                           FontSize="18"
+                                           x:Name="CodeLabel"
+                                           HorizontalOptions="Center"
+                                           TextColor="White"/>
+                                    </StackLayout>
+                                </Frame>
+                                <Frame x:Name="NextCodeFrame"
+                                       BackgroundColor="{StaticResource Primary}"
+                                       CornerRadius="2"           
+                                       HorizontalOptions="Center">
+                                    <StackLayout>
+                                        <StackLayout.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="NextCode_Tapped"/>
+                                        </StackLayout.GestureRecognizers>
+                                        <Label Text="&#xf021;"
+                                               Padding="16,0,16,0"
+                                               FontSize="18"                                               
+                                               HorizontalOptions="Center"
+                                               TextColor="White"
+                                               FontFamily="FontAwesome"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
                             <Label Text="[CODE]"                
-                           Padding="16,0,16,0"
-                           FontSize="18"
-                           FontAttributes="Bold"
-                           x:Name="CodeLabel"
-                           HorizontalOptions="Center"
-                           TextColor="White"/>
+                                   FontSize="14"
+                                   x:Name="NextCodeLabel"
+                                   HorizontalOptions="Center"
+                                   TextColor="LightGray"
+                                   IsVisible="False"/>
                         </StackLayout>
-                    </Frame>
-                    <Label Text="[CODE]"                
-                   FontSize="14"
-                   x:Name="NextCodeLabel"
-                   HorizontalOptions="Center"
-                   TextColor="LightGray"
-                   IsVisible="False"/>
-                </StackLayout>
-            </ScrollView>
-        </Grid>
+                    </ViewCell>
+                </TableSection>
+                <TableSection Title="Information" x:Name="entryInformation" />
+                <TableSection Title="Actions">
+                    <TextCell Text="Copy to clipboard" Detail="Copy the authentication code to the clipboard"/>
+                    <TextCell Text="Modify" Detail="Modify this entry"/>
+                    <TextCell Text="Export" Detail="Export this entry to various formats"/>
+                </TableSection>
+            </TableRoot>
+        </TableView>
     </ContentPage.Content>
 </ContentPage>
