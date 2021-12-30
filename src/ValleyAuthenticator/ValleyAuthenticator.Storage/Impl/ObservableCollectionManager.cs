@@ -87,9 +87,15 @@ namespace ValleyAuthenticator.Storage.Impl
                 }
                 else if (node.Context is IDirectoryContext directoryContext)
                 {
-                    string detail = directoryContext.GetDetailLabel();
-                    if (node.Detail != detail)
-                        node.UpdateDetail(detail);
+                    node.Name = directoryContext.Name;
+                    node.Detail = directoryContext.GetDetailLabel();                    
+                }
+                else if (node.Context is IOtpEntryContext otpEntryContext)
+                {
+                    OtpData data = otpEntryContext.OtpData;
+
+                    node.Name = data.Issuer;
+                    node.Detail = data.Label;
                 }
             }
         }

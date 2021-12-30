@@ -7,33 +7,52 @@ namespace ValleyAuthenticator.Storage.Abstract.Models
     {        
         public Guid Id { get; private set; }
 
-        public string Name { get; private set; }
+        public string Name
+        {
+            get => _name;
+            internal set
+            {
+                if (string.IsNullOrWhiteSpace(value))
+                    throw new ArgumentException(nameof(value));
+
+                _name = value;
+
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Name"));
+            }
+        }
+
+        public string Detail
+        {
+            get => _detail;
+            internal set
+            {
+                if (string.IsNullOrWhiteSpace(value))
+                    throw new ArgumentException(nameof(value));
+
+                _detail = value;
+
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Detail"));
+            }
+        }
 
         public string Image { get; private set; }
-
-        public string Detail { get; private set; }
        
         public INodeContext Context { get; private set; }
 
         public event PropertyChangedEventHandler PropertyChanged;
 
+        // Private fields
+        private string _name;
+        private string _detail;
+
         internal NodeInfo(INodeContext context, Guid id, string name, string detail, string image)
         {
             Context = context;
-            Id = id;
-            Name = name;
+            Id = id;            
             Image = image;
-            Detail = detail;
-        }
-
-        internal void UpdateDetail(string value)
-        {
-            if (Detail != value)
-            {
-                Detail = value;
-                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Detail"));
-            }
-        }        
+            _name = name;
+            _detail = detail;
+        }  
      
         public override bool Equals(object obj)
             => obj is NodeInfo info && Id.Equals(info.Id);
