@@ -43,16 +43,12 @@ namespace ValleyAuthenticator.Storage.Impl
         public OtpEntryContext(InternalStorageManager storage, ContextManager contextManager, Guid entryId)
         {
             // Input validation
-            if (storage == null)
-                throw new ArgumentNullException(nameof(storage));
-            if (contextManager == null)
-                throw new ArgumentNullException(nameof(contextManager));
             if (entryId == Guid.Empty)
                 throw new ArgumentException(nameof(entryId));
 
             // Set private fields
-            _storage = storage;
-            _contextManager = contextManager;
+            _storage = storage ?? throw new ArgumentNullException(nameof(storage));
+            _contextManager = contextManager ?? throw new ArgumentNullException(nameof(contextManager));
             _entryId = entryId;
         }
 

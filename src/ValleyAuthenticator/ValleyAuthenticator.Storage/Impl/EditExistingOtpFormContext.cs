@@ -12,11 +12,8 @@ namespace ValleyAuthenticator.Storage.Impl
 
         public EditExistingOtpFormContext(IOtpEntryContext entryContext)
         {
-            // Input validation
-            if (entryContext == null)
-                throw new ArgumentNullException(nameof(entryContext));
-
-            _entryContext = entryContext;
+            // Set private fields
+            _entryContext = entryContext ?? throw new ArgumentNullException(nameof(entryContext));
         }
        
         public OtpData GetDefault()
