@@ -9,32 +9,6 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Order="Secondary" Clicked="OnClickedEdit">
-            <ToolbarItem.IconImageSource>
-                <FontImageSource
-                    FontFamily="FontAwesome"
-                    Glyph="&#xf0ad;"
-                    Size="22" />
-            </ToolbarItem.IconImageSource>
-        </ToolbarItem>
-        <ToolbarItem Order="Secondary" Clicked="OnClickedDelete">
-            <ToolbarItem.IconImageSource>
-                <FontImageSource
-                    FontFamily="FontAwesome"
-                    Glyph="&#xf2ed;"
-                    Size="22" />
-            </ToolbarItem.IconImageSource>
-        </ToolbarItem>
-         <ToolbarItem Order="Secondary" Clicked="OnClickedExport">
-            <ToolbarItem.IconImageSource>
-                <FontImageSource
-                    FontFamily="FontAwesome"
-                    Glyph="&#xf56e;"
-                    Size="22" />
-            </ToolbarItem.IconImageSource>
-        </ToolbarItem>
-    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <TableView Intent="Data" HasUnevenRows = "true">
             <TableRoot>
@@ -87,9 +61,10 @@
                 </TableSection>
                 <TableSection Title="Information" x:Name="entryInformation" />
                 <TableSection Title="Actions">
-                    <TextCell Text="Copy to clipboard" Detail="Copy the authentication code to the clipboard"/>
-                    <TextCell Text="Modify" Detail="Modify this entry"/>
-                    <TextCell Text="Export" Detail="Export this entry to various formats"/>
+                    <TextCell Text="Copy to clipboard" Detail="Copy the authentication code to the clipboard" Tapped="OnClickedCopyToClipboard"/>
+                    <TextCell Text="Export" Detail="Export this entry to various formats" Tapped="Export_Tapped"/>
+                    <TextCell Text="Modify" Detail="Modify this entry" Tapped="Modify_Tapped"/>
+                    <TextCell Text="Delete" Detail="Delete this entry" Tapped="Delete_Tapped"/>
                 </TableSection>
             </TableRoot>
         </TableView>

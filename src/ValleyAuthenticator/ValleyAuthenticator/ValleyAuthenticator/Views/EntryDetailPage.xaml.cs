@@ -26,14 +26,14 @@ namespace ValleyAuthenticator.Views
 
             entryInformation.Add(new TextCell()
             {
-                Text = "Issuer",
-                Detail = _otpData.Issuer
+                Text = "Label (username)",
+                Detail = _otpData.Label
             });
             entryInformation.Add(new TextCell()
             {
-                Text = "Username (label)",
-                Detail = _otpData.Label
-            });           
+                Text = "Issuer (website)",
+                Detail = _otpData.Issuer
+            });                    
 
             try
             {
@@ -112,22 +112,6 @@ namespace ValleyAuthenticator.Views
             base.OnDisappearing();
         }
 
-        private async void OnClickedEdit(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new EditEntryPage(_entryContext.CreateEditFormContext()));
-        }
-
-        private async void OnClickedDelete(object sender, EventArgs e)
-        {
-            // Ask for confirmation
-            string questions = String.Format("Are you sure you want to delete this {0}?", _entryContext.TypeDisplayName);
-            if (!await DisplayAlert("Confirm delete", questions, "Yes", "No"))
-                return;
-
-            _entryContext.Delete();
-            await Navigation.PopAsync();
-        }
-
         private async void OnClickedCopyToClipboard(object sender, EventArgs e)
         {
             if (_otp == null)
@@ -139,8 +123,8 @@ namespace ValleyAuthenticator.Views
             _timeCopied = DateTime.UtcNow;
             UpdateCode();
         }
-
-        private async void OnClickedExport(object sender, EventArgs e)
+     
+        private async void Export_Tapped(object sender, EventArgs e)
         {
             if (_otp == null)
                 return;
@@ -148,8 +132,26 @@ namespace ValleyAuthenticator.Views
             await Navigation.PushAsync(new ExportEntryPage(_entryContext));
         }
 
+        private async void Modify_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new EditEntryPage(_entryContext.CreateEditFormContext()));
+        }
+
+        private async void Delete_Tapped(object sender, EventArgs e)
+        {
+            // Ask for confirmation
+            string questions = String.Format("Are you sure you want to delete this {0}?", _entryContext.TypeDisplayName);
+            if (!await DisplayAlert("Confirm delete", questions, "Yes", "No"))
+                return;
+
+            _entryContext.Delete();
+            await Navigation.PopAsync();
+        }
+
         private void NextCode_Tapped(object sender, EventArgs e)
         {
+            // TODO
+
             NextCodeFrame.IsVisible = false;
         }
     }
