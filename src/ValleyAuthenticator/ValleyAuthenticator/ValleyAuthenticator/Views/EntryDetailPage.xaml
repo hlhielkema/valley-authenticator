@@ -43,8 +43,9 @@
                         <StackLayout Padding="16,16,16,16">
                             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                                 <Frame BackgroundColor="{StaticResource Primary}"
-                                   CornerRadius="2"           
-                                   HorizontalOptions="Center">
+                                       CornerRadius="2"           
+                                       HorizontalOptions="Center"
+                                       HasShadow="False">
                                     <StackLayout>
                                         <StackLayout.GestureRecognizers>
                                             <TapGestureRecognizer Tapped="OnClickedCopyToClipboard"/>
@@ -60,7 +61,8 @@
                                 <Frame x:Name="NextCodeFrame"
                                        BackgroundColor="{StaticResource Primary}"
                                        CornerRadius="2"           
-                                       HorizontalOptions="Center">
+                                       HorizontalOptions="Center"
+                                       HasShadow="False">
                                     <StackLayout>
                                         <StackLayout.GestureRecognizers>
                                             <TapGestureRecognizer Tapped="NextCode_Tapped"/>
