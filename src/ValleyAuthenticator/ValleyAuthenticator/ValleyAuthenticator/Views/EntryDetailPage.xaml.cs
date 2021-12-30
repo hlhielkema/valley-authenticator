@@ -1,5 +1,6 @@
 ﻿using OtpNet;
 using System;
+using System.Collections.Generic;
 using ValleyAuthenticator.Storage.Abstract;
 using ValleyAuthenticator.Storage.Abstract.Models;
 using Xamarin.Essentials;
@@ -24,16 +25,25 @@ namespace ValleyAuthenticator.Views
             _entryContext = entryContext;
             _otpData = entryContext.OtpData;
 
-            entryInformation.Add(new TextCell()
+            List<TextCell> cells = new List<TextCell>()
             {
-                Text = "Label (username)",
-                Detail = _otpData.Label
-            });
-            entryInformation.Add(new TextCell()
+                new TextCell()
+                {
+                    Text = "Label (username)",
+                    Detail = _otpData.Label,
+                },
+                new TextCell()
+                {
+                    Text = "Issuer (website)",
+                    Detail = _otpData.Issuer
+                }
+            };
+
+            foreach (TextCell cell in cells)
             {
-                Text = "Issuer (website)",
-                Detail = _otpData.Issuer
-            });                    
+                cell.Tapped += Modify_Tapped;
+                entryInformation.Add(cell);
+            }            
 
             try
             {
