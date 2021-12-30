@@ -10,28 +10,34 @@ namespace ValleyAuthenticator.Storage.Abstract.Models
         public string Name
         {
             get => _name;
-            internal set
+            private set
             {
                 if (string.IsNullOrWhiteSpace(value))
                     throw new ArgumentException(nameof(value));
 
-                _name = value;
+                if (_name != value)
+                {
+                    _name = value;
 
-                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Name"));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Name"));
+                }
             }
         }
 
         public string Detail
         {
             get => _detail;
-            internal set
+            private set
             {
                 if (string.IsNullOrWhiteSpace(value))
                     throw new ArgumentException(nameof(value));
 
-                _detail = value;
+                if (_detail != value)
+                {
+                    _detail = value;
 
-                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Detail"));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Detail"));
+                }
             }
         }
 
@@ -52,8 +58,16 @@ namespace ValleyAuthenticator.Storage.Abstract.Models
             Image = image;
             _name = name;
             _detail = detail;
-        }  
-     
+        }       
+
+        public void Refresh()
+        {
+            // TODO
+            NodeInfo node = Context.GetInfo();
+            Name = node.Name;
+            Detail = node.Detail;
+        }
+
         public override bool Equals(object obj)
             => obj is NodeInfo info && Id.Equals(info.Id);
 

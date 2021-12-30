@@ -8,8 +8,8 @@ namespace ValleyAuthenticator.Storage.Internal
     {
         // Private fields
         private readonly InternalStorageManager _storage;
-        private Dictionary<Guid, DirectoryContext> _directories;
-        private Dictionary<Guid, OtpEntryContext> _otpEntries;
+        private readonly Dictionary<Guid, DirectoryContext> _directories;
+        private readonly Dictionary<Guid, OtpEntryContext> _otpEntries;
 
         public ContextManager(InternalStorageManager storage)
         {

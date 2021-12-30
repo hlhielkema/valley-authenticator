@@ -2,6 +2,7 @@
 using ValleyAuthenticator.Storage.Abstract;
 using ValleyAuthenticator.Storage.Abstract.Models;
 using ValleyAuthenticator.Storage.Internal;
+using ValleyAuthenticator.Storage.Internal.Model;
 
 namespace ValleyAuthenticator.Storage.Impl
 {
@@ -33,6 +34,9 @@ namespace ValleyAuthenticator.Storage.Impl
         private readonly InternalStorageManager _storage;
         private readonly ContextManager _contextManager;
         private readonly Guid _entryId;
+
+        // Private constants
+        private const string IMAGE_OTP_ENTRY = "key.png";
 
         /// <summary>
         /// Constructor
@@ -74,7 +78,23 @@ namespace ValleyAuthenticator.Storage.Impl
             return false;
         }
 
+        /// <summary>
+        /// Export the node to a given format
+        /// </summary>
+        /// <param name="format">export format</param>
+        /// <returns>export data</returns>
         public string Export(ExportFormat format)
             => ExportHelper.ExportEntry(_storage.GetOtpEntry(_entryId), format);
+
+        /// <summary>
+        /// Get information about the node.
+        /// </summary>
+        /// <returns>node information</returns>
+        public NodeInfo GetInfo()
+        {
+            InternalOtpEntryData entry = _storage.GetOtpEntry(_entryId);
+
+            return new NodeInfo(this, entry.Id, entry.Data.Issuer, entry.Data.Label, IMAGE_OTP_ENTRY);
+        }
     }
 }

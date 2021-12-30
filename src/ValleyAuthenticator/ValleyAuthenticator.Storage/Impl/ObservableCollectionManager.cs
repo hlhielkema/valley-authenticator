@@ -7,7 +7,6 @@ using ValleyAuthenticator.Storage.Abstract.Models;
 using ValleyAuthenticator.Storage.Internal;
 using ValleyAuthenticator.Storage.Internal.Model;
 using ValleyAuthenticator.Storage.Internal.Models;
-using ValleyAuthenticator.Storage.Utils;
 
 namespace ValleyAuthenticator.Storage.Impl
 {
@@ -19,10 +18,6 @@ namespace ValleyAuthenticator.Storage.Impl
         private readonly InternalStorageManager _storage;
         private readonly ContextManager _contextManager;
 
-        // Private constants
-        private const string IMAGE_OTP_ENTRY = "key.png";
-        private const string IMAGE_DIRECTORY = "folder.png";
-
         private ObservableCollectionManager(InternalStorageManager storage, ContextManager contextManager, ObservableCollection<NodeInfo> collection)
         {
             // Set private fields
@@ -33,22 +28,15 @@ namespace ValleyAuthenticator.Storage.Impl
 
         public void AddEntry(Guid id)
         {
-            IOtpEntryContext context = _contextManager.GetOtpEntryContext(id);
-
-            OtpData data = context.OtpData;
-
-            NodeInfo node = new NodeInfo(context, id, data.Issuer, data.Label, IMAGE_OTP_ENTRY);
-
-            _collection.Add(node);
+            IOtpEntryContext context = _contextManager.GetOtpEntryContext(id);            
+            _collection.Add(context.GetInfo());
         }
 
         public void AddDirectory(Guid id)
         {
             IDirectoryContext context = _contextManager.GetDirectoryContext(id);
-
-            string detail = DisplayUtilities.FormatDirectoryLabel();
-
-            NodeInfo node = new NodeInfo(context, id, context.Name, detail, IMAGE_DIRECTORY);
+            
+            NodeInfo node = context.GetInfo();
 
             // Insert the new directory after the last directory in the collection (before any entries).
             // The directories are always at the top of the list.
@@ -81,22 +69,10 @@ namespace ValleyAuthenticator.Storage.Impl
             for (int i = 0; i < _collection.Count; i++)
             {
                 NodeInfo node = _collection[i];
-                if (!node.Context.Exists)
-                {
-                    _collection.RemoveAt(i--);
-                }
-                else if (node.Context is IDirectoryContext directoryContext)
-                {
-                    node.Name = directoryContext.Name;
-                    node.Detail = directoryContext.GetDetailLabel();                    
-                }
-                else if (node.Context is IOtpEntryContext otpEntryContext)
-                {
-                    OtpData data = otpEntryContext.OtpData;
-
-                    node.Name = data.Issuer;
-                    node.Detail = data.Label;
-                }
+                if (!node.Context.Exists)                
+                    _collection.RemoveAt(i--);                
+                else                
+                    node.Refresh();                
             }
         }
 
@@ -113,8 +89,7 @@ namespace ValleyAuthenticator.Storage.Impl
                 if (!inCollection.Contains(directory.Id))
                 {
                     IDirectoryContext context = _contextManager.GetDirectoryContext(directory.Id);
-                    string detail = DisplayUtilities.FormatDirectoryLabel(directory);
-                    _collection.Add(new NodeInfo(context, directory.Id, directory.Name, detail, IMAGE_DIRECTORY));
+                    _collection.Add(context.GetInfo());
                 }
             }
 
@@ -123,7 +98,7 @@ namespace ValleyAuthenticator.Storage.Impl
                 if (!inCollection.Contains(entry.Id))
                 {
                     IOtpEntryContext context = _contextManager.GetOtpEntryContext(entry.Id);
-                    _collection.Add(new NodeInfo(context, entry.Id, entry.Data.Issuer, entry.Data.Label, IMAGE_OTP_ENTRY));
+                    _collection.Add(context.GetInfo());
                 }
             }
         }
@@ -135,17 +110,13 @@ namespace ValleyAuthenticator.Storage.Impl
             foreach (InternalDirectoryData directory in searchResults.Directories)
             {
                 IDirectoryContext context = _contextManager.GetDirectoryContext(directory.Id);
-
-                string detail = DisplayUtilities.FormatDirectoryLabel(directory);
-
-                resultsList.Add(new NodeInfo(context, directory.Id, directory.Name, detail, IMAGE_DIRECTORY));
+                resultsList.Add(context.GetInfo());
             }
 
             foreach (InternalOtpEntryData entry in searchResults.OtpEntries)
             {
                 IOtpEntryContext context = _contextManager.GetOtpEntryContext(entry.Id);
-
-                resultsList.Add(new NodeInfo(context, entry.Id, entry.Data.Issuer, entry.Data.Label, IMAGE_OTP_ENTRY));
+                resultsList.Add(context.GetInfo());
             }
 
             if (resultsList.Count == 0)
@@ -212,16 +183,14 @@ namespace ValleyAuthenticator.Storage.Impl
             {
                 IDirectoryContext context = contextManager.GetDirectoryContext(directory.Id);
 
-                string detail = DisplayUtilities.FormatDirectoryLabel(directory);
-
-                initial.Add(new NodeInfo(context, directory.Id, directory.Name, detail, IMAGE_DIRECTORY));
+                initial.Add(context.GetInfo());
             }
 
             foreach (InternalOtpEntryData entry in target.OtpEntries)
             {
                 IOtpEntryContext context = contextManager.GetOtpEntryContext(entry.Id);
 
-                initial.Add(new NodeInfo(context, entry.Id, entry.Data.Issuer, entry.Data.Label, IMAGE_OTP_ENTRY));
+                initial.Add(context.GetInfo());
             }
 
             ObservableCollection<NodeInfo> collection = new ObservableCollection<NodeInfo>(initial);

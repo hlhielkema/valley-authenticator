@@ -52,12 +52,13 @@ namespace ValleyAuthenticator.Views
                 throw new Exception("Page disposed");
 
             // Validate if a child page popped
-            if (_childActive)                
-                _directoryContext.Validate();
-
-            _childActive = false;            
-            if (_searchContext != null)
-                _searchContext.Validate();
+            if (_childActive)
+            {
+                _directoryContext.Validate();                
+                if (_searchContext != null)
+                    _searchContext.Validate();
+                _childActive = false;
+            }
 
             base.OnAppearing();
         }
@@ -203,11 +204,15 @@ namespace ValleyAuthenticator.Views
             NodeInfo item = (NodeInfo)((MenuItem)sender).CommandParameter;
 
             // Ask for confirmation
-            string questions = String.Format("Are you sure you want to delete this {0}?", item.Context.TypeDisplayName);
+            string questions = string.Format("Are you sure you want to delete this {0}?", item.Context.TypeDisplayName);
             if (!await DisplayAlert("Confirm delete", questions, "Yes", "No"))
                 return;
 
             item.Context.Delete();
+
+            // Validate the search context.
+            // Delete() on a node will not trigger the validate of the search contexts.
+            _searchContext?.Validate();
         }
 
         public async void OnUpdate(object sender, EventArgs e)

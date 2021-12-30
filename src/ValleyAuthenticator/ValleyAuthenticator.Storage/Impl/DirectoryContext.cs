@@ -54,7 +54,10 @@ namespace ValleyAuthenticator.Storage.Impl
         private ObservableCollectionManager _collectionManager;
         private Guid _directoryId;        
         private string _name;
-   
+
+        // Private constants
+        private const string IMAGE_DIRECTORY = "folder.png";
+
         public DirectoryContext(InternalStorageManager storage, ContextManager contextManager, Guid directoryId)
         {
             if (directoryId == Guid.Empty)
@@ -123,7 +126,13 @@ namespace ValleyAuthenticator.Storage.Impl
         }
 
         public void OnItemDeleted(Guid id)
-            => _collectionManager?.RemoveById(id);
+        {
+            if (_collectionManager != null)
+            {
+                if (_collectionManager.RemoveById(id))
+                    ValidateParent();
+            }
+        }
 
         public string GetDetailLabel()
         {
@@ -144,6 +153,11 @@ namespace ValleyAuthenticator.Storage.Impl
                 _contextManager.GetDirectoryContext(parent.Value).Validate();
         }
 
+        /// <summary>
+        /// Export the node to a given format
+        /// </summary>
+        /// <param name="format">export format</param>
+        /// <returns>export data</returns>
         public string Export(ExportFormat format)
             => ExportHelper.ExportDirectory(_storage.GetDirectory(_directoryId), format);
 
@@ -155,6 +169,19 @@ namespace ValleyAuthenticator.Storage.Impl
                 return true;
             }
             return false;
-        }            
+        }
+
+        /// <summary>
+        /// Get information about the node.
+        /// </summary>
+        /// <returns>node information</returns>
+        public NodeInfo GetInfo()
+        {
+            InternalDirectoryData directory = _storage.GetDirectory(_directoryId);
+            
+            string detail = DisplayUtilities.FormatDirectoryLabel(directory);
+
+            return new NodeInfo(this, directory.Id, directory.Name, detail, IMAGE_DIRECTORY);
+        }
     }
 }
