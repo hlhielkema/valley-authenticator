@@ -222,6 +222,7 @@ namespace ValleyAuthenticator.Views
             }
             else if (item.Context is IOtpEntryContext entryContext)
             {
+                _childActive = true;
                 await Navigation.PushAsync(new EditEntryPage(entryContext.CreateEditFormContext()));
             }
         }

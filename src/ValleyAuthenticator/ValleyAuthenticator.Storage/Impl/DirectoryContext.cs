@@ -43,10 +43,11 @@ namespace ValleyAuthenticator.Storage.Impl
                     throw new ArgumentException(nameof(value));
 
                 _storage.RenameDirectory(_directoryId, value);
-                _name = value;                
+                _name = value;
+                ValidateParent();
             }
         }
-
+        
         // Private fields
         private readonly InternalStorageManager _storage;
         private readonly ContextManager _contextManager;
@@ -132,6 +133,16 @@ namespace ValleyAuthenticator.Storage.Impl
 
         public void Validate()
             => _collectionManager?.Validate();
+
+        /// <summary>
+        /// Validate the parent directory
+        /// </summary>
+        private void ValidateParent()
+        {
+            Guid? parent = _storage.GetDirectory(_directoryId).Parent;
+            if (parent.HasValue)
+                _contextManager.GetDirectoryContext(parent.Value).Validate();
+        }
 
         public string Export(ExportFormat format)
             => ExportHelper.ExportDirectory(_storage.GetDirectory(_directoryId), format);
