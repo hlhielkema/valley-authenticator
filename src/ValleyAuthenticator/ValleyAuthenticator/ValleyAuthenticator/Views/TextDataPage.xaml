@@ -3,11 +3,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ValleyAuthenticator.Views.TextDataPage">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Order="Primary" Clicked="OnClickedCopy">
+        <ToolbarItem x:Name="CopyButton" Order="Primary" Clicked="OnClickedCopy">
             <ToolbarItem.IconImageSource>
                 <FontImageSource
                 FontFamily="FontAwesome"
                 Glyph="&#xf24d;"
+                Size="18" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        <ToolbarItem x:Name="PasteButton" Order="Primary" Clicked="OnClickedPaste">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource
+                FontFamily="FontAwesome"
+                Glyph="&#xf0ea;"
+                Size="18" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        <ToolbarItem x:Name="AcceptButton" Order="Primary" Clicked="OnClickedAccept">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource
+                FontFamily="FontAwesome"
+                Glyph="&#xf00c;"
                 Size="18" />
             </ToolbarItem.IconImageSource>
         </ToolbarItem>

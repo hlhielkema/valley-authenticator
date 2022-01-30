@@ -15,6 +15,8 @@ namespace ValleyAuthenticator.Views
             InitializeComponent();
 
             _callback = callback;
+
+            ToolbarItems.Remove(CopyButton);            
         }
 
         public TextDataPage(string json)
@@ -23,24 +25,28 @@ namespace ValleyAuthenticator.Views
 
             dataEditor.Text = json;
             dataEditor.IsReadOnly = true;
+
+            ToolbarItems.Remove(PasteButton);
+            ToolbarItems.Remove(AcceptButton);
         }
 
         private async void OnClickedCopy(object sender, EventArgs e)
+        {            
+            await Clipboard.SetTextAsync(dataEditor.Text);
+        }
+
+        private async void OnClickedPaste(object sender, EventArgs e)
+        {            
+            dataEditor.Text = await Clipboard.GetTextAsync();
+        }
+
+        private async void OnClickedAccept(object sender, EventArgs e)
         {
             if (_callback == null)
-                await Clipboard.SetTextAsync(dataEditor.Text);
-            else
-            {
-                if (string.IsNullOrWhiteSpace(dataEditor.Text))
-                {
-                    dataEditor.Text = await Clipboard.GetTextAsync();
-                }
-                else
-                {
-                    if (_callback(dataEditor.Text))
-                        await Navigation.PopAsync();
-                }
-            }
+                throw new InvalidOperationException();
+
+            if (_callback(dataEditor.Text))
+                await Navigation.PopAsync();
         }
     }
 }
