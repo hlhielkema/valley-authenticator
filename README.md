@@ -17,6 +17,7 @@ I reused the *valley* part of the name from an identity server solution I built 
 - View the next code when the timer almost runs out.
 - Organize authentication codes in folders.
 - Create or rename directories.
+- Search for entries or folders.
 - Copy authentication codes to the clipboard.
 - Copy the label (username) or issuer (website) to the clipboard.
 - Import entries from URI lists or JSON text.
@@ -31,7 +32,17 @@ The valley authenticator uses **Xamarin**, which makes it possible to run it on 
 
 The “logic” behind the app is written in C#. The layout of the pages is defined in `XAML` files.
 
-## Screenshots
+## Screenshots (iOS)
+
+| | | |
+|:---|:---|:---|
+| ![screenshot](media/ios/screenshot_1.png) | ![screenshot](media/ios/screenshot_2.png) | ![screenshot](media/ios/screenshot_3.png) |
+| ![screenshot](media/ios/screenshot_4.png) | ![screenshot](media/ios/screenshot_5.png) | ![screenshot](media/ios/screenshot_6.png) |
+| ![screenshot](media/ios/screenshot_7.png) | ![screenshot](media/ios/screenshot_8.png) | ![screenshot](media/ios/screenshot_9.png) |
+
+---
+
+## Screenshots (Android)
 
 | | | |
 |:---|:---|:---|
