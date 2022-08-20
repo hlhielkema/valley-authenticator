@@ -36,7 +36,8 @@
                                        BackgroundColor="{StaticResource Primary}"
                                        CornerRadius="2"           
                                        HorizontalOptions="Center"
-                                       HasShadow="False">
+                                       HasShadow="False"
+                                       IsVisible="False">
                                     <StackLayout>
                                         <StackLayout.GestureRecognizers>
                                             <TapGestureRecognizer Tapped="NextCode_Tapped"/>

@@ -12,10 +12,10 @@ namespace ValleyAuthenticator.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class EntryDetailPage : ContentPage
     {
-        private readonly IOtpEntryContext _entryContext;
-        private readonly OtpData _otpData;
+        private readonly IOtpEntryContext _entryContext;        
         private readonly System.Timers.Timer _timer;
-        private readonly Totp _otp;
+        private readonly Otp _otp;
+        private OtpData _otpData;
         private DateTime? _timeCopied;
 
         public EntryDetailPage(IOtpEntryContext entryContext)
@@ -24,6 +24,9 @@ namespace ValleyAuthenticator.Views
 
             _entryContext = entryContext;
             _otpData = entryContext.OtpData;
+
+            if (_otpData.Type == OtpType.Hotp)
+                NextCodeFrame.IsVisible = true;
 
             List<TextCell> cells = new List<TextCell>()
             {
@@ -47,12 +50,21 @@ namespace ValleyAuthenticator.Views
 
             try
             {
-                if (_otpData.Type != OtpType.Totp)
-                    throw new NotImplementedException();
+                OtpHashMode mode = Convert(_otpData.Algorithm);
 
-                byte[] base32Bytes = Base32Encoding.ToBytes(_otpData.Secret);
+                if (_otpData.Type == OtpType.Totp)
+                {
 
-                _otp = new Totp(base32Bytes, _otpData.Period, Convert(_otpData.Algorithm), _otpData.Digits);                
+                    byte[] base32Bytes = Base32Encoding.ToBytes(_otpData.Secret);
+
+                    _otp = new Totp(base32Bytes, _otpData.Period, mode, _otpData.Digits);
+                }
+                else // Hotp
+                {
+                    byte[] base32Bytes = Base32Encoding.ToBytes(_otpData.Secret);
+
+                    _otp = new Hotp(base32Bytes, mode, _otpData.Digits);
+                }
             }
             catch
             {
@@ -62,7 +74,7 @@ namespace ValleyAuthenticator.Views
 
             if (_otp != null)
             {
-                UpdateCode();
+                UpdateTotpCode();
 
                 _timer = new System.Timers.Timer(1000)
                 {
@@ -83,28 +95,35 @@ namespace ValleyAuthenticator.Views
             }
         }
 
-        private void UpdateCode()
+        private void UpdateTotpCode()
         {
-            string code = _otp.ComputeTotp();
-            int remainingSeconds = _otp.RemainingSeconds();
-
-            if (_timeCopied > DateTime.UtcNow.AddSeconds(-2))
-                CodeLabel.Text = "Copied!";
-            else
-                CodeLabel.Text = string.Format("{0} ({1})", code, remainingSeconds);
-
-            NextCodeLabel.IsVisible = remainingSeconds <= 15;
-            if (NextCodeLabel.IsVisible)
+            if (_otp is Totp totp)
             {
-                string nextCode = _otp.ComputeTotp(DateTime.Now.AddSeconds(20));
-                NextCodeLabel.Text = string.Format("Next: {0}", nextCode);
+                string code = totp.ComputeTotp();
+                int remainingSeconds = totp.RemainingSeconds();
+
+                if (_timeCopied > DateTime.UtcNow.AddSeconds(-2))
+                    CodeLabel.Text = "Copied!";
+                else
+                    CodeLabel.Text = string.Format("{0} ({1})", code, remainingSeconds);
+
+                NextCodeLabel.IsVisible = remainingSeconds <= 15;
+                if (NextCodeLabel.IsVisible)
+                {
+                    string nextCode = totp.ComputeTotp(DateTime.Now.AddSeconds(20));
+                    NextCodeLabel.Text = string.Format("Next: {0}", nextCode);
+                }
+            }
+            else if (_otp is Hotp hotp)
+            {
+                CodeLabel.Text = hotp.ComputeHOTP(_otpData.Counter);                
             }
         }
 
         private void Timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
             Device.BeginInvokeOnMainThread(() => {
-                UpdateCode();
+                UpdateTotpCode();
             });
         }
 
@@ -126,12 +145,20 @@ namespace ValleyAuthenticator.Views
         {
             if (_otp == null)
                 return;
+
+            if (_otp is Totp totp)
+            {
+                string code = totp.ComputeTotp();
+                await Clipboard.SetTextAsync(code);
+            }
+            else
+            {
+                throw new NotImplementedException();
+            }
             
-            string code = _otp.ComputeTotp();
-            await Clipboard.SetTextAsync(code);
 
             _timeCopied = DateTime.UtcNow;
-            UpdateCode();
+            UpdateTotpCode();
         }
      
         private async void Export_Tapped(object sender, EventArgs e)
@@ -160,9 +187,12 @@ namespace ValleyAuthenticator.Views
 
         private void NextCode_Tapped(object sender, EventArgs e)
         {
-            // TODO
-
-            NextCodeFrame.IsVisible = false;
+            if (_otp is Hotp hotp)
+            {
+                _otpData = _otpData.Next();
+                _entryContext.OtpData = _otpData;
+                CodeLabel.Text = hotp.ComputeHOTP(_otpData.Counter);
+            }
         }
     }
 }

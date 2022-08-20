@@ -152,5 +152,8 @@ namespace ValleyAuthenticator.Storage.Abstract.Models
             Counter = counter;
             Period = period;
         }      
+
+        public OtpData Next()
+            => new OtpData(Type, Label, Secret, Issuer, Algorithm, Digits, Counter + 1, Period);
     }
 }

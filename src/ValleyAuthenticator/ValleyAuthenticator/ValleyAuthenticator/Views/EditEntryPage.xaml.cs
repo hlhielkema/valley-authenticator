@@ -54,6 +54,9 @@ namespace ValleyAuthenticator.Views
             foreach (string value in TotpUtilities.TYPE_NAMES)
                 typePicker.Items.Add(value);
             typePicker.SelectedIndex = Array.IndexOf(TotpUtilities.TYPE_VALUES, defaultData.Type);
+
+            // Counter
+            counterEditor.Text = defaultData.Counter.ToString();
         }
 
         private bool TryGetFormData(out OtpData otpData, ref string message)
