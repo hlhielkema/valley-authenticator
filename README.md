@@ -35,6 +35,6 @@ The “logic” behind the app is written in C#. The layout of the pages is defi
 
 | | | |
 |:---|:---|:---|
-| ![screenshot](media\android\screenshot_1.png) | ![screenshot](media\android\screenshot_2.png) | ![screenshot](media\android\screenshot_3.png) |
-| ![screenshot](media\android\screenshot_4.png) | ![screenshot](media\android\screenshot_5.png) | ![screenshot](media\android\screenshot_6.png) |
-| ![screenshot](media\android\screenshot_7.png) | ![screenshot](media\android\screenshot_8.png) | ![screenshot](media\android\screenshot_9.png) |
+| ![screenshot](media/android/screenshot_1.png) | ![screenshot](media/android/screenshot_2.png) | ![screenshot](media/android/screenshot_3.png) |
+| ![screenshot](media/android/screenshot_4.png) | ![screenshot](media/android/screenshot_5.png) | ![screenshot](media/android/screenshot_6.png) |
+| ![screenshot](media/android/screenshot_7.png) | ![screenshot](media/android/screenshot_8.png) | ![screenshot](media/android/screenshot_9.png) |
